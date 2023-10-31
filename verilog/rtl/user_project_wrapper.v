@@ -82,40 +82,192 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
-user_proj_example mprj (
+wire [15:0] a;
+
+b0r1_sky130_osu_ring_oscillator_mpr2aa_8 ro1(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[0])
+);
+
+b0r1_sky130_osu_ring_oscillator_mpr2at_8 ro2(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[1])
+);
+
+b0r1_sky130_osu_ring_oscillator_mpr2ca_8 ro3(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[2])
+);
+
+b0r1_sky130_osu_ring_oscillator_mpr2ct_8 ro4(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[3])
+);
+
+b0r1_sky130_osu_ring_oscillator_mpr2ea_8 ro5(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[4])
+);
+
+b0r1_sky130_osu_ring_oscillator_mpr2et_8 ro6(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[5])
+);
+
+b0r1_sky130_osu_ring_oscillator_mpr2xa_8 ro7(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[6])
+);
+
+b0r1_sky130_osu_ring_oscillator_mpr2ya_8 ro8(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[7])
+);
+
+b0r2_sky130_osu_ring_oscillator_mpr2aa_8 ro9(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[8])
+);
+
+b0r2_sky130_osu_ring_oscillator_mpr2at_8 ro10(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[9])
+);
+
+b0r2_sky130_osu_ring_oscillator_mpr2ca_8 ro11(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[10])
+);
+
+b0r2_sky130_osu_ring_oscillator_mpr2ct_8 ro12(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[11])
+);
+
+b0r2_sky130_osu_ring_oscillator_mpr2ea_8 ro13(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[12])
+);
+
+b0r2_sky130_osu_ring_oscillator_mpr2et_8 ro14(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[13])
+);
+
+b0r2_sky130_osu_ring_oscillator_mpr2xa_8 ro15(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[14])
+);
+
+b0r2_sky130_osu_ring_oscillator_mpr2ya_8 ro16(
+    .VDD(vdda1),
+    .GND(vssa1),
+    .s1(io_in[0]),
+    .s2(io_in[1]),
+    .s3(io_in[2]),
+    .s4(io_in[3]),
+    .s5(io_in[4]),
+    .X5_Y1(a[15])
+);
+
+mux16x1_project #(16) mprj (
 `ifdef USE_POWER_PINS
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
-
-    .wb_clk_i(wb_clk_i),
-    .wb_rst_i(wb_rst_i),
-
-    // MGMT SoC Wishbone Slave
-
-    .wbs_cyc_i(wbs_cyc_i),
-    .wbs_stb_i(wbs_stb_i),
-    .wbs_we_i(wbs_we_i),
-    .wbs_sel_i(wbs_sel_i),
-    .wbs_adr_i(wbs_adr_i),
-    .wbs_dat_i(wbs_dat_i),
-    .wbs_ack_o(wbs_ack_o),
-    .wbs_dat_o(wbs_dat_o),
-
-    // Logic Analyzer
-
-    .la_data_in(la_data_in),
-    .la_data_out(la_data_out),
-    .la_oenb (la_oenb),
-
-    // IO Pads
-
-    .io_in ({io_in[37:30],io_in[7:0]}),
-    .io_out({io_out[37:30],io_out[7:0]}),
-    .io_oeb({io_oeb[37:30],io_oeb[7:0]}),
-
-    // IRQ
-    .irq(user_irq)
+    .data_in(a[15:0]),
+    .select(io_in[5:8]),
+    .y(io_out[0])
 );
 
 endmodule	// user_project_wrapper
