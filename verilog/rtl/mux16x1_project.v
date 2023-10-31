@@ -61,8 +61,9 @@ module mux16x1_project #(
     // input  [127:0] la_oenb,
 
     // IOs
-    input  [BITS+3:0] io_in,
-    output io_out,
+    input  [BITS-1:0] data_in,
+    input  [3:0] select,
+    output y
 
     // IRQ
     // output [2:0] irq
@@ -103,9 +104,9 @@ module mux16x1_project #(
     mux16x1 #(
         .BITS(BITS)
     ) mx1(
-        .s(io_in[3:0]),
-        .a(io_in[BITS+3:4]),
-        .y(io_out)
+        .s(select),
+        .a(data_in),
+        .y(y)
     );
 
 endmodule
