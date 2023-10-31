@@ -35,7 +35,7 @@
  *-------------------------------------------------------------
  */
 
-module mux16x1_top #(
+module mux16x1_project #(
     parameter BITS = 16
 )(
 `ifdef USE_POWER_PINS
@@ -44,29 +44,28 @@ module mux16x1_top #(
 `endif
 
     // Wishbone Slave ports (WB MI A)
-    input wb_clk_i,
-    input wb_rst_i,
-    input wbs_stb_i,
-    input wbs_cyc_i,
-    input wbs_we_i,
-    input [3:0] wbs_sel_i,
-    input [31:0] wbs_dat_i,
-    input [31:0] wbs_adr_i,
-    output wbs_ack_o,
-    output [31:0] wbs_dat_o,
+    // input wb_clk_i,
+    // input wb_rst_i,
+    // input wbs_stb_i,
+    // input wbs_cyc_i,
+    // input wbs_we_i,
+    // input [3:0] wbs_sel_i,
+    // input [31:0] wbs_dat_i,
+    // input [31:0] wbs_adr_i,
+    // output wbs_ack_o,
+    // output [31:0] wbs_dat_o,
 
     // Logic Analyzer Signals
-    input  [127:0] la_data_in,
-    output [127:0] la_data_out,
-    input  [127:0] la_oenb,
+    // input  [127:0] la_data_in,
+    // output [127:0] la_data_out,
+    // input  [127:0] la_oenb,
 
     // IOs
-    input  [3:0] io_in,
+    input  [BITS+3:0] io_in,
     output io_out,
-    input [BITS-1:0] mux_a,
 
     // IRQ
-    output [2:0] irq
+    // output [2:0] irq
 );
     // wire clk;
     // wire rst;
@@ -74,8 +73,7 @@ module mux16x1_top #(
     // wire [BITS-1:0] rdata; 
     // wire [BITS-1:0] wdata;
     // wire [BITS-1:0] count;
-    wire mux_out;
-    wire [BITS-1:0] mux_a_wire;
+    // wire mux_out;
 
     // wire valid;
     // wire [3:0] wstrb;
@@ -88,8 +86,7 @@ module mux16x1_top #(
     // assign wdata = wbs_dat_i[BITS-1:0];
 
     // IO
-    assign mux_a = mux_a_wire;
-    assign io_out = mux_out;
+    // assign io_out = mux_out;
     // assign io_oeb = {(BITS){rst}};
 
     // IRQ
@@ -106,9 +103,9 @@ module mux16x1_top #(
     mux16x1 #(
         .BITS(BITS)
     ) mx1(
-        .s(io_in),
-        .a(mux_a_wire),
-        .y(mux_out)
+        .s(io_in[3:0]),
+        .a(io_in[BITS+3:4]),
+        .y(io_out)
     );
 
 endmodule
@@ -118,28 +115,28 @@ module mux16x1 #(
 ) (
     input [3:0] s,
     input [BITS-1:0] a,
-    output wire y
+    output reg y
 );
     
-    always @(*) begin
+    always @(a or s) begin
        case (s)
-        4'h0: y = a[0];
-        4'h1: y = a[1];
-        4'h2: y = a[2];
-        4'h3: y = a[3];
-        4'h4: y = a[4];
-        4'h5: y = a[5];
-        4'h6: y = a[6];
-        4'h7: y = a[7];
-        4'h8: y = a[8];
-        4'h9: y = a[9];
-        4'hA: y = a[10];
-        4'hB: y = a[11];
-        4'hC: y = a[12];
-        4'hD: y = a[13];
-        4'hE: y = a[14];
-        4'hF: y = a[15];
-        default: y = 1'b0; 
+        4'b0000: y = a[0];
+        4'b0001: y = a[1];
+        4'b0010: y = a[2];
+        4'b0011: y = a[3];
+        4'b0100: y = a[4];
+        4'b0101: y = a[5];
+        4'b0110: y = a[6];
+        4'b0111: y = a[7];
+        4'b1000: y = a[8];
+        4'b1001: y = a[9];
+        4'b1010: y = a[10];
+        4'b1011: y = a[11];
+        4'b1100: y = a[12];
+        4'b1101: y = a[13];
+        4'b1110: y = a[14];
+        4'b1111: y = a[15];
+        default: y = 1'b0; // Default case
        endcase 
     end
 endmodule
