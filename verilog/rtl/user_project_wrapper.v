@@ -85,8 +85,10 @@ module user_project_wrapper #(
 wire [15:0] a;
 
 b0r1_sky130_osu_ring_oscillator_mpr2aa_8 ro1(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -96,8 +98,10 @@ b0r1_sky130_osu_ring_oscillator_mpr2aa_8 ro1(
 );
 
 b0r1_sky130_osu_ring_oscillator_mpr2at_8 ro2(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -107,8 +111,10 @@ b0r1_sky130_osu_ring_oscillator_mpr2at_8 ro2(
 );
 
 b0r1_sky130_osu_ring_oscillator_mpr2ca_8 ro3(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -118,8 +124,10 @@ b0r1_sky130_osu_ring_oscillator_mpr2ca_8 ro3(
 );
 
 b0r1_sky130_osu_ring_oscillator_mpr2ct_8 ro4(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -129,8 +137,10 @@ b0r1_sky130_osu_ring_oscillator_mpr2ct_8 ro4(
 );
 
 b0r1_sky130_osu_ring_oscillator_mpr2ea_8 ro5(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -140,8 +150,10 @@ b0r1_sky130_osu_ring_oscillator_mpr2ea_8 ro5(
 );
 
 b0r1_sky130_osu_ring_oscillator_mpr2et_8 ro6(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -151,8 +163,10 @@ b0r1_sky130_osu_ring_oscillator_mpr2et_8 ro6(
 );
 
 b0r1_sky130_osu_ring_oscillator_mpr2xa_8 ro7(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -162,8 +176,10 @@ b0r1_sky130_osu_ring_oscillator_mpr2xa_8 ro7(
 );
 
 b0r1_sky130_osu_ring_oscillator_mpr2ya_8 ro8(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -173,8 +189,10 @@ b0r1_sky130_osu_ring_oscillator_mpr2ya_8 ro8(
 );
 
 b0r2_sky130_osu_ring_oscillator_mpr2aa_8 ro9(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -184,8 +202,10 @@ b0r2_sky130_osu_ring_oscillator_mpr2aa_8 ro9(
 );
 
 b0r2_sky130_osu_ring_oscillator_mpr2at_8 ro10(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -195,8 +215,10 @@ b0r2_sky130_osu_ring_oscillator_mpr2at_8 ro10(
 );
 
 b0r2_sky130_osu_ring_oscillator_mpr2ca_8 ro11(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -206,8 +228,10 @@ b0r2_sky130_osu_ring_oscillator_mpr2ca_8 ro11(
 );
 
 b0r2_sky130_osu_ring_oscillator_mpr2ct_8 ro12(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -217,8 +241,10 @@ b0r2_sky130_osu_ring_oscillator_mpr2ct_8 ro12(
 );
 
 b0r2_sky130_osu_ring_oscillator_mpr2ea_8 ro13(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -228,8 +254,10 @@ b0r2_sky130_osu_ring_oscillator_mpr2ea_8 ro13(
 );
 
 b0r2_sky130_osu_ring_oscillator_mpr2et_8 ro14(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -239,8 +267,10 @@ b0r2_sky130_osu_ring_oscillator_mpr2et_8 ro14(
 );
 
 b0r2_sky130_osu_ring_oscillator_mpr2xa_8 ro15(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
@@ -250,8 +280,10 @@ b0r2_sky130_osu_ring_oscillator_mpr2xa_8 ro15(
 );
 
 b0r2_sky130_osu_ring_oscillator_mpr2ya_8 ro16(
+`ifdef USE_POWER_PINS
     .VDD(vdda1),
     .GND(vssa1),
+`endif
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
