@@ -1,5 +1,5 @@
 {
-    "DESIGN_NAME": "caravel_google_ring_oscillators",
+    "DESIGN_NAME": "user_project_wrapper",
     "VERILOG_FILES": [
         "dir::../../verilog/rtl/defines.v",
         "dir::../../verilog/rtl/user_project_wrapper.v"
@@ -12,29 +12,30 @@
     "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
     "MAGIC_DEF_LABELS": 0,
     "VERILOG_FILES_BLACKBOX": [
-        "dir::../../../outputs_pex/b0r1_floating_pins_GND_lib/VERILOG/b0r1_floating_pins_GND_tt_1P8_25C.ccs.v"
+        "dir::../../gl/b0r1_b0r2_MUX_IO_tt_1P8_25C.ccs.v"
     ],
-    "EXTRA_LEFS": "dir::../../../outputs_pex/lef/b0r1.lef",
+    "EXTRA_LEFS": "dir::../../b0r1_b0r2_MUX_IO.lef",
     "EXTRA_GDS_FILES": [
-        "dir::../../../layout/b0r1/gds/sky130_osu_ring_oscillator_mpr2aa_8.gds",
-        "dir::../../../layout/b0r1/gds/sky130_osu_ring_oscillator_mpr2at_8.gds",
-        "dir::../../../layout/b0r1/gds/sky130_osu_ring_oscillator_mpr2ca_8.gds",
-        "dir::../../../layout/b0r1/gds/sky130_osu_ring_oscillator_mpr2ct_8.gds",
-        "dir::../../../layout/b0r1/gds/sky130_osu_ring_oscillator_mpr2ea_8.gds",
-        "dir::../../../layout/b0r1/gds/sky130_osu_ring_oscillator_mpr2et_8.gds",
-        "dir::../../../layout/b0r1/gds/sky130_osu_ring_oscillator_mpr2xa_8.gds",
-        "dir::../../../layout/b0r1/gds/sky130_osu_ring_oscillator_mpr2ya_8.gds"
+        "dir::../../gds/b0r1_b0r2_MUX_IO.gds"
                         ],
-    "EXTRA_LIBS": "dir::../../../outputs_pex/b0r1_floating_pins_GND_lib/b0r1_floating_pins_GND_tt_1P8_25C.ccs.lib",
+    "EXTRA_LIBS": "dir::../../lib/b0r1_b0r2_MUX_IO_tt_1P8_25C.ccs.lib",
     "EXTRA_SPEFS": [
-        "dir::../../../outputs_pex/spef/b0r1/sky130_osu_ring_oscillator_mpr2aa_8.spef",
-        "dir::../../../outputs_pex/spef/b0r1/sky130_osu_ring_oscillator_mpr2at_8.spef",
-        "dir::../../../outputs_pex/spef/b0r1/sky130_osu_ring_oscillator_mpr2ca_8.spef",
-        "dir::../../../outputs_pex/spef/b0r1/sky130_osu_ring_oscillator_mpr2ct_8.spef",
-        "dir::../../../outputs_pex/spef/b0r1/sky130_osu_ring_oscillator_mpr2ea_8.spef",
-        "dir::../../../outputs_pex/spef/b0r1/sky130_osu_ring_oscillator_mpr2et_8.spef",
-        "dir::../../../outputs_pex/spef/b0r1/sky130_osu_ring_oscillator_mpr2xa_8.spef",
-        "dir::../../../outputs_pex/spef/b0r1/sky130_osu_ring_oscillator_mpr2ya_8.spef"
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2aa_8_b0r1.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2at_8_b0r1.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ca_8_b0r1.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ct_8_b0r1.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ea_8_b0r1.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2et_8_b0r1.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2xa_8_b0r1.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ya_8_b0r1.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2aa_8_b0r2.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2at_8_b0r2.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ca_8_b0r2.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ct_8_b0r2.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ea_8_b0r2.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2et_8_b0r2.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2xa_8_b0r2.spef",
+        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ya_8_b0r2.spef"
     ],
     "BASE_SDC_FILE": "dir::base_user_project_wrapper.sdc",
     "IO_SYNC": 0,
