@@ -292,7 +292,7 @@ sky130_osu_ring_oscillator_mpr2ya_8_b0r2 ro16(
     .X5_Y1(a[15])
 );
 
-mux16x1_project #(16) mprj (
+mux16x1_project mprj (
 `ifdef USE_POWER_PINS
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground

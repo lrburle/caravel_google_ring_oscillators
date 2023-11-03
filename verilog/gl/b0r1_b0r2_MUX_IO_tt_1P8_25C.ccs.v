@@ -1,1102 +1,163 @@
 // Verilog for library /import/yukari1/brettcm/googleRO/char/liberate/VERILOG/b0r1_b0r2_MUX_IO_tt_1P8_25C.ccs created by Liberate 21.7.7.044.isr7 on Thu Nov  2 20:43:18 CDT 2023 for SDF version 2.1
 
 // type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2aa_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2aa_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
 // type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2aa_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2aa_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2at_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2at_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2at_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2at_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ca_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2ca_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ca_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2ca_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	buf (X1_Y1, 1'b1);
-	buf (X2_Y1, 1'b1);
-	buf (X3_Y1, 1'b1);
-	buf (X4_Y1, 1'b1);
-	buf (X5_Y1, 1'b1);
-
-	// Timing
-	specify
-		(S2 => X1_Y1) = 0;
-		(S3 => X1_Y1) = 0;
-		(S4 => X1_Y1) = 0;
-		(S5 => X1_Y1) = 0;
-		(S1 => X2_Y1) = 0;
-		(S3 => X2_Y1) = 0;
-		(S4 => X2_Y1) = 0;
-		(S5 => X2_Y1) = 0;
-		(S1 => X3_Y1) = 0;
-		(S2 => X3_Y1) = 0;
-		(S3 => X3_Y1) = 0;
-		(S4 => X3_Y1) = 0;
-		(S5 => X3_Y1) = 0;
-		(S1 => X4_Y1) = 0;
-		(S2 => X4_Y1) = 0;
-		(S3 => X4_Y1) = 0;
-		(S5 => X4_Y1) = 0;
-		(S1 => X5_Y1) = 0;
-		(S2 => X5_Y1) = 0;
-		(S3 => X5_Y1) = 0;
-		(S4 => X5_Y1) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ct_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2ct_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ct_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2ct_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ea_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2ea_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ea_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2ea_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2et_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2et_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2et_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2et_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2xa_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2xa_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2xa_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2xa_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ya_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2ya_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
 
-// type:  
+/// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ya_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, S1, S2, S3, S4, S5);
+module sky130_osu_ring_oscillator_mpr2ya_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, VDD, GND);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
-	input S1, S2, S3, S4, S5;
-
-	// Function
-	and (X1_Y1, S1, S2, S3, S4, S5);
-	and (X2_Y1, S1, S2, S3, S4, S5);
-	and (X3_Y1, S1, S2, S3, S4, S5);
-	and (X4_Y1, S1, S2, S3, S4, S5);
-	and (X5_Y1, S1, S2, S3, S4, S5);
-
-	// Timing
-	specify
-		ifnone (negedge S1 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X1_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X2_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X3_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X4_Y1+:1'b0)) = 0;
-		ifnone (negedge S1 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S2 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S3 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S4 => (X5_Y1+:1'b0)) = 0;
-		ifnone (negedge S5 => (X5_Y1+:1'b0)) = 0;
-	endspecify
+	input s1, s2, s3, s4, s5;
+	inout VDD, GND;
 endmodule
 `endcelldefine
-
-
-`ifdef _udp_def_altos_latch_
-`else
-`define _udp_def_altos_latch_
-primitive altos_latch (q, v, clk, d);
-	output q;
-	reg q;
-	input v, clk, d;
-
-	table
-		* ? ? : ? : x;
-		? 1 0 : ? : 0;
-		? 1 1 : ? : 1;
-		? x 0 : 0 : -;
-		? x 1 : 1 : -;
-		? 0 ? : ? : -;
-	endtable
-endprimitive
-`endif
-
-`ifdef _udp_def_altos_dff_err_
-`else
-`define _udp_def_altos_dff_err_
-primitive altos_dff_err (q, clk, d);
-	output q;
-	reg q;
-	input clk, d;
-
-	table
-		(0x) ? : ? : 0;
-		(1x) ? : ? : 1;
-	endtable
-endprimitive
-`endif
-
-`ifdef _udp_def_altos_dff_
-`else
-`define _udp_def_altos_dff_
-primitive altos_dff (q, v, clk, d, xcr);
-	output q;
-	reg q;
-	input v, clk, d, xcr;
-
-	table
-		*  ?   ? ? : ? : x;
-		? (x1) 0 0 : ? : 0;
-		? (x1) 1 0 : ? : 1;
-		? (x1) 0 1 : 0 : 0;
-		? (x1) 1 1 : 1 : 1;
-		? (x1) ? x : ? : -;
-		? (bx) 0 ? : 0 : -;
-		? (bx) 1 ? : 1 : -;
-		? (x0) b ? : ? : -;
-		? (x0) ? x : ? : -;
-		? (01) 0 ? : ? : 0;
-		? (01) 1 ? : ? : 1;
-		? (10) ? ? : ? : -;
-		?  b   * ? : ? : -;
-		?  ?   ? * : ? : -;
-	endtable
-endprimitive
-`endif
-
-`ifdef _udp_def_altos_dff_r_err_
-`else
-`define _udp_def_altos_dff_r_err_
-primitive altos_dff_r_err (q, clk, d, r);
-	output q;
-	reg q;
-	input clk, d, r;
-
-	table
-		 ?   0 (0x) : ? : -;
-		 ?   0 (x0) : ? : -;
-		(0x) ?  0   : ? : 0;
-		(0x) 0  x   : ? : 0;
-		(1x) ?  0   : ? : 1;
-		(1x) 0  x   : ? : 1;
-	endtable
-endprimitive
-`endif
-
-`ifdef _udp_def_altos_dff_r_
-`else
-`define _udp_def_altos_dff_r_
-primitive altos_dff_r (q, v, clk, d, r, xcr);
-	output q;
-	reg q;
-	input v, clk, d, r, xcr;
-
-	table
-		*  ?   ?  ?   ? : ? : x;
-		?  ?   ?  1   ? : ? : 0;
-		?  b   ? (1?) ? : 0 : -;
-		?  x   0 (1?) ? : 0 : -;
-		?  ?   ? (10) ? : ? : -;
-		?  ?   ? (x0) ? : ? : -;
-		?  ?   ? (0x) ? : 0 : -;
-		? (x1) 0  ?   0 : ? : 0;
-		? (x1) 1  0   0 : ? : 1;
-		? (x1) 0  ?   1 : 0 : 0;
-		? (x1) 1  0   1 : 1 : 1;
-		? (x1) ?  ?   x : ? : -;
-		? (bx) 0  ?   ? : 0 : -;
-		? (bx) 1  0   ? : 1 : -;
-		? (x0) 0  ?   ? : ? : -;
-		? (x0) 1  0   ? : ? : -;
-		? (x0) ?  0   x : ? : -;
-		? (01) 0  ?   ? : ? : 0;
-		? (01) 1  0   ? : ? : 1;
-		? (10) ?  ?   ? : ? : -;
-		?  b   *  ?   ? : ? : -;
-		?  ?   ?  ?   * : ? : -;
-	endtable
-endprimitive
-`endif
-
-`ifdef _udp_def_altos_dff_s_err_
-`else
-`define _udp_def_altos_dff_s_err_
-primitive altos_dff_s_err (q, clk, d, s);
-	output q;
-	reg q;
-	input clk, d, s;
-
-	table
-		 ?   1 (0x) : ? : -;
-		 ?   1 (x0) : ? : -;
-		(0x) ?  0   : ? : 0;
-		(0x) 1  x   : ? : 0;
-		(1x) ?  0   : ? : 1;
-		(1x) 1  x   : ? : 1;
-	endtable
-endprimitive
-`endif
-
-`ifdef _udp_def_altos_dff_s_
-`else
-`define _udp_def_altos_dff_s_
-primitive altos_dff_s (q, v, clk, d, s, xcr);
-	output q;
-	reg q;
-	input v, clk, d, s, xcr;
-
-	table
-		*  ?   ?  ?   ? : ? : x;
-		?  ?   ?  1   ? : ? : 1;
-		?  b   ? (1?) ? : 1 : -;
-		?  x   1 (1?) ? : 1 : -;
-		?  ?   ? (10) ? : ? : -;
-		?  ?   ? (x0) ? : ? : -;
-		?  ?   ? (0x) ? : 1 : -;
-		? (x1) 0  0   0 : ? : 0;
-		? (x1) 1  ?   0 : ? : 1;
-		? (x1) 1  ?   1 : 1 : 1;
-		? (x1) 0  0   1 : 0 : 0;
-		? (x1) ?  ?   x : ? : -;
-		? (bx) 1  ?   ? : 1 : -;
-		? (bx) 0  0   ? : 0 : -;
-		? (x0) 1  ?   ? : ? : -;
-		? (x0) 0  0   ? : ? : -;
-		? (x0) ?  0   x : ? : -;
-		? (01) 1  ?   ? : ? : 1;
-		? (01) 0  0   ? : ? : 0;
-		? (10) ?  ?   ? : ? : -;
-		?  b   *  ?   ? : ? : -;
-		?  ?   ?  ?   * : ? : -;
-	endtable
-endprimitive
-`endif
-
-`ifdef _udp_def_altos_dff_sr_err_
-`else
-`define _udp_def_altos_dff_sr_err_
-primitive altos_dff_sr_err (q, clk, d, s, r);
-	output q;
-	reg q;
-	input clk, d, s, r;
-
-	table
-		 ?   1 (0x)  ?   : ? : -;
-		 ?   0  ?   (0x) : ? : -;
-		 ?   0  ?   (x0) : ? : -;
-		(0x) ?  0    0   : ? : 0;
-		(0x) 1  x    0   : ? : 0;
-		(0x) 0  0    x   : ? : 0;
-		(1x) ?  0    0   : ? : 1;
-		(1x) 1  x    0   : ? : 1;
-		(1x) 0  0    x   : ? : 1;
-	endtable
-endprimitive
-`endif
-
-`ifdef _udp_def_altos_dff_sr_0
-`else
-`define _udp_def_altos_dff_sr_0
-primitive altos_dff_sr_0 (q, v, clk, d, s, r, xcr);
-	output q;
-	reg q;
-	input v, clk, d, s, r, xcr;
-
-	table
-	//	v,  clk, d, s, r : q' : q;
-
-		*  ?   ?   ?   ?   ? : ? : x;
-		?  ?   ?   ?   1   ? : ? : 0;
-		?  ?   ?   1   0   ? : ? : 1;
-		?  b   ? (1?)  0   ? : 1 : -;
-		?  x   1 (1?)  0   ? : 1 : -;
-		?  ?   ? (10)  0   ? : ? : -;
-		?  ?   ? (x0)  0   ? : ? : -;
-		?  ?   ? (0x)  0   ? : 1 : -;
-		?  b   ?  0   (1?) ? : 0 : -;
-		?  x   0  0   (1?) ? : 0 : -;
-		?  ?   ?  0   (10) ? : ? : -;
-		?  ?   ?  0   (x0) ? : ? : -;
-		?  ?   ?  0   (0x) ? : 0 : -;
-		? (x1) 0  0    ?   0 : ? : 0;
-		? (x1) 1  ?    0   0 : ? : 1;
-		? (x1) 0  0    ?   1 : 0 : 0;
-		? (x1) 1  ?    0   1 : 1 : 1;
-		? (x1) ?  ?    0   x : ? : -;
-		? (x1) ?  0    ?   x : ? : -;
-		? (1x) 0  0    ?   ? : 0 : -;
-		? (1x) 1  ?    0   ? : 1 : -;
-		? (x0) 0  0    ?   ? : ? : -;
-		? (x0) 1  ?    0   ? : ? : -;
-		? (x0) ?  0    0   x : ? : -;
-		? (0x) 0  0    ?   ? : 0 : -;
-		? (0x) 1  ?    0   ? : 1 : -;
-		? (01) 0  0    ?   ? : ? : 0;
-		? (01) 1  ?    0   ? : ? : 1;
-		? (10) ?  0    ?   ? : ? : -;
-		? (10) ?  ?    0   ? : ? : -;
-		?  b   *  0    ?   ? : ? : -;
-		?  b   *  ?    0   ? : ? : -;
-		?  ?   ?  ?    ?   * : ? : -;
-	endtable
-endprimitive
-`endif
-
-`ifdef _udp_def_altos_dff_sr_1
-`else
-`define _udp_def_altos_dff_sr_1
-primitive altos_dff_sr_1 (q, v, clk, d, s, r, xcr);
-	output q;
-	reg q;
-	input v, clk, d, s, r, xcr;
-
-	table
-	//	v,  clk, d, s, r : q' : q;
-
-		*  ?   ?   ?   ?   ? : ? : x;
-		?  ?   ?   0   1   ? : ? : 0;
-		?  ?   ?   1   ?   ? : ? : 1;
-		?  b   ? (1?)  0   ? : 1 : -;
-		?  x   1 (1?)  0   ? : 1 : -;
-		?  ?   ? (10)  0   ? : ? : -;
-		?  ?   ? (x0)  0   ? : ? : -;
-		?  ?   ? (0x)  0   ? : 1 : -;
-		?  b   ?  0   (1?) ? : 0 : -;
-		?  x   0  0   (1?) ? : 0 : -;
-		?  ?   ?  0   (10) ? : ? : -;
-		?  ?   ?  0   (x0) ? : ? : -;
-		?  ?   ?  0   (0x) ? : 0 : -;
-		? (x1) 0  0    ?   0 : ? : 0;
-		? (x1) 1  ?    0   0 : ? : 1;
-		? (x1) 0  0    ?   1 : 0 : 0;
-		? (x1) 1  ?    0   1 : 1 : 1;
-		? (x1) ?  ?    0   x : ? : -;
-		? (x1) ?  0    ?   x : ? : -;
-		? (1x) 0  0    ?   ? : 0 : -;
-		? (1x) 1  ?    0   ? : 1 : -;
-		? (x0) 0  0    ?   ? : ? : -;
-		? (x0) 1  ?    0   ? : ? : -;
-		? (x0) ?  0    0   x : ? : -;
-		? (0x) 0  0    ?   ? : 0 : -;
-		? (0x) 1  ?    0   ? : 1 : -;
-		? (01) 0  0    ?   ? : ? : 0;
-		? (01) 1  ?    0   ? : ? : 1;
-		? (10) ?  0    ?   ? : ? : -;
-		? (10) ?  ?    0   ? : ? : -;
-		?  b   *  0    ?   ? : ? : -;
-		?  b   *  ?    0   ? : ? : -;
-		?  ?   ?  ?    ?   * : ? : -;
-	endtable
-endprimitive
-`endif
-
-`ifdef _udp_def_altos_latch_r_
-`else
-`define _udp_def_altos_latch_r_
-primitive altos_latch_r (q, v, clk, d, r);
-	output q;
-	reg q;
-	input v, clk, d, r;
-
-	table
-		* ? ? ? : ? : x;
-		? ? ? 1 : ? : 0;
-		? 0 ? 0 : ? : -;
-		? 0 ? x : 0 : -;
-		? 1 0 0 : ? : 0;
-		? 1 0 x : ? : 0;
-		? 1 1 0 : ? : 1;
-		? x 0 0 : 0 : -;
-		? x 0 x : 0 : -;
-		? x 1 0 : 1 : -;
-	endtable
-endprimitive
-`endif
-
-`ifdef _udp_def_altos_latch_s_
-`else
-`define _udp_def_altos_latch_s_
-primitive altos_latch_s (q, v, clk, d, s);
-	output q;
-	reg q;
-	input v, clk, d, s;
-
-	table
-		* ? ? ? : ? : x;
-		? ? ? 1 : ? : 1;
-		? 0 ? 0 : ? : -;
-		? 0 ? x : 1 : -;
-		? 1 1 0 : ? : 1;
-		? 1 1 x : ? : 1;
-		? 1 0 0 : ? : 0;
-		? x 1 0 : 1 : -;
-		? x 1 x : 1 : -;
-		? x 0 0 : 0 : -;
-	endtable
-endprimitive
-`endif
-
-`ifdef _udp_def_altos_latch_sr_0
-`else
-`define _udp_def_altos_latch_sr_0
-primitive altos_latch_sr_0 (q, v, clk, d, s, r);
-	output q;
-	reg q;
-	input v, clk, d, s, r;
-
-	table
-		* ? ? ? ? : ? : x;
-		? 1 1 ? 0 : ? : 1;
-		? 1 0 0 ? : ? : 0;
-		? ? ? 1 0 : ? : 1;
-		? ? ? ? 1 : ? : 0;
-		? 0 * ? ? : ? : -;
-		? 0 ? * 0 : 1 : 1;
-		? 0 ? 0 * : 0 : 0;
-		? * 1 ? 0 : 1 : 1;
-		? * 0 0 ? : 0 : 0;
-		? ? 1 * 0 : 1 : 1;
-		? ? 0 0 * : 0 : 0;
-	endtable
-endprimitive
-`endif
-
-`ifdef _udp_def_altos_latch_sr_1
-`else
-`define _udp_def_altos_latch_sr_1
-primitive altos_latch_sr_1 (q, v, clk, d, s, r);
-	output q;
-	reg q;
-	input v, clk, d, s, r;
-
-	table
-		* ? ? ? ? : ? : x;
-		? 1 1 ? 0 : ? : 1;
-		? 1 0 0 ? : ? : 0;
-		? ? ? 1 ? : ? : 1;
-		? ? ? 0 1 : ? : 0;
-		? 0 * ? ? : ? : -;
-		? 0 ? * 0 : 1 : 1;
-		? 0 ? 0 * : 0 : 0;
-		? * 1 ? 0 : 1 : 1;
-		? * 0 0 ? : 0 : 0;
-		? ? 1 * 0 : 1 : 1;
-		? ? 0 0 * : 0 : 0;
-	endtable
-endprimitive
-`endif

@@ -12,30 +12,26 @@
     "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
     "MAGIC_DEF_LABELS": 0,
     "VERILOG_FILES_BLACKBOX": [
-        "dir::../../gl/b0r1_b0r2_MUX_IO_tt_1P8_25C.ccs.v"
+        "dir::../../verilog/gl/b0r1_b0r2_MUX_IO_tt_1P8_25C.ccs.v",
+        "dir::../../verilog/gl/mux16x1_project.v"
     ],
-    "EXTRA_LEFS": "dir::../../b0r1_b0r2_MUX_IO.lef",
+    "EXTRA_LEFS": [
+        "dir::../../lef/b0r1_b0r2_MUX_IO.lef",
+        "dir::../../lef/mux16x1_project.lef"
+    ],
     "EXTRA_GDS_FILES": [
-        "dir::../../gds/b0r1_b0r2_MUX_IO.gds"
+        "dir::../../gds/b0r1_b0r2_MUX_IO.gds",
+        "dir::../../gds/mux16x1_project.gds"
                         ],
-    "EXTRA_LIBS": "dir::../../lib/b0r1_b0r2_MUX_IO_tt_1P8_25C.ccs.lib",
+    "EXTRA_LIBS": [
+        "dir::../../lib/b0r1_b0r2_MUX_IO_tt_1P8_25C.ccs.lib",
+        "dir::../../lib/mux16x1_project.lib"
+    ],
     "EXTRA_SPEFS": [
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2aa_8_b0r1.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2at_8_b0r1.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ca_8_b0r1.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ct_8_b0r1.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ea_8_b0r1.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2et_8_b0r1.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2xa_8_b0r1.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ya_8_b0r1.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2aa_8_b0r2.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2at_8_b0r2.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ca_8_b0r2.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ct_8_b0r2.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ea_8_b0r2.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2et_8_b0r2.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2xa_8_b0r2.spef",
-        "dir::../../spef/sky130_osu_ring_oscillator_mpr2ya_8_b0r2.spef"
+        "mux16x1_project", 
+        "dir::../../spef/multicorner/mux16x1_project.min.spef", 
+        "dir::../../spef/multicorner/mux16x1_project.nom.spef", 
+        "dir::../../spef/multicorner/mux16x1_project.max.spef"
     ],
     "BASE_SDC_FILE": "dir::base_user_project_wrapper.sdc",
     "IO_SYNC": 0,
