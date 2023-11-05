@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1698760581
+timestamp 1699152422
 << obsli1 >>
 rect 1104 2159 8832 19601
 << obsm1 >>
@@ -143,7 +143,7 @@ string FIXED_BBOX 0 0 10000 22000
 string LEFclass BLOCK
 string LEFview TRUE
 string GDS_END 354194
-string GDS_FILE /home/lburleson/OSU/google_ring_oscillator/caravel/openlane/mux16x1_project/runs/23_10_31_08_55/results/signoff/mux16x1_project.magic.gds
+string GDS_FILE /import/yukari1/lrburle/google_ring_oscillator/caravel/openlane/mux16x1_project/runs/23_11_04_21_46/results/signoff/mux16x1_project.magic.gds
 string GDS_START 123234
 << end >>
 

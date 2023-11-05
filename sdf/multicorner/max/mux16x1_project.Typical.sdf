@@ -1,7 +1,7 @@
 (DELAYFILE
  (SDFVERSION "3.0")
  (DESIGN "mux16x1_project")
- (DATE "Tue Oct 31 13:56:16 2023")
+ (DATE "Sun Nov  5 02:46:57 2023")
  (VENDOR "Parallax")
  (PROGRAM "STA")
  (VERSION "2.4.0")

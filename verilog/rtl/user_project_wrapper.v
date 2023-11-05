@@ -98,215 +98,215 @@ sky130_osu_ring_oscillator_mpr2aa_8_b0r1 ro1(
     .X5_Y1(a[0])
 );
 
-sky130_osu_ring_oscillator_mpr2at_8_b0r1 ro2(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[1])
-);
+// sky130_osu_ring_oscillator_mpr2at_8_b0r1 ro2(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[1])
+// );
 
-sky130_osu_ring_oscillator_mpr2ca_8_b0r1 ro3(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[2])
-);
+// sky130_osu_ring_oscillator_mpr2ca_8_b0r1 ro3(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[2])
+// );
 
-sky130_osu_ring_oscillator_mpr2ct_8_b0r1 ro4(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[3])
-);
+// sky130_osu_ring_oscillator_mpr2ct_8_b0r1 ro4(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[3])
+// );
 
-sky130_osu_ring_oscillator_mpr2ea_8_b0r1 ro5(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[4])
-);
+// sky130_osu_ring_oscillator_mpr2ea_8_b0r1 ro5(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[4])
+// );
 
-sky130_osu_ring_oscillator_mpr2et_8_b0r1 ro6(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[5])
-);
+// sky130_osu_ring_oscillator_mpr2et_8_b0r1 ro6(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[5])
+// );
 
-sky130_osu_ring_oscillator_mpr2xa_8_b0r1 ro7(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[6])
-);
+// sky130_osu_ring_oscillator_mpr2xa_8_b0r1 ro7(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[6])
+// );
 
-sky130_osu_ring_oscillator_mpr2ya_8_b0r1 ro8(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[7])
-);
+// sky130_osu_ring_oscillator_mpr2ya_8_b0r1 ro8(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[7])
+// );
 
-sky130_osu_ring_oscillator_mpr2aa_8_b0r2 ro9(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[8])
-);
+// sky130_osu_ring_oscillator_mpr2aa_8_b0r2 ro9(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[8])
+// );
 
-sky130_osu_ring_oscillator_mpr2at_8_b0r2 ro10(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[9])
-);
+// sky130_osu_ring_oscillator_mpr2at_8_b0r2 ro10(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[9])
+// );
 
-sky130_osu_ring_oscillator_mpr2ca_8_b0r2 ro11(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[10])
-);
+// sky130_osu_ring_oscillator_mpr2ca_8_b0r2 ro11(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[10])
+// );
 
-sky130_osu_ring_oscillator_mpr2ct_8_b0r2 ro12(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[11])
-);
+// sky130_osu_ring_oscillator_mpr2ct_8_b0r2 ro12(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[11])
+// );
 
-sky130_osu_ring_oscillator_mpr2ea_8_b0r2 ro13(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[12])
-);
+// sky130_osu_ring_oscillator_mpr2ea_8_b0r2 ro13(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[12])
+// );
 
-sky130_osu_ring_oscillator_mpr2et_8_b0r2 ro14(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[13])
-);
+// sky130_osu_ring_oscillator_mpr2et_8_b0r2 ro14(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[13])
+// );
 
-sky130_osu_ring_oscillator_mpr2xa_8_b0r2 ro15(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[14])
-);
+// sky130_osu_ring_oscillator_mpr2xa_8_b0r2 ro15(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[14])
+// );
 
-sky130_osu_ring_oscillator_mpr2ya_8_b0r2 ro16(
-`ifdef USE_POWER_PINS
-    .VDD(vdda1),
-    .GND(vssa1),
-`endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
-    .X5_Y1(a[15])
-);
+// sky130_osu_ring_oscillator_mpr2ya_8_b0r2 ro16(
+// `ifdef USE_POWER_PINS
+//     .VDD(vdda1),
+//     .GND(vssa1),
+// `endif
+//     .s1(io_in[0]),
+//     .s2(io_in[1]),
+//     .s3(io_in[2]),
+//     .s4(io_in[3]),
+//     .s5(io_in[4]),
+//     .start(io_in[5]),
+//     .X5_Y1(a[15])
+// );
 
 mux16x1_project mprj (
 `ifdef USE_POWER_PINS
