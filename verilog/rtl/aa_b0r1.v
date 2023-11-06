@@ -35,9 +35,7 @@
  *-------------------------------------------------------------
  */
 
-module aa_b0r1_project #(
-    parameter BITS = 16
-)(
+module aa_b0r1_project (
 `ifdef USE_POWER_PINS
     inout vccd1,	// User area 1 1.8V supply
     inout vssd1,	// User area 1 digital ground
@@ -53,8 +51,8 @@ module aa_b0r1_project #(
 
 sky130_osu_ring_oscillator_mpr2aa_8_b0r1 ro1(
         `ifdef USE_POWER_PINS
-            inout .VDD(vccd1),	// User area 1 1.8V supply
-            inout .GND(vssd1),	// User area 1 digital ground
+            inout .vccd1(vccd1),	// User area 1 1.8V supply
+            inout .vssd1(vssd1),	// User area 1 digital ground
         `endif
         .s1(s1), .s2(s2), .s3(s3), .s4(s4), .s5(s5),
         .start(start),

@@ -55,7 +55,8 @@
     "FP_IO_HLENGTH": "expr::$UNIT",
     "FP_IO_VTHICKNESS_MULT": 4,
     "FP_IO_HTHICKNESS_MULT": 4,
-    "FP_PDN_CORE_RING": 1,
+    "DESIGN_IS_CORE": 0,
+    "FP_PDN_CORE_RING": 0,
     "FP_PDN_CORE_RING_VWIDTH": 3.1,
     "FP_PDN_CORE_RING_HWIDTH": 3.1,
     "FP_PDN_CORE_RING_VOFFSET": 12.45,
@@ -66,6 +67,7 @@
     "FP_PDN_HWIDTH": 3.1,
     "FP_PDN_VSPACING": "expr::(5 * $FP_PDN_CORE_RING_VWIDTH)",
     "FP_PDN_HSPACING": "expr::(5 * $FP_PDN_CORE_RING_HWIDTH)",
+    "FP_PDN_MACRO_HOOKS": "submodule.ro1 VDD, GND,
     "VDD_NETS": [
         "vccd1",
         "vccd2",

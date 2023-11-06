@@ -1,6 +1,7 @@
 {
     "DESIGN_NAME": "aa_b0r1_project",
     "DESIGN_IS_CORE": 0,
+    "FP_PDN_CORE_RING": 0,
     "VERILOG_FILES": [
         "dir::../../verilog/rtl/defines.v",
         "dir::../../verilog/rtl/aa_b0r1.v"
@@ -9,13 +10,13 @@
         "dir::../../verilog/gl/b0r1_b0r2_MUX_IO_tt_1P8_25C.ccs.v"
     ],
     "EXTRA_GDS_FILES": [
-        "dir::../../gds/b0r1_b0r2_HFix.gds"
+        "dir::../../gds/b0r1_b0r2_MUX_IO.gds"
     ],
     "EXTRA_LIBS": [
-        "dir::../../lib/b0r1_b0r2_HFix_tt_1P8_25C.ccs.lib"
+        "dir::../../lib/b0r1_b0r2_MUX_IO_tt_1P8_25C.ccs.lib"
     ],
     "EXTRA_LEFS": [
-        "dir::../../lef/b0r1_b0r2_HFix.lef"
+        "dir::../../lef/b0r1_b0r2_MUX_IO.lef"
     ],
     "CLOCK_PERIOD": 25,
     "CLOCK_PORT": "",
@@ -36,14 +37,10 @@
     "HEURISTIC_ANTENNA_THRESHOLD": 110,    
     "GRT_REPAIR_ANTENNAS": 1,
     "FP_PDN_ENABLE_RAILS": 1,
-    "VDD_NETS": [
-        "vccd1",
-        "VDD"
-    ],
-    "GND_NETS": [
-        "vssd1",
-        "GND"
-    ],
+    "FP_PDN_VPITCH": 8,
+    "FP_PDN_HPITCH": 8,
+    "VDD_NETS":  "vccd1",
+    "GND_NETS": "vssd1",
     "IO_SYNC": 0,
     "BASE_SDC_FILE": "dir::base_user_proj_example.sdc",
     "RUN_CVC": 1,
