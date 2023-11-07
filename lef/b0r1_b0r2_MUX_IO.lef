@@ -5,11 +5,9 @@ DIVIDERCHAR "/" ;
 
 MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 0.005 0.01 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2aa_8_b0r1 -0.005 -0.01 ;
   SIZE 81.785 BY 8.955 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
@@ -10511,11 +10509,9 @@ END sky130_osu_ring_oscillator_mpr2aa_8_b0r1
 
 MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 2.79 0 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2aa_8_b0r2 -2.79 0 ;
   SIZE 81.765 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -21135,11 +21131,9 @@ END sky130_osu_ring_oscillator_mpr2aa_8_b0r2
 
 MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 4.885 0 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2at_8_b0r1 -4.885 0 ;
   SIZE 92.435 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -31998,11 +31992,9 @@ END sky130_osu_ring_oscillator_mpr2at_8_b0r1
 
 MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 0 0 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2at_8_b0r2 0 0 ;
   SIZE 92.575 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -42860,11 +42852,9 @@ END sky130_osu_ring_oscillator_mpr2at_8_b0r2
 
 MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 0.025 0 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2ca_8_b0r1 -0.025 0 ;
   SIZE 85.755 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -45720,11 +45710,9 @@ END sky130_osu_ring_oscillator_mpr2ca_8_b0r1
 
 MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 2.955 0 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2ca_8_b0r2 -2.955 0 ;
   SIZE 85.88 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -48565,11 +48553,9 @@ END sky130_osu_ring_oscillator_mpr2ca_8_b0r2
 
 MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 3.44 0 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2ct_8_b0r1 -3.44 0 ;
   SIZE 88.91 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -51409,11 +51395,9 @@ END sky130_osu_ring_oscillator_mpr2ct_8_b0r1
 
 MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 3.43 0 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2ct_8_b0r2 -3.43 0 ;
   SIZE 88.9 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -54248,11 +54232,9 @@ END sky130_osu_ring_oscillator_mpr2ct_8_b0r2
 
 MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 3.275 0 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2ea_8_b0r1 -3.275 0 ;
   SIZE 84.425 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -57005,11 +56987,9 @@ END sky130_osu_ring_oscillator_mpr2ea_8_b0r1
 
 MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r2
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 3.27 0 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2ea_8_b0r2 -3.27 0 ;
   SIZE 84.42 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -59762,11 +59742,9 @@ END sky130_osu_ring_oscillator_mpr2ea_8_b0r2
 
 MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 5.505 0 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2et_8_b0r1 -5.505 0 ;
   SIZE 95.595 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -62813,11 +62791,9 @@ END sky130_osu_ring_oscillator_mpr2et_8_b0r1
 
 MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 5.505 0 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2et_8_b0r2 -5.505 0 ;
   SIZE 95.595 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -65863,11 +65839,9 @@ END sky130_osu_ring_oscillator_mpr2et_8_b0r2
 
 MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 2.8 -0.005 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2xa_8_b0r1 -2.8 0.005 ;
   SIZE 79.1 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -68687,11 +68661,9 @@ END sky130_osu_ring_oscillator_mpr2xa_8_b0r1
 
 MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 2.795 -0.005 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2xa_8_b0r2 -2.795 0.005 ;
   SIZE 79.095 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -71516,11 +71488,9 @@ END sky130_osu_ring_oscillator_mpr2xa_8_b0r2
 
 MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 2.795 0 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2ya_8_b0r1 -2.795 0 ;
   SIZE 79.095 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
@@ -81923,11 +81893,9 @@ END sky130_osu_ring_oscillator_mpr2ya_8_b0r1
 
 MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
   CLASS BLOCK ;
-  SOURCE USER ;
   ORIGIN 2.795 0 ;
+  FOREIGN sky130_osu_ring_oscillator_mpr2ya_8_b0r2 -2.795 0 ;
   SIZE 79.095 BY 8.88 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
   PIN GND
     DIRECTION INOUT ;
     USE GROUND ;
