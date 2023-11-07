@@ -56,9 +56,9 @@ module user_project_wrapper #(
     output [31:0] wbs_dat_o,
 
     // Logic Analyzer Signals
-    input  [127:0] la_data_in,
-    output [127:0] la_data_out,
-    input  [127:0] la_oenb,
+    // input  [127:0] la_data_in,
+    // output [127:0] la_data_out,
+    // input  [127:0] la_oenb,
 
     // IOs
     input  [`MPRJ_IO_PADS-1:0] io_in,
@@ -72,22 +72,22 @@ module user_project_wrapper #(
     inout [`MPRJ_IO_PADS-10:0] analog_io,
 
     // Independent clock (on independent integer divider)
-    input   user_clock2,
+    // input   user_clock2,
 
     // User maskable interrupt signals
-    output [2:0] user_irq
+    // output [2:0] user_irq
 );
 
 /*--------------------------------------*/
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
-wire [15:0] a;
+wire [4:0] a;
 
 sky130_osu_ring_oscillator_mpr2aa_8_b0r1 ro1(
 `ifdef USE_POWER_PINS
-    .vccd1(vccd1),
-    .vssd1(vssd1),
+    .VDD(vccd1),
+    .GND(vssd1),
 `endif
     .s1(io_in[0]),
     .s2(io_in[1]),
@@ -318,8 +318,8 @@ sky130_osu_ring_oscillator_mpr2aa_8_b0r1 ro1(
 
 mux16x1_project mprj (
 `ifdef USE_POWER_PINS
-	.vccd1(vccd1),	// User area 1 1.8V power
-	.vssd1(vssd1),	// User area 1 digital ground
+	.VDD(vccd1),	// User area 1 1.8V power
+	.GND(vssd1),	// User area 1 digital ground
 `endif
     .data_in(a[15:0]),
     .select(io_in[6:9]),
