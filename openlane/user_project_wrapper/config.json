@@ -16,7 +16,7 @@
         "dir::../../verilog/gl/mux16x1_project.v"
     ],
     "EXTRA_LEFS": [
-        "dir::../../lef/sky130_osu_ring_oscillator_mpr2ca_8_b0r1.lef",
+        "dir::../../lef/b0r1_b0r2_MUX_IO.lef",
         "dir::../../lef/mux16x1_project.lef"
     ],
     "EXTRA_GDS_FILES": [
