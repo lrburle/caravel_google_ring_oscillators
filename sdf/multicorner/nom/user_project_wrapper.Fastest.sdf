@@ -1,7 +1,7 @@
 (DELAYFILE
  (SDFVERSION "3.0")
  (DESIGN "user_project_wrapper")
- (DATE "Tue Nov  7 18:53:06 2023")
+ (DATE "Fri Nov 10 18:34:15 2023")
  (VENDOR "Parallax")
  (PROGRAM "STA")
  (VERSION "2.4.0")
@@ -25,14 +25,25 @@
     (INTERCONNECT io_in[2] ro1.s3 (0.042:0.042:0.042))
     (INTERCONNECT io_in[1] ro1.s2 (0.103:0.103:0.103))
     (INTERCONNECT io_in[0] ro1.s1 (0.050:0.050:0.050))
-    (INTERCONNECT mprj._13_.X mprj._16_.A2 (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj._14_.X mprj._16_.B1 (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj._15_.Y mprj._16_.C1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT TIE_ZERO_zero_.LO mprj.input7.A (0.000:0.000:0.000))
+    (INTERCONNECT TIE_ZERO_zero_.LO mprj.input6.A (0.000:0.000:0.000))
+    (INTERCONNECT TIE_ZERO_zero_.LO mprj.input5.A (0.000:0.000:0.000))
+    (INTERCONNECT TIE_ZERO_zero_.LO mprj.input4.A (0.000:0.000:0.000))
+    (INTERCONNECT TIE_ZERO_zero_.LO mprj.input3.A (0.000:0.000:0.000))
+    (INTERCONNECT TIE_ZERO_zero_.LO mprj.input2.A (0.000:0.000:0.000))
+    (INTERCONNECT TIE_ZERO_zero_.LO mprj.input16.A (0.000:0.000:0.000))
+    (INTERCONNECT TIE_ZERO_zero_.LO mprj.input15.A (0.000:0.000:0.000))
+    (INTERCONNECT TIE_ZERO_zero_.LO mprj.input14.A (0.000:0.000:0.000))
+    (INTERCONNECT TIE_ZERO_zero_.LO mprj.input13.A (0.000:0.000:0.000))
+    (INTERCONNECT TIE_ZERO_zero_.LO mprj.input12.A (0.000:0.000:0.000))
+    (INTERCONNECT mprj._13_.X mprj._16_.A2 (0.000:0.000:0.000))
+    (INTERCONNECT mprj._14_.X mprj._16_.B1 (0.000:0.000:0.000))
+    (INTERCONNECT mprj._15_.Y mprj._16_.C1 (0.000:0.000:0.000))
     (INTERCONNECT mprj._16_.Y mprj._21_.B1 (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj._17_.X mprj._18_.B (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj._18_.Y mprj._21_.A2 (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj._19_.Y mprj._21_.A3 (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj._20_.X mprj._21_.A4 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj._17_.X mprj._18_.B (0.000:0.000:0.000))
+    (INTERCONNECT mprj._18_.Y mprj._21_.A2 (0.000:0.000:0.000))
+    (INTERCONNECT mprj._19_.Y mprj._21_.A3 (0.000:0.000:0.000))
+    (INTERCONNECT mprj._20_.X mprj._21_.A4 (0.000:0.000:0.000))
     (INTERCONNECT mprj._21_.X mprj._26_.A2 (0.000:0.000:0.000) (0.000:0.000:0.000))
     (INTERCONNECT mprj._22_.X mprj._24_.A1 (0.000:0.000:0.000) (0.000:0.000:0.000))
     (INTERCONNECT mprj._23_.X mprj._24_.A0 (0.000:0.000:0.000) (0.000:0.000:0.000))
@@ -42,11 +53,11 @@
     (INTERCONNECT mprj.input1.X mprj._23_.A0 (0.000:0.000:0.000) (0.000:0.000:0.000))
     (INTERCONNECT mprj.input10.X mprj._22_.A1 (0.000:0.000:0.000) (0.000:0.000:0.000))
     (INTERCONNECT mprj.input11.X mprj._23_.A2 (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj.input12.X mprj._22_.A2 (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj.input13.X mprj._23_.A3 (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj.input14.X mprj._22_.A3 (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj.input15.X mprj._15_.C_N (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj.input16.X mprj._13_.A0 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.input12.X mprj._22_.A2 (0.000:0.000:0.000))
+    (INTERCONNECT mprj.input13.X mprj._23_.A3 (0.000:0.000:0.000))
+    (INTERCONNECT mprj.input14.X mprj._22_.A3 (0.000:0.000:0.000))
+    (INTERCONNECT mprj.input15.X mprj._15_.C_N (0.000:0.000:0.000))
+    (INTERCONNECT mprj.input16.X mprj._13_.A0 (0.000:0.000:0.000))
     (INTERCONNECT mprj.input17.X mprj._14_.A_N (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT mprj.input17.X mprj._15_.A (0.002:0.002:0.002) (0.002:0.002:0.002))
     (INTERCONNECT mprj.input17.X mprj._16_.A1 (0.002:0.002:0.002) (0.002:0.002:0.002))
@@ -66,14 +77,14 @@
     (INTERCONNECT mprj.input19.X mprj._21_.A1 (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT mprj.input19.X mprj._22_.S1 (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT mprj.input19.X mprj._23_.S1 (0.001:0.001:0.001) (0.001:0.001:0.001))
-    (INTERCONNECT mprj.input2.X mprj._14_.C (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.input2.X mprj._14_.C (0.000:0.000:0.000))
     (INTERCONNECT mprj.input20.X mprj._25_.A (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT mprj.input20.X mprj._26_.A1 (0.001:0.001:0.001) (0.001:0.001:0.001))
-    (INTERCONNECT mprj.input3.X mprj._13_.A1 (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj.input4.X mprj._20_.C_N (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj.input5.X mprj._17_.A0 (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj.input6.X mprj._19_.C (0.000:0.000:0.000) (0.000:0.000:0.000))
-    (INTERCONNECT mprj.input7.X mprj._17_.A1 (0.000:0.000:0.000) (0.000:0.000:0.000))
+    (INTERCONNECT mprj.input3.X mprj._13_.A1 (0.000:0.000:0.000))
+    (INTERCONNECT mprj.input4.X mprj._20_.C_N (0.000:0.000:0.000))
+    (INTERCONNECT mprj.input5.X mprj._17_.A0 (0.000:0.000:0.000))
+    (INTERCONNECT mprj.input6.X mprj._19_.C (0.000:0.000:0.000))
+    (INTERCONNECT mprj.input7.X mprj._17_.A1 (0.000:0.000:0.000))
     (INTERCONNECT mprj.input8.X mprj._22_.A0 (0.000:0.000:0.000) (0.000:0.000:0.000))
     (INTERCONNECT mprj.input9.X mprj._23_.A1 (0.000:0.000:0.000) (0.000:0.000:0.000))
     (INTERCONNECT mprj.output21.X io_out[0] (0.081:0.081:0.081) (0.079:0.079:0.079))
@@ -85,10 +96,10 @@
   (INSTANCE mprj._13_)
   (DELAY
    (ABSOLUTE
-    (IOPATH A0 X (0.069:0.069:0.069) (0.134:0.134:0.134))
-    (IOPATH A1 X (0.075:0.075:0.075) (0.142:0.142:0.142))
-    (IOPATH S X (0.137:0.138:0.140) (0.189:0.189:0.189))
-    (IOPATH S X (0.098:0.098:0.098) (0.188:0.189:0.190))
+    (IOPATH A0 X (0.000:0.000:0.000))
+    (IOPATH A1 X (0.000:0.000:0.000))
+    (IOPATH S X (0.000:0.000:0.000))
+    (IOPATH S X (0.000:0.000:0.000))
    )
   )
  )
@@ -97,9 +108,9 @@
   (INSTANCE mprj._14_)
   (DELAY
    (ABSOLUTE
-    (IOPATH A_N X (0.144:0.145:0.146) (0.116:0.116:0.116))
-    (IOPATH B X (0.110:0.110:0.110) (0.115:0.117:0.118))
-    (IOPATH C X (0.092:0.092:0.092) (0.105:0.105:0.105))
+    (IOPATH A_N X (0.000:0.000:0.000))
+    (IOPATH B X (0.000:0.000:0.000))
+    (IOPATH C X (0.000:0.000:0.000))
    )
   )
  )
@@ -108,9 +119,9 @@
   (INSTANCE mprj._15_)
   (DELAY
    (ABSOLUTE
-    (IOPATH A Y (0.156:0.156:0.157) (0.042:0.042:0.042))
-    (IOPATH B Y (0.143:0.144:0.145) (0.040:0.040:0.040))
-    (IOPATH C_N Y (0.126:0.126:0.126) (0.081:0.081:0.081))
+    (IOPATH A Y (0.000:0.000:0.000))
+    (IOPATH B Y (0.000:0.000:0.000))
+    (IOPATH C_N Y (0.000:0.000:0.000))
    )
   )
  )
@@ -120,9 +131,9 @@
   (DELAY
    (ABSOLUTE
     (IOPATH A1 Y (0.261:0.262:0.263) (0.062:0.062:0.062))
-    (IOPATH A2 Y (0.281:0.281:0.281) (0.044:0.044:0.045))
-    (IOPATH B1 Y (0.198:0.199:0.200) (0.035:0.035:0.035))
-    (IOPATH C1 Y (0.182:0.184:0.187) (0.045:0.045:0.045))
+    (IOPATH A2 Y (0.000:0.000:0.000))
+    (IOPATH B1 Y (0.000:0.000:0.000))
+    (IOPATH C1 Y (0.000:0.000:0.000))
     (IOPATH D1 Y (0.160:0.161:0.162) (0.037:0.037:0.038))
    )
   )
@@ -132,10 +143,10 @@
   (INSTANCE mprj._17_)
   (DELAY
    (ABSOLUTE
-    (IOPATH A0 X (0.072:0.072:0.072) (0.136:0.136:0.136))
-    (IOPATH A1 X (0.076:0.076:0.076) (0.143:0.143:0.143))
-    (IOPATH S X (0.138:0.139:0.141) (0.190:0.190:0.190))
-    (IOPATH S X (0.099:0.099:0.099) (0.189:0.190:0.191))
+    (IOPATH A0 X (0.000:0.000:0.000))
+    (IOPATH A1 X (0.000:0.000:0.000))
+    (IOPATH S X (0.000:0.000:0.000))
+    (IOPATH S X (0.000:0.000:0.000))
    )
   )
  )
@@ -144,8 +155,8 @@
   (INSTANCE mprj._18_)
   (DELAY
    (ABSOLUTE
-    (IOPATH A Y (0.057:0.058:0.059) (0.034:0.034:0.034))
-    (IOPATH B Y (0.047:0.047:0.048) (0.029:0.029:0.029))
+    (IOPATH A Y (0.000:0.000:0.000))
+    (IOPATH B Y (0.000:0.000:0.000))
    )
   )
  )
@@ -154,9 +165,9 @@
   (INSTANCE mprj._19_)
   (DELAY
    (ABSOLUTE
-    (IOPATH A_N Y (0.080:0.080:0.080) (0.109:0.110:0.111))
-    (IOPATH B Y (0.070:0.071:0.073) (0.049:0.049:0.049))
-    (IOPATH C Y (0.054:0.054:0.054) (0.044:0.044:0.044))
+    (IOPATH A_N Y (0.000:0.000:0.000))
+    (IOPATH B Y (0.000:0.000:0.000))
+    (IOPATH C Y (0.000:0.000:0.000))
    )
   )
  )
@@ -165,9 +176,9 @@
   (INSTANCE mprj._20_)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.087:0.087:0.087) (0.225:0.225:0.226))
-    (IOPATH B X (0.085:0.085:0.086) (0.208:0.210:0.211))
-    (IOPATH C_N X (0.099:0.099:0.099) (0.191:0.191:0.191))
+    (IOPATH A X (0.000:0.000:0.000))
+    (IOPATH B X (0.000:0.000:0.000))
+    (IOPATH C_N X (0.000:0.000:0.000))
    )
   )
  )
@@ -177,10 +188,10 @@
   (DELAY
    (ABSOLUTE
     (IOPATH A1 X (0.122:0.122:0.122) (0.137:0.138:0.140))
-    (IOPATH A2 X (0.118:0.118:0.118) (0.144:0.148:0.152))
-    (IOPATH A3 X (0.122:0.123:0.124) (0.163:0.166:0.169))
-    (IOPATH A4 X (0.123:0.123:0.123) (0.176:0.176:0.176))
-    (IOPATH B1 X (0.083:0.082:0.082) (0.081:0.087:0.093))
+    (IOPATH A2 X (0.000:0.000:0.000))
+    (IOPATH A3 X (0.000:0.000:0.000))
+    (IOPATH A4 X (0.000:0.000:0.000))
+    (IOPATH B1 X (0.083:0.083:0.083) (0.083:0.088:0.093))
    )
   )
  )
@@ -191,8 +202,8 @@
    (ABSOLUTE
     (IOPATH A0 X (0.129:0.129:0.129) (0.259:0.259:0.259))
     (IOPATH A1 X (0.132:0.132:0.132) (0.266:0.266:0.266))
-    (IOPATH A2 X (0.129:0.129:0.129) (0.259:0.259:0.259))
-    (IOPATH A3 X (0.128:0.128:0.128) (0.251:0.251:0.251))
+    (IOPATH A2 X (0.000:0.000:0.000))
+    (IOPATH A3 X (0.000:0.000:0.000))
     (IOPATH S0 X (0.203:0.205:0.206) (0.278:0.278:0.278))
     (IOPATH S0 X (0.140:0.140:0.140) (0.208:0.209:0.210))
     (IOPATH S1 X (0.132:0.133:0.134) (0.139:0.139:0.140))
@@ -208,7 +219,7 @@
     (IOPATH A0 X (0.131:0.131:0.131) (0.263:0.263:0.263))
     (IOPATH A1 X (0.137:0.137:0.137) (0.272:0.272:0.272))
     (IOPATH A2 X (0.132:0.132:0.132) (0.264:0.264:0.264))
-    (IOPATH A3 X (0.131:0.131:0.131) (0.255:0.255:0.255))
+    (IOPATH A3 X (0.000:0.000:0.000))
     (IOPATH S0 X (0.207:0.208:0.210) (0.282:0.283:0.283))
     (IOPATH S0 X (0.144:0.144:0.144) (0.213:0.214:0.215))
     (IOPATH S1 X (0.135:0.136:0.138) (0.143:0.144:0.144))
@@ -244,7 +255,7 @@
   (DELAY
    (ABSOLUTE
     (IOPATH A1 Y (0.146:0.147:0.148) (0.056:0.056:0.056))
-    (IOPATH A2 Y (0.143:0.145:0.148) (0.052:0.052:0.052))
+    (IOPATH A2 Y (0.143:0.144:0.145) (0.052:0.052:0.052))
     (IOPATH B1 Y (0.085:0.089:0.093) (0.036:0.036:0.036))
    )
   )
@@ -281,7 +292,7 @@
   (INSTANCE mprj.input12)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.044:0.044:0.044) (0.044:0.044:0.044))
+    (IOPATH A X (0.000:0.000:0.000))
    )
   )
  )
@@ -290,7 +301,7 @@
   (INSTANCE mprj.input13)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.051:0.051:0.051) (0.049:0.049:0.049))
+    (IOPATH A X (0.000:0.000:0.000))
    )
   )
  )
@@ -299,7 +310,7 @@
   (INSTANCE mprj.input14)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.053:0.053:0.053) (0.049:0.049:0.049))
+    (IOPATH A X (0.000:0.000:0.000))
    )
   )
  )
@@ -308,7 +319,7 @@
   (INSTANCE mprj.input15)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.042:0.042:0.042) (0.043:0.043:0.043))
+    (IOPATH A X (0.000:0.000:0.000))
    )
   )
  )
@@ -317,7 +328,7 @@
   (INSTANCE mprj.input16)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.040:0.040:0.040) (0.042:0.042:0.042))
+    (IOPATH A X (0.000:0.000:0.000))
    )
   )
  )
@@ -353,7 +364,7 @@
   (INSTANCE mprj.input2)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.040:0.040:0.040) (0.042:0.042:0.042))
+    (IOPATH A X (0.000:0.000:0.000))
    )
   )
  )
@@ -371,7 +382,7 @@
   (INSTANCE mprj.input3)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.051:0.051:0.051) (0.048:0.048:0.048))
+    (IOPATH A X (0.000:0.000:0.000))
    )
   )
  )
@@ -380,7 +391,7 @@
   (INSTANCE mprj.input4)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.043:0.043:0.043) (0.044:0.044:0.044))
+    (IOPATH A X (0.000:0.000:0.000))
    )
   )
  )
@@ -389,7 +400,7 @@
   (INSTANCE mprj.input5)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.045:0.045:0.045) (0.045:0.045:0.045))
+    (IOPATH A X (0.000:0.000:0.000))
    )
   )
  )
@@ -398,7 +409,7 @@
   (INSTANCE mprj.input6)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.057:0.057:0.057) (0.051:0.051:0.051))
+    (IOPATH A X (0.000:0.000:0.000))
    )
   )
  )
@@ -407,7 +418,7 @@
   (INSTANCE mprj.input7)
   (DELAY
    (ABSOLUTE
-    (IOPATH A X (0.051:0.051:0.051) (0.048:0.048:0.048))
+    (IOPATH A X (0.000:0.000:0.000))
    )
   )
  )

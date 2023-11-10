@@ -4,10 +4,10 @@
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2aa_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2aa_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
@@ -15,149 +15,149 @@ endmodule
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2aa_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2aa_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2at_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2at_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2at_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2at_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ca_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2ca_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ca_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2ca_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ct_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2ct_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ct_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2ct_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ea_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2ea_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ea_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2ea_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2et_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2et_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2et_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2et_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2xa_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2xa_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2xa_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2xa_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ya_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2ya_8_b0r1 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine
 
 /// sta-blackbox
 `timescale 1ns/10ps
 `celldefine
-module sky130_osu_ring_oscillator_mpr2ya_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, VDD, GND);
+module sky130_osu_ring_oscillator_mpr2ya_8_b0r2 (X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1, s1, s2, s3, s4, s5, start, vccd1, vssd1);
 	output X1_Y1, X2_Y1, X3_Y1, X4_Y1, X5_Y1;
 	input s1, s2, s3, s4, s5, start;
-	inout VDD, GND;
+	inout vccd1, vssd1;
 endmodule
 `endcelldefine

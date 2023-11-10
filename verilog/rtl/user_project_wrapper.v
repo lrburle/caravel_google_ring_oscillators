@@ -118,8 +118,8 @@ wire [4:0] a;
 
 sky130_osu_ring_oscillator_mpr2ca_8_b0r1 ro1(
 `ifdef USE_POWER_PINS
-    .VDD(vccd1),
-    .GND(vssd1),
+    .vccd1(vccd1),
+    .vssd1(vssd1),
 `endif
     .s1(io_in[0]),
     .s2(io_in[1]),
@@ -322,8 +322,8 @@ sky130_osu_ring_oscillator_mpr2ca_8_b0r1 ro1(
 
 mux16x1_project mprj (
 `ifdef USE_POWER_PINS
-	.VDD(vccd1),	// User area 1 1.8V power
-	.GND(vssd1),	// User area 1 digital ground
+	.vccd1(vccd1),	// User area 1 1.8V power
+	.vssd1(vssd1),	// User area 1 digital ground
 `endif
     .data_in(a[15:0]),
     .select(io_in[6:9]),

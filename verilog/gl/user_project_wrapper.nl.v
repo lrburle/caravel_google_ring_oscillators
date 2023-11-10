@@ -1,6 +1,5 @@
 // This is the unpowered netlist.
-module user_project_wrapper (user_clock2,
-    wb_clk_i,
+module user_project_wrapper (wb_clk_i,
     wb_rst_i,
     wbs_ack_o,
     wbs_cyc_i,
@@ -10,15 +9,10 @@ module user_project_wrapper (user_clock2,
     io_in,
     io_oeb,
     io_out,
-    la_data_in,
-    la_data_out,
-    la_oenb,
-    user_irq,
     wbs_adr_i,
     wbs_dat_i,
     wbs_dat_o,
     wbs_sel_i);
- input user_clock2;
  input wb_clk_i;
  input wb_rst_i;
  output wbs_ack_o;
@@ -29,44 +23,30 @@ module user_project_wrapper (user_clock2,
  input [37:0] io_in;
  output [37:0] io_oeb;
  output [37:0] io_out;
- input [127:0] la_data_in;
- output [127:0] la_data_out;
- input [127:0] la_oenb;
- output [2:0] user_irq;
  input [31:0] wbs_adr_i;
  input [31:0] wbs_dat_i;
  output [31:0] wbs_dat_o;
  input [3:0] wbs_sel_i;
 
  wire \a[0] ;
- wire \a[10] ;
- wire \a[11] ;
- wire \a[12] ;
- wire \a[13] ;
- wire \a[14] ;
- wire \a[15] ;
  wire \a[1] ;
  wire \a[2] ;
  wire \a[3] ;
  wire \a[4] ;
- wire \a[5] ;
- wire \a[6] ;
- wire \a[7] ;
- wire \a[8] ;
- wire \a[9] ;
+ wire zero_;
 
  mux16x1_project mprj (.y(io_out[0]),
-    .data_in({\a[15] ,
-    \a[14] ,
-    \a[13] ,
-    \a[12] ,
-    \a[11] ,
-    \a[10] ,
-    \a[9] ,
-    \a[8] ,
-    \a[7] ,
-    \a[6] ,
-    \a[5] ,
+    .data_in({zero_,
+    zero_,
+    zero_,
+    zero_,
+    zero_,
+    zero_,
+    zero_,
+    zero_,
+    zero_,
+    zero_,
+    zero_,
     \a[4] ,
     \a[3] ,
     \a[2] ,
@@ -87,5 +67,6 @@ module user_project_wrapper (user_clock2,
     .X2_Y1(\a[1] ),
     .X1_Y1(\a[0] ),
     .start(io_in[5]));
+ sky130_fd_sc_hd__conb_1 TIE_ZERO_zero_ (.LO(zero_));
 endmodule
 
