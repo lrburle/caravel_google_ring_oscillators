@@ -23,18 +23,14 @@
     "RUN_HEURISTIC_DIODE_INSERTION": 1,
     "HEURISTIC_ANTENNA_THRESHOLD": 110,    
     "GRT_REPAIR_ANTENNAS": 1,
-    "VDD_NETS": [
-        "vccd1"
-    ],
-    "GND_NETS": [
-        "vssd1"
-    ],
+    "VDD_NETS": "vccd1",
+    "GND_NETS": "vssd1",
     "IO_SYNC": 0,
     "BASE_SDC_FILE": "dir::base_user_proj_example.sdc",
     "RUN_CVC": 1,
     "pdk::sky130*": {
         "FP_CORE_UTIL": 45,
-        "RT_MAX_LAYER": "met4",
+        "RT_MAX_LAYER": "met3",
         "scl::sky130_fd_sc_hd": {
             "CLOCK_PERIOD": 25
         },
