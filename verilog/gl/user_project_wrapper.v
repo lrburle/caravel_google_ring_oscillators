@@ -238,7 +238,8 @@ module user_project_wrapper (wb_clk_i,
     .s4(io_in[3]),
     .s5(io_in[4]),
     .start(io_in[5]),
-    .vccd1(vccd1));
+    .vccd1(vccd1),
+    .vssd1(vssd1));
  sky130_osu_ring_oscillator_mpr2ct_8_b0r2 ro12 (.X1_Y1(\x1[11] ),
     .X2_Y1(\x2[11] ),
     .X3_Y1(\x3[11] ),

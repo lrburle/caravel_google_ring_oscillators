@@ -362,7 +362,7 @@ library (user_project_wrapper) {
     }
     pin("io_in[6]") {
       direction : input;
-      capacitance : 0.1335;
+      capacitance : 0.1339;
     }
     pin("io_in[5]") {
       direction : input;
@@ -370,23 +370,23 @@ library (user_project_wrapper) {
     }
     pin("io_in[4]") {
       direction : input;
-      capacitance : 0.2984;
+      capacitance : 0.2952;
     }
     pin("io_in[3]") {
       direction : input;
-      capacitance : 0.3923;
+      capacitance : 0.3868;
     }
     pin("io_in[2]") {
       direction : input;
-      capacitance : 0.4103;
+      capacitance : 0.4092;
     }
     pin("io_in[1]") {
       direction : input;
-      capacitance : 0.3884;
+      capacitance : 0.3900;
     }
     pin("io_in[0]") {
       direction : input;
-      capacitance : 0.3673;
+      capacitance : 0.3660;
     }
     }
     bus("io_oeb") {
@@ -737,13 +737,13 @@ library (user_project_wrapper) {
         related_pin : "io_in[7]";
         timing_type : combinational;
 	cell_rise(template_1) {
-          values("1.36492,1.36738,1.37712,1.41200,1.55267,2.19412,5.15652");
+          values("1.36490,1.36736,1.37710,1.41198,1.55265,2.19411,5.15651");
 	}
 	rise_transition(template_1) {
           values("0.02146,0.02345,0.03228,0.07212,0.26593,1.18273,5.39578");
 	}
 	cell_fall(template_1) {
-          values("1.59702,1.59905,1.60661,1.62971,1.69842,1.97017,3.21720");
+          values("1.59701,1.59903,1.60659,1.62969,1.69840,1.97015,3.21718");
 	}
 	fall_transition(template_1) {
           values("0.01886,0.02016,0.02505,0.04329,0.11876,0.48581,2.21360");
@@ -753,13 +753,13 @@ library (user_project_wrapper) {
         related_pin : "io_in[6]";
         timing_type : combinational;
 	cell_rise(template_1) {
-          values("1.37907,1.38153,1.39127,1.42615,1.56682,2.20827,5.17067");
+          values("1.37977,1.38222,1.39196,1.42685,1.56751,2.20897,5.17137");
 	}
 	rise_transition(template_1) {
           values("0.02146,0.02345,0.03228,0.07212,0.26593,1.18273,5.39578");
 	}
 	cell_fall(template_1) {
-          values("1.40189,1.40391,1.41147,1.43458,1.50328,1.77503,3.02207");
+          values("1.40248,1.40450,1.41207,1.43517,1.50388,1.77562,3.02266");
 	}
 	fall_transition(template_1) {
           values("0.01886,0.02016,0.02505,0.04329,0.11876,0.48581,2.21360");

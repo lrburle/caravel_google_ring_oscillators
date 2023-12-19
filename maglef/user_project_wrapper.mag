@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1702568146
+timestamp 1703004377
 << obsli1 >>
 rect 292000 197600 526832 451376
 << obsm1 >>
@@ -2105,8 +2105,8 @@ port 251 nsew signal input
 string FIXED_BBOX 0 0 584000 704000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 2643052
-string GDS_FILE /import/yukari1/lrburle/google_ring_oscillator/caravel/openlane/user_project_wrapper/runs/23_12_14_09_33/results/signoff/user_project_wrapper.magic.gds
-string GDS_START 1095916
+string GDS_END 2644206
+string GDS_FILE /import/yukari1/lrburle/google_ring_oscillator/caravel/openlane/user_project_wrapper/runs/23_12_19_10_44/results/signoff/user_project_wrapper.magic.gds
+string GDS_START 1096046
 << end >>
 
