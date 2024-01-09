@@ -350,43 +350,43 @@ library (user_project_wrapper) {
     }
     pin("io_in[9]") {
       direction : input;
-      capacitance : 0.1308;
+      capacitance : 0.1310;
     }
     pin("io_in[8]") {
       direction : input;
-      capacitance : 0.1361;
+      capacitance : 0.1329;
     }
     pin("io_in[7]") {
       direction : input;
-      capacitance : 0.1465;
+      capacitance : 0.1469;
     }
     pin("io_in[6]") {
       direction : input;
-      capacitance : 0.1339;
+      capacitance : 0.1340;
     }
     pin("io_in[5]") {
       direction : input;
-      capacitance : 0.2539;
+      capacitance : 0.2882;
     }
     pin("io_in[4]") {
       direction : input;
-      capacitance : 0.2952;
+      capacitance : 0.3401;
     }
     pin("io_in[3]") {
       direction : input;
-      capacitance : 0.3868;
+      capacitance : 0.4095;
     }
     pin("io_in[2]") {
       direction : input;
-      capacitance : 0.4092;
+      capacitance : 0.4812;
     }
     pin("io_in[1]") {
       direction : input;
-      capacitance : 0.3900;
+      capacitance : 0.4362;
     }
     pin("io_in[0]") {
       direction : input;
-      capacitance : 0.3660;
+      capacitance : 0.4179;
     }
     }
     bus("io_oeb") {
@@ -705,13 +705,13 @@ library (user_project_wrapper) {
         related_pin : "io_in[9]";
         timing_type : combinational;
 	cell_rise(template_1) {
-          values("0.63914,0.64159,0.65133,0.68622,0.82688,1.46834,4.43074");
+          values("0.63917,0.64162,0.65137,0.68625,0.82692,1.46837,4.43077");
 	}
 	rise_transition(template_1) {
           values("0.02146,0.02345,0.03228,0.07212,0.26593,1.18273,5.39578");
 	}
 	cell_fall(template_1) {
-          values("0.67063,0.67265,0.68021,0.70332,0.77203,1.04377,2.29081");
+          values("0.67066,0.67268,0.68024,0.70334,0.77205,1.04380,2.29083");
 	}
 	fall_transition(template_1) {
           values("0.01886,0.02016,0.02505,0.04329,0.11876,0.48581,2.21360");
@@ -721,13 +721,13 @@ library (user_project_wrapper) {
         related_pin : "io_in[8]";
         timing_type : combinational;
 	cell_rise(template_1) {
-          values("1.01214,1.01459,1.02434,1.05922,1.19989,1.84134,4.80374");
+          values("1.01085,1.01331,1.02305,1.05793,1.19860,1.84005,4.80245");
 	}
 	rise_transition(template_1) {
           values("0.02146,0.02345,0.03228,0.07212,0.26593,1.18273,5.39578");
 	}
 	cell_fall(template_1) {
-          values("1.23154,1.23357,1.24113,1.26423,1.33294,1.60468,2.85172");
+          values("1.23044,1.23247,1.24003,1.26313,1.33184,1.60358,2.85062");
 	}
 	fall_transition(template_1) {
           values("0.01886,0.02016,0.02505,0.04329,0.11876,0.48581,2.21360");
@@ -737,13 +737,13 @@ library (user_project_wrapper) {
         related_pin : "io_in[7]";
         timing_type : combinational;
 	cell_rise(template_1) {
-          values("1.36490,1.36736,1.37710,1.41198,1.55265,2.19411,5.15651");
+          values("1.36503,1.36748,1.37723,1.41211,1.55278,2.19423,5.15663");
 	}
 	rise_transition(template_1) {
           values("0.02146,0.02345,0.03228,0.07212,0.26593,1.18273,5.39578");
 	}
 	cell_fall(template_1) {
-          values("1.59701,1.59903,1.60659,1.62969,1.69840,1.97015,3.21718");
+          values("1.59712,1.59914,1.60670,1.62981,1.69852,1.97026,3.21730");
 	}
 	fall_transition(template_1) {
           values("0.01886,0.02016,0.02505,0.04329,0.11876,0.48581,2.21360");
@@ -753,13 +753,13 @@ library (user_project_wrapper) {
         related_pin : "io_in[6]";
         timing_type : combinational;
 	cell_rise(template_1) {
-          values("1.37977,1.38222,1.39196,1.42685,1.56751,2.20897,5.17137");
+          values("1.37926,1.38172,1.39146,1.42634,1.56701,2.20847,5.17087");
 	}
 	rise_transition(template_1) {
           values("0.02146,0.02345,0.03228,0.07212,0.26593,1.18273,5.39578");
 	}
 	cell_fall(template_1) {
-          values("1.40248,1.40450,1.41207,1.43517,1.50388,1.77562,3.02266");
+          values("1.40204,1.40407,1.41163,1.43473,1.50344,1.77519,3.02222");
 	}
 	fall_transition(template_1) {
           values("0.01886,0.02016,0.02505,0.04329,0.11876,0.48581,2.21360");
