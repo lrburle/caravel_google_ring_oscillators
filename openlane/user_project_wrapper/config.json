@@ -8,7 +8,7 @@
     "CLOCK_PERIOD": 25,
     "CLOCK_PORT": "wb_clk_i",
     "CLOCK_NET": "mprj.clk",
-    "FP_PDN_MACRO_HOOKS": "mprj1 vccd1 vssd1 vccd1 vssd1, mprj2 vccd1 vssd1 vccd1 vssd1, mprj3 vccd1 vssd1 vccd1 vssd1, mprj4 vccd1 vssd1 vccd1 vssd1, mprj5 vccd1 vssd1 vccd1 vssd1, ro1 vccd1 vssd1 vccd1 vssd1, ro5 vccd1 vssd1 vccd1 vssd1", 
+    "FP_PDN_MACRO_HOOKS": "mprj1 vccd1 vssd1 vccd1 vssd1, mprj2 vccd1 vssd1 vccd1 vssd1, mprj3 vccd1 vssd1 vccd1 vssd1, mprj4 vccd1 vssd1 vccd1 vssd1, mprj5 vccd1 vssd1 vccd1 vssd1, ro1 vccd1 vssd1 vccd1 vssd1, ro2 vccd1 vssd1 vccd1 vssd1, ro3 vccd1 vssd1 vccd1 vssd1, ro4 vccd1 vssd1 vccd1 vssd1, ro5 vccd1 vssd1 vccd1 vssd1, ro6 vccd1 vssd1 vccd1 vssd1, ro7 vccd1 vssd1 vccd1 vssd1, ro8 vccd1 vssd1 vccd1 vssd1, ro9 vccd1 vssd1 vccd1 vssd1, ro10 vccd1 vssd1 vccd1 vssd1, ro11 vccd1 vssd1 vccd1 vssd1, ro12 vccd1 vssd1 vccd1 vssd1, ro13 vccd1 vssd1 vccd1 vssd1, ro13 vccd1 vssd1 vccd1 vssd1, ro14 vccd1 vssd1 vccd1 vssd1, ro15 vccd1 vssd1 vccd1 vssd1, ro16 vccd1 vssd1 vccd1 vssd1", 
     "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
     "MAGIC_DEF_LABELS": 0,
     "VERILOG_FILES_BLACKBOX": [
