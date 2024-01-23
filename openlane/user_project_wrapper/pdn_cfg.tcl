@@ -129,4 +129,4 @@ add_pdn_connect \
 
 add_pdn_connect \
     -grid macro \
-    -layers "met3 met4"
+    -layers "met1 met4"
