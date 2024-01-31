@@ -290,7 +290,8 @@ module user_project_wrapper (wb_clk_i,
     .s4(io_in[3]),
     .s5(io_in[4]),
     .start(io_in[5]),
-    .vccd1(vccd1));
+    .vccd1(vccd1),
+    .vssd1(vssd1));
  sky130_osu_ring_oscillator_mpr2et_8_b0r2 ro14 (.X1_Y1(\x1[13] ),
     .X2_Y1(\x2[13] ),
     .X3_Y1(\x3[13] ),
@@ -302,6 +303,7 @@ module user_project_wrapper (wb_clk_i,
     .s4(io_in[3]),
     .s5(io_in[4]),
     .start(io_in[5]),
+    .vccd1(vccd1),
     .vssd1(vssd1));
  sky130_osu_ring_oscillator_mpr2xa_8_b0r2 ro15 (.X1_Y1(\x1[14] ),
     .X2_Y1(\x2[14] ),
@@ -313,7 +315,9 @@ module user_project_wrapper (wb_clk_i,
     .s3(io_in[2]),
     .s4(io_in[3]),
     .s5(io_in[4]),
-    .start(io_in[5]));
+    .start(io_in[5]),
+    .vccd1(vccd1),
+    .vssd1(vssd1));
  sky130_osu_ring_oscillator_mpr2ya_8_b0r2 ro16 (.X1_Y1(\x1[15] ),
     .X2_Y1(\x2[15] ),
     .X3_Y1(\x3[15] ),
@@ -324,7 +328,9 @@ module user_project_wrapper (wb_clk_i,
     .s3(io_in[2]),
     .s4(io_in[3]),
     .s5(io_in[4]),
-    .start(io_in[5]));
+    .start(io_in[5]),
+    .vccd1(vccd1),
+    .vssd1(vssd1));
  sky130_osu_ring_oscillator_mpr2at_8_b0r1 ro2 (.X1_Y1(\x1[1] ),
     .X2_Y1(\x2[1] ),
     .X3_Y1(\x3[1] ),
@@ -388,6 +394,7 @@ module user_project_wrapper (wb_clk_i,
     .s4(io_in[3]),
     .s5(io_in[4]),
     .start(io_in[5]),
+    .vccd1(vccd1),
     .vssd1(vssd1));
  sky130_osu_ring_oscillator_mpr2xa_8_b0r1 ro7 (.X1_Y1(\x1[6] ),
     .X2_Y1(\x2[6] ),
@@ -400,7 +407,8 @@ module user_project_wrapper (wb_clk_i,
     .s4(io_in[3]),
     .s5(io_in[4]),
     .start(io_in[5]),
-    .vccd1(vccd1));
+    .vccd1(vccd1),
+    .vssd1(vssd1));
  sky130_osu_ring_oscillator_mpr2ya_8_b0r1 ro8 (.X1_Y1(\x1[7] ),
     .X2_Y1(\x2[7] ),
     .X3_Y1(\x3[7] ),
@@ -424,5 +432,7 @@ module user_project_wrapper (wb_clk_i,
     .s3(io_in[2]),
     .s4(io_in[3]),
     .s5(io_in[4]),
-    .start(io_in[5]));
+    .start(io_in[5]),
+    .vccd1(vccd1),
+    .vssd1(vssd1));
 endmodule
