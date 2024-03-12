@@ -1,9 +1,9 @@
 {{EXTRACTING FILES}} Extracting compressed files in: /home/lrburle/OSU/google_ring_oscillator/caravel
 {{Project Type Info}} digital
-{{Project GDS Info}} user_project_wrapper: 59f1beaa3e2208055fc72407f6f5782a9e50a17e
+{{Project GDS Info}} user_project_wrapper: ed1490b4a3430c6a608b8bf940e5ba06694024b1
 {{Tools Info}} KLayout: v0.28.12 | Magic: v8.3.452
 {{PDKs Info}} SKY130A: None | Open PDKs: e3b630d9b7c0e23615367d52c4f78b2d2ede58ac
-{{START}} Precheck Started, the full log 'precheck.log' will be located in '/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/logs'
+{{START}} Precheck Started, the full log 'precheck.log' will be located in '/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs'
 {{PRECHECK SEQUENCE}} Precheck will run the following checks: [License, Makefile, Default, Documentation, Consistency, GPIO-Defines, XOR, Magic DRC, Klayout FEOL, Klayout BEOL, Klayout Offgrid, Klayout Metal Minimum Clear Area Density, Klayout Pin Label Purposes Overlapping Drawing, Klayout ZeroArea, OEB, LVS]
 {{STEP UPDATE}} Executing Check 1 of 16: License
 An approved LICENSE (Apache-2.0) was found in /home/lrburle/OSU/google_ring_oscillator/caravel.
@@ -17,14 +17,13 @@ An approved LICENSE (Apache-2.0) was found in /home/lrburle/OSU/google_ring_osci
 {{STEP UPDATE}} Executing Check 2 of 16: Makefile
 {{MAKEFILE CHECK PASSED}} Makefile valid.
 {{STEP UPDATE}} Executing Check 3 of 16: Default
-[33mThe provided 'README.md' is identical to the default 'README.md'[0m
-[33m{{README DEFAULT CHECK FAILED}} Project 'README.md' was not modified and is identical to the default 'README.md'[0m
+{{README DEFAULT CHECK PASSED}} Project 'README.md' was modified and is not identical to the default 'README.md'
 {{CONTENT DEFAULT CHECK PASSED}} Project 'gds' was modified and is not identical to the default 'gds'
 {{STEP UPDATE}} Executing Check 4 of 16: Documentation
 {{DOCUMENTATION CHECK PASSED}} Project documentation is appropriate.
 {{STEP UPDATE}} Executing Check 5 of 16: Consistency
 PORTS CHECK PASSED: Netlist user_project_wrapper ports match the golden wrapper ports
-COMPLEXITY CHECK PASSED: Netlist user_project_wrapper contains at least 1 instances (21 instances). 
+COMPLEXITY CHECK PASSED: Netlist user_project_wrapper contains at least 1 instances (16 instances). 
 MODELING CHECK PASSED: Netlist user_project_wrapper is structural.
 LAYOUT CHECK PASSED: The GDS layout for user_project_wrapper matches the provided structural netlist.
 POWER CONNECTIONS CHECK PASSED: All instances in user_project_wrapper are connected to power
@@ -35,85 +34,75 @@ PORT TYPES CHECK PASSED: Netlist user_project_wrapper port types match the golde
 GPIO-DEFINES: Checking verilog/rtl/user_defines.v, parsing files: ['/home/lrburle/mpw_precheck/checks/gpio_defines_check/verilog_assets/gpio_modes_base.v', '/home/lrburle/OSU/google_ring_oscillator/caravel/verilog/rtl/user_defines.v', '/home/lrburle/mpw_precheck/checks/gpio_defines_check/verilog_assets/gpio_modes_observe.v']
 Generating LALR tables
 WARNING: 183 shift/reduce conflicts
-GPIO-DEFINES report path: /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/outputs/reports/gpio_defines.report
+GPIO-DEFINES report path: /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/gpio_defines.report
 {{GPIO-DEFINES CHECK PASSED}} The user verilog/rtl/user_defines.v is valid.
 {{STEP UPDATE}} Executing Check 7 of 16: XOR
-{{XOR CHECK UPDATE}} Total XOR differences: 0, for more details view /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/outputs/user_project_wrapper.xor.gds
+{{XOR CHECK UPDATE}} Total XOR differences: 0, for more details view /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/user_project_wrapper.xor.gds
 {{XOR CHECK PASSED}} The GDS file has no XOR violations.
 {{STEP UPDATE}} Executing Check 8 of 16: Magic DRC
-Found 180920 violations
-[31mViolation Message 'mcon.spacing < 0.19um (mcon.2)' found 6 times.[0m
+Found 14190 violations
 [31mViolation Message 'Diffusion width < 0.15um (diff/tap.1)' found 20 times.[0m
-[31mViolation Message 'Local interconnect spacing < 0.17um (li.3)' found 7123 times.[0m
+[31mViolation Message 'Local interconnect spacing < 0.17um (li.3)' found 310 times.[0m
 [31mViolation Message 'N-Diffusion spacing to N-well < 0.34um (diff/tap.9)' found 3 times.[0m
+[31mViolation Message 'Local interconnect width < 0.17um (li.1)' found 50 times.[0m
+[31mViolation Message 'Local interconnect overlap of poly contact < 0.08um in one direction (li.5)' found 40 times.[0m
 [31mViolation Message 'N-well spacing < 1.27um (nwell.2a)' found 15 times.[0m
-[31mViolation Message 'Local interconnect overlap of poly contact < 0.08um in one direction (li.5)' found 20475 times.[0m
-[31mViolation Message 'Local interconnect width < 0.17um (li.1)' found 1046 times.[0m
-[31mViolation Message 'N-well overlap of P-Diffusion < 0.18um (diff/tap.8)' found 59 times.[0m
-[31mViolation Message 'This layer can't abut or partially overlap between subcells' found 502 times.[0m
-[31mViolation Message 'Metal2 spacing < 0.14um (met2.2)' found 5231 times.[0m
-[31mViolation Message 'Metal1 minimum area < 0.083um^2 (met1.6)' found 310 times.[0m
-[31mViolation Message 'Metal1 spacing < 0.14um (met1.2)' found 6724 times.[0m
-[31mViolation Message 'N-well width < 0.84um (nwell.1)' found 1 times.[0m
-[31mViolation Message 'Only 45 and 90 degree angles permitted on metal1 (x.3a)' found 13718 times.[0m
-[31mViolation Message 'Core local interconnect width < 0.14um (li.c1)' found 270 times.[0m
-[31mViolation Message 'Min area of metal1 holes > 0.14um^2 (met1.7)' found 111 times.[0m
-[31mViolation Message 'Metal1 overlap of local interconnect contact < 0.06um in one direction (met1.5)' found 24174 times.[0m
-[31mViolation Message 'Metal1 overlap of local interconnect contact < 0.03um (met1.4)' found 6844 times.[0m
+[31mViolation Message 'Metal2 spacing < 0.14um (met2.2)' found 20 times.[0m
+[31mViolation Message 'This layer can't abut or partially overlap between subcells' found 274 times.[0m
+[31mViolation Message 'Metal1 spacing < 0.14um (met1.2)' found 1455 times.[0m
+[31mViolation Message 'N-well overlap of P-Diffusion < 0.18um (diff/tap.8)' found 48 times.[0m
+[31mViolation Message 'Core local interconnect width < 0.14um (li.c1)' found 50 times.[0m
+[31mViolation Message 'Metal1 overlap of local interconnect contact < 0.03um (met1.4)' found 60 times.[0m
+[31mViolation Message 'Min area of metal1 holes > 0.14um^2 (met1.7)' found 51 times.[0m
+[31mViolation Message 'Metal1 overlap of local interconnect contact < 0.06um in one direction (met1.5)' found 164 times.[0m
 [31mViolation Message 'poly width < 0.15um (poly.1a)' found 50 times.[0m
-[31mViolation Message 'Metal2 overlap of Via1 < 0.03um in one direction (met2.5 - met2.4)' found 10134 times.[0m
-[31mViolation Message 'Only 45 and 90 degree angles permitted on metal2 (x.3a)' found 10524 times.[0m
+[31mViolation Message 'All nwells must contain metal-connected N+ taps (nwell.4)' found 1 times.[0m
 [31mViolation Message 'Metal3 spacing < 0.3um (met3.2)' found 45 times.[0m
-[31mViolation Message 'Local interconnect overlap of diffusion contact < 0.08um in one direction (li.5)' found 12474 times.[0m
-[31mViolation Message 'Metal3 width < 0.3um (met3.1)' found 65 times.[0m
+[31mViolation Message 'Metal3 width < 0.3um (met3.1)' found 20 times.[0m
 [31mViolation Message 'poly overlap of poly contact < 0.08um in one direction (licon.8a)' found 40 times.[0m
-[31mViolation Message 'N-tap minimum area < 0.07011um^2 (nsd.10b)' found 256 times.[0m
-[31mViolation Message 'Metal1 width < 0.14um (met1.1)' found 1114 times.[0m
+[31mViolation Message 'N-tap minimum area < 0.07011um^2 (nsd.10b)' found 160 times.[0m
+[31mViolation Message 'Metal1 width < 0.14um (met1.1)' found 222 times.[0m
+[31mViolation Message 'Metal2 overlap of via2 < 0.045um in one direction (via2.4a - via2.4)' found 321 times.[0m
 [31mViolation Message 'poly spacing to Diffusion < 0.075um (poly.4)' found 50 times.[0m
-[31mViolation Message 'Metal2 overlap of via2 < 0.045um in one direction (via2.4a - via2.4)' found 7312 times.[0m
-[31mViolation Message 'Metal2 width < 0.14um (met2.1)' found 1704 times.[0m
 [31mViolation Message 'HVI to HVI or LV nwell spacing < 0.7um (hvi.5)' found 16 times.[0m
+[31mViolation Message 'Core local interconnect spacing < 0.14um (li.c2)' found 20 times.[0m
 [31mViolation Message 'Diffusion spacing < 0.27um (diff/tap.3)' found 30 times.[0m
-[31mViolation Message 'Core local interconnect spacing < 0.14um (li.c2)' found 1420 times.[0m
 [31mViolation Message 'poly spacing < 0.21um (poly.2)' found 40 times.[0m
-[31mViolation Message 'Metal1 overlap of Via1 < 0.03um in one direction (via.5a - via.4a)' found 14665 times.[0m
-[31mViolation Message 'Only 90 degree angles permitted on local interconnect (x.2)' found 17576 times.[0m
-[31mViolation Message 'Diffusion contact to gate < 0.055um (licon.11)' found 13056 times.[0m
-[31mViolation Message 'Spacing of metal1 features attached to and within 0.28um of large metal1 < 0.28um (met1.3a)' found 402 times.[0m
-[31mViolation Message 'Metal1 > 3um spacing to unrelated m1 < 0.28um (met1.3b)' found 2570 times.[0m
+[31mViolation Message 'Diffusion contact to gate < 0.055um (licon.11)' found 8160 times.[0m
+[31mViolation Message 'Spacing of metal1 features attached to and within 0.28um of large metal1 < 0.28um (met1.3a)' found 350 times.[0m
+[31mViolation Message 'Metal1 > 3um spacing to unrelated m1 < 0.28um (met1.3b)' found 1800 times.[0m
 [31mViolation Message 'poly overlap of poly contact < 0.05um (licon.8)' found 10 times.[0m
 [31mViolation Message 'Metal3 overlap of via2 < 0.025um (met3.4)' found 295 times.[0m
-[31mViolation Message 'Local interconnect minimum area < 0.0561um^2 (li.6)' found 440 times.[0m
-[31m180920 DRC violations[0m
+[31m14190 DRC violations[0m
 [33m{{MAGIC DRC CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.[0m
 {{STEP UPDATE}} Executing Check 9 of 16: Klayout FEOL
 in CUSTOM klayout_gds_drc_check
-run: klayout -b -r /home/lrburle/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/outputs/reports/klayout_feol_check.xml -rd feol=true >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/logs/klayout_feol_check.log
-[31mTotal # of DRC violations is 41 Please check /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/outputs/reports/klayout_feol_check.xml For more details[0m
+run: klayout -b -r /home/lrburle/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_feol_check.xml -rd feol=true >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_feol_check.log
+[31mTotal # of DRC violations is 40 Please check /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_feol_check.xml For more details[0m
 [33m{{Klayout FEOL CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.[0m
 {{STEP UPDATE}} Executing Check 10 of 16: Klayout BEOL
 in CUSTOM klayout_gds_drc_check
-run: klayout -b -r /home/lrburle/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/outputs/reports/klayout_beol_check.xml -rd beol=true >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/logs/klayout_beol_check.log
-[31mTotal # of DRC violations is 5911 Please check /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/outputs/reports/klayout_beol_check.xml For more details[0m
+run: klayout -b -r /home/lrburle/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_beol_check.xml -rd beol=true >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_beol_check.log
+[31mTotal # of DRC violations is 1092 Please check /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_beol_check.xml For more details[0m
 [33m{{Klayout BEOL CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.[0m
 {{STEP UPDATE}} Executing Check 11 of 16: Klayout Offgrid
 in CUSTOM klayout_gds_drc_check
-run: klayout -b -r /home/lrburle/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/outputs/reports/klayout_offgrid_check.xml -rd offgrid=true >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/logs/klayout_offgrid_check.log
-[31mTotal # of DRC violations is 68 Please check /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/outputs/reports/klayout_offgrid_check.xml For more details[0m
-[33m{{Klayout Offgrid CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.[0m
+run: klayout -b -r /home/lrburle/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_offgrid_check.xml -rd offgrid=true >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_offgrid_check.log
+No DRC Violations found
+{{Klayout Offgrid CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
 {{STEP UPDATE}} Executing Check 12 of 16: Klayout Metal Minimum Clear Area Density
 in CUSTOM klayout_gds_drc_check
-run: klayout -b -r /home/lrburle/mpw_precheck/checks/drc_checks/klayout/met_min_ca_density.lydrc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/outputs/reports/klayout_met_min_ca_density_check.xml >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/logs/klayout_met_min_ca_density_check.log
+run: klayout -b -r /home/lrburle/mpw_precheck/checks/drc_checks/klayout/met_min_ca_density.lydrc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_met_min_ca_density_check.xml >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_met_min_ca_density_check.log
 No DRC Violations found
 {{Klayout Metal Minimum Clear Area Density CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
 {{STEP UPDATE}} Executing Check 13 of 16: Klayout Pin Label Purposes Overlapping Drawing
 in CUSTOM klayout_gds_drc_check
-run: klayout -b -r /home/lrburle/mpw_precheck/checks/drc_checks/klayout/pin_label_purposes_overlapping_drawing.rb.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/outputs/reports/klayout_pin_label_purposes_overlapping_drawing_check.xml -rd top_cell_name=user_project_wrapper >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/logs/klayout_pin_label_purposes_overlapping_drawing_check.log
-[31mERROR klayout_pin_label_purposes_overlapping_drawing FAILED, stat=2, see /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/logs/klayout_pin_label_purposes_overlapping_drawing_check.log[0m
+run: klayout -b -r /home/lrburle/mpw_precheck/checks/drc_checks/klayout/pin_label_purposes_overlapping_drawing.rb.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_pin_label_purposes_overlapping_drawing_check.xml -rd top_cell_name=user_project_wrapper >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_pin_label_purposes_overlapping_drawing_check.log
+[31mERROR klayout_pin_label_purposes_overlapping_drawing FAILED, stat=2, see /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_pin_label_purposes_overlapping_drawing_check.log[0m
 [33m{{Klayout Pin Label Purposes Overlapping Drawing CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.[0m
 {{STEP UPDATE}} Executing Check 14 of 16: Klayout ZeroArea
 in CUSTOM klayout_gds_drc_check
-run: klayout -b -r /home/lrburle/mpw_precheck/checks/drc_checks/klayout/zeroarea.rb.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/outputs/reports/klayout_zeroarea_check.xml -rd cleaned_output=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/outputs/user_project_wrapper_no_zero_areas.gds >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/logs/klayout_zeroarea_check.log
+run: klayout -b -r /home/lrburle/mpw_precheck/checks/drc_checks/klayout/zeroarea.rb.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_zeroarea_check.xml -rd cleaned_output=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/user_project_wrapper_no_zero_areas.gds >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_zeroarea_check.log
 No DRC Violations found
 {{Klayout ZeroArea CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
 {{STEP UPDATE}} Executing Check 15 of 16: OEB
@@ -127,8 +116,8 @@ LVS_SPICE_FILES : /opt/open_pdk/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice
 LVS_VERILOG_FILES : /home/lrburle/OSU/google_ring_oscillator/caravel/verilog/gl/user_proj_example.v /home/lrburle/OSU/google_ring_oscillator/caravel/verilog/gl/user_project_wrapper.v
 LAYOUT_FILE : /home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds
 run: run_oeb_check
-OEB output directory: /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09
-[31mERROR OEB FAILED, stat=5, see /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/logs/OEB_check.log[0m
+OEB output directory: /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29
+[31mERROR OEB FAILED, stat=5, see /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/OEB_check.log[0m
 [33m{{OEB CHECK FAILED}} The design, user_project_wrapper, has OEB violations.[0m
 {{STEP UPDATE}} Executing Check 16 of 16: LVS
 Loading LVS environment from /home/lrburle/OSU/google_ring_oscillator/caravel/lvs/user_project_wrapper/lvs_config.json
@@ -141,8 +130,8 @@ LVS_SPICE_FILES : /opt/open_pdk/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice
 LVS_VERILOG_FILES : /home/lrburle/OSU/google_ring_oscillator/caravel/verilog/gl/user_proj_example.v /home/lrburle/OSU/google_ring_oscillator/caravel/verilog/gl/user_project_wrapper.v
 LAYOUT_FILE : /home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds
 run: run_be_checks
-LVS output directory: /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09
-[31mERROR LVS FAILED, stat=1, see /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/logs/LVS_check.log[0m
+LVS output directory: /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29
+[31mERROR LVS FAILED, stat=1, see /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/LVS_check.log[0m
 [33m{{LVS CHECK FAILED}} The design, user_project_wrapper, has LVS violations.[0m
-{{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/05_MAR_2024___17_01_09/logs'
-[1;31m{{FAILURE}} 7 Check(s) Failed: ['Default', 'Klayout FEOL', 'Klayout BEOL', 'Klayout Offgrid', 'Klayout Pin Label Purposes Overlapping Drawing', 'OEB', 'LVS'] !!![0m
+{{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs'
+[1;31m{{FAILURE}} 5 Check(s) Failed: ['Klayout FEOL', 'Klayout BEOL', 'Klayout Pin Label Purposes Overlapping Drawing', 'OEB', 'LVS'] !!![0m
