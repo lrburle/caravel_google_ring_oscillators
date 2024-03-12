@@ -398,27 +398,27 @@ library (user_project_wrapper) {
     }
     pin("io_in[5]") {
       direction : input;
-      capacitance : 0.1752;
+      capacitance : 0.1824;
     }
     pin("io_in[4]") {
       direction : input;
-      capacitance : 0.2010;
+      capacitance : 0.2011;
     }
     pin("io_in[3]") {
       direction : input;
-      capacitance : 0.2465;
+      capacitance : 0.2463;
     }
     pin("io_in[2]") {
       direction : input;
-      capacitance : 0.3178;
+      capacitance : 0.3167;
     }
     pin("io_in[1]") {
       direction : input;
-      capacitance : 0.3167;
+      capacitance : 0.3198;
     }
     pin("io_in[0]") {
       direction : input;
-      capacitance : 0.3091;
+      capacitance : 0.3055;
     }
     }
     bus("io_oeb") {
