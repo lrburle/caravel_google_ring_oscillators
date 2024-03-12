@@ -3,7 +3,7 @@
 {{Project GDS Info}} user_project_wrapper: ed1490b4a3430c6a608b8bf940e5ba06694024b1
 {{Tools Info}} KLayout: v0.28.12 | Magic: v8.3.452
 {{PDKs Info}} SKY130A: None | Open PDKs: e3b630d9b7c0e23615367d52c4f78b2d2ede58ac
-{{START}} Precheck Started, the full log 'precheck.log' will be located in '/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs'
+{{START}} Precheck Started, the full log 'precheck.log' will be located in '/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/logs'
 {{PRECHECK SEQUENCE}} Precheck will run the following checks: [License, Makefile, Default, Documentation, Consistency, GPIO-Defines, XOR, Magic DRC, Klayout FEOL, Klayout BEOL, Klayout Offgrid, Klayout Metal Minimum Clear Area Density, Klayout Pin Label Purposes Overlapping Drawing, Klayout ZeroArea, OEB, LVS]
 {{STEP UPDATE}} Executing Check 1 of 16: License
 An approved LICENSE (Apache-2.0) was found in /home/lrburle/OSU/google_ring_oscillator/caravel.
@@ -34,10 +34,10 @@ PORT TYPES CHECK PASSED: Netlist user_project_wrapper port types match the golde
 GPIO-DEFINES: Checking verilog/rtl/user_defines.v, parsing files: ['/home/lrburle/mpw_precheck/checks/gpio_defines_check/verilog_assets/gpio_modes_base.v', '/home/lrburle/OSU/google_ring_oscillator/caravel/verilog/rtl/user_defines.v', '/home/lrburle/mpw_precheck/checks/gpio_defines_check/verilog_assets/gpio_modes_observe.v']
 Generating LALR tables
 WARNING: 183 shift/reduce conflicts
-GPIO-DEFINES report path: /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/gpio_defines.report
+GPIO-DEFINES report path: /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/outputs/reports/gpio_defines.report
 {{GPIO-DEFINES CHECK PASSED}} The user verilog/rtl/user_defines.v is valid.
 {{STEP UPDATE}} Executing Check 7 of 16: XOR
-{{XOR CHECK UPDATE}} Total XOR differences: 0, for more details view /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/user_project_wrapper.xor.gds
+{{XOR CHECK UPDATE}} Total XOR differences: 0, for more details view /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/outputs/user_project_wrapper.xor.gds
 {{XOR CHECK PASSED}} The GDS file has no XOR violations.
 {{STEP UPDATE}} Executing Check 8 of 16: Magic DRC
 Found 14190 violations
@@ -77,32 +77,32 @@ Found 14190 violations
 [33m{{MAGIC DRC CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.[0m
 {{STEP UPDATE}} Executing Check 9 of 16: Klayout FEOL
 in CUSTOM klayout_gds_drc_check
-run: klayout -b -r /home/lrburle/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_feol_check.xml -rd feol=true >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_feol_check.log
-[31mTotal # of DRC violations is 40 Please check /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_feol_check.xml For more details[0m
+run: klayout -b -r /home/lrburle/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/outputs/reports/klayout_feol_check.xml -rd feol=true >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/logs/klayout_feol_check.log
+[31mTotal # of DRC violations is 40 Please check /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/outputs/reports/klayout_feol_check.xml For more details[0m
 [33m{{Klayout FEOL CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.[0m
 {{STEP UPDATE}} Executing Check 10 of 16: Klayout BEOL
 in CUSTOM klayout_gds_drc_check
-run: klayout -b -r /home/lrburle/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_beol_check.xml -rd beol=true >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_beol_check.log
-[31mTotal # of DRC violations is 1092 Please check /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_beol_check.xml For more details[0m
+run: klayout -b -r /home/lrburle/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/outputs/reports/klayout_beol_check.xml -rd beol=true >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/logs/klayout_beol_check.log
+[31mTotal # of DRC violations is 1092 Please check /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/outputs/reports/klayout_beol_check.xml For more details[0m
 [33m{{Klayout BEOL CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.[0m
 {{STEP UPDATE}} Executing Check 11 of 16: Klayout Offgrid
 in CUSTOM klayout_gds_drc_check
-run: klayout -b -r /home/lrburle/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_offgrid_check.xml -rd offgrid=true >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_offgrid_check.log
+run: klayout -b -r /home/lrburle/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/outputs/reports/klayout_offgrid_check.xml -rd offgrid=true >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/logs/klayout_offgrid_check.log
 No DRC Violations found
 {{Klayout Offgrid CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
 {{STEP UPDATE}} Executing Check 12 of 16: Klayout Metal Minimum Clear Area Density
 in CUSTOM klayout_gds_drc_check
-run: klayout -b -r /home/lrburle/mpw_precheck/checks/drc_checks/klayout/met_min_ca_density.lydrc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_met_min_ca_density_check.xml >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_met_min_ca_density_check.log
+run: klayout -b -r /home/lrburle/mpw_precheck/checks/drc_checks/klayout/met_min_ca_density.lydrc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/outputs/reports/klayout_met_min_ca_density_check.xml >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/logs/klayout_met_min_ca_density_check.log
 No DRC Violations found
 {{Klayout Metal Minimum Clear Area Density CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
 {{STEP UPDATE}} Executing Check 13 of 16: Klayout Pin Label Purposes Overlapping Drawing
 in CUSTOM klayout_gds_drc_check
-run: klayout -b -r /home/lrburle/mpw_precheck/checks/drc_checks/klayout/pin_label_purposes_overlapping_drawing.rb.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_pin_label_purposes_overlapping_drawing_check.xml -rd top_cell_name=user_project_wrapper >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_pin_label_purposes_overlapping_drawing_check.log
-[31mERROR klayout_pin_label_purposes_overlapping_drawing FAILED, stat=2, see /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_pin_label_purposes_overlapping_drawing_check.log[0m
+run: klayout -b -r /home/lrburle/mpw_precheck/checks/drc_checks/klayout/pin_label_purposes_overlapping_drawing.rb.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/outputs/reports/klayout_pin_label_purposes_overlapping_drawing_check.xml -rd top_cell_name=user_project_wrapper >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/logs/klayout_pin_label_purposes_overlapping_drawing_check.log
+[31mERROR klayout_pin_label_purposes_overlapping_drawing FAILED, stat=2, see /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/logs/klayout_pin_label_purposes_overlapping_drawing_check.log[0m
 [33m{{Klayout Pin Label Purposes Overlapping Drawing CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.[0m
 {{STEP UPDATE}} Executing Check 14 of 16: Klayout ZeroArea
 in CUSTOM klayout_gds_drc_check
-run: klayout -b -r /home/lrburle/mpw_precheck/checks/drc_checks/klayout/zeroarea.rb.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/reports/klayout_zeroarea_check.xml -rd cleaned_output=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/outputs/user_project_wrapper_no_zero_areas.gds >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/klayout_zeroarea_check.log
+run: klayout -b -r /home/lrburle/mpw_precheck/checks/drc_checks/klayout/zeroarea.rb.drc -rd input=/home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/outputs/reports/klayout_zeroarea_check.xml -rd cleaned_output=/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/outputs/user_project_wrapper_no_zero_areas.gds >& /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/logs/klayout_zeroarea_check.log
 No DRC Violations found
 {{Klayout ZeroArea CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
 {{STEP UPDATE}} Executing Check 15 of 16: OEB
@@ -116,8 +116,8 @@ LVS_SPICE_FILES : /opt/open_pdk/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice
 LVS_VERILOG_FILES : /home/lrburle/OSU/google_ring_oscillator/caravel/verilog/gl/user_proj_example.v /home/lrburle/OSU/google_ring_oscillator/caravel/verilog/gl/user_project_wrapper.v
 LAYOUT_FILE : /home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds
 run: run_oeb_check
-OEB output directory: /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29
-[31mERROR OEB FAILED, stat=5, see /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/OEB_check.log[0m
+OEB output directory: /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47
+[31mERROR OEB FAILED, stat=5, see /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/logs/OEB_check.log[0m
 [33m{{OEB CHECK FAILED}} The design, user_project_wrapper, has OEB violations.[0m
 {{STEP UPDATE}} Executing Check 16 of 16: LVS
 Loading LVS environment from /home/lrburle/OSU/google_ring_oscillator/caravel/lvs/user_project_wrapper/lvs_config.json
@@ -130,8 +130,8 @@ LVS_SPICE_FILES : /opt/open_pdk/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice
 LVS_VERILOG_FILES : /home/lrburle/OSU/google_ring_oscillator/caravel/verilog/gl/user_proj_example.v /home/lrburle/OSU/google_ring_oscillator/caravel/verilog/gl/user_project_wrapper.v
 LAYOUT_FILE : /home/lrburle/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds
 run: run_be_checks
-LVS output directory: /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29
-[31mERROR LVS FAILED, stat=1, see /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs/LVS_check.log[0m
+LVS output directory: /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47
+[31mERROR LVS FAILED, stat=1, see /home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/logs/LVS_check.log[0m
 [33m{{LVS CHECK FAILED}} The design, user_project_wrapper, has LVS violations.[0m
-{{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___15_28_29/logs'
+{{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/home/lrburle/OSU/google_ring_oscillator/caravel/precheck_results/12_MAR_2024___18_28_47/logs'
 [1;31m{{FAILURE}} 5 Check(s) Failed: ['Klayout FEOL', 'Klayout BEOL', 'Klayout Pin Label Purposes Overlapping Drawing', 'OEB', 'LVS'] !!![0m
