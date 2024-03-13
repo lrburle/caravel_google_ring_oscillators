@@ -10,7 +10,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 33.02 0 33.37 2.96 ;
@@ -26,10 +26,10 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
         RECT 32.99 2.18 33.285 2.41 ;
         RECT 32.99 3.66 33.28 3.89 ;
         RECT 33.05 2.18 33.22 3.89 ;
-      LAYER via1 ;
-        RECT 33.12 2.695 33.27 2.845 ;
       LAYER via2 ;
         RECT 33.095 2.67 33.295 2.87 ;
+      LAYER via1 ;
+        RECT 33.12 2.695 33.27 2.845 ;
       LAYER mcon ;
         RECT 33.05 3.69 33.22 3.86 ;
         RECT 33.05 2.21 33.225 2.38 ;
@@ -38,7 +38,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 48.8 0 49.15 2.96 ;
@@ -54,10 +54,10 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
         RECT 48.77 2.18 49.065 2.41 ;
         RECT 48.77 3.66 49.06 3.89 ;
         RECT 48.83 2.18 49 3.89 ;
-      LAYER via1 ;
-        RECT 48.9 2.695 49.05 2.845 ;
       LAYER via2 ;
         RECT 48.875 2.67 49.075 2.87 ;
+      LAYER via1 ;
+        RECT 48.9 2.695 49.05 2.845 ;
       LAYER mcon ;
         RECT 48.83 3.69 49 3.86 ;
         RECT 48.83 2.21 49.005 2.38 ;
@@ -66,7 +66,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 64.575 0 64.925 2.96 ;
@@ -82,10 +82,10 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
         RECT 64.545 2.18 64.84 2.41 ;
         RECT 64.545 3.66 64.835 3.89 ;
         RECT 64.605 2.18 64.775 3.89 ;
-      LAYER via1 ;
-        RECT 64.675 2.695 64.825 2.845 ;
       LAYER via2 ;
         RECT 64.65 2.67 64.85 2.87 ;
+      LAYER via1 ;
+        RECT 64.675 2.695 64.825 2.845 ;
       LAYER mcon ;
         RECT 64.605 3.69 64.775 3.86 ;
         RECT 64.605 2.21 64.78 2.38 ;
@@ -94,7 +94,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 80.36 0 80.71 2.96 ;
@@ -110,10 +110,10 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
         RECT 80.33 2.18 80.625 2.41 ;
         RECT 80.33 3.66 80.62 3.89 ;
         RECT 80.39 2.18 80.56 3.89 ;
-      LAYER via1 ;
-        RECT 80.46 2.695 80.61 2.845 ;
       LAYER via2 ;
         RECT 80.435 2.67 80.635 2.87 ;
+      LAYER via1 ;
+        RECT 80.46 2.695 80.61 2.845 ;
       LAYER mcon ;
         RECT 80.39 3.69 80.56 3.86 ;
         RECT 80.39 2.21 80.565 2.38 ;
@@ -122,7 +122,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 96.145 0 96.495 2.96 ;
@@ -138,10 +138,10 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
         RECT 96.115 2.18 96.41 2.41 ;
         RECT 96.115 3.66 96.405 3.89 ;
         RECT 96.175 2.18 96.345 3.89 ;
-      LAYER via1 ;
-        RECT 96.245 2.695 96.395 2.845 ;
       LAYER via2 ;
         RECT 96.22 2.67 96.42 2.87 ;
+      LAYER via1 ;
+        RECT 96.245 2.695 96.395 2.845 ;
       LAYER mcon ;
         RECT 96.175 3.69 96.345 3.86 ;
         RECT 96.175 2.21 96.35 2.38 ;
@@ -150,7 +150,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER li1 ;
         RECT 28.895 2.955 29.065 4.225 ;
@@ -180,7 +180,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER li1 ;
         RECT 44.675 2.955 44.845 4.225 ;
@@ -210,7 +210,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER li1 ;
         RECT 60.45 2.955 60.62 4.225 ;
@@ -240,7 +240,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER li1 ;
         RECT 76.235 2.955 76.405 4.225 ;
@@ -270,7 +270,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER li1 ;
         RECT 92.02 2.955 92.19 4.225 ;
@@ -958,18 +958,18 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r1
         RECT 25.1 4.135 25.52 4.255 ;
         RECT 25.1 4.08 25.5 4.255 ;
         RECT 25.1 4.015 25.335 4.255 ;
-      LAYER via1 ;
-        RECT 26.97 4.155 27.12 4.305 ;
-        RECT 42.75 4.155 42.9 4.305 ;
-        RECT 58.525 4.155 58.675 4.305 ;
-        RECT 74.31 4.155 74.46 4.305 ;
-        RECT 90.095 4.155 90.245 4.305 ;
       LAYER via2 ;
         RECT 26.955 4.335 27.155 4.535 ;
         RECT 42.735 4.335 42.935 4.535 ;
         RECT 58.51 4.335 58.71 4.535 ;
         RECT 74.295 4.335 74.495 4.535 ;
         RECT 90.08 4.335 90.28 4.535 ;
+      LAYER via1 ;
+        RECT 26.97 4.155 27.12 4.305 ;
+        RECT 42.75 4.155 42.9 4.305 ;
+        RECT 58.525 4.155 58.675 4.305 ;
+        RECT 74.31 4.155 74.46 4.305 ;
+        RECT 90.095 4.155 90.245 4.305 ;
       LAYER mcon ;
         RECT 15.295 10.895 15.465 11.065 ;
         RECT 15.975 10.895 16.145 11.065 ;
@@ -10575,7 +10575,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 33.05 0 33.43 3.06 ;
@@ -10590,10 +10590,10 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
         RECT 33.035 2.175 33.33 2.405 ;
         RECT 33.035 3.655 33.325 3.885 ;
         RECT 33.095 2.175 33.265 3.885 ;
-      LAYER via1 ;
-        RECT 33.165 2.795 33.315 2.945 ;
       LAYER via2 ;
         RECT 33.14 2.77 33.34 2.97 ;
+      LAYER via1 ;
+        RECT 33.165 2.795 33.315 2.945 ;
       LAYER mcon ;
         RECT 33.095 3.685 33.265 3.855 ;
         RECT 33.095 2.205 33.27 2.375 ;
@@ -10602,7 +10602,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 48.83 0 49.21 3.06 ;
@@ -10617,10 +10617,10 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
         RECT 48.815 2.175 49.11 2.405 ;
         RECT 48.815 3.655 49.105 3.885 ;
         RECT 48.875 2.175 49.045 3.885 ;
-      LAYER via1 ;
-        RECT 48.945 2.795 49.095 2.945 ;
       LAYER via2 ;
         RECT 48.92 2.77 49.12 2.97 ;
+      LAYER via1 ;
+        RECT 48.945 2.795 49.095 2.945 ;
       LAYER mcon ;
         RECT 48.875 3.685 49.045 3.855 ;
         RECT 48.875 2.205 49.05 2.375 ;
@@ -10629,7 +10629,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 64.605 0 64.985 3.06 ;
@@ -10644,10 +10644,10 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
         RECT 64.59 2.175 64.885 2.405 ;
         RECT 64.59 3.655 64.88 3.885 ;
         RECT 64.65 2.175 64.82 3.885 ;
-      LAYER via1 ;
-        RECT 64.72 2.795 64.87 2.945 ;
       LAYER via2 ;
         RECT 64.695 2.77 64.895 2.97 ;
+      LAYER via1 ;
+        RECT 64.72 2.795 64.87 2.945 ;
       LAYER mcon ;
         RECT 64.65 3.685 64.82 3.855 ;
         RECT 64.65 2.205 64.825 2.375 ;
@@ -10656,7 +10656,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 80.39 0 80.77 3.06 ;
@@ -10671,10 +10671,10 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
         RECT 80.375 2.175 80.67 2.405 ;
         RECT 80.375 3.655 80.665 3.885 ;
         RECT 80.435 2.175 80.605 3.885 ;
-      LAYER via1 ;
-        RECT 80.505 2.795 80.655 2.945 ;
       LAYER via2 ;
         RECT 80.48 2.77 80.68 2.97 ;
+      LAYER via1 ;
+        RECT 80.505 2.795 80.655 2.945 ;
       LAYER mcon ;
         RECT 80.435 3.685 80.605 3.855 ;
         RECT 80.435 2.205 80.61 2.375 ;
@@ -10683,7 +10683,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 96.175 0 96.555 3.06 ;
@@ -10698,10 +10698,10 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
         RECT 96.16 2.175 96.455 2.405 ;
         RECT 96.16 3.655 96.45 3.885 ;
         RECT 96.22 2.175 96.39 3.885 ;
-      LAYER via1 ;
-        RECT 96.29 2.795 96.44 2.945 ;
       LAYER via2 ;
         RECT 96.265 2.77 96.465 2.97 ;
+      LAYER via1 ;
+        RECT 96.29 2.795 96.44 2.945 ;
       LAYER mcon ;
         RECT 96.22 3.685 96.39 3.855 ;
         RECT 96.22 2.205 96.395 2.375 ;
@@ -10710,7 +10710,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER li1 ;
         RECT 28.945 2.955 29.115 4.225 ;
@@ -10740,7 +10740,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER li1 ;
         RECT 44.725 2.955 44.895 4.225 ;
@@ -10770,7 +10770,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER li1 ;
         RECT 60.5 2.955 60.67 4.225 ;
@@ -10800,7 +10800,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER li1 ;
         RECT 76.285 2.955 76.455 4.225 ;
@@ -10830,7 +10830,7 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER li1 ;
         RECT 92.07 2.955 92.24 4.225 ;
@@ -11411,18 +11411,18 @@ MACRO sky130_osu_ring_oscillator_mpr2aa_8_b0r2
         RECT 24.935 8.605 25.4 8.775 ;
         RECT 24.735 8.6 25.105 8.77 ;
         RECT 24.735 8.6 24.905 12.46 ;
-      LAYER via1 ;
-        RECT 27.02 4.155 27.17 4.305 ;
-        RECT 42.8 4.155 42.95 4.305 ;
-        RECT 58.575 4.155 58.725 4.305 ;
-        RECT 74.36 4.155 74.51 4.305 ;
-        RECT 90.145 4.155 90.295 4.305 ;
       LAYER via2 ;
         RECT 27.005 4.335 27.205 4.535 ;
         RECT 42.785 4.335 42.985 4.535 ;
         RECT 58.56 4.335 58.76 4.535 ;
         RECT 74.345 4.335 74.545 4.535 ;
         RECT 90.13 4.335 90.33 4.535 ;
+      LAYER via1 ;
+        RECT 27.02 4.155 27.17 4.305 ;
+        RECT 42.8 4.155 42.95 4.305 ;
+        RECT 58.575 4.155 58.725 4.305 ;
+        RECT 74.36 4.155 74.51 4.305 ;
+        RECT 90.145 4.155 90.295 4.305 ;
       LAYER mcon ;
         RECT 15.36 10.895 15.53 11.065 ;
         RECT 16.04 10.895 16.21 11.065 ;
@@ -21012,7 +21012,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 35.085 0 35.465 5.265 ;
@@ -21028,10 +21028,10 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
         RECT 35.125 2.175 35.42 2.405 ;
         RECT 35.125 3.655 35.415 3.885 ;
         RECT 35.185 2.175 35.355 3.885 ;
-      LAYER via1 ;
-        RECT 35.2 5 35.35 5.15 ;
       LAYER via2 ;
         RECT 35.175 4.975 35.375 5.175 ;
+      LAYER via1 ;
+        RECT 35.2 5 35.35 5.15 ;
       LAYER mcon ;
         RECT 35.185 3.685 35.355 3.855 ;
         RECT 35.19 4.985 35.36 5.155 ;
@@ -21041,7 +21041,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 53.01 0 53.39 5.265 ;
@@ -21057,10 +21057,10 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
         RECT 53.05 2.175 53.345 2.405 ;
         RECT 53.05 3.655 53.34 3.885 ;
         RECT 53.11 2.175 53.28 3.885 ;
-      LAYER via1 ;
-        RECT 53.125 5 53.275 5.15 ;
       LAYER via2 ;
         RECT 53.1 4.975 53.3 5.175 ;
+      LAYER via1 ;
+        RECT 53.125 5 53.275 5.15 ;
       LAYER mcon ;
         RECT 53.11 3.685 53.28 3.855 ;
         RECT 53.115 4.985 53.285 5.155 ;
@@ -21070,7 +21070,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 70.935 0 71.315 5.265 ;
@@ -21086,10 +21086,10 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
         RECT 70.975 2.175 71.27 2.405 ;
         RECT 70.975 3.655 71.265 3.885 ;
         RECT 71.035 2.175 71.205 3.885 ;
-      LAYER via1 ;
-        RECT 71.05 5 71.2 5.15 ;
       LAYER via2 ;
         RECT 71.025 4.975 71.225 5.175 ;
+      LAYER via1 ;
+        RECT 71.05 5 71.2 5.15 ;
       LAYER mcon ;
         RECT 71.035 3.685 71.205 3.855 ;
         RECT 71.04 4.985 71.21 5.155 ;
@@ -21099,7 +21099,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 88.86 0 89.24 5.265 ;
@@ -21115,10 +21115,10 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
         RECT 88.9 2.175 89.195 2.405 ;
         RECT 88.9 3.655 89.19 3.885 ;
         RECT 88.96 2.175 89.13 3.885 ;
-      LAYER via1 ;
-        RECT 88.975 5 89.125 5.15 ;
       LAYER via2 ;
         RECT 88.95 4.975 89.15 5.175 ;
+      LAYER via1 ;
+        RECT 88.975 5 89.125 5.15 ;
       LAYER mcon ;
         RECT 88.96 3.685 89.13 3.855 ;
         RECT 88.965 4.985 89.135 5.155 ;
@@ -21128,7 +21128,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 106.785 0 107.165 5.265 ;
@@ -21144,10 +21144,10 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
         RECT 106.825 2.175 107.12 2.405 ;
         RECT 106.825 3.655 107.115 3.885 ;
         RECT 106.885 2.175 107.055 3.885 ;
-      LAYER via1 ;
-        RECT 106.9 5 107.05 5.15 ;
       LAYER via2 ;
         RECT 106.875 4.975 107.075 5.175 ;
+      LAYER via1 ;
+        RECT 106.9 5 107.05 5.15 ;
       LAYER mcon ;
         RECT 106.885 3.685 107.055 3.855 ;
         RECT 106.89 4.985 107.06 5.155 ;
@@ -21157,7 +21157,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 30.96 4 31.31 4.35 ;
@@ -21187,7 +21187,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 48.885 4 49.235 4.35 ;
@@ -21217,7 +21217,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 66.81 4 67.16 4.35 ;
@@ -21247,7 +21247,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 84.735 4 85.085 4.35 ;
@@ -21277,7 +21277,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 102.66 4 103.01 4.35 ;
@@ -21933,6 +21933,12 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
         RECT 21.485 3.93 21.745 4.19 ;
         RECT 20.115 4.41 20.375 4.67 ;
         RECT 20.02 4.41 20.375 4.64 ;
+      LAYER via2 ;
+        RECT 20.2 3.925 20.41 4.125 ;
+        RECT 38.125 3.925 38.335 4.125 ;
+        RECT 56.05 3.925 56.26 4.125 ;
+        RECT 73.975 3.925 74.185 4.125 ;
+        RECT 91.9 3.925 92.11 4.125 ;
       LAYER via1 ;
         RECT 20.17 4.465 20.32 4.615 ;
         RECT 20.25 2.595 20.4 2.745 ;
@@ -21949,12 +21955,6 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r1
         RECT 91.87 4.465 92.02 4.615 ;
         RECT 91.95 2.595 92.1 2.745 ;
         RECT 93.24 3.985 93.39 4.135 ;
-      LAYER via2 ;
-        RECT 20.2 3.925 20.41 4.125 ;
-        RECT 38.125 3.925 38.335 4.125 ;
-        RECT 56.05 3.925 56.26 4.125 ;
-        RECT 73.975 3.925 74.185 4.125 ;
-        RECT 91.9 3.925 92.11 4.125 ;
       LAYER mcon ;
         RECT 15.315 11.045 15.485 11.215 ;
         RECT 15.995 11.045 16.165 11.215 ;
@@ -31751,7 +31751,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 35.23 0 35.61 5.265 ;
@@ -31766,10 +31766,10 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
         RECT 35.27 2.175 35.565 2.405 ;
         RECT 35.27 3.655 35.56 3.885 ;
         RECT 35.33 2.175 35.5 3.885 ;
-      LAYER via1 ;
-        RECT 35.345 5 35.495 5.15 ;
       LAYER via2 ;
         RECT 35.32 4.975 35.52 5.175 ;
+      LAYER via1 ;
+        RECT 35.345 5 35.495 5.15 ;
       LAYER mcon ;
         RECT 35.33 3.685 35.5 3.855 ;
         RECT 35.335 4.985 35.505 5.155 ;
@@ -31779,7 +31779,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 53.155 0 53.535 5.265 ;
@@ -31794,10 +31794,10 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
         RECT 53.195 2.175 53.49 2.405 ;
         RECT 53.195 3.655 53.485 3.885 ;
         RECT 53.255 2.175 53.425 3.885 ;
-      LAYER via1 ;
-        RECT 53.27 5 53.42 5.15 ;
       LAYER via2 ;
         RECT 53.245 4.975 53.445 5.175 ;
+      LAYER via1 ;
+        RECT 53.27 5 53.42 5.15 ;
       LAYER mcon ;
         RECT 53.255 3.685 53.425 3.855 ;
         RECT 53.26 4.985 53.43 5.155 ;
@@ -31807,7 +31807,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 71.08 0 71.46 5.265 ;
@@ -31822,10 +31822,10 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
         RECT 71.12 2.175 71.415 2.405 ;
         RECT 71.12 3.655 71.41 3.885 ;
         RECT 71.18 2.175 71.35 3.885 ;
-      LAYER via1 ;
-        RECT 71.195 5 71.345 5.15 ;
       LAYER via2 ;
         RECT 71.17 4.975 71.37 5.175 ;
+      LAYER via1 ;
+        RECT 71.195 5 71.345 5.15 ;
       LAYER mcon ;
         RECT 71.18 3.685 71.35 3.855 ;
         RECT 71.185 4.985 71.355 5.155 ;
@@ -31835,7 +31835,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 89.005 0 89.385 5.265 ;
@@ -31850,10 +31850,10 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
         RECT 89.045 2.175 89.34 2.405 ;
         RECT 89.045 3.655 89.335 3.885 ;
         RECT 89.105 2.175 89.275 3.885 ;
-      LAYER via1 ;
-        RECT 89.12 5 89.27 5.15 ;
       LAYER via2 ;
         RECT 89.095 4.975 89.295 5.175 ;
+      LAYER via1 ;
+        RECT 89.12 5 89.27 5.15 ;
       LAYER mcon ;
         RECT 89.105 3.685 89.275 3.855 ;
         RECT 89.11 4.985 89.28 5.155 ;
@@ -31863,7 +31863,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 106.93 0 107.31 5.265 ;
@@ -31878,10 +31878,10 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
         RECT 106.97 2.175 107.265 2.405 ;
         RECT 106.97 3.655 107.26 3.885 ;
         RECT 107.03 2.175 107.2 3.885 ;
-      LAYER via1 ;
-        RECT 107.045 5 107.195 5.15 ;
       LAYER via2 ;
         RECT 107.02 4.975 107.22 5.175 ;
+      LAYER via1 ;
+        RECT 107.045 5 107.195 5.15 ;
       LAYER mcon ;
         RECT 107.03 3.685 107.2 3.855 ;
         RECT 107.035 4.985 107.205 5.155 ;
@@ -31891,7 +31891,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 31.105 4 31.455 4.35 ;
@@ -31921,7 +31921,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 49.03 4 49.38 4.35 ;
@@ -31951,7 +31951,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 66.955 4 67.305 4.35 ;
@@ -31981,7 +31981,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 84.88 4 85.23 4.35 ;
@@ -32011,7 +32011,7 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 102.805 4 103.155 4.35 ;
@@ -32687,6 +32687,12 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
         RECT 21.63 3.93 21.89 4.19 ;
         RECT 20.26 4.41 20.52 4.67 ;
         RECT 20.18 4.42 20.52 4.63 ;
+      LAYER via2 ;
+        RECT 20.345 3.925 20.555 4.125 ;
+        RECT 38.27 3.925 38.48 4.125 ;
+        RECT 56.195 3.925 56.405 4.125 ;
+        RECT 74.12 3.925 74.33 4.125 ;
+        RECT 92.045 3.925 92.255 4.125 ;
       LAYER via1 ;
         RECT 20.315 4.465 20.465 4.615 ;
         RECT 20.395 2.595 20.545 2.745 ;
@@ -32703,12 +32709,6 @@ MACRO sky130_osu_ring_oscillator_mpr2at_8_b0r2
         RECT 92.015 4.465 92.165 4.615 ;
         RECT 92.095 2.595 92.245 2.745 ;
         RECT 93.385 3.985 93.535 4.135 ;
-      LAYER via2 ;
-        RECT 20.345 3.925 20.555 4.125 ;
-        RECT 38.27 3.925 38.48 4.125 ;
-        RECT 56.195 3.925 56.405 4.125 ;
-        RECT 74.12 3.925 74.33 4.125 ;
-        RECT 92.045 3.925 92.255 4.125 ;
       LAYER mcon ;
         RECT 15.46 11.045 15.63 11.215 ;
         RECT 16.14 11.045 16.31 11.215 ;
@@ -42484,7 +42484,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 33.745 0 34.125 5.26 ;
@@ -42499,10 +42499,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 33.785 2.18 34.08 2.41 ;
         RECT 33.785 3.66 34.075 3.89 ;
         RECT 33.845 2.18 34.015 3.89 ;
-      LAYER via1 ;
-        RECT 33.86 4.995 34.01 5.145 ;
       LAYER via2 ;
         RECT 33.835 4.97 34.035 5.17 ;
+      LAYER via1 ;
+        RECT 33.86 4.995 34.01 5.145 ;
       LAYER mcon ;
         RECT 33.845 3.69 34.015 3.86 ;
         RECT 33.845 2.21 34.015 2.38 ;
@@ -42512,7 +42512,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 50.33 0 50.71 5.26 ;
@@ -42527,10 +42527,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 50.37 2.18 50.665 2.41 ;
         RECT 50.37 3.66 50.66 3.89 ;
         RECT 50.43 2.18 50.6 3.89 ;
-      LAYER via1 ;
-        RECT 50.445 4.995 50.595 5.145 ;
       LAYER via2 ;
         RECT 50.42 4.97 50.62 5.17 ;
+      LAYER via1 ;
+        RECT 50.445 4.995 50.595 5.145 ;
       LAYER mcon ;
         RECT 50.43 3.69 50.6 3.86 ;
         RECT 50.43 2.21 50.6 2.38 ;
@@ -42540,7 +42540,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 66.915 0 67.295 5.26 ;
@@ -42555,10 +42555,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 66.955 2.18 67.25 2.41 ;
         RECT 66.955 3.66 67.245 3.89 ;
         RECT 67.015 2.18 67.185 3.89 ;
-      LAYER via1 ;
-        RECT 67.03 4.995 67.18 5.145 ;
       LAYER via2 ;
         RECT 67.005 4.97 67.205 5.17 ;
+      LAYER via1 ;
+        RECT 67.03 4.995 67.18 5.145 ;
       LAYER mcon ;
         RECT 67.015 3.69 67.185 3.86 ;
         RECT 67.015 2.21 67.185 2.38 ;
@@ -42568,7 +42568,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 83.5 0 83.88 5.26 ;
@@ -42583,10 +42583,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 83.54 2.18 83.835 2.41 ;
         RECT 83.54 3.66 83.83 3.89 ;
         RECT 83.6 2.18 83.77 3.89 ;
-      LAYER via1 ;
-        RECT 83.615 4.995 83.765 5.145 ;
       LAYER via2 ;
         RECT 83.59 4.97 83.79 5.17 ;
+      LAYER via1 ;
+        RECT 83.615 4.995 83.765 5.145 ;
       LAYER mcon ;
         RECT 83.6 3.69 83.77 3.86 ;
         RECT 83.6 2.21 83.77 2.38 ;
@@ -42596,7 +42596,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 100.08 0 100.46 5.26 ;
@@ -42611,10 +42611,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 100.12 2.18 100.415 2.41 ;
         RECT 100.12 3.66 100.41 3.89 ;
         RECT 100.18 2.18 100.35 3.89 ;
-      LAYER via1 ;
-        RECT 100.195 4.995 100.345 5.145 ;
       LAYER via2 ;
         RECT 100.17 4.97 100.37 5.17 ;
+      LAYER via1 ;
+        RECT 100.195 4.995 100.345 5.145 ;
       LAYER mcon ;
         RECT 100.18 3.69 100.35 3.86 ;
         RECT 100.18 2.21 100.35 2.38 ;
@@ -42624,8 +42624,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 18.38 8.125 18.72 12.455 ;
       LAYER met2 ;
         RECT 29.62 8.15 29.945 8.475 ;
         RECT 29.615 4.93 29.94 5.255 ;
@@ -42633,6 +42635,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 29.685 4.93 29.86 9.485 ;
         RECT 20.72 8.145 21 8.485 ;
         RECT 20.775 8.145 20.945 9.485 ;
+        RECT 18.41 8.125 18.69 8.495 ;
       LAYER li1 ;
         RECT 29.69 2.96 29.86 4.23 ;
         RECT 29.69 8.23 29.86 9.5 ;
@@ -42645,10 +42648,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 29.62 8.23 30.09 8.4 ;
         RECT 29.62 8.15 29.945 8.475 ;
         RECT 20.69 8.175 21.03 8.455 ;
-        RECT 18.405 8.23 21.03 8.4 ;
-        RECT 18.405 8.225 18.865 8.4 ;
-        RECT 18.405 8.195 18.695 8.425 ;
+        RECT 18.38 8.23 21.03 8.4 ;
+        RECT 18.38 8.225 18.865 8.4 ;
+        RECT 18.38 8.17 18.72 8.45 ;
+      LAYER via2 ;
+        RECT 18.45 8.21 18.65 8.41 ;
       LAYER via1 ;
+        RECT 18.475 8.235 18.625 8.385 ;
         RECT 20.785 8.24 20.935 8.39 ;
         RECT 29.705 5.015 29.855 5.165 ;
         RECT 29.71 8.235 29.86 8.385 ;
@@ -42661,8 +42667,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 34.965 8.125 35.305 12.455 ;
       LAYER met2 ;
         RECT 46.205 8.15 46.53 8.475 ;
         RECT 46.2 4.93 46.525 5.255 ;
@@ -42670,6 +42678,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 46.27 4.93 46.445 9.485 ;
         RECT 37.305 8.145 37.585 8.485 ;
         RECT 37.36 8.145 37.53 9.485 ;
+        RECT 34.995 8.125 35.275 8.495 ;
       LAYER li1 ;
         RECT 46.275 2.96 46.445 4.23 ;
         RECT 46.275 8.23 46.445 9.5 ;
@@ -42682,10 +42691,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 46.205 8.23 46.675 8.4 ;
         RECT 46.205 8.15 46.53 8.475 ;
         RECT 37.275 8.175 37.615 8.455 ;
-        RECT 34.99 8.23 37.615 8.4 ;
-        RECT 34.99 8.225 35.45 8.4 ;
-        RECT 34.99 8.195 35.28 8.425 ;
+        RECT 34.965 8.23 37.615 8.4 ;
+        RECT 34.965 8.225 35.45 8.4 ;
+        RECT 34.965 8.17 35.305 8.45 ;
+      LAYER via2 ;
+        RECT 35.035 8.21 35.235 8.41 ;
       LAYER via1 ;
+        RECT 35.06 8.235 35.21 8.385 ;
         RECT 37.37 8.24 37.52 8.39 ;
         RECT 46.29 5.015 46.44 5.165 ;
         RECT 46.295 8.235 46.445 8.385 ;
@@ -42698,8 +42710,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 51.55 8.125 51.89 12.455 ;
       LAYER met2 ;
         RECT 62.79 8.15 63.115 8.475 ;
         RECT 62.785 4.93 63.11 5.255 ;
@@ -42707,6 +42721,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 62.855 4.93 63.03 9.485 ;
         RECT 53.89 8.145 54.17 8.485 ;
         RECT 53.945 8.145 54.115 9.485 ;
+        RECT 51.58 8.125 51.86 8.495 ;
       LAYER li1 ;
         RECT 62.86 2.96 63.03 4.23 ;
         RECT 62.86 8.23 63.03 9.5 ;
@@ -42719,10 +42734,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 62.79 8.23 63.26 8.4 ;
         RECT 62.79 8.15 63.115 8.475 ;
         RECT 53.86 8.175 54.2 8.455 ;
-        RECT 51.575 8.23 54.2 8.4 ;
-        RECT 51.575 8.225 52.035 8.4 ;
-        RECT 51.575 8.195 51.865 8.425 ;
+        RECT 51.55 8.23 54.2 8.4 ;
+        RECT 51.55 8.225 52.035 8.4 ;
+        RECT 51.55 8.17 51.89 8.45 ;
+      LAYER via2 ;
+        RECT 51.62 8.21 51.82 8.41 ;
       LAYER via1 ;
+        RECT 51.645 8.235 51.795 8.385 ;
         RECT 53.955 8.24 54.105 8.39 ;
         RECT 62.875 5.015 63.025 5.165 ;
         RECT 62.88 8.235 63.03 8.385 ;
@@ -42735,8 +42753,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 68.135 8.125 68.475 12.455 ;
       LAYER met2 ;
         RECT 79.375 8.15 79.7 8.475 ;
         RECT 79.37 4.93 79.695 5.255 ;
@@ -42744,6 +42764,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 79.44 4.93 79.615 9.485 ;
         RECT 70.475 8.145 70.755 8.485 ;
         RECT 70.53 8.145 70.7 9.485 ;
+        RECT 68.165 8.125 68.445 8.495 ;
       LAYER li1 ;
         RECT 79.445 2.96 79.615 4.23 ;
         RECT 79.445 8.23 79.615 9.5 ;
@@ -42756,10 +42777,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 79.375 8.23 79.845 8.4 ;
         RECT 79.375 8.15 79.7 8.475 ;
         RECT 70.445 8.175 70.785 8.455 ;
-        RECT 68.16 8.23 70.785 8.4 ;
-        RECT 68.16 8.225 68.62 8.4 ;
-        RECT 68.16 8.195 68.45 8.425 ;
+        RECT 68.135 8.23 70.785 8.4 ;
+        RECT 68.135 8.225 68.62 8.4 ;
+        RECT 68.135 8.17 68.475 8.45 ;
+      LAYER via2 ;
+        RECT 68.205 8.21 68.405 8.41 ;
       LAYER via1 ;
+        RECT 68.23 8.235 68.38 8.385 ;
         RECT 70.54 8.24 70.69 8.39 ;
         RECT 79.46 5.015 79.61 5.165 ;
         RECT 79.465 8.235 79.615 8.385 ;
@@ -42772,8 +42796,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 84.715 8.125 85.055 12.455 ;
       LAYER met2 ;
         RECT 95.955 8.15 96.28 8.475 ;
         RECT 95.95 4.93 96.275 5.255 ;
@@ -42781,6 +42807,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 96.02 4.93 96.195 9.485 ;
         RECT 87.055 8.145 87.335 8.485 ;
         RECT 87.11 8.145 87.28 9.485 ;
+        RECT 84.745 8.125 85.025 8.495 ;
       LAYER li1 ;
         RECT 96.025 2.96 96.195 4.23 ;
         RECT 96.025 8.23 96.195 9.5 ;
@@ -42793,10 +42820,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 95.955 8.23 96.425 8.4 ;
         RECT 95.955 8.15 96.28 8.475 ;
         RECT 87.025 8.175 87.365 8.455 ;
-        RECT 84.74 8.23 87.365 8.4 ;
-        RECT 84.74 8.225 85.2 8.4 ;
-        RECT 84.74 8.195 85.03 8.425 ;
+        RECT 84.715 8.23 87.365 8.4 ;
+        RECT 84.715 8.225 85.2 8.4 ;
+        RECT 84.715 8.17 85.055 8.45 ;
+      LAYER via2 ;
+        RECT 84.785 8.21 84.985 8.41 ;
       LAYER via1 ;
+        RECT 84.81 8.235 84.96 8.385 ;
         RECT 87.12 8.24 87.27 8.39 ;
         RECT 96.04 5.015 96.19 5.165 ;
         RECT 96.045 8.235 96.195 8.385 ;
@@ -43292,18 +43322,18 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r1
         RECT 19.41 8.565 19.7 8.795 ;
         RECT 19.245 8.595 19.415 12.455 ;
         RECT 19.235 8.595 19.7 8.765 ;
-      LAYER via1 ;
-        RECT 23.995 7.835 24.145 7.985 ;
-        RECT 40.58 7.835 40.73 7.985 ;
-        RECT 57.165 7.835 57.315 7.985 ;
-        RECT 73.75 7.835 73.9 7.985 ;
-        RECT 90.33 7.835 90.48 7.985 ;
       LAYER via2 ;
         RECT 23.96 7.81 24.16 8.01 ;
         RECT 40.545 7.81 40.745 8.01 ;
         RECT 57.13 7.81 57.33 8.01 ;
         RECT 73.715 7.81 73.915 8.01 ;
         RECT 90.295 7.81 90.495 8.01 ;
+      LAYER via1 ;
+        RECT 23.995 7.835 24.145 7.985 ;
+        RECT 40.58 7.835 40.73 7.985 ;
+        RECT 57.165 7.835 57.315 7.985 ;
+        RECT 73.75 7.835 73.9 7.985 ;
+        RECT 90.33 7.835 90.48 7.985 ;
       LAYER mcon ;
         RECT 15.305 10.885 15.475 11.055 ;
         RECT 15.985 10.885 16.155 11.055 ;
@@ -45470,7 +45500,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 34.105 0 34.485 5.27 ;
@@ -45485,10 +45515,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 34.145 2.18 34.44 2.41 ;
         RECT 34.145 3.66 34.435 3.89 ;
         RECT 34.205 2.18 34.375 3.89 ;
-      LAYER via1 ;
-        RECT 34.22 5.005 34.37 5.155 ;
       LAYER via2 ;
         RECT 34.195 4.98 34.395 5.18 ;
+      LAYER via1 ;
+        RECT 34.22 5.005 34.37 5.155 ;
       LAYER mcon ;
         RECT 34.205 3.69 34.375 3.86 ;
         RECT 34.205 2.21 34.375 2.38 ;
@@ -45498,7 +45528,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 50.69 0 51.07 5.27 ;
@@ -45513,10 +45543,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 50.73 2.18 51.025 2.41 ;
         RECT 50.73 3.66 51.02 3.89 ;
         RECT 50.79 2.18 50.96 3.89 ;
-      LAYER via1 ;
-        RECT 50.805 5.005 50.955 5.155 ;
       LAYER via2 ;
         RECT 50.78 4.98 50.98 5.18 ;
+      LAYER via1 ;
+        RECT 50.805 5.005 50.955 5.155 ;
       LAYER mcon ;
         RECT 50.79 3.69 50.96 3.86 ;
         RECT 50.79 2.21 50.96 2.38 ;
@@ -45526,7 +45556,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 67.275 0.005 67.655 5.275 ;
@@ -45541,10 +45571,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 67.315 2.185 67.61 2.415 ;
         RECT 67.315 3.665 67.605 3.895 ;
         RECT 67.375 2.185 67.545 3.895 ;
-      LAYER via1 ;
-        RECT 67.39 5.01 67.54 5.16 ;
       LAYER via2 ;
         RECT 67.365 4.985 67.565 5.185 ;
+      LAYER via1 ;
+        RECT 67.39 5.01 67.54 5.16 ;
       LAYER mcon ;
         RECT 67.375 3.695 67.545 3.865 ;
         RECT 67.375 2.215 67.545 2.385 ;
@@ -45554,7 +45584,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 83.86 0.01 84.24 5.28 ;
@@ -45569,10 +45599,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 83.9 2.19 84.195 2.42 ;
         RECT 83.9 3.67 84.19 3.9 ;
         RECT 83.96 2.19 84.13 3.9 ;
-      LAYER via1 ;
-        RECT 83.975 5.015 84.125 5.165 ;
       LAYER via2 ;
         RECT 83.95 4.99 84.15 5.19 ;
+      LAYER via1 ;
+        RECT 83.975 5.015 84.125 5.165 ;
       LAYER mcon ;
         RECT 83.96 3.7 84.13 3.87 ;
         RECT 83.96 2.22 84.13 2.39 ;
@@ -45582,7 +45612,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 100.44 0.01 100.82 5.28 ;
@@ -45597,10 +45627,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 100.48 2.19 100.775 2.42 ;
         RECT 100.48 3.67 100.77 3.9 ;
         RECT 100.54 2.19 100.71 3.9 ;
-      LAYER via1 ;
-        RECT 100.555 5.015 100.705 5.165 ;
       LAYER via2 ;
         RECT 100.53 4.99 100.73 5.19 ;
+      LAYER via1 ;
+        RECT 100.555 5.015 100.705 5.165 ;
       LAYER mcon ;
         RECT 100.54 3.7 100.71 3.87 ;
         RECT 100.54 2.22 100.71 2.39 ;
@@ -45610,8 +45640,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 18.74 8.13 19.08 12.46 ;
       LAYER met2 ;
         RECT 29.98 8.15 30.305 8.475 ;
         RECT 29.975 4.93 30.3 5.255 ;
@@ -45619,6 +45651,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 30.045 4.93 30.22 9.47 ;
         RECT 21.08 8.145 21.36 8.485 ;
         RECT 21.135 8.145 21.305 9.47 ;
+        RECT 18.77 8.13 19.05 8.5 ;
       LAYER li1 ;
         RECT 30.05 2.96 30.22 4.23 ;
         RECT 30.05 8.23 30.22 9.5 ;
@@ -45631,10 +45664,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 29.98 8.23 30.45 8.4 ;
         RECT 29.98 8.15 30.305 8.475 ;
         RECT 21.05 8.175 21.39 8.455 ;
-        RECT 18.765 8.23 21.39 8.4 ;
-        RECT 18.765 8.225 19.225 8.4 ;
-        RECT 18.765 8.195 19.055 8.425 ;
+        RECT 18.74 8.23 21.39 8.4 ;
+        RECT 18.74 8.225 19.225 8.4 ;
+        RECT 18.74 8.175 19.08 8.455 ;
+      LAYER via2 ;
+        RECT 18.81 8.215 19.01 8.415 ;
       LAYER via1 ;
+        RECT 18.835 8.24 18.985 8.39 ;
         RECT 21.145 8.24 21.295 8.39 ;
         RECT 30.065 5.015 30.215 5.165 ;
         RECT 30.07 8.235 30.22 8.385 ;
@@ -45647,8 +45683,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 35.325 8.13 35.665 12.46 ;
       LAYER met2 ;
         RECT 46.565 8.15 46.89 8.475 ;
         RECT 46.56 4.93 46.885 5.255 ;
@@ -45656,6 +45694,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 46.63 4.93 46.805 9.47 ;
         RECT 37.665 8.145 37.945 8.485 ;
         RECT 37.72 8.145 37.89 9.47 ;
+        RECT 35.355 8.13 35.635 8.5 ;
       LAYER li1 ;
         RECT 46.635 2.96 46.805 4.23 ;
         RECT 46.635 8.23 46.805 9.5 ;
@@ -45668,10 +45707,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 46.565 8.23 47.035 8.4 ;
         RECT 46.565 8.15 46.89 8.475 ;
         RECT 37.635 8.175 37.975 8.455 ;
-        RECT 35.35 8.23 37.975 8.4 ;
-        RECT 35.35 8.225 35.81 8.4 ;
-        RECT 35.35 8.195 35.64 8.425 ;
+        RECT 35.325 8.23 37.975 8.4 ;
+        RECT 35.325 8.225 35.81 8.4 ;
+        RECT 35.325 8.175 35.665 8.455 ;
+      LAYER via2 ;
+        RECT 35.395 8.215 35.595 8.415 ;
       LAYER via1 ;
+        RECT 35.42 8.24 35.57 8.39 ;
         RECT 37.73 8.24 37.88 8.39 ;
         RECT 46.65 5.015 46.8 5.165 ;
         RECT 46.655 8.235 46.805 8.385 ;
@@ -45684,8 +45726,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 51.91 8.135 52.25 12.465 ;
       LAYER met2 ;
         RECT 63.15 8.155 63.475 8.48 ;
         RECT 63.145 4.935 63.47 5.26 ;
@@ -45693,6 +45737,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 63.215 4.935 63.39 9.475 ;
         RECT 54.25 8.15 54.53 8.49 ;
         RECT 54.305 8.15 54.475 9.475 ;
+        RECT 51.94 8.135 52.22 8.505 ;
       LAYER li1 ;
         RECT 63.22 2.965 63.39 4.235 ;
         RECT 63.22 8.235 63.39 9.505 ;
@@ -45705,10 +45750,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 63.15 8.235 63.62 8.405 ;
         RECT 63.15 8.155 63.475 8.48 ;
         RECT 54.22 8.18 54.56 8.46 ;
-        RECT 51.935 8.235 54.56 8.405 ;
-        RECT 51.935 8.23 52.395 8.405 ;
-        RECT 51.935 8.2 52.225 8.43 ;
+        RECT 51.91 8.235 54.56 8.405 ;
+        RECT 51.91 8.23 52.395 8.405 ;
+        RECT 51.91 8.18 52.25 8.46 ;
+      LAYER via2 ;
+        RECT 51.98 8.22 52.18 8.42 ;
       LAYER via1 ;
+        RECT 52.005 8.245 52.155 8.395 ;
         RECT 54.315 8.245 54.465 8.395 ;
         RECT 63.235 5.02 63.385 5.17 ;
         RECT 63.24 8.24 63.39 8.39 ;
@@ -45721,8 +45769,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 68.495 8.14 68.835 12.47 ;
       LAYER met2 ;
         RECT 79.735 8.16 80.06 8.485 ;
         RECT 79.73 4.94 80.055 5.265 ;
@@ -45730,6 +45780,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 79.8 4.94 79.975 9.48 ;
         RECT 70.835 8.155 71.115 8.495 ;
         RECT 70.89 8.155 71.06 9.48 ;
+        RECT 68.525 8.14 68.805 8.51 ;
       LAYER li1 ;
         RECT 79.805 2.97 79.975 4.24 ;
         RECT 79.805 8.24 79.975 9.51 ;
@@ -45742,10 +45793,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 79.735 8.24 80.205 8.41 ;
         RECT 79.735 8.16 80.06 8.485 ;
         RECT 70.805 8.185 71.145 8.465 ;
-        RECT 68.52 8.24 71.145 8.41 ;
-        RECT 68.52 8.235 68.98 8.41 ;
-        RECT 68.52 8.205 68.81 8.435 ;
+        RECT 68.495 8.24 71.145 8.41 ;
+        RECT 68.495 8.235 68.98 8.41 ;
+        RECT 68.495 8.185 68.835 8.465 ;
+      LAYER via2 ;
+        RECT 68.565 8.225 68.765 8.425 ;
       LAYER via1 ;
+        RECT 68.59 8.25 68.74 8.4 ;
         RECT 70.9 8.25 71.05 8.4 ;
         RECT 79.82 5.025 79.97 5.175 ;
         RECT 79.825 8.245 79.975 8.395 ;
@@ -45758,8 +45812,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 85.075 8.14 85.415 12.47 ;
       LAYER met2 ;
         RECT 96.315 8.16 96.64 8.485 ;
         RECT 96.31 4.94 96.635 5.265 ;
@@ -45767,6 +45823,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 96.38 4.94 96.555 9.48 ;
         RECT 87.415 8.155 87.695 8.495 ;
         RECT 87.47 8.155 87.64 9.48 ;
+        RECT 85.105 8.14 85.385 8.51 ;
       LAYER li1 ;
         RECT 96.385 2.97 96.555 4.24 ;
         RECT 96.385 8.24 96.555 9.51 ;
@@ -45779,10 +45836,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 96.315 8.24 96.785 8.41 ;
         RECT 96.315 8.16 96.64 8.485 ;
         RECT 87.385 8.185 87.725 8.465 ;
-        RECT 85.1 8.24 87.725 8.41 ;
-        RECT 85.1 8.235 85.56 8.41 ;
-        RECT 85.1 8.205 85.39 8.435 ;
+        RECT 85.075 8.24 87.725 8.41 ;
+        RECT 85.075 8.235 85.56 8.41 ;
+        RECT 85.075 8.185 85.415 8.465 ;
+      LAYER via2 ;
+        RECT 85.145 8.225 85.345 8.425 ;
       LAYER via1 ;
+        RECT 85.17 8.25 85.32 8.4 ;
         RECT 87.48 8.25 87.63 8.4 ;
         RECT 96.4 5.025 96.55 5.175 ;
         RECT 96.405 8.245 96.555 8.395 ;
@@ -46318,18 +46378,18 @@ MACRO sky130_osu_ring_oscillator_mpr2ca_8_b0r2
         RECT 19.605 8.595 19.775 12.46 ;
         RECT 19.595 8.595 20.06 8.765 ;
         RECT 15.415 10.855 18.165 12.46 ;
-      LAYER via1 ;
-        RECT 24.355 7.835 24.505 7.985 ;
-        RECT 40.94 7.835 41.09 7.985 ;
-        RECT 57.525 7.84 57.675 7.99 ;
-        RECT 74.11 7.845 74.26 7.995 ;
-        RECT 90.69 7.845 90.84 7.995 ;
       LAYER via2 ;
         RECT 24.32 7.81 24.52 8.01 ;
         RECT 40.905 7.81 41.105 8.01 ;
         RECT 57.49 7.815 57.69 8.015 ;
         RECT 74.075 7.82 74.275 8.02 ;
         RECT 90.655 7.82 90.855 8.02 ;
+      LAYER via1 ;
+        RECT 24.355 7.835 24.505 7.985 ;
+        RECT 40.94 7.835 41.09 7.985 ;
+        RECT 57.525 7.84 57.675 7.99 ;
+        RECT 74.11 7.845 74.26 7.995 ;
+        RECT 90.69 7.845 90.84 7.995 ;
       LAYER mcon ;
         RECT 15.665 10.885 15.835 11.055 ;
         RECT 16.345 10.885 16.515 11.055 ;
@@ -48458,7 +48518,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 34.395 0 34.775 5.26 ;
@@ -48473,10 +48533,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 34.435 2.175 34.73 2.405 ;
         RECT 34.435 3.655 34.725 3.885 ;
         RECT 34.495 2.175 34.665 3.885 ;
-      LAYER via1 ;
-        RECT 34.51 4.995 34.66 5.145 ;
       LAYER via2 ;
         RECT 34.485 4.97 34.685 5.17 ;
+      LAYER via1 ;
+        RECT 34.51 4.995 34.66 5.145 ;
       LAYER mcon ;
         RECT 34.495 3.685 34.665 3.855 ;
         RECT 34.495 2.205 34.665 2.375 ;
@@ -48486,7 +48546,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 51.615 0 51.995 5.26 ;
@@ -48501,10 +48561,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 51.655 2.175 51.95 2.405 ;
         RECT 51.655 3.655 51.945 3.885 ;
         RECT 51.715 2.175 51.885 3.885 ;
-      LAYER via1 ;
-        RECT 51.73 4.995 51.88 5.145 ;
       LAYER via2 ;
         RECT 51.705 4.97 51.905 5.17 ;
+      LAYER via1 ;
+        RECT 51.73 4.995 51.88 5.145 ;
       LAYER mcon ;
         RECT 51.715 3.685 51.885 3.855 ;
         RECT 51.715 2.205 51.885 2.375 ;
@@ -48514,7 +48574,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 68.835 0 69.215 5.26 ;
@@ -48529,10 +48589,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 68.875 2.175 69.17 2.405 ;
         RECT 68.875 3.655 69.165 3.885 ;
         RECT 68.935 2.175 69.105 3.885 ;
-      LAYER via1 ;
-        RECT 68.95 4.995 69.1 5.145 ;
       LAYER via2 ;
         RECT 68.925 4.97 69.125 5.17 ;
+      LAYER via1 ;
+        RECT 68.95 4.995 69.1 5.145 ;
       LAYER mcon ;
         RECT 68.935 3.685 69.105 3.855 ;
         RECT 68.935 2.205 69.105 2.375 ;
@@ -48542,7 +48602,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 86.055 0 86.435 5.26 ;
@@ -48557,10 +48617,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 86.095 2.175 86.39 2.405 ;
         RECT 86.095 3.655 86.385 3.885 ;
         RECT 86.155 2.175 86.325 3.885 ;
-      LAYER via1 ;
-        RECT 86.17 4.995 86.32 5.145 ;
       LAYER via2 ;
         RECT 86.145 4.97 86.345 5.17 ;
+      LAYER via1 ;
+        RECT 86.17 4.995 86.32 5.145 ;
       LAYER mcon ;
         RECT 86.155 3.685 86.325 3.855 ;
         RECT 86.155 2.205 86.325 2.375 ;
@@ -48570,7 +48630,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 103.275 0 103.655 5.26 ;
@@ -48585,10 +48645,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 103.315 2.175 103.61 2.405 ;
         RECT 103.315 3.655 103.605 3.885 ;
         RECT 103.375 2.175 103.545 3.885 ;
-      LAYER via1 ;
-        RECT 103.39 4.995 103.54 5.145 ;
       LAYER via2 ;
         RECT 103.365 4.97 103.565 5.17 ;
+      LAYER via1 ;
+        RECT 103.39 4.995 103.54 5.145 ;
       LAYER mcon ;
         RECT 103.375 3.685 103.545 3.855 ;
         RECT 103.375 2.205 103.545 2.375 ;
@@ -48598,8 +48658,11 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 18.545 8.14 18.92 8.51 ;
+        RECT 18.57 8.14 18.9 12.445 ;
       LAYER met2 ;
         RECT 30.27 8.14 30.595 8.465 ;
         RECT 30.27 4.79 30.595 5.115 ;
@@ -48608,6 +48671,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 30.34 4.79 30.51 8.465 ;
         RECT 20.915 8.145 21.195 8.485 ;
         RECT 20.97 8.145 21.14 9.49 ;
+        RECT 18.545 8.14 18.92 8.51 ;
       LAYER li1 ;
         RECT 30.34 8.225 30.52 8.465 ;
         RECT 30.345 8.225 30.515 9.505 ;
@@ -48621,10 +48685,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 30.27 8.235 30.745 8.405 ;
         RECT 30.27 8.14 30.595 8.465 ;
         RECT 20.885 8.175 21.225 8.455 ;
-        RECT 18.6 8.23 21.225 8.4 ;
-        RECT 18.6 8.23 19.06 8.405 ;
-        RECT 18.6 8.205 18.89 8.435 ;
+        RECT 18.565 8.23 21.225 8.4 ;
+        RECT 18.565 8.23 19.06 8.405 ;
+        RECT 18.565 8.155 18.905 8.495 ;
+      LAYER via2 ;
+        RECT 18.63 8.225 18.83 8.425 ;
       LAYER via1 ;
+        RECT 18.66 8.25 18.81 8.4 ;
         RECT 20.98 8.24 21.13 8.39 ;
         RECT 30.36 8.225 30.51 8.375 ;
         RECT 30.36 4.875 30.51 5.025 ;
@@ -48637,8 +48704,11 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 35.765 8.14 36.14 8.51 ;
+        RECT 35.79 8.14 36.12 12.445 ;
       LAYER met2 ;
         RECT 47.49 8.14 47.815 8.465 ;
         RECT 47.49 4.79 47.815 5.115 ;
@@ -48647,6 +48717,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 47.56 4.79 47.73 8.465 ;
         RECT 38.135 8.145 38.415 8.485 ;
         RECT 38.19 8.145 38.36 9.49 ;
+        RECT 35.765 8.14 36.14 8.51 ;
       LAYER li1 ;
         RECT 47.56 8.225 47.74 8.465 ;
         RECT 47.565 8.225 47.735 9.505 ;
@@ -48660,10 +48731,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 47.49 8.235 47.965 8.405 ;
         RECT 47.49 8.14 47.815 8.465 ;
         RECT 38.105 8.175 38.445 8.455 ;
-        RECT 35.82 8.23 38.445 8.4 ;
-        RECT 35.82 8.23 36.28 8.405 ;
-        RECT 35.82 8.205 36.11 8.435 ;
+        RECT 35.785 8.23 38.445 8.4 ;
+        RECT 35.785 8.23 36.28 8.405 ;
+        RECT 35.785 8.155 36.125 8.495 ;
+      LAYER via2 ;
+        RECT 35.85 8.225 36.05 8.425 ;
       LAYER via1 ;
+        RECT 35.88 8.25 36.03 8.4 ;
         RECT 38.2 8.24 38.35 8.39 ;
         RECT 47.58 8.225 47.73 8.375 ;
         RECT 47.58 4.875 47.73 5.025 ;
@@ -48676,8 +48750,11 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 52.985 8.14 53.36 8.51 ;
+        RECT 53.01 8.14 53.34 12.445 ;
       LAYER met2 ;
         RECT 64.71 8.14 65.035 8.465 ;
         RECT 64.71 4.79 65.035 5.115 ;
@@ -48686,6 +48763,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 64.78 4.79 64.95 8.465 ;
         RECT 55.355 8.145 55.635 8.485 ;
         RECT 55.41 8.145 55.58 9.49 ;
+        RECT 52.985 8.14 53.36 8.51 ;
       LAYER li1 ;
         RECT 64.78 8.225 64.96 8.465 ;
         RECT 64.785 8.225 64.955 9.505 ;
@@ -48699,10 +48777,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 64.71 8.235 65.185 8.405 ;
         RECT 64.71 8.14 65.035 8.465 ;
         RECT 55.325 8.175 55.665 8.455 ;
-        RECT 53.04 8.23 55.665 8.4 ;
-        RECT 53.04 8.23 53.5 8.405 ;
-        RECT 53.04 8.205 53.33 8.435 ;
+        RECT 53.005 8.23 55.665 8.4 ;
+        RECT 53.005 8.23 53.5 8.405 ;
+        RECT 53.005 8.155 53.345 8.495 ;
+      LAYER via2 ;
+        RECT 53.07 8.225 53.27 8.425 ;
       LAYER via1 ;
+        RECT 53.1 8.25 53.25 8.4 ;
         RECT 55.42 8.24 55.57 8.39 ;
         RECT 64.8 8.225 64.95 8.375 ;
         RECT 64.8 4.875 64.95 5.025 ;
@@ -48715,8 +48796,11 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 70.205 8.14 70.58 8.51 ;
+        RECT 70.23 8.14 70.56 12.445 ;
       LAYER met2 ;
         RECT 81.93 8.14 82.255 8.465 ;
         RECT 81.93 4.79 82.255 5.115 ;
@@ -48725,6 +48809,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 82 4.79 82.17 8.465 ;
         RECT 72.575 8.145 72.855 8.485 ;
         RECT 72.63 8.145 72.8 9.49 ;
+        RECT 70.205 8.14 70.58 8.51 ;
       LAYER li1 ;
         RECT 82 8.225 82.18 8.465 ;
         RECT 82.005 8.225 82.175 9.505 ;
@@ -48738,10 +48823,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 81.93 8.235 82.405 8.405 ;
         RECT 81.93 8.14 82.255 8.465 ;
         RECT 72.545 8.175 72.885 8.455 ;
-        RECT 70.26 8.23 72.885 8.4 ;
-        RECT 70.26 8.23 70.72 8.405 ;
-        RECT 70.26 8.205 70.55 8.435 ;
+        RECT 70.225 8.23 72.885 8.4 ;
+        RECT 70.225 8.23 70.72 8.405 ;
+        RECT 70.225 8.155 70.565 8.495 ;
+      LAYER via2 ;
+        RECT 70.29 8.225 70.49 8.425 ;
       LAYER via1 ;
+        RECT 70.32 8.25 70.47 8.4 ;
         RECT 72.64 8.24 72.79 8.39 ;
         RECT 82.02 8.225 82.17 8.375 ;
         RECT 82.02 4.875 82.17 5.025 ;
@@ -48754,8 +48842,11 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 87.425 8.14 87.8 8.51 ;
+        RECT 87.45 8.14 87.78 12.445 ;
       LAYER met2 ;
         RECT 99.15 8.14 99.475 8.465 ;
         RECT 99.15 4.79 99.475 5.115 ;
@@ -48764,6 +48855,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 99.22 4.79 99.39 8.465 ;
         RECT 89.795 8.145 90.075 8.485 ;
         RECT 89.85 8.145 90.02 9.49 ;
+        RECT 87.425 8.14 87.8 8.51 ;
       LAYER li1 ;
         RECT 99.22 8.225 99.4 8.465 ;
         RECT 99.225 8.225 99.395 9.505 ;
@@ -48777,10 +48869,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 99.15 8.235 99.625 8.405 ;
         RECT 99.15 8.14 99.475 8.465 ;
         RECT 89.765 8.175 90.105 8.455 ;
-        RECT 87.48 8.23 90.105 8.4 ;
-        RECT 87.48 8.23 87.94 8.405 ;
-        RECT 87.48 8.205 87.77 8.435 ;
+        RECT 87.445 8.23 90.105 8.4 ;
+        RECT 87.445 8.23 87.94 8.405 ;
+        RECT 87.445 8.155 87.785 8.495 ;
+      LAYER via2 ;
+        RECT 87.51 8.225 87.71 8.425 ;
       LAYER via1 ;
+        RECT 87.54 8.25 87.69 8.4 ;
         RECT 89.86 8.24 90.01 8.39 ;
         RECT 99.24 8.225 99.39 8.375 ;
         RECT 99.24 4.875 99.39 5.025 ;
@@ -49336,18 +49431,18 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r1
         RECT 24 7.125 24.32 7.385 ;
         RECT 21.635 7.185 24.32 7.325 ;
         RECT 21.635 7.14 21.925 7.37 ;
-      LAYER via1 ;
-        RECT 24.085 7.18 24.235 7.33 ;
-        RECT 41.305 7.18 41.455 7.33 ;
-        RECT 58.525 7.18 58.675 7.33 ;
-        RECT 75.745 7.18 75.895 7.33 ;
-        RECT 92.965 7.18 93.115 7.33 ;
       LAYER via2 ;
         RECT 24.06 7.15 24.26 7.35 ;
         RECT 41.28 7.15 41.48 7.35 ;
         RECT 58.5 7.15 58.7 7.35 ;
         RECT 75.72 7.15 75.92 7.35 ;
         RECT 92.94 7.15 93.14 7.35 ;
+      LAYER via1 ;
+        RECT 24.085 7.18 24.235 7.33 ;
+        RECT 41.305 7.18 41.455 7.33 ;
+        RECT 58.525 7.18 58.675 7.33 ;
+        RECT 75.745 7.18 75.895 7.33 ;
+        RECT 92.965 7.18 93.115 7.33 ;
       LAYER mcon ;
         RECT 15.32 10.895 15.49 11.065 ;
         RECT 16 10.895 16.17 11.065 ;
@@ -51523,7 +51618,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 34.37 0 34.75 5.265 ;
@@ -51538,10 +51633,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 34.41 2.175 34.705 2.405 ;
         RECT 34.41 3.655 34.7 3.885 ;
         RECT 34.47 2.175 34.64 3.885 ;
-      LAYER via1 ;
-        RECT 34.485 5 34.635 5.15 ;
       LAYER via2 ;
         RECT 34.46 4.975 34.66 5.175 ;
+      LAYER via1 ;
+        RECT 34.485 5 34.635 5.15 ;
       LAYER mcon ;
         RECT 34.47 3.685 34.64 3.855 ;
         RECT 34.47 2.205 34.64 2.375 ;
@@ -51551,7 +51646,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 51.59 0 51.97 5.265 ;
@@ -51566,10 +51661,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 51.63 2.175 51.925 2.405 ;
         RECT 51.63 3.655 51.92 3.885 ;
         RECT 51.69 2.175 51.86 3.885 ;
-      LAYER via1 ;
-        RECT 51.705 5 51.855 5.15 ;
       LAYER via2 ;
         RECT 51.68 4.975 51.88 5.175 ;
+      LAYER via1 ;
+        RECT 51.705 5 51.855 5.15 ;
       LAYER mcon ;
         RECT 51.69 3.685 51.86 3.855 ;
         RECT 51.69 2.205 51.86 2.375 ;
@@ -51579,7 +51674,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 68.81 0.005 69.19 5.27 ;
@@ -51594,10 +51689,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 68.85 2.18 69.145 2.41 ;
         RECT 68.85 3.66 69.14 3.89 ;
         RECT 68.91 2.18 69.08 3.89 ;
-      LAYER via1 ;
-        RECT 68.925 5.005 69.075 5.155 ;
       LAYER via2 ;
         RECT 68.9 4.98 69.1 5.18 ;
+      LAYER via1 ;
+        RECT 68.925 5.005 69.075 5.155 ;
       LAYER mcon ;
         RECT 68.91 3.69 69.08 3.86 ;
         RECT 68.91 2.21 69.08 2.38 ;
@@ -51607,7 +51702,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 86.03 0 86.41 5.265 ;
@@ -51623,10 +51718,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 86.07 3.655 86.36 3.885 ;
         RECT 86.13 3.2 86.31 3.37 ;
         RECT 86.13 2.175 86.3 3.885 ;
-      LAYER via1 ;
-        RECT 86.145 5 86.295 5.15 ;
       LAYER via2 ;
         RECT 86.12 4.975 86.32 5.175 ;
+      LAYER via1 ;
+        RECT 86.145 5 86.295 5.15 ;
       LAYER mcon ;
         RECT 86.13 3.685 86.3 3.855 ;
         RECT 86.13 2.205 86.3 2.375 ;
@@ -51636,7 +51731,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 103.25 0 103.63 5.265 ;
@@ -51651,10 +51746,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 103.29 2.175 103.585 2.405 ;
         RECT 103.29 3.655 103.58 3.885 ;
         RECT 103.35 2.175 103.52 3.885 ;
-      LAYER via1 ;
-        RECT 103.365 5 103.515 5.15 ;
       LAYER via2 ;
         RECT 103.34 4.975 103.54 5.175 ;
+      LAYER via1 ;
+        RECT 103.365 5 103.515 5.15 ;
       LAYER mcon ;
         RECT 103.35 3.685 103.52 3.855 ;
         RECT 103.35 2.205 103.52 2.375 ;
@@ -51664,8 +51759,11 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 18.525 8.135 18.9 8.505 ;
+        RECT 18.545 8.135 18.88 12.385 ;
       LAYER met2 ;
         RECT 30.245 8.14 30.57 8.465 ;
         RECT 30.245 4.79 30.57 5.115 ;
@@ -51674,6 +51772,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 30.315 4.79 30.485 8.465 ;
         RECT 20.89 8.145 21.17 8.485 ;
         RECT 20.945 8.145 21.115 9.41 ;
+        RECT 18.525 8.135 18.9 8.505 ;
       LAYER li1 ;
         RECT 30.315 8.225 30.495 8.465 ;
         RECT 30.32 8.225 30.49 9.505 ;
@@ -51687,10 +51786,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 30.245 8.235 30.72 8.405 ;
         RECT 30.245 8.14 30.57 8.465 ;
         RECT 20.86 8.175 21.2 8.455 ;
-        RECT 18.575 8.23 21.2 8.4 ;
-        RECT 18.575 8.23 19.035 8.405 ;
-        RECT 18.575 8.205 18.865 8.435 ;
+        RECT 18.545 8.23 21.2 8.4 ;
+        RECT 18.545 8.23 19.035 8.405 ;
+        RECT 18.545 8.15 18.885 8.49 ;
+      LAYER via2 ;
+        RECT 18.615 8.22 18.815 8.42 ;
       LAYER via1 ;
+        RECT 18.64 8.245 18.79 8.395 ;
         RECT 20.955 8.24 21.105 8.39 ;
         RECT 30.335 8.225 30.485 8.375 ;
         RECT 30.335 4.875 30.485 5.025 ;
@@ -51703,8 +51805,11 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 35.745 8.135 36.12 8.505 ;
+        RECT 35.765 8.135 36.1 12.385 ;
       LAYER met2 ;
         RECT 47.465 8.14 47.79 8.465 ;
         RECT 47.465 4.79 47.79 5.115 ;
@@ -51713,6 +51818,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 47.535 4.79 47.705 8.465 ;
         RECT 38.11 8.145 38.39 8.485 ;
         RECT 38.165 8.145 38.335 9.41 ;
+        RECT 35.745 8.135 36.12 8.505 ;
       LAYER li1 ;
         RECT 47.535 8.225 47.715 8.465 ;
         RECT 47.54 8.225 47.71 9.505 ;
@@ -51726,10 +51832,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 47.465 8.235 47.94 8.405 ;
         RECT 47.465 8.14 47.79 8.465 ;
         RECT 38.08 8.175 38.42 8.455 ;
-        RECT 35.795 8.23 38.42 8.4 ;
-        RECT 35.795 8.23 36.255 8.405 ;
-        RECT 35.795 8.205 36.085 8.435 ;
+        RECT 35.765 8.23 38.42 8.4 ;
+        RECT 35.765 8.23 36.255 8.405 ;
+        RECT 35.765 8.15 36.105 8.49 ;
+      LAYER via2 ;
+        RECT 35.835 8.22 36.035 8.42 ;
       LAYER via1 ;
+        RECT 35.86 8.245 36.01 8.395 ;
         RECT 38.175 8.24 38.325 8.39 ;
         RECT 47.555 8.225 47.705 8.375 ;
         RECT 47.555 4.875 47.705 5.025 ;
@@ -51742,8 +51851,11 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 52.965 8.14 53.34 8.51 ;
+        RECT 52.985 8.14 53.32 12.39 ;
       LAYER met2 ;
         RECT 64.685 8.145 65.01 8.47 ;
         RECT 64.685 4.795 65.01 5.12 ;
@@ -51752,6 +51864,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 64.755 4.795 64.925 8.47 ;
         RECT 55.33 8.15 55.61 8.49 ;
         RECT 55.385 8.15 55.555 9.415 ;
+        RECT 52.965 8.14 53.34 8.51 ;
       LAYER li1 ;
         RECT 64.755 8.23 64.935 8.47 ;
         RECT 64.76 8.23 64.93 9.51 ;
@@ -51765,10 +51878,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 64.685 8.24 65.16 8.41 ;
         RECT 64.685 8.145 65.01 8.47 ;
         RECT 55.3 8.18 55.64 8.46 ;
-        RECT 53.015 8.235 55.64 8.405 ;
-        RECT 53.015 8.235 53.475 8.41 ;
-        RECT 53.015 8.21 53.305 8.44 ;
+        RECT 52.985 8.235 55.64 8.405 ;
+        RECT 52.985 8.235 53.475 8.41 ;
+        RECT 52.985 8.155 53.325 8.495 ;
+      LAYER via2 ;
+        RECT 53.055 8.225 53.255 8.425 ;
       LAYER via1 ;
+        RECT 53.08 8.25 53.23 8.4 ;
         RECT 55.395 8.245 55.545 8.395 ;
         RECT 64.775 8.23 64.925 8.38 ;
         RECT 64.775 4.88 64.925 5.03 ;
@@ -51781,8 +51897,11 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 70.185 8.135 70.56 8.505 ;
+        RECT 70.205 8.135 70.54 12.385 ;
       LAYER met2 ;
         RECT 81.905 8.14 82.23 8.465 ;
         RECT 81.905 4.79 82.23 5.115 ;
@@ -51791,6 +51910,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 81.975 4.79 82.145 8.465 ;
         RECT 72.55 8.145 72.83 8.485 ;
         RECT 72.605 8.145 72.775 9.41 ;
+        RECT 70.185 8.135 70.56 8.505 ;
       LAYER li1 ;
         RECT 81.975 8.225 82.155 8.465 ;
         RECT 81.98 8.225 82.15 9.505 ;
@@ -51804,10 +51924,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 81.905 8.235 82.38 8.405 ;
         RECT 81.905 8.14 82.23 8.465 ;
         RECT 72.52 8.175 72.86 8.455 ;
-        RECT 70.235 8.23 72.86 8.4 ;
-        RECT 70.235 8.23 70.695 8.405 ;
-        RECT 70.235 8.205 70.525 8.435 ;
+        RECT 70.205 8.23 72.86 8.4 ;
+        RECT 70.205 8.23 70.695 8.405 ;
+        RECT 70.205 8.15 70.545 8.49 ;
+      LAYER via2 ;
+        RECT 70.275 8.22 70.475 8.42 ;
       LAYER via1 ;
+        RECT 70.3 8.245 70.45 8.395 ;
         RECT 72.615 8.24 72.765 8.39 ;
         RECT 81.995 8.225 82.145 8.375 ;
         RECT 81.995 4.875 82.145 5.025 ;
@@ -51820,8 +51943,11 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 87.405 8.135 87.78 8.505 ;
+        RECT 87.425 8.135 87.76 12.385 ;
       LAYER met2 ;
         RECT 99.125 8.14 99.45 8.465 ;
         RECT 99.125 4.79 99.45 5.115 ;
@@ -51830,6 +51956,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 99.195 4.79 99.365 8.465 ;
         RECT 89.77 8.145 90.05 8.485 ;
         RECT 89.825 8.145 89.995 9.41 ;
+        RECT 87.405 8.135 87.78 8.505 ;
       LAYER li1 ;
         RECT 99.195 8.225 99.375 8.465 ;
         RECT 99.2 8.225 99.37 9.505 ;
@@ -51843,10 +51970,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 99.125 8.235 99.6 8.405 ;
         RECT 99.125 8.14 99.45 8.465 ;
         RECT 89.74 8.175 90.08 8.455 ;
-        RECT 87.455 8.23 90.08 8.4 ;
-        RECT 87.455 8.23 87.915 8.405 ;
-        RECT 87.455 8.205 87.745 8.435 ;
+        RECT 87.425 8.23 90.08 8.4 ;
+        RECT 87.425 8.23 87.915 8.405 ;
+        RECT 87.425 8.15 87.765 8.49 ;
+      LAYER via2 ;
+        RECT 87.495 8.22 87.695 8.42 ;
       LAYER via1 ;
+        RECT 87.52 8.245 87.67 8.395 ;
         RECT 89.835 8.24 89.985 8.39 ;
         RECT 99.215 8.225 99.365 8.375 ;
         RECT 99.215 4.875 99.365 5.025 ;
@@ -52407,18 +52537,18 @@ MACRO sky130_osu_ring_oscillator_mpr2ct_8_b0r2
         RECT 23.975 7.125 24.295 7.385 ;
         RECT 21.61 7.185 24.295 7.325 ;
         RECT 21.61 7.14 21.9 7.37 ;
-      LAYER via1 ;
-        RECT 24.06 7.18 24.21 7.33 ;
-        RECT 41.28 7.18 41.43 7.33 ;
-        RECT 58.5 7.185 58.65 7.335 ;
-        RECT 75.72 7.18 75.87 7.33 ;
-        RECT 92.94 7.18 93.09 7.33 ;
       LAYER via2 ;
         RECT 24.035 7.15 24.235 7.35 ;
         RECT 41.255 7.15 41.455 7.35 ;
         RECT 58.475 7.155 58.675 7.355 ;
         RECT 75.695 7.15 75.895 7.35 ;
         RECT 92.915 7.15 93.115 7.35 ;
+      LAYER via1 ;
+        RECT 24.06 7.18 24.21 7.33 ;
+        RECT 41.28 7.18 41.43 7.33 ;
+        RECT 58.5 7.185 58.65 7.335 ;
+        RECT 75.72 7.18 75.87 7.33 ;
+        RECT 92.94 7.18 93.09 7.33 ;
       LAYER mcon ;
         RECT 15.295 10.895 15.465 11.065 ;
         RECT 15.975 10.895 16.145 11.065 ;
@@ -54590,7 +54720,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 33.48 0 33.86 5.265 ;
@@ -54605,10 +54735,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
         RECT 33.52 2.18 33.815 2.41 ;
         RECT 33.52 3.66 33.81 3.89 ;
         RECT 33.58 2.18 33.75 3.89 ;
-      LAYER via1 ;
-        RECT 33.595 5 33.745 5.15 ;
       LAYER via2 ;
         RECT 33.57 4.975 33.77 5.175 ;
+      LAYER via1 ;
+        RECT 33.595 5 33.745 5.15 ;
       LAYER mcon ;
         RECT 33.58 3.69 33.75 3.86 ;
         RECT 33.58 2.21 33.75 2.38 ;
@@ -54618,7 +54748,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 49.805 0 50.185 5.265 ;
@@ -54633,10 +54763,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
         RECT 49.845 2.18 50.14 2.41 ;
         RECT 49.845 3.66 50.135 3.89 ;
         RECT 49.905 2.18 50.075 3.89 ;
-      LAYER via1 ;
-        RECT 49.92 5 50.07 5.15 ;
       LAYER via2 ;
         RECT 49.895 4.975 50.095 5.175 ;
+      LAYER via1 ;
+        RECT 49.92 5 50.07 5.15 ;
       LAYER mcon ;
         RECT 49.905 3.69 50.075 3.86 ;
         RECT 49.905 2.21 50.075 2.38 ;
@@ -54646,7 +54776,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 66.13 0 66.51 5.265 ;
@@ -54661,10 +54791,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
         RECT 66.17 2.18 66.465 2.41 ;
         RECT 66.17 3.66 66.46 3.89 ;
         RECT 66.23 2.18 66.4 3.89 ;
-      LAYER via1 ;
-        RECT 66.245 5 66.395 5.15 ;
       LAYER via2 ;
         RECT 66.22 4.975 66.42 5.175 ;
+      LAYER via1 ;
+        RECT 66.245 5 66.395 5.15 ;
       LAYER mcon ;
         RECT 66.23 3.69 66.4 3.86 ;
         RECT 66.23 2.21 66.4 2.38 ;
@@ -54674,7 +54804,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 82.455 0 82.835 5.265 ;
@@ -54689,10 +54819,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
         RECT 82.495 2.18 82.79 2.41 ;
         RECT 82.495 3.66 82.785 3.89 ;
         RECT 82.555 2.18 82.725 3.89 ;
-      LAYER via1 ;
-        RECT 82.57 5 82.72 5.15 ;
       LAYER via2 ;
         RECT 82.545 4.975 82.745 5.175 ;
+      LAYER via1 ;
+        RECT 82.57 5 82.72 5.15 ;
       LAYER mcon ;
         RECT 82.555 3.69 82.725 3.86 ;
         RECT 82.555 2.21 82.725 2.38 ;
@@ -54702,7 +54832,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 98.78 0 99.16 5.265 ;
@@ -54717,10 +54847,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
         RECT 98.82 2.18 99.115 2.41 ;
         RECT 98.82 3.66 99.11 3.89 ;
         RECT 98.88 2.18 99.05 3.89 ;
-      LAYER via1 ;
-        RECT 98.895 5 99.045 5.15 ;
       LAYER via2 ;
         RECT 98.87 4.975 99.07 5.175 ;
+      LAYER via1 ;
+        RECT 98.895 5 99.045 5.15 ;
       LAYER mcon ;
         RECT 98.88 3.69 99.05 3.86 ;
         RECT 98.88 2.21 99.05 2.38 ;
@@ -54730,12 +54860,15 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 23.735 8.13 24.07 12.46 ;
       LAYER met2 ;
         RECT 29.355 4 29.695 4.35 ;
         RECT 29.345 8.125 29.685 8.475 ;
         RECT 29.43 4 29.6 8.475 ;
+        RECT 23.765 8.13 24.045 8.51 ;
       LAYER li1 ;
         RECT 29.425 2.955 29.595 4.225 ;
         RECT 29.425 8.235 29.595 9.505 ;
@@ -54745,10 +54878,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
         RECT 29.355 4 29.695 4.35 ;
         RECT 29.345 8.235 29.825 8.405 ;
         RECT 29.345 8.125 29.685 8.475 ;
-        RECT 23.75 8.23 29.685 8.4 ;
-        RECT 23.75 8.23 24.21 8.405 ;
-        RECT 23.75 8.205 24.04 8.435 ;
+        RECT 23.735 8.23 29.685 8.4 ;
+        RECT 23.735 8.23 24.21 8.405 ;
+        RECT 23.735 8.175 24.055 8.465 ;
+      LAYER via2 ;
+        RECT 23.805 8.22 24.005 8.42 ;
       LAYER via1 ;
+        RECT 23.82 8.245 23.97 8.395 ;
         RECT 29.445 8.225 29.595 8.375 ;
         RECT 29.455 4.1 29.605 4.25 ;
       LAYER mcon ;
@@ -54760,12 +54896,15 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 40.06 8.13 40.395 12.46 ;
       LAYER met2 ;
         RECT 45.68 4 46.02 4.35 ;
         RECT 45.67 8.125 46.01 8.475 ;
         RECT 45.755 4 45.925 8.475 ;
+        RECT 40.09 8.13 40.37 8.51 ;
       LAYER li1 ;
         RECT 45.75 2.955 45.92 4.225 ;
         RECT 45.75 8.235 45.92 9.505 ;
@@ -54775,10 +54914,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
         RECT 45.68 4 46.02 4.35 ;
         RECT 45.67 8.235 46.15 8.405 ;
         RECT 45.67 8.125 46.01 8.475 ;
-        RECT 40.075 8.23 46.01 8.4 ;
-        RECT 40.075 8.23 40.535 8.405 ;
-        RECT 40.075 8.205 40.365 8.435 ;
+        RECT 40.06 8.23 46.01 8.4 ;
+        RECT 40.06 8.23 40.535 8.405 ;
+        RECT 40.06 8.175 40.38 8.465 ;
+      LAYER via2 ;
+        RECT 40.13 8.22 40.33 8.42 ;
       LAYER via1 ;
+        RECT 40.145 8.245 40.295 8.395 ;
         RECT 45.77 8.225 45.92 8.375 ;
         RECT 45.78 4.1 45.93 4.25 ;
       LAYER mcon ;
@@ -54790,12 +54932,15 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 56.385 8.13 56.72 12.46 ;
       LAYER met2 ;
         RECT 62.005 4 62.345 4.35 ;
         RECT 61.995 8.125 62.335 8.475 ;
         RECT 62.08 4 62.25 8.475 ;
+        RECT 56.415 8.13 56.695 8.51 ;
       LAYER li1 ;
         RECT 62.075 2.955 62.245 4.225 ;
         RECT 62.075 8.235 62.245 9.505 ;
@@ -54805,10 +54950,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
         RECT 62.005 4 62.345 4.35 ;
         RECT 61.995 8.235 62.475 8.405 ;
         RECT 61.995 8.125 62.335 8.475 ;
-        RECT 56.4 8.23 62.335 8.4 ;
-        RECT 56.4 8.23 56.86 8.405 ;
-        RECT 56.4 8.205 56.69 8.435 ;
+        RECT 56.385 8.23 62.335 8.4 ;
+        RECT 56.385 8.23 56.86 8.405 ;
+        RECT 56.385 8.175 56.705 8.465 ;
+      LAYER via2 ;
+        RECT 56.455 8.22 56.655 8.42 ;
       LAYER via1 ;
+        RECT 56.47 8.245 56.62 8.395 ;
         RECT 62.095 8.225 62.245 8.375 ;
         RECT 62.105 4.1 62.255 4.25 ;
       LAYER mcon ;
@@ -54820,12 +54968,15 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 72.71 8.13 73.045 12.46 ;
       LAYER met2 ;
         RECT 78.33 4 78.67 4.35 ;
         RECT 78.32 8.125 78.66 8.475 ;
         RECT 78.405 4 78.575 8.475 ;
+        RECT 72.74 8.13 73.02 8.51 ;
       LAYER li1 ;
         RECT 78.4 2.955 78.57 4.225 ;
         RECT 78.4 8.235 78.57 9.505 ;
@@ -54835,10 +54986,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
         RECT 78.33 4 78.67 4.35 ;
         RECT 78.32 8.235 78.8 8.405 ;
         RECT 78.32 8.125 78.66 8.475 ;
-        RECT 72.725 8.23 78.66 8.4 ;
-        RECT 72.725 8.23 73.185 8.405 ;
-        RECT 72.725 8.205 73.015 8.435 ;
+        RECT 72.71 8.23 78.66 8.4 ;
+        RECT 72.71 8.23 73.185 8.405 ;
+        RECT 72.71 8.175 73.03 8.465 ;
+      LAYER via2 ;
+        RECT 72.78 8.22 72.98 8.42 ;
       LAYER via1 ;
+        RECT 72.795 8.245 72.945 8.395 ;
         RECT 78.42 8.225 78.57 8.375 ;
         RECT 78.43 4.1 78.58 4.25 ;
       LAYER mcon ;
@@ -54850,12 +55004,15 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 89.035 8.13 89.37 12.46 ;
       LAYER met2 ;
         RECT 94.655 4 94.995 4.35 ;
         RECT 94.645 8.125 94.985 8.475 ;
         RECT 94.73 4 94.9 8.475 ;
+        RECT 89.065 8.13 89.345 8.51 ;
       LAYER li1 ;
         RECT 94.725 2.955 94.895 4.225 ;
         RECT 94.725 8.235 94.895 9.505 ;
@@ -54865,10 +55022,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
         RECT 94.655 4 94.995 4.35 ;
         RECT 94.645 8.235 95.125 8.405 ;
         RECT 94.645 8.125 94.985 8.475 ;
-        RECT 89.05 8.23 94.985 8.4 ;
-        RECT 89.05 8.23 89.51 8.405 ;
-        RECT 89.05 8.205 89.34 8.435 ;
+        RECT 89.035 8.23 94.985 8.4 ;
+        RECT 89.035 8.23 89.51 8.405 ;
+        RECT 89.035 8.175 89.355 8.465 ;
+      LAYER via2 ;
+        RECT 89.105 8.22 89.305 8.42 ;
       LAYER via1 ;
+        RECT 89.12 8.245 89.27 8.395 ;
         RECT 94.745 8.225 94.895 8.375 ;
         RECT 94.755 4.1 94.905 4.25 ;
       LAYER mcon ;
@@ -55292,19 +55452,19 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
         RECT 0.05 10.86 99.43 12.46 ;
         RECT 90.055 8.575 90.345 8.805 ;
         RECT 89.675 8.6 90.345 8.775 ;
-        RECT 89.675 8.6 89.85 12.46 ;
+        RECT 89.7 8.6 89.875 12.46 ;
         RECT 73.73 8.575 74.02 8.805 ;
         RECT 73.35 8.6 74.02 8.775 ;
-        RECT 73.35 8.6 73.525 12.46 ;
+        RECT 73.375 8.6 73.55 12.46 ;
         RECT 57.405 8.575 57.695 8.805 ;
         RECT 57.025 8.6 57.695 8.775 ;
-        RECT 57.025 8.6 57.2 12.46 ;
+        RECT 57.05 8.6 57.225 12.46 ;
         RECT 41.08 8.575 41.37 8.805 ;
         RECT 40.7 8.6 41.37 8.775 ;
-        RECT 40.7 8.6 40.875 12.46 ;
+        RECT 40.725 8.6 40.9 12.46 ;
         RECT 24.755 8.575 25.045 8.805 ;
         RECT 24.375 8.6 25.045 8.775 ;
-        RECT 24.375 8.6 24.55 12.46 ;
+        RECT 24.4 8.6 24.575 12.46 ;
         RECT 0 0 99.425 1.6 ;
         RECT 93.47 0 93.655 4.24 ;
         RECT 92.705 4.085 93.655 4.24 ;
@@ -55356,18 +55516,18 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r1
         RECT 25.945 4.225 27.545 4.365 ;
         RECT 25.61 4.085 26.085 4.27 ;
         RECT 25.61 4.04 25.9 4.27 ;
-      LAYER via1 ;
-        RECT 27.52 4.08 27.67 4.23 ;
-        RECT 43.845 4.08 43.995 4.23 ;
-        RECT 60.17 4.08 60.32 4.23 ;
-        RECT 76.495 4.08 76.645 4.23 ;
-        RECT 92.82 4.08 92.97 4.23 ;
       LAYER via2 ;
         RECT 27.495 4.335 27.695 4.535 ;
         RECT 43.82 4.335 44.02 4.535 ;
         RECT 60.145 4.335 60.345 4.535 ;
         RECT 76.47 4.335 76.67 4.535 ;
         RECT 92.795 4.335 92.995 4.535 ;
+      LAYER via1 ;
+        RECT 27.52 4.08 27.67 4.23 ;
+        RECT 43.845 4.08 43.995 4.23 ;
+        RECT 60.17 4.08 60.32 4.23 ;
+        RECT 76.495 4.08 76.645 4.23 ;
+        RECT 92.82 4.08 92.97 4.23 ;
       LAYER mcon ;
         RECT 15.3 10.895 15.47 11.065 ;
         RECT 15.98 10.895 16.15 11.065 ;
@@ -57688,12 +57848,15 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r2
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 23.72 8.13 24.07 12.46 ;
       LAYER met2 ;
         RECT 29.35 4 29.69 4.35 ;
         RECT 29.34 8.125 29.68 8.475 ;
         RECT 29.425 4 29.595 8.475 ;
+        RECT 23.75 8.13 24.04 8.51 ;
       LAYER li1 ;
         RECT 29.42 2.955 29.59 4.225 ;
         RECT 29.42 8.235 29.59 9.505 ;
@@ -57703,10 +57866,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r2
         RECT 29.35 4 29.69 4.35 ;
         RECT 29.34 8.235 29.82 8.405 ;
         RECT 29.34 8.125 29.68 8.475 ;
-        RECT 23.745 8.23 29.68 8.4 ;
-        RECT 23.745 8.23 24.205 8.405 ;
-        RECT 23.745 8.205 24.035 8.435 ;
+        RECT 23.72 8.23 29.68 8.4 ;
+        RECT 23.72 8.23 24.205 8.405 ;
+        RECT 23.72 8.175 24.07 8.465 ;
+      LAYER via2 ;
+        RECT 23.795 8.22 23.995 8.42 ;
       LAYER via1 ;
+        RECT 23.82 8.245 23.97 8.395 ;
         RECT 29.44 8.225 29.59 8.375 ;
         RECT 29.45 4.1 29.6 4.25 ;
       LAYER mcon ;
@@ -57718,12 +57884,15 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r2
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 40.045 8.13 40.395 12.46 ;
       LAYER met2 ;
         RECT 45.675 4 46.015 4.35 ;
         RECT 45.665 8.125 46.005 8.475 ;
         RECT 45.75 4 45.92 8.475 ;
+        RECT 40.075 8.13 40.365 8.51 ;
       LAYER li1 ;
         RECT 45.745 2.955 45.915 4.225 ;
         RECT 45.745 8.235 45.915 9.505 ;
@@ -57733,10 +57902,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r2
         RECT 45.675 4 46.015 4.35 ;
         RECT 45.665 8.235 46.145 8.405 ;
         RECT 45.665 8.125 46.005 8.475 ;
-        RECT 40.07 8.23 46.005 8.4 ;
-        RECT 40.07 8.23 40.53 8.405 ;
-        RECT 40.07 8.205 40.36 8.435 ;
+        RECT 40.045 8.23 46.005 8.4 ;
+        RECT 40.045 8.23 40.53 8.405 ;
+        RECT 40.045 8.175 40.395 8.465 ;
+      LAYER via2 ;
+        RECT 40.12 8.22 40.32 8.42 ;
       LAYER via1 ;
+        RECT 40.145 8.245 40.295 8.395 ;
         RECT 45.765 8.225 45.915 8.375 ;
         RECT 45.775 4.1 45.925 4.25 ;
       LAYER mcon ;
@@ -57748,12 +57920,15 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r2
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 56.37 8.13 56.72 12.46 ;
       LAYER met2 ;
         RECT 62 4 62.34 4.35 ;
         RECT 61.99 8.125 62.33 8.475 ;
         RECT 62.075 4 62.245 8.475 ;
+        RECT 56.4 8.13 56.69 8.51 ;
       LAYER li1 ;
         RECT 62.07 2.955 62.24 4.225 ;
         RECT 62.07 8.235 62.24 9.505 ;
@@ -57763,10 +57938,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r2
         RECT 62 4 62.34 4.35 ;
         RECT 61.99 8.235 62.47 8.405 ;
         RECT 61.99 8.125 62.33 8.475 ;
-        RECT 56.395 8.23 62.33 8.4 ;
-        RECT 56.395 8.23 56.855 8.405 ;
-        RECT 56.395 8.205 56.685 8.435 ;
+        RECT 56.37 8.23 62.33 8.4 ;
+        RECT 56.37 8.23 56.855 8.405 ;
+        RECT 56.37 8.175 56.72 8.465 ;
+      LAYER via2 ;
+        RECT 56.445 8.22 56.645 8.42 ;
       LAYER via1 ;
+        RECT 56.47 8.245 56.62 8.395 ;
         RECT 62.09 8.225 62.24 8.375 ;
         RECT 62.1 4.1 62.25 4.25 ;
       LAYER mcon ;
@@ -57778,12 +57956,15 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r2
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 72.695 8.13 73.045 12.46 ;
       LAYER met2 ;
         RECT 78.325 4 78.665 4.35 ;
         RECT 78.315 8.125 78.655 8.475 ;
         RECT 78.4 4 78.57 8.475 ;
+        RECT 72.725 8.13 73.015 8.51 ;
       LAYER li1 ;
         RECT 78.395 2.955 78.565 4.225 ;
         RECT 78.395 8.235 78.565 9.505 ;
@@ -57793,10 +57974,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r2
         RECT 78.325 4 78.665 4.35 ;
         RECT 78.315 8.235 78.795 8.405 ;
         RECT 78.315 8.125 78.655 8.475 ;
-        RECT 72.72 8.23 78.655 8.4 ;
-        RECT 72.72 8.23 73.18 8.405 ;
-        RECT 72.72 8.205 73.01 8.435 ;
+        RECT 72.695 8.23 78.655 8.4 ;
+        RECT 72.695 8.23 73.18 8.405 ;
+        RECT 72.695 8.175 73.045 8.465 ;
+      LAYER via2 ;
+        RECT 72.77 8.22 72.97 8.42 ;
       LAYER via1 ;
+        RECT 72.795 8.245 72.945 8.395 ;
         RECT 78.415 8.225 78.565 8.375 ;
         RECT 78.425 4.1 78.575 4.25 ;
       LAYER mcon ;
@@ -57808,12 +57992,15 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r2
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 89.02 8.13 89.37 12.46 ;
       LAYER met2 ;
         RECT 94.65 4 94.99 4.35 ;
         RECT 94.64 8.125 94.98 8.475 ;
         RECT 94.725 4 94.895 8.475 ;
+        RECT 89.05 8.13 89.34 8.51 ;
       LAYER li1 ;
         RECT 94.72 2.955 94.89 4.225 ;
         RECT 94.72 8.235 94.89 9.505 ;
@@ -57823,10 +58010,13 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r2
         RECT 94.65 4 94.99 4.35 ;
         RECT 94.64 8.235 95.12 8.405 ;
         RECT 94.64 8.125 94.98 8.475 ;
-        RECT 89.045 8.23 94.98 8.4 ;
-        RECT 89.045 8.23 89.505 8.405 ;
-        RECT 89.045 8.205 89.335 8.435 ;
+        RECT 89.02 8.23 94.98 8.4 ;
+        RECT 89.02 8.23 89.505 8.405 ;
+        RECT 89.02 8.175 89.37 8.465 ;
+      LAYER via2 ;
+        RECT 89.095 8.22 89.295 8.42 ;
       LAYER via1 ;
+        RECT 89.12 8.245 89.27 8.395 ;
         RECT 94.74 8.225 94.89 8.375 ;
         RECT 94.75 4.1 94.9 4.25 ;
       LAYER mcon ;
@@ -58339,18 +58529,18 @@ MACRO sky130_osu_ring_oscillator_mpr2ea_8_b0r2
         RECT 22.795 0 22.99 2.86 ;
         RECT 20.96 0 21.155 2.89 ;
         RECT 18.66 0 18.855 2.89 ;
-      LAYER via1 ;
-        RECT 27.515 3.98 27.665 4.13 ;
-        RECT 43.84 3.98 43.99 4.13 ;
-        RECT 60.165 3.98 60.315 4.13 ;
-        RECT 76.49 3.98 76.64 4.13 ;
-        RECT 92.815 3.98 92.965 4.13 ;
       LAYER via2 ;
         RECT 27.49 4.235 27.69 4.435 ;
         RECT 43.815 4.235 44.015 4.435 ;
         RECT 60.14 4.235 60.34 4.435 ;
         RECT 76.465 4.235 76.665 4.435 ;
         RECT 92.79 4.235 92.99 4.435 ;
+      LAYER via1 ;
+        RECT 27.515 3.98 27.665 4.13 ;
+        RECT 43.84 3.98 43.99 4.13 ;
+        RECT 60.165 3.98 60.315 4.13 ;
+        RECT 76.49 3.98 76.64 4.13 ;
+        RECT 92.815 3.98 92.965 4.13 ;
       LAYER mcon ;
         RECT 15.295 10.895 15.465 11.065 ;
         RECT 15.975 10.895 16.145 11.065 ;
@@ -60556,7 +60746,7 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 35.71 0 36.09 5.27 ;
@@ -60571,10 +60761,10 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
         RECT 35.75 2.18 36.045 2.41 ;
         RECT 35.75 3.66 36.04 3.89 ;
         RECT 35.81 2.18 35.98 3.89 ;
-      LAYER via1 ;
-        RECT 35.825 5.005 35.975 5.155 ;
       LAYER via2 ;
         RECT 35.8 4.98 36 5.18 ;
+      LAYER via1 ;
+        RECT 35.825 5.005 35.975 5.155 ;
       LAYER mcon ;
         RECT 35.81 3.69 35.98 3.86 ;
         RECT 35.81 2.21 35.98 2.38 ;
@@ -60584,7 +60774,7 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 54.27 0 54.65 5.27 ;
@@ -60599,10 +60789,10 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
         RECT 54.31 2.18 54.605 2.41 ;
         RECT 54.31 3.66 54.6 3.89 ;
         RECT 54.37 2.18 54.54 3.89 ;
-      LAYER via1 ;
-        RECT 54.385 5.005 54.535 5.155 ;
       LAYER via2 ;
         RECT 54.36 4.98 54.56 5.18 ;
+      LAYER via1 ;
+        RECT 54.385 5.005 54.535 5.155 ;
       LAYER mcon ;
         RECT 54.37 3.69 54.54 3.86 ;
         RECT 54.37 2.21 54.54 2.38 ;
@@ -60612,7 +60802,7 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 72.83 0 73.21 5.27 ;
@@ -60627,10 +60817,10 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
         RECT 72.87 2.18 73.165 2.41 ;
         RECT 72.87 3.66 73.16 3.89 ;
         RECT 72.93 2.18 73.1 3.89 ;
-      LAYER via1 ;
-        RECT 72.945 5.005 73.095 5.155 ;
       LAYER via2 ;
         RECT 72.92 4.98 73.12 5.18 ;
+      LAYER via1 ;
+        RECT 72.945 5.005 73.095 5.155 ;
       LAYER mcon ;
         RECT 72.93 3.69 73.1 3.86 ;
         RECT 72.93 2.21 73.1 2.38 ;
@@ -60640,7 +60830,7 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 91.39 0 91.77 5.27 ;
@@ -60655,10 +60845,10 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
         RECT 91.43 2.18 91.725 2.41 ;
         RECT 91.43 3.66 91.72 3.89 ;
         RECT 91.49 2.18 91.66 3.89 ;
-      LAYER via1 ;
-        RECT 91.505 5.005 91.655 5.155 ;
       LAYER via2 ;
         RECT 91.48 4.98 91.68 5.18 ;
+      LAYER via1 ;
+        RECT 91.505 5.005 91.655 5.155 ;
       LAYER mcon ;
         RECT 91.49 3.69 91.66 3.86 ;
         RECT 91.49 2.21 91.66 2.38 ;
@@ -60668,7 +60858,7 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 109.95 0 110.33 5.27 ;
@@ -60683,10 +60873,10 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
         RECT 109.99 2.18 110.285 2.41 ;
         RECT 109.99 3.66 110.28 3.89 ;
         RECT 110.05 2.18 110.22 3.89 ;
-      LAYER via1 ;
-        RECT 110.065 5.005 110.215 5.155 ;
       LAYER via2 ;
         RECT 110.04 4.98 110.24 5.18 ;
+      LAYER via1 ;
+        RECT 110.065 5.005 110.215 5.155 ;
       LAYER mcon ;
         RECT 110.05 3.69 110.22 3.86 ;
         RECT 110.05 2.21 110.22 2.38 ;
@@ -60696,25 +60886,32 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 25.945 8.135 26.325 8.515 ;
+        RECT 25.97 8.135 26.295 12.36 ;
       LAYER met2 ;
         RECT 31.59 4 31.93 4.35 ;
         RECT 31.58 8.135 31.92 8.485 ;
         RECT 31.665 4 31.835 8.485 ;
+        RECT 25.945 8.135 26.325 8.515 ;
       LAYER li1 ;
         RECT 31.66 2.955 31.83 4.225 ;
         RECT 31.66 8.24 31.83 9.51 ;
         RECT 26.045 8.24 26.215 9.51 ;
       LAYER met1 ;
-        RECT 25.985 8.235 32.065 8.405 ;
+        RECT 25.96 8.235 32.065 8.405 ;
         RECT 31.58 8.235 32.06 8.41 ;
         RECT 31.58 8.135 31.92 8.485 ;
-        RECT 25.985 8.235 26.445 8.41 ;
-        RECT 25.985 8.21 26.275 8.44 ;
+        RECT 25.96 8.235 26.445 8.41 ;
+        RECT 25.96 8.15 26.31 8.5 ;
         RECT 31.59 4.055 32.06 4.225 ;
         RECT 31.59 4 31.93 4.35 ;
+      LAYER via2 ;
+        RECT 26.035 8.225 26.235 8.425 ;
       LAYER via1 ;
+        RECT 26.06 8.25 26.21 8.4 ;
         RECT 31.68 8.235 31.83 8.385 ;
         RECT 31.69 4.1 31.84 4.25 ;
       LAYER mcon ;
@@ -60726,25 +60923,32 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 44.505 8.135 44.885 8.515 ;
+        RECT 44.53 8.135 44.855 12.36 ;
       LAYER met2 ;
         RECT 50.15 4 50.49 4.35 ;
         RECT 50.14 8.135 50.48 8.485 ;
         RECT 50.225 4 50.395 8.485 ;
+        RECT 44.505 8.135 44.885 8.515 ;
       LAYER li1 ;
         RECT 50.22 2.955 50.39 4.225 ;
         RECT 50.22 8.24 50.39 9.51 ;
         RECT 44.605 8.24 44.775 9.51 ;
       LAYER met1 ;
-        RECT 44.545 8.235 50.625 8.405 ;
+        RECT 44.52 8.235 50.625 8.405 ;
         RECT 50.14 8.235 50.62 8.41 ;
         RECT 50.14 8.135 50.48 8.485 ;
-        RECT 44.545 8.235 45.005 8.41 ;
-        RECT 44.545 8.21 44.835 8.44 ;
+        RECT 44.52 8.235 45.005 8.41 ;
+        RECT 44.52 8.15 44.87 8.5 ;
         RECT 50.15 4.055 50.62 4.225 ;
         RECT 50.15 4 50.49 4.35 ;
+      LAYER via2 ;
+        RECT 44.595 8.225 44.795 8.425 ;
       LAYER via1 ;
+        RECT 44.62 8.25 44.77 8.4 ;
         RECT 50.24 8.235 50.39 8.385 ;
         RECT 50.25 4.1 50.4 4.25 ;
       LAYER mcon ;
@@ -60756,25 +60960,32 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 63.065 8.135 63.445 8.515 ;
+        RECT 63.09 8.135 63.415 12.36 ;
       LAYER met2 ;
         RECT 68.71 4 69.05 4.35 ;
         RECT 68.7 8.135 69.04 8.485 ;
         RECT 68.785 4 68.955 8.485 ;
+        RECT 63.065 8.135 63.445 8.515 ;
       LAYER li1 ;
         RECT 68.78 2.955 68.95 4.225 ;
         RECT 68.78 8.24 68.95 9.51 ;
         RECT 63.165 8.24 63.335 9.51 ;
       LAYER met1 ;
-        RECT 63.105 8.235 69.185 8.405 ;
+        RECT 63.08 8.235 69.185 8.405 ;
         RECT 68.7 8.235 69.18 8.41 ;
         RECT 68.7 8.135 69.04 8.485 ;
-        RECT 63.105 8.235 63.565 8.41 ;
-        RECT 63.105 8.21 63.395 8.44 ;
+        RECT 63.08 8.235 63.565 8.41 ;
+        RECT 63.08 8.15 63.43 8.5 ;
         RECT 68.71 4.055 69.18 4.225 ;
         RECT 68.71 4 69.05 4.35 ;
+      LAYER via2 ;
+        RECT 63.155 8.225 63.355 8.425 ;
       LAYER via1 ;
+        RECT 63.18 8.25 63.33 8.4 ;
         RECT 68.8 8.235 68.95 8.385 ;
         RECT 68.81 4.1 68.96 4.25 ;
       LAYER mcon ;
@@ -60786,25 +60997,32 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 81.625 8.135 82.005 8.515 ;
+        RECT 81.65 8.135 81.975 12.36 ;
       LAYER met2 ;
         RECT 87.27 4 87.61 4.35 ;
         RECT 87.26 8.135 87.6 8.485 ;
         RECT 87.345 4 87.515 8.485 ;
+        RECT 81.625 8.135 82.005 8.515 ;
       LAYER li1 ;
         RECT 87.34 2.955 87.51 4.225 ;
         RECT 87.34 8.24 87.51 9.51 ;
         RECT 81.725 8.24 81.895 9.51 ;
       LAYER met1 ;
-        RECT 81.665 8.235 87.745 8.405 ;
+        RECT 81.64 8.235 87.745 8.405 ;
         RECT 87.26 8.235 87.74 8.41 ;
         RECT 87.26 8.135 87.6 8.485 ;
-        RECT 81.665 8.235 82.125 8.41 ;
-        RECT 81.665 8.21 81.955 8.44 ;
+        RECT 81.64 8.235 82.125 8.41 ;
+        RECT 81.64 8.15 81.99 8.5 ;
         RECT 87.27 4.055 87.74 4.225 ;
         RECT 87.27 4 87.61 4.35 ;
+      LAYER via2 ;
+        RECT 81.715 8.225 81.915 8.425 ;
       LAYER via1 ;
+        RECT 81.74 8.25 81.89 8.4 ;
         RECT 87.36 8.235 87.51 8.385 ;
         RECT 87.37 4.1 87.52 4.25 ;
       LAYER mcon ;
@@ -60816,25 +61034,32 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 100.185 8.135 100.565 8.515 ;
+        RECT 100.21 8.135 100.535 12.36 ;
       LAYER met2 ;
         RECT 105.83 4 106.17 4.35 ;
         RECT 105.82 8.135 106.16 8.485 ;
         RECT 105.905 4 106.075 8.485 ;
+        RECT 100.185 8.135 100.565 8.515 ;
       LAYER li1 ;
         RECT 105.9 2.955 106.07 4.225 ;
         RECT 105.9 8.24 106.07 9.51 ;
         RECT 100.285 8.24 100.455 9.51 ;
       LAYER met1 ;
-        RECT 100.225 8.235 106.305 8.405 ;
+        RECT 100.2 8.235 106.305 8.405 ;
         RECT 105.82 8.235 106.3 8.41 ;
         RECT 105.82 8.135 106.16 8.485 ;
-        RECT 100.225 8.235 100.685 8.41 ;
-        RECT 100.225 8.21 100.515 8.44 ;
+        RECT 100.2 8.235 100.685 8.41 ;
+        RECT 100.2 8.15 100.55 8.5 ;
         RECT 105.83 4.055 106.3 4.225 ;
         RECT 105.83 4 106.17 4.35 ;
+      LAYER via2 ;
+        RECT 100.275 8.225 100.475 8.425 ;
       LAYER via1 ;
+        RECT 100.3 8.25 100.45 8.4 ;
         RECT 105.92 8.235 106.07 8.385 ;
         RECT 105.93 4.1 106.08 4.25 ;
       LAYER mcon ;
@@ -61347,6 +61572,12 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
         RECT 21.975 3.665 22.265 4.035 ;
         RECT 21.21 3.665 22.265 3.805 ;
         RECT 20.24 4.305 20.56 4.565 ;
+      LAYER via2 ;
+        RECT 20.56 3.775 20.76 3.975 ;
+        RECT 39.12 3.775 39.32 3.975 ;
+        RECT 57.68 3.775 57.88 3.975 ;
+        RECT 76.24 3.775 76.44 3.975 ;
+        RECT 94.8 3.775 95 3.975 ;
       LAYER via1 ;
         RECT 20.325 4.36 20.475 4.51 ;
         RECT 20.685 2.39 20.835 2.54 ;
@@ -61363,12 +61594,6 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r1
         RECT 94.565 4.36 94.715 4.51 ;
         RECT 94.925 2.39 95.075 2.54 ;
         RECT 96.285 3.8 96.435 3.95 ;
-      LAYER via2 ;
-        RECT 20.56 3.775 20.76 3.975 ;
-        RECT 39.12 3.775 39.32 3.975 ;
-        RECT 57.68 3.775 57.88 3.975 ;
-        RECT 76.24 3.775 76.44 3.975 ;
-        RECT 94.8 3.775 95 3.975 ;
       LAYER mcon ;
         RECT 15.3 10.9 15.47 11.07 ;
         RECT 15.98 10.9 16.15 11.07 ;
@@ -63834,7 +64059,7 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 35.71 0 36.09 5.265 ;
@@ -63849,10 +64074,10 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
         RECT 35.75 2.18 36.045 2.41 ;
         RECT 35.75 3.66 36.04 3.89 ;
         RECT 35.81 2.18 35.98 3.89 ;
-      LAYER via1 ;
-        RECT 35.825 5 35.975 5.15 ;
       LAYER via2 ;
         RECT 35.8 4.975 36 5.175 ;
+      LAYER via1 ;
+        RECT 35.825 5 35.975 5.15 ;
       LAYER mcon ;
         RECT 35.81 3.69 35.98 3.86 ;
         RECT 35.81 2.21 35.98 2.38 ;
@@ -63862,7 +64087,7 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 54.27 0 54.65 5.265 ;
@@ -63877,10 +64102,10 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
         RECT 54.31 2.18 54.605 2.41 ;
         RECT 54.31 3.66 54.6 3.89 ;
         RECT 54.37 2.18 54.54 3.89 ;
-      LAYER via1 ;
-        RECT 54.385 5 54.535 5.15 ;
       LAYER via2 ;
         RECT 54.36 4.975 54.56 5.175 ;
+      LAYER via1 ;
+        RECT 54.385 5 54.535 5.15 ;
       LAYER mcon ;
         RECT 54.37 3.69 54.54 3.86 ;
         RECT 54.37 2.21 54.54 2.38 ;
@@ -63890,7 +64115,7 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 72.83 0 73.21 5.265 ;
@@ -63905,10 +64130,10 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
         RECT 72.87 2.18 73.165 2.41 ;
         RECT 72.87 3.66 73.16 3.89 ;
         RECT 72.93 2.18 73.1 3.89 ;
-      LAYER via1 ;
-        RECT 72.945 5 73.095 5.15 ;
       LAYER via2 ;
         RECT 72.92 4.975 73.12 5.175 ;
+      LAYER via1 ;
+        RECT 72.945 5 73.095 5.15 ;
       LAYER mcon ;
         RECT 72.93 3.69 73.1 3.86 ;
         RECT 72.93 2.21 73.1 2.38 ;
@@ -63918,7 +64143,7 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 91.39 0 91.77 5.265 ;
@@ -63933,10 +64158,10 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
         RECT 91.43 2.18 91.725 2.41 ;
         RECT 91.43 3.66 91.72 3.89 ;
         RECT 91.49 2.18 91.66 3.89 ;
-      LAYER via1 ;
-        RECT 91.505 5 91.655 5.15 ;
       LAYER via2 ;
         RECT 91.48 4.975 91.68 5.175 ;
+      LAYER via1 ;
+        RECT 91.505 5 91.655 5.15 ;
       LAYER mcon ;
         RECT 91.49 3.69 91.66 3.86 ;
         RECT 91.49 2.21 91.66 2.38 ;
@@ -63946,7 +64171,7 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 109.95 0 110.33 5.265 ;
@@ -63961,10 +64186,10 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
         RECT 109.99 2.18 110.285 2.41 ;
         RECT 109.99 3.66 110.28 3.89 ;
         RECT 110.05 2.18 110.22 3.89 ;
-      LAYER via1 ;
-        RECT 110.065 5 110.215 5.15 ;
       LAYER via2 ;
         RECT 110.04 4.975 110.24 5.175 ;
+      LAYER via1 ;
+        RECT 110.065 5 110.215 5.15 ;
       LAYER mcon ;
         RECT 110.05 3.69 110.22 3.86 ;
         RECT 110.05 2.21 110.22 2.38 ;
@@ -63974,25 +64199,32 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 25.935 8.13 26.315 8.51 ;
+        RECT 25.965 8.13 26.285 12.295 ;
       LAYER met2 ;
         RECT 31.585 4 31.925 4.35 ;
         RECT 31.575 8.135 31.915 8.485 ;
         RECT 31.66 4 31.83 8.485 ;
+        RECT 25.935 8.13 26.315 8.51 ;
       LAYER li1 ;
         RECT 31.655 2.955 31.825 4.225 ;
         RECT 31.655 8.24 31.825 9.51 ;
         RECT 26.04 8.24 26.21 9.51 ;
       LAYER met1 ;
-        RECT 25.98 8.235 32.06 8.405 ;
+        RECT 25.95 8.235 32.06 8.405 ;
         RECT 31.575 8.235 32.055 8.41 ;
         RECT 31.575 8.135 31.915 8.485 ;
-        RECT 25.98 8.235 26.44 8.41 ;
-        RECT 25.98 8.21 26.27 8.44 ;
+        RECT 25.95 8.235 26.44 8.41 ;
+        RECT 25.95 8.145 26.3 8.495 ;
         RECT 31.585 4.055 32.055 4.225 ;
         RECT 31.585 4 31.925 4.35 ;
+      LAYER via2 ;
+        RECT 26.025 8.22 26.225 8.42 ;
       LAYER via1 ;
+        RECT 26.05 8.245 26.2 8.395 ;
         RECT 31.675 8.235 31.825 8.385 ;
         RECT 31.685 4.1 31.835 4.25 ;
       LAYER mcon ;
@@ -64004,25 +64236,32 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 44.495 8.13 44.875 8.51 ;
+        RECT 44.525 8.13 44.845 12.295 ;
       LAYER met2 ;
         RECT 50.145 4 50.485 4.35 ;
         RECT 50.135 8.135 50.475 8.485 ;
         RECT 50.22 4 50.39 8.485 ;
+        RECT 44.495 8.13 44.875 8.51 ;
       LAYER li1 ;
         RECT 50.215 2.955 50.385 4.225 ;
         RECT 50.215 8.24 50.385 9.51 ;
         RECT 44.6 8.24 44.77 9.51 ;
       LAYER met1 ;
-        RECT 44.54 8.235 50.62 8.405 ;
+        RECT 44.51 8.235 50.62 8.405 ;
         RECT 50.135 8.235 50.615 8.41 ;
         RECT 50.135 8.135 50.475 8.485 ;
-        RECT 44.54 8.235 45 8.41 ;
-        RECT 44.54 8.21 44.83 8.44 ;
+        RECT 44.51 8.235 45 8.41 ;
+        RECT 44.51 8.145 44.86 8.495 ;
         RECT 50.145 4.055 50.615 4.225 ;
         RECT 50.145 4 50.485 4.35 ;
+      LAYER via2 ;
+        RECT 44.585 8.22 44.785 8.42 ;
       LAYER via1 ;
+        RECT 44.61 8.245 44.76 8.395 ;
         RECT 50.235 8.235 50.385 8.385 ;
         RECT 50.245 4.1 50.395 4.25 ;
       LAYER mcon ;
@@ -64034,25 +64273,32 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 63.055 8.13 63.435 8.51 ;
+        RECT 63.085 8.13 63.405 12.295 ;
       LAYER met2 ;
         RECT 68.705 4 69.045 4.35 ;
         RECT 68.695 8.135 69.035 8.485 ;
         RECT 68.78 4 68.95 8.485 ;
+        RECT 63.055 8.13 63.435 8.51 ;
       LAYER li1 ;
         RECT 68.775 2.955 68.945 4.225 ;
         RECT 68.775 8.24 68.945 9.51 ;
         RECT 63.16 8.24 63.33 9.51 ;
       LAYER met1 ;
-        RECT 63.1 8.235 69.18 8.405 ;
+        RECT 63.07 8.235 69.18 8.405 ;
         RECT 68.695 8.235 69.175 8.41 ;
         RECT 68.695 8.135 69.035 8.485 ;
-        RECT 63.1 8.235 63.56 8.41 ;
-        RECT 63.1 8.21 63.39 8.44 ;
+        RECT 63.07 8.235 63.56 8.41 ;
+        RECT 63.07 8.145 63.42 8.495 ;
         RECT 68.705 4.055 69.175 4.225 ;
         RECT 68.705 4 69.045 4.35 ;
+      LAYER via2 ;
+        RECT 63.145 8.22 63.345 8.42 ;
       LAYER via1 ;
+        RECT 63.17 8.245 63.32 8.395 ;
         RECT 68.795 8.235 68.945 8.385 ;
         RECT 68.805 4.1 68.955 4.25 ;
       LAYER mcon ;
@@ -64064,25 +64310,32 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 81.615 8.13 81.995 8.51 ;
+        RECT 81.645 8.13 81.965 12.295 ;
       LAYER met2 ;
         RECT 87.265 4 87.605 4.35 ;
         RECT 87.255 8.135 87.595 8.485 ;
         RECT 87.34 4 87.51 8.485 ;
+        RECT 81.615 8.13 81.995 8.51 ;
       LAYER li1 ;
         RECT 87.335 2.955 87.505 4.225 ;
         RECT 87.335 8.24 87.505 9.51 ;
         RECT 81.72 8.24 81.89 9.51 ;
       LAYER met1 ;
-        RECT 81.66 8.235 87.74 8.405 ;
+        RECT 81.63 8.235 87.74 8.405 ;
         RECT 87.255 8.235 87.735 8.41 ;
         RECT 87.255 8.135 87.595 8.485 ;
-        RECT 81.66 8.235 82.12 8.41 ;
-        RECT 81.66 8.21 81.95 8.44 ;
+        RECT 81.63 8.235 82.12 8.41 ;
+        RECT 81.63 8.145 81.98 8.495 ;
         RECT 87.265 4.055 87.735 4.225 ;
         RECT 87.265 4 87.605 4.35 ;
+      LAYER via2 ;
+        RECT 81.705 8.22 81.905 8.42 ;
       LAYER via1 ;
+        RECT 81.73 8.245 81.88 8.395 ;
         RECT 87.355 8.235 87.505 8.385 ;
         RECT 87.365 4.1 87.515 4.25 ;
       LAYER mcon ;
@@ -64094,25 +64347,32 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 100.175 8.13 100.555 8.51 ;
+        RECT 100.205 8.13 100.525 12.295 ;
       LAYER met2 ;
         RECT 105.825 4 106.165 4.35 ;
         RECT 105.815 8.135 106.155 8.485 ;
         RECT 105.9 4 106.07 8.485 ;
+        RECT 100.175 8.13 100.555 8.51 ;
       LAYER li1 ;
         RECT 105.895 2.955 106.065 4.225 ;
         RECT 105.895 8.24 106.065 9.51 ;
         RECT 100.28 8.24 100.45 9.51 ;
       LAYER met1 ;
-        RECT 100.22 8.235 106.3 8.405 ;
+        RECT 100.19 8.235 106.3 8.405 ;
         RECT 105.815 8.235 106.295 8.41 ;
         RECT 105.815 8.135 106.155 8.485 ;
-        RECT 100.22 8.235 100.68 8.41 ;
-        RECT 100.22 8.21 100.51 8.44 ;
+        RECT 100.19 8.235 100.68 8.41 ;
+        RECT 100.19 8.145 100.54 8.495 ;
         RECT 105.825 4.055 106.295 4.225 ;
         RECT 105.825 4 106.165 4.35 ;
+      LAYER via2 ;
+        RECT 100.265 8.22 100.465 8.42 ;
       LAYER via1 ;
+        RECT 100.29 8.245 100.44 8.395 ;
         RECT 105.915 8.235 106.065 8.385 ;
         RECT 105.925 4.1 106.075 4.25 ;
       LAYER mcon ;
@@ -64632,6 +64892,12 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
         RECT 21.97 3.665 22.26 4.035 ;
         RECT 21.205 3.665 22.26 3.805 ;
         RECT 20.235 4.305 20.555 4.565 ;
+      LAYER via2 ;
+        RECT 20.555 3.775 20.755 3.975 ;
+        RECT 39.115 3.775 39.315 3.975 ;
+        RECT 57.675 3.775 57.875 3.975 ;
+        RECT 76.235 3.775 76.435 3.975 ;
+        RECT 94.795 3.775 94.995 3.975 ;
       LAYER via1 ;
         RECT 20.32 4.36 20.47 4.51 ;
         RECT 20.68 2.39 20.83 2.54 ;
@@ -64648,12 +64914,6 @@ MACRO sky130_osu_ring_oscillator_mpr2et_8_b0r2
         RECT 94.56 4.36 94.71 4.51 ;
         RECT 94.92 2.39 95.07 2.54 ;
         RECT 96.28 3.8 96.43 3.95 ;
-      LAYER via2 ;
-        RECT 20.555 3.775 20.755 3.975 ;
-        RECT 39.115 3.775 39.315 3.975 ;
-        RECT 57.675 3.775 57.875 3.975 ;
-        RECT 76.235 3.775 76.435 3.975 ;
-        RECT 94.795 3.775 94.995 3.975 ;
       LAYER mcon ;
         RECT 15.295 10.9 15.465 11.07 ;
         RECT 15.975 10.9 16.145 11.07 ;
@@ -67104,7 +67364,7 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 42.355 0 42.735 5.26 ;
@@ -67119,10 +67379,10 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
         RECT 42.395 2.175 42.69 2.405 ;
         RECT 42.395 3.655 42.685 3.885 ;
         RECT 42.455 2.175 42.625 3.885 ;
-      LAYER via1 ;
-        RECT 42.47 4.995 42.62 5.145 ;
       LAYER via2 ;
         RECT 42.445 4.97 42.645 5.17 ;
+      LAYER via1 ;
+        RECT 42.47 4.995 42.62 5.145 ;
       LAYER mcon ;
         RECT 42.455 3.685 42.625 3.855 ;
         RECT 42.455 2.205 42.625 2.375 ;
@@ -67132,7 +67392,7 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 57.615 0 57.995 5.26 ;
@@ -67147,10 +67407,10 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
         RECT 57.655 2.175 57.95 2.405 ;
         RECT 57.655 3.655 57.945 3.885 ;
         RECT 57.715 2.175 57.885 3.885 ;
-      LAYER via1 ;
-        RECT 57.73 4.995 57.88 5.145 ;
       LAYER via2 ;
         RECT 57.705 4.97 57.905 5.17 ;
+      LAYER via1 ;
+        RECT 57.73 4.995 57.88 5.145 ;
       LAYER mcon ;
         RECT 57.715 3.685 57.885 3.855 ;
         RECT 57.715 2.205 57.885 2.375 ;
@@ -67160,7 +67420,7 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 72.875 0 73.255 5.26 ;
@@ -67175,10 +67435,10 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
         RECT 72.915 2.175 73.21 2.405 ;
         RECT 72.915 3.655 73.205 3.885 ;
         RECT 72.975 2.175 73.145 3.885 ;
-      LAYER via1 ;
-        RECT 72.99 4.995 73.14 5.145 ;
       LAYER via2 ;
         RECT 72.965 4.97 73.165 5.17 ;
+      LAYER via1 ;
+        RECT 72.99 4.995 73.14 5.145 ;
       LAYER mcon ;
         RECT 72.975 3.685 73.145 3.855 ;
         RECT 72.975 2.205 73.145 2.375 ;
@@ -67188,7 +67448,7 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 88.135 0 88.515 5.26 ;
@@ -67203,10 +67463,10 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
         RECT 88.175 2.175 88.47 2.405 ;
         RECT 88.175 3.655 88.465 3.885 ;
         RECT 88.235 2.175 88.405 3.885 ;
-      LAYER via1 ;
-        RECT 88.25 4.995 88.4 5.145 ;
       LAYER via2 ;
         RECT 88.225 4.97 88.425 5.17 ;
+      LAYER via1 ;
+        RECT 88.25 4.995 88.4 5.145 ;
       LAYER mcon ;
         RECT 88.235 3.685 88.405 3.855 ;
         RECT 88.235 2.205 88.405 2.375 ;
@@ -67216,7 +67476,7 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 103.395 0 103.775 5.26 ;
@@ -67231,10 +67491,10 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
         RECT 103.435 2.175 103.73 2.405 ;
         RECT 103.435 3.655 103.725 3.885 ;
         RECT 103.495 2.175 103.665 3.885 ;
-      LAYER via1 ;
-        RECT 103.51 4.995 103.66 5.145 ;
       LAYER via2 ;
         RECT 103.485 4.97 103.685 5.17 ;
+      LAYER via1 ;
+        RECT 103.51 4.995 103.66 5.145 ;
       LAYER mcon ;
         RECT 103.495 3.685 103.665 3.855 ;
         RECT 103.495 2.205 103.665 2.375 ;
@@ -67244,12 +67504,15 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 32.6 8.135 32.95 12.465 ;
       LAYER met2 ;
         RECT 38.23 8.15 38.57 8.5 ;
         RECT 38.23 4 38.57 4.35 ;
         RECT 38.31 4 38.48 8.5 ;
+        RECT 32.63 8.135 32.92 8.515 ;
       LAYER li1 ;
         RECT 38.305 2.955 38.475 4.225 ;
         RECT 38.305 8.24 38.475 9.51 ;
@@ -67259,10 +67522,13 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
         RECT 38.23 4 38.57 4.35 ;
         RECT 38.23 8.24 38.705 8.41 ;
         RECT 38.23 8.15 38.57 8.5 ;
-        RECT 32.63 8.235 38.57 8.405 ;
-        RECT 32.63 8.235 33.09 8.41 ;
-        RECT 32.63 8.21 32.92 8.44 ;
+        RECT 32.6 8.235 38.57 8.405 ;
+        RECT 32.6 8.235 33.09 8.41 ;
+        RECT 32.6 8.18 32.95 8.47 ;
+      LAYER via2 ;
+        RECT 32.675 8.225 32.875 8.425 ;
       LAYER via1 ;
+        RECT 32.7 8.25 32.85 8.4 ;
         RECT 38.33 8.25 38.48 8.4 ;
         RECT 38.33 4.1 38.48 4.25 ;
       LAYER mcon ;
@@ -67274,12 +67540,15 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 47.86 8.135 48.21 12.465 ;
       LAYER met2 ;
         RECT 53.49 8.15 53.83 8.5 ;
         RECT 53.49 4 53.83 4.35 ;
         RECT 53.57 4 53.74 8.5 ;
+        RECT 47.89 8.135 48.18 8.515 ;
       LAYER li1 ;
         RECT 53.565 2.955 53.735 4.225 ;
         RECT 53.565 8.24 53.735 9.51 ;
@@ -67289,10 +67558,13 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
         RECT 53.49 4 53.83 4.35 ;
         RECT 53.49 8.24 53.965 8.41 ;
         RECT 53.49 8.15 53.83 8.5 ;
-        RECT 47.89 8.235 53.83 8.405 ;
-        RECT 47.89 8.235 48.35 8.41 ;
-        RECT 47.89 8.21 48.18 8.44 ;
+        RECT 47.86 8.235 53.83 8.405 ;
+        RECT 47.86 8.235 48.35 8.41 ;
+        RECT 47.86 8.18 48.21 8.47 ;
+      LAYER via2 ;
+        RECT 47.935 8.225 48.135 8.425 ;
       LAYER via1 ;
+        RECT 47.96 8.25 48.11 8.4 ;
         RECT 53.59 8.25 53.74 8.4 ;
         RECT 53.59 4.1 53.74 4.25 ;
       LAYER mcon ;
@@ -67304,12 +67576,15 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 63.12 8.135 63.47 12.465 ;
       LAYER met2 ;
         RECT 68.75 8.15 69.09 8.5 ;
         RECT 68.75 4 69.09 4.35 ;
         RECT 68.83 4 69 8.5 ;
+        RECT 63.15 8.135 63.44 8.515 ;
       LAYER li1 ;
         RECT 68.825 2.955 68.995 4.225 ;
         RECT 68.825 8.24 68.995 9.51 ;
@@ -67319,10 +67594,13 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
         RECT 68.75 4 69.09 4.35 ;
         RECT 68.75 8.24 69.225 8.41 ;
         RECT 68.75 8.15 69.09 8.5 ;
-        RECT 63.15 8.235 69.09 8.405 ;
-        RECT 63.15 8.235 63.61 8.41 ;
-        RECT 63.15 8.21 63.44 8.44 ;
+        RECT 63.12 8.235 69.09 8.405 ;
+        RECT 63.12 8.235 63.61 8.41 ;
+        RECT 63.12 8.18 63.47 8.47 ;
+      LAYER via2 ;
+        RECT 63.195 8.225 63.395 8.425 ;
       LAYER via1 ;
+        RECT 63.22 8.25 63.37 8.4 ;
         RECT 68.85 8.25 69 8.4 ;
         RECT 68.85 4.1 69 4.25 ;
       LAYER mcon ;
@@ -67334,12 +67612,15 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 78.38 8.135 78.73 12.465 ;
       LAYER met2 ;
         RECT 84.01 8.15 84.35 8.5 ;
         RECT 84.01 4 84.35 4.35 ;
         RECT 84.09 4 84.26 8.5 ;
+        RECT 78.41 8.135 78.7 8.515 ;
       LAYER li1 ;
         RECT 84.085 2.955 84.255 4.225 ;
         RECT 84.085 8.24 84.255 9.51 ;
@@ -67349,10 +67630,13 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
         RECT 84.01 4 84.35 4.35 ;
         RECT 84.01 8.24 84.485 8.41 ;
         RECT 84.01 8.15 84.35 8.5 ;
-        RECT 78.41 8.235 84.35 8.405 ;
-        RECT 78.41 8.235 78.87 8.41 ;
-        RECT 78.41 8.21 78.7 8.44 ;
+        RECT 78.38 8.235 84.35 8.405 ;
+        RECT 78.38 8.235 78.87 8.41 ;
+        RECT 78.38 8.18 78.73 8.47 ;
+      LAYER via2 ;
+        RECT 78.455 8.225 78.655 8.425 ;
       LAYER via1 ;
+        RECT 78.48 8.25 78.63 8.4 ;
         RECT 84.11 8.25 84.26 8.4 ;
         RECT 84.11 4.1 84.26 4.25 ;
       LAYER mcon ;
@@ -67364,12 +67648,15 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 93.64 8.135 93.99 12.465 ;
       LAYER met2 ;
         RECT 99.27 8.15 99.61 8.5 ;
         RECT 99.27 4 99.61 4.35 ;
         RECT 99.35 4 99.52 8.5 ;
+        RECT 93.67 8.135 93.96 8.515 ;
       LAYER li1 ;
         RECT 99.345 2.955 99.515 4.225 ;
         RECT 99.345 8.24 99.515 9.51 ;
@@ -67379,10 +67666,13 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
         RECT 99.27 4 99.61 4.35 ;
         RECT 99.27 8.24 99.745 8.41 ;
         RECT 99.27 8.15 99.61 8.5 ;
-        RECT 93.67 8.235 99.61 8.405 ;
-        RECT 93.67 8.235 94.13 8.41 ;
-        RECT 93.67 8.21 93.96 8.44 ;
+        RECT 93.64 8.235 99.61 8.405 ;
+        RECT 93.64 8.235 94.13 8.41 ;
+        RECT 93.64 8.18 93.99 8.47 ;
+      LAYER via2 ;
+        RECT 93.715 8.225 93.915 8.425 ;
       LAYER via1 ;
+        RECT 93.74 8.25 93.89 8.4 ;
         RECT 99.37 8.25 99.52 8.4 ;
         RECT 99.37 4.1 99.52 4.25 ;
       LAYER mcon ;
@@ -67865,18 +68155,18 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r1
         RECT 33.635 8.58 33.925 8.81 ;
         RECT 33.465 8.605 33.635 12.465 ;
         RECT 33.46 8.61 33.925 8.78 ;
-      LAYER via1 ;
-        RECT 29.655 3.24 29.805 3.39 ;
-        RECT 44.915 3.24 45.065 3.39 ;
-        RECT 60.175 3.24 60.325 3.39 ;
-        RECT 75.435 3.24 75.585 3.39 ;
-        RECT 90.695 3.24 90.845 3.39 ;
       LAYER via2 ;
         RECT 29.51 3.215 29.71 3.415 ;
         RECT 44.77 3.215 44.97 3.415 ;
         RECT 60.03 3.215 60.23 3.415 ;
         RECT 75.29 3.215 75.49 3.415 ;
         RECT 90.55 3.215 90.75 3.415 ;
+      LAYER via1 ;
+        RECT 29.655 3.24 29.805 3.39 ;
+        RECT 44.915 3.24 45.065 3.39 ;
+        RECT 60.175 3.24 60.325 3.39 ;
+        RECT 75.435 3.24 75.585 3.39 ;
+        RECT 90.695 3.24 90.845 3.39 ;
       LAYER mcon ;
         RECT 25.245 10.9 25.415 11.07 ;
         RECT 25.925 10.9 26.095 11.07 ;
@@ -70199,7 +70489,7 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 42.405 0 42.785 5.26 ;
@@ -70214,10 +70504,10 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
         RECT 42.445 2.175 42.74 2.405 ;
         RECT 42.445 3.655 42.735 3.885 ;
         RECT 42.505 2.175 42.675 3.885 ;
-      LAYER via1 ;
-        RECT 42.52 4.995 42.67 5.145 ;
       LAYER via2 ;
         RECT 42.495 4.97 42.695 5.17 ;
+      LAYER via1 ;
+        RECT 42.52 4.995 42.67 5.145 ;
       LAYER mcon ;
         RECT 42.505 3.685 42.675 3.855 ;
         RECT 42.505 2.205 42.675 2.375 ;
@@ -70227,7 +70517,7 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 57.665 0 58.045 5.26 ;
@@ -70242,10 +70532,10 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
         RECT 57.705 2.175 58 2.405 ;
         RECT 57.705 3.655 57.995 3.885 ;
         RECT 57.765 2.175 57.935 3.885 ;
-      LAYER via1 ;
-        RECT 57.78 4.995 57.93 5.145 ;
       LAYER via2 ;
         RECT 57.755 4.97 57.955 5.17 ;
+      LAYER via1 ;
+        RECT 57.78 4.995 57.93 5.145 ;
       LAYER mcon ;
         RECT 57.765 3.685 57.935 3.855 ;
         RECT 57.765 2.205 57.935 2.375 ;
@@ -70255,7 +70545,7 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 72.925 0 73.305 5.26 ;
@@ -70270,10 +70560,10 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
         RECT 72.965 2.175 73.26 2.405 ;
         RECT 72.965 3.655 73.255 3.885 ;
         RECT 73.025 2.175 73.195 3.885 ;
-      LAYER via1 ;
-        RECT 73.04 4.995 73.19 5.145 ;
       LAYER via2 ;
         RECT 73.015 4.97 73.215 5.17 ;
+      LAYER via1 ;
+        RECT 73.04 4.995 73.19 5.145 ;
       LAYER mcon ;
         RECT 73.025 3.685 73.195 3.855 ;
         RECT 73.025 2.205 73.195 2.375 ;
@@ -70283,7 +70573,7 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 88.185 0 88.565 5.26 ;
@@ -70298,10 +70588,10 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
         RECT 88.225 2.175 88.52 2.405 ;
         RECT 88.225 3.655 88.515 3.885 ;
         RECT 88.285 2.175 88.455 3.885 ;
-      LAYER via1 ;
-        RECT 88.3 4.995 88.45 5.145 ;
       LAYER via2 ;
         RECT 88.275 4.97 88.475 5.17 ;
+      LAYER via1 ;
+        RECT 88.3 4.995 88.45 5.145 ;
       LAYER mcon ;
         RECT 88.285 3.685 88.455 3.855 ;
         RECT 88.285 2.205 88.455 2.375 ;
@@ -70311,7 +70601,7 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 103.445 0 103.825 5.26 ;
@@ -70326,10 +70616,10 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
         RECT 103.485 2.175 103.78 2.405 ;
         RECT 103.485 3.655 103.775 3.885 ;
         RECT 103.545 2.175 103.715 3.885 ;
-      LAYER via1 ;
-        RECT 103.56 4.995 103.71 5.145 ;
       LAYER via2 ;
         RECT 103.535 4.97 103.735 5.17 ;
+      LAYER via1 ;
+        RECT 103.56 4.995 103.71 5.145 ;
       LAYER mcon ;
         RECT 103.545 3.685 103.715 3.855 ;
         RECT 103.545 2.205 103.715 2.375 ;
@@ -70339,12 +70629,15 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 32.65 8.135 33 12.465 ;
       LAYER met2 ;
         RECT 38.28 8.15 38.62 8.5 ;
         RECT 38.28 4 38.62 4.35 ;
         RECT 38.36 4 38.53 8.5 ;
+        RECT 32.68 8.135 32.97 8.515 ;
       LAYER li1 ;
         RECT 38.355 2.955 38.525 4.225 ;
         RECT 38.355 8.24 38.525 9.51 ;
@@ -70354,10 +70647,13 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
         RECT 38.28 4 38.62 4.35 ;
         RECT 38.28 8.24 38.755 8.41 ;
         RECT 38.28 8.15 38.62 8.5 ;
-        RECT 32.68 8.235 38.62 8.405 ;
-        RECT 32.68 8.235 33.14 8.41 ;
-        RECT 32.68 8.21 32.97 8.44 ;
+        RECT 32.65 8.235 38.62 8.405 ;
+        RECT 32.65 8.235 33.14 8.41 ;
+        RECT 32.65 8.18 33 8.47 ;
+      LAYER via2 ;
+        RECT 32.725 8.225 32.925 8.425 ;
       LAYER via1 ;
+        RECT 32.75 8.25 32.9 8.4 ;
         RECT 38.38 8.25 38.53 8.4 ;
         RECT 38.38 4.1 38.53 4.25 ;
       LAYER mcon ;
@@ -70369,12 +70665,15 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 47.91 8.135 48.26 12.465 ;
       LAYER met2 ;
         RECT 53.54 8.15 53.88 8.5 ;
         RECT 53.54 4 53.88 4.35 ;
         RECT 53.62 4 53.79 8.5 ;
+        RECT 47.94 8.135 48.23 8.515 ;
       LAYER li1 ;
         RECT 53.615 2.955 53.785 4.225 ;
         RECT 53.615 8.24 53.785 9.51 ;
@@ -70384,10 +70683,13 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
         RECT 53.54 4 53.88 4.35 ;
         RECT 53.54 8.24 54.015 8.41 ;
         RECT 53.54 8.15 53.88 8.5 ;
-        RECT 47.94 8.235 53.88 8.405 ;
-        RECT 47.94 8.235 48.4 8.41 ;
-        RECT 47.94 8.21 48.23 8.44 ;
+        RECT 47.91 8.235 53.88 8.405 ;
+        RECT 47.91 8.235 48.4 8.41 ;
+        RECT 47.91 8.18 48.26 8.47 ;
+      LAYER via2 ;
+        RECT 47.985 8.225 48.185 8.425 ;
       LAYER via1 ;
+        RECT 48.01 8.25 48.16 8.4 ;
         RECT 53.64 8.25 53.79 8.4 ;
         RECT 53.64 4.1 53.79 4.25 ;
       LAYER mcon ;
@@ -70399,12 +70701,15 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 63.17 8.135 63.52 12.465 ;
       LAYER met2 ;
         RECT 68.8 8.15 69.14 8.5 ;
         RECT 68.8 4 69.14 4.35 ;
         RECT 68.88 4 69.05 8.5 ;
+        RECT 63.2 8.135 63.49 8.515 ;
       LAYER li1 ;
         RECT 68.875 2.955 69.045 4.225 ;
         RECT 68.875 8.24 69.045 9.51 ;
@@ -70414,10 +70719,13 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
         RECT 68.8 4 69.14 4.35 ;
         RECT 68.8 8.24 69.275 8.41 ;
         RECT 68.8 8.15 69.14 8.5 ;
-        RECT 63.2 8.235 69.14 8.405 ;
-        RECT 63.2 8.235 63.66 8.41 ;
-        RECT 63.2 8.21 63.49 8.44 ;
+        RECT 63.17 8.235 69.14 8.405 ;
+        RECT 63.17 8.235 63.66 8.41 ;
+        RECT 63.17 8.18 63.52 8.47 ;
+      LAYER via2 ;
+        RECT 63.245 8.225 63.445 8.425 ;
       LAYER via1 ;
+        RECT 63.27 8.25 63.42 8.4 ;
         RECT 68.9 8.25 69.05 8.4 ;
         RECT 68.9 4.1 69.05 4.25 ;
       LAYER mcon ;
@@ -70429,12 +70737,15 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 78.43 8.135 78.78 12.465 ;
       LAYER met2 ;
         RECT 84.06 8.15 84.4 8.5 ;
         RECT 84.06 4 84.4 4.35 ;
         RECT 84.14 4 84.31 8.5 ;
+        RECT 78.46 8.135 78.75 8.515 ;
       LAYER li1 ;
         RECT 84.135 2.955 84.305 4.225 ;
         RECT 84.135 8.24 84.305 9.51 ;
@@ -70444,10 +70755,13 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
         RECT 84.06 4 84.4 4.35 ;
         RECT 84.06 8.24 84.535 8.41 ;
         RECT 84.06 8.15 84.4 8.5 ;
-        RECT 78.46 8.235 84.4 8.405 ;
-        RECT 78.46 8.235 78.92 8.41 ;
-        RECT 78.46 8.21 78.75 8.44 ;
+        RECT 78.43 8.235 84.4 8.405 ;
+        RECT 78.43 8.235 78.92 8.41 ;
+        RECT 78.43 8.18 78.78 8.47 ;
+      LAYER via2 ;
+        RECT 78.505 8.225 78.705 8.425 ;
       LAYER via1 ;
+        RECT 78.53 8.25 78.68 8.4 ;
         RECT 84.16 8.25 84.31 8.4 ;
         RECT 84.16 4.1 84.31 4.25 ;
       LAYER mcon ;
@@ -70459,12 +70773,15 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
+      LAYER met3 ;
+        RECT 93.69 8.135 94.04 12.465 ;
       LAYER met2 ;
         RECT 99.32 8.15 99.66 8.5 ;
         RECT 99.32 4 99.66 4.35 ;
         RECT 99.4 4 99.57 8.5 ;
+        RECT 93.72 8.135 94.01 8.515 ;
       LAYER li1 ;
         RECT 99.395 2.955 99.565 4.225 ;
         RECT 99.395 8.24 99.565 9.51 ;
@@ -70474,10 +70791,13 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
         RECT 99.32 4 99.66 4.35 ;
         RECT 99.32 8.24 99.795 8.41 ;
         RECT 99.32 8.15 99.66 8.5 ;
-        RECT 93.72 8.235 99.66 8.405 ;
-        RECT 93.72 8.235 94.18 8.41 ;
-        RECT 93.72 8.21 94.01 8.44 ;
+        RECT 93.69 8.235 99.66 8.405 ;
+        RECT 93.69 8.235 94.18 8.41 ;
+        RECT 93.69 8.18 94.04 8.47 ;
+      LAYER via2 ;
+        RECT 93.765 8.225 93.965 8.425 ;
       LAYER via1 ;
+        RECT 93.79 8.25 93.94 8.4 ;
         RECT 99.42 8.25 99.57 8.4 ;
         RECT 99.42 4.1 99.57 4.25 ;
       LAYER mcon ;
@@ -70955,18 +71275,18 @@ MACRO sky130_osu_ring_oscillator_mpr2xa_8_b0r2
         RECT 33.685 8.58 33.975 8.81 ;
         RECT 33.515 8.605 33.685 12.465 ;
         RECT 33.51 8.61 33.975 8.78 ;
-      LAYER via1 ;
-        RECT 29.705 3.24 29.855 3.39 ;
-        RECT 44.965 3.24 45.115 3.39 ;
-        RECT 60.225 3.24 60.375 3.39 ;
-        RECT 75.485 3.24 75.635 3.39 ;
-        RECT 90.745 3.24 90.895 3.39 ;
       LAYER via2 ;
         RECT 29.56 3.215 29.76 3.415 ;
         RECT 44.82 3.215 45.02 3.415 ;
         RECT 60.08 3.215 60.28 3.415 ;
         RECT 75.34 3.215 75.54 3.415 ;
         RECT 90.6 3.215 90.8 3.415 ;
+      LAYER via1 ;
+        RECT 29.705 3.24 29.855 3.39 ;
+        RECT 44.965 3.24 45.115 3.39 ;
+        RECT 60.225 3.24 60.375 3.39 ;
+        RECT 75.485 3.24 75.635 3.39 ;
+        RECT 90.745 3.24 90.895 3.39 ;
       LAYER mcon ;
         RECT 25.295 10.9 25.465 11.07 ;
         RECT 25.975 10.9 26.145 11.07 ;
@@ -73299,7 +73619,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 32.405 0 32.785 5.265 ;
@@ -73314,10 +73634,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
         RECT 32.45 2.175 32.745 2.405 ;
         RECT 32.45 3.655 32.74 3.885 ;
         RECT 32.51 2.175 32.68 3.885 ;
-      LAYER via1 ;
-        RECT 32.52 5 32.67 5.15 ;
       LAYER via2 ;
         RECT 32.495 4.975 32.695 5.175 ;
+      LAYER via1 ;
+        RECT 32.52 5 32.67 5.15 ;
       LAYER mcon ;
         RECT 32.51 3.685 32.68 3.855 ;
         RECT 32.515 4.985 32.685 5.155 ;
@@ -73327,7 +73647,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 47.665 0 48.045 5.265 ;
@@ -73342,10 +73662,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
         RECT 47.71 2.175 48.005 2.405 ;
         RECT 47.71 3.655 48 3.885 ;
         RECT 47.77 2.175 47.94 3.885 ;
-      LAYER via1 ;
-        RECT 47.78 5 47.93 5.15 ;
       LAYER via2 ;
         RECT 47.755 4.975 47.955 5.175 ;
+      LAYER via1 ;
+        RECT 47.78 5 47.93 5.15 ;
       LAYER mcon ;
         RECT 47.77 3.685 47.94 3.855 ;
         RECT 47.775 4.985 47.945 5.155 ;
@@ -73355,7 +73675,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 62.925 0 63.305 5.265 ;
@@ -73370,10 +73690,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
         RECT 62.97 2.175 63.265 2.405 ;
         RECT 62.97 3.655 63.26 3.885 ;
         RECT 63.03 2.175 63.2 3.885 ;
-      LAYER via1 ;
-        RECT 63.04 5 63.19 5.15 ;
       LAYER via2 ;
         RECT 63.015 4.975 63.215 5.175 ;
+      LAYER via1 ;
+        RECT 63.04 5 63.19 5.15 ;
       LAYER mcon ;
         RECT 63.03 3.685 63.2 3.855 ;
         RECT 63.035 4.985 63.205 5.155 ;
@@ -73383,7 +73703,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 78.185 0 78.565 5.265 ;
@@ -73398,10 +73718,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
         RECT 78.23 2.175 78.525 2.405 ;
         RECT 78.23 3.655 78.52 3.885 ;
         RECT 78.29 2.175 78.46 3.885 ;
-      LAYER via1 ;
-        RECT 78.3 5 78.45 5.15 ;
       LAYER via2 ;
         RECT 78.275 4.975 78.475 5.175 ;
+      LAYER via1 ;
+        RECT 78.3 5 78.45 5.15 ;
       LAYER mcon ;
         RECT 78.29 3.685 78.46 3.855 ;
         RECT 78.295 4.985 78.465 5.155 ;
@@ -73411,7 +73731,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 93.445 0 93.825 5.265 ;
@@ -73426,10 +73746,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
         RECT 93.49 2.175 93.785 2.405 ;
         RECT 93.49 3.655 93.78 3.885 ;
         RECT 93.55 2.175 93.72 3.885 ;
-      LAYER via1 ;
-        RECT 93.56 5 93.71 5.15 ;
       LAYER via2 ;
         RECT 93.535 4.975 93.735 5.175 ;
+      LAYER via1 ;
+        RECT 93.56 5 93.71 5.15 ;
       LAYER mcon ;
         RECT 93.55 3.685 93.72 3.855 ;
         RECT 93.555 4.985 93.725 5.155 ;
@@ -73439,7 +73759,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 28.285 4 28.625 4.35 ;
@@ -73469,7 +73789,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 43.545 4 43.885 4.35 ;
@@ -73499,7 +73819,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 58.805 4 59.145 4.35 ;
@@ -73529,7 +73849,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 74.065 4 74.405 4.35 ;
@@ -73559,7 +73879,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 89.325 4 89.665 4.35 ;
@@ -74120,6 +74440,12 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
         RECT 20.415 3.625 20.835 3.885 ;
         RECT 20.415 3.62 20.785 3.91 ;
         RECT 20.435 3.62 20.78 3.93 ;
+      LAYER via2 ;
+        RECT 20.525 3.775 20.725 3.975 ;
+        RECT 35.785 3.775 35.985 3.975 ;
+        RECT 51.045 3.775 51.245 3.975 ;
+        RECT 66.305 3.775 66.505 3.975 ;
+        RECT 81.565 3.775 81.765 3.975 ;
       LAYER via1 ;
         RECT 20.63 3.68 20.78 3.83 ;
         RECT 20.675 2.35 20.825 2.5 ;
@@ -74131,12 +74457,6 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r1
         RECT 66.455 2.35 66.605 2.5 ;
         RECT 81.67 3.68 81.82 3.83 ;
         RECT 81.715 2.35 81.865 2.5 ;
-      LAYER via2 ;
-        RECT 20.525 3.775 20.725 3.975 ;
-        RECT 35.785 3.775 35.985 3.975 ;
-        RECT 51.045 3.775 51.245 3.975 ;
-        RECT 66.305 3.775 66.505 3.975 ;
-        RECT 81.565 3.775 81.765 3.975 ;
       LAYER mcon ;
         RECT 15.3 10.9 15.47 11.07 ;
         RECT 15.98 10.9 16.15 11.07 ;
@@ -83632,7 +83952,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
   PIN X1_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 32.41 0 32.79 5.26 ;
@@ -83647,10 +83967,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
         RECT 32.45 2.175 32.745 2.405 ;
         RECT 32.45 3.655 32.74 3.885 ;
         RECT 32.51 2.175 32.68 3.885 ;
-      LAYER via1 ;
-        RECT 32.525 4.995 32.675 5.145 ;
       LAYER via2 ;
         RECT 32.5 4.97 32.7 5.17 ;
+      LAYER via1 ;
+        RECT 32.525 4.995 32.675 5.145 ;
       LAYER mcon ;
         RECT 32.51 3.685 32.68 3.855 ;
         RECT 32.515 4.985 32.685 5.155 ;
@@ -83660,7 +83980,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
   PIN X2_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 47.67 0 48.05 5.26 ;
@@ -83675,10 +83995,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
         RECT 47.71 2.175 48.005 2.405 ;
         RECT 47.71 3.655 48 3.885 ;
         RECT 47.77 2.175 47.94 3.885 ;
-      LAYER via1 ;
-        RECT 47.785 4.995 47.935 5.145 ;
       LAYER via2 ;
         RECT 47.76 4.97 47.96 5.17 ;
+      LAYER via1 ;
+        RECT 47.785 4.995 47.935 5.145 ;
       LAYER mcon ;
         RECT 47.77 3.685 47.94 3.855 ;
         RECT 47.775 4.985 47.945 5.155 ;
@@ -83688,7 +84008,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
   PIN X3_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 62.93 0 63.31 5.26 ;
@@ -83703,10 +84023,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
         RECT 62.97 2.175 63.265 2.405 ;
         RECT 62.97 3.655 63.26 3.885 ;
         RECT 63.03 2.175 63.2 3.885 ;
-      LAYER via1 ;
-        RECT 63.045 4.995 63.195 5.145 ;
       LAYER via2 ;
         RECT 63.02 4.97 63.22 5.17 ;
+      LAYER via1 ;
+        RECT 63.045 4.995 63.195 5.145 ;
       LAYER mcon ;
         RECT 63.03 3.685 63.2 3.855 ;
         RECT 63.035 4.985 63.205 5.155 ;
@@ -83716,7 +84036,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
   PIN X4_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 78.19 0 78.57 5.26 ;
@@ -83731,10 +84051,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
         RECT 78.23 2.175 78.525 2.405 ;
         RECT 78.23 3.655 78.52 3.885 ;
         RECT 78.29 2.175 78.46 3.885 ;
-      LAYER via1 ;
-        RECT 78.305 4.995 78.455 5.145 ;
       LAYER via2 ;
         RECT 78.28 4.97 78.48 5.17 ;
+      LAYER via1 ;
+        RECT 78.305 4.995 78.455 5.145 ;
       LAYER mcon ;
         RECT 78.29 3.685 78.46 3.855 ;
         RECT 78.295 4.985 78.465 5.155 ;
@@ -83744,7 +84064,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
   PIN X5_Y1
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.14575 ;
+    ANTENNADIFFAREA 0.47965 ;
     PORT
       LAYER met3 ;
         RECT 93.45 0 93.83 5.26 ;
@@ -83759,10 +84079,10 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
         RECT 93.49 2.175 93.785 2.405 ;
         RECT 93.49 3.655 93.78 3.885 ;
         RECT 93.55 2.175 93.72 3.885 ;
-      LAYER via1 ;
-        RECT 93.565 4.995 93.715 5.145 ;
       LAYER via2 ;
         RECT 93.54 4.97 93.74 5.17 ;
+      LAYER via1 ;
+        RECT 93.565 4.995 93.715 5.145 ;
       LAYER mcon ;
         RECT 93.55 3.685 93.72 3.855 ;
         RECT 93.555 4.985 93.725 5.155 ;
@@ -83772,7 +84092,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
   PIN s1
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 28.285 4 28.625 4.35 ;
@@ -83802,7 +84122,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
   PIN s2
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 43.545 4 43.885 4.35 ;
@@ -83832,7 +84152,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
   PIN s3
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 58.805 4 59.145 4.35 ;
@@ -83862,7 +84182,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
   PIN s4
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 74.065 4 74.405 4.35 ;
@@ -83892,7 +84212,7 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
   PIN s5
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.543 ;
+    ANTENNAGATEAREA 1.629 ;
     PORT
       LAYER met2 ;
         RECT 89.325 4 89.665 4.35 ;
@@ -84549,6 +84869,12 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
         RECT 20.435 3.63 20.78 3.93 ;
         RECT 20.435 3.63 20.735 3.945 ;
         RECT 20.415 3.63 20.78 3.91 ;
+      LAYER via2 ;
+        RECT 20.525 3.775 20.725 3.975 ;
+        RECT 35.785 3.775 35.985 3.975 ;
+        RECT 51.045 3.775 51.245 3.975 ;
+        RECT 66.305 3.775 66.505 3.975 ;
+        RECT 81.565 3.775 81.765 3.975 ;
       LAYER via1 ;
         RECT 20.63 3.68 20.78 3.83 ;
         RECT 20.675 2.35 20.825 2.5 ;
@@ -84560,12 +84886,6 @@ MACRO sky130_osu_ring_oscillator_mpr2ya_8_b0r2
         RECT 66.455 2.35 66.605 2.5 ;
         RECT 81.67 3.68 81.82 3.83 ;
         RECT 81.715 2.35 81.865 2.5 ;
-      LAYER via2 ;
-        RECT 20.525 3.775 20.725 3.975 ;
-        RECT 35.785 3.775 35.985 3.975 ;
-        RECT 51.045 3.775 51.245 3.975 ;
-        RECT 66.305 3.775 66.505 3.975 ;
-        RECT 81.565 3.775 81.765 3.975 ;
       LAYER mcon ;
         RECT 15.3 10.9 15.47 11.07 ;
         RECT 15.98 10.9 16.15 11.07 ;
