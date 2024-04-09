@@ -1312,7 +1312,7 @@ VIAS 5 ;
     - via4_5_3100_1600_4_7_400_400 + VIARULE M3M4_PR + CUTSIZE 200 200  + LAYERS met3 via3 met4  + CUTSPACING 200 200  + ENCLOSURE 90 60 250 65  + ROWCOL 4 7  ;
 END VIAS
 COMPONENTS 16 ;
-    - TIE_ZERO_zero_ sky130_fd_sc_hd__conb_1 + PLACED ( 1753520 1346400 ) FS ;
+    - TIE_ZERO_zero_ sky130_fd_sc_hd__conb_1 + PLACED ( 1860700 1169600 ) N ;
     - mprj1 mux16x1_project + FIXED ( 2690000 2119000 ) N ;
     - mprj2 mux16x1_project + FIXED ( 2690000 1939000 ) N ;
     - mprj3 mux16x1_project + FIXED ( 2690000 1759000 ) N ;
@@ -9661,10 +9661,11 @@ NETS 688 ;
       NEW met3 ( 2456860 1604460 ) M3M4_PR
       NEW met2 ( 2463070 1604460 ) M2M3_PR ;
     - x5\[1\] ( ro2 X5_Y1 ) ( mprj5 data_in[1] ) + USE SIGNAL
-      + ROUTED met3 ( 2446510 2157980 ) ( 2459620 * )
+      + ROUTED met2 ( 2446510 2157980 0 ) ( 2447430 * )
+      NEW met3 ( 2447430 2157980 ) ( 2459620 * )
       NEW met4 ( 2459620 1497020 ) ( * 2157980 )
       NEW met3 ( 2459620 1497020 ) ( 2690540 * 0 )
-      NEW met2 ( 2446510 2157980 ) M2M3_PR_M
+      NEW met2 ( 2447430 2157980 ) M2M3_PR
       NEW met3 ( 2459620 2157980 ) M3M4_PR
       NEW met3 ( 2459620 1497020 ) M3M4_PR ;
     - x5\[2\] ( ro3 X5_Y1 ) ( mprj5 data_in[2] ) + USE SIGNAL
@@ -9708,11 +9709,12 @@ NETS 688 ;
       NEW met3 ( 2461460 1470500 ) M3M4_PR
       NEW met3 ( 2461460 1702380 ) M3M4_PR ;
     - x5\[6\] ( ro7 X5_Y1 ) ( mprj5 data_in[6] ) + USE SIGNAL
-      + ROUTED met3 ( 2690540 1463020 0 ) ( * 1463700 )
+      + ROUTED met2 ( 2446510 1605140 0 ) ( 2447430 * )
+      NEW met3 ( 2690540 1463020 0 ) ( * 1463700 )
       NEW met3 ( 2462380 1463700 ) ( 2690540 * )
-      NEW met3 ( 2446510 1605140 ) ( 2462380 * )
+      NEW met3 ( 2447430 1605140 ) ( 2462380 * )
       NEW met4 ( 2462380 1463700 ) ( * 1605140 )
-      NEW met2 ( 2446510 1605140 ) M2M3_PR_M
+      NEW met2 ( 2447430 1605140 ) M2M3_PR
       NEW met3 ( 2462380 1463700 ) M3M4_PR
       NEW met3 ( 2462380 1605140 ) M3M4_PR ;
     - x5\[7\] ( ro8 X5_Y1 ) ( mprj5 data_in[7] ) + USE SIGNAL
@@ -9750,7 +9752,7 @@ NETS 688 ;
       ( mprj4 data_in[15] ) ( mprj4 data_in[14] ) ( mprj4 data_in[13] ) ( mprj4 data_in[12] ) ( mprj4 data_in[11] ) ( mprj4 data_in[10] ) ( mprj3 data_in[15] ) ( mprj3 data_in[14] )
       ( mprj3 data_in[13] ) ( mprj3 data_in[12] ) ( mprj3 data_in[11] ) ( mprj3 data_in[10] ) ( mprj2 data_in[15] ) ( mprj2 data_in[14] ) ( mprj2 data_in[13] ) ( mprj2 data_in[12] )
       ( mprj2 data_in[11] ) ( mprj2 data_in[10] ) ( mprj1 data_in[15] ) ( mprj1 data_in[14] ) ( mprj1 data_in[13] ) ( mprj1 data_in[12] ) ( mprj1 data_in[11] ) ( mprj1 data_in[10] ) + USE SIGNAL
-      + ROUTED met1 ( 1754670 1346910 ) ( 2681110 * )
+      + ROUTED met1 ( 1861850 1170790 ) ( 2681110 * )
       NEW met3 ( 2683870 1435820 ) ( 2690540 * 0 )
       NEW met3 ( 2683870 1762220 ) ( 2690540 * 0 )
       NEW met3 ( 2690540 1762220 0 ) ( * 1769020 0 )
@@ -9770,7 +9772,7 @@ NETS 688 ;
       NEW met3 ( 2690540 1408620 0 ) ( * 1415420 0 )
       NEW met3 ( 2690540 1415420 0 ) ( * 1422220 0 )
       NEW met3 ( 2690540 1422220 0 ) ( * 1429020 0 )
-      NEW met2 ( 2681110 1346910 ) ( * 1401820 )
+      NEW met2 ( 2681110 1170790 ) ( * 1401820 )
       NEW met3 ( 2690540 1429020 0 ) ( * 1435820 0 )
       NEW met3 ( 2683870 1616020 ) ( 2690540 * 0 )
       NEW met3 ( 2690540 1609220 0 ) ( * 1616020 0 )
@@ -9792,8 +9794,8 @@ NETS 688 ;
       NEW met3 ( 2690540 1969280 0 ) ( * 1976080 0 )
       NEW met3 ( 2690540 1962480 0 ) ( * 1969280 0 )
       NEW met2 ( 2683870 1979820 ) ( * 2121940 )
-      NEW li1 ( 1754670 1346910 ) L1M1_PR_MR
-      NEW met1 ( 2681110 1346910 ) M1M2_PR
+      NEW li1 ( 1861850 1170790 ) L1M1_PR_MR
+      NEW met1 ( 2681110 1170790 ) M1M2_PR
       NEW met2 ( 2683870 1435820 ) M2M3_PR
       NEW met2 ( 2683870 1762220 ) M2M3_PR
       NEW met2 ( 2683870 1941740 ) M2M3_PR
