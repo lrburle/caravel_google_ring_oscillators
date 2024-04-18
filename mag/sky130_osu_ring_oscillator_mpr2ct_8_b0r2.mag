@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1712684334
+timestamp 1713455328
 << nwell >>
 rect 3560 1748 3694 1749
 rect 3009 1461 4277 1748
@@ -64,11 +64,11 @@ rect 17301 1085 17347 1086
 rect 9 0 20783 320
 << viali >>
 rect 3045 1647 3079 1681
-rect 6894 441 6929 475
-rect 10338 441 10373 475
-rect 13782 442 13817 476
-rect 17226 441 17261 475
-rect 20670 441 20705 475
+rect 6895 441 6929 475
+rect 10339 441 10373 475
+rect 13783 442 13817 476
+rect 17227 441 17261 475
+rect 20671 441 20705 475
 << metal1 >>
 rect 9 2172 20783 2492
 rect 20704 1982 20706 2013
@@ -200,38 +200,38 @@ rect 13762 1 13838 987
 rect 17206 0 17282 986
 rect 20650 0 20726 986
 use sky130_osu_sc_12T_hs__mux2_1  sky130_osu_sc_12T_hs__mux2_1_0
-timestamp 1710278372
+timestamp 1713287902
 transform 1 0 3009 0 -1 2233
 box -10 0 552 902
 use sky130_osu_single_mpr2ct_8_b0r2  sky130_osu_single_mpr2ct_8_b0r2_0
-timestamp 1712684334
+timestamp 1713454721
 transform 1 0 17334 0 1 0
 box 0 0 3449 2492
 use sky130_osu_single_mpr2ct_8_b0r2  sky130_osu_single_mpr2ct_8_b0r2_1
-timestamp 1712684334
+timestamp 1713454721
 transform 1 0 3558 0 1 0
 box 0 0 3449 2492
 use sky130_osu_single_mpr2ct_8_b0r2  sky130_osu_single_mpr2ct_8_b0r2_2
-timestamp 1712684334
+timestamp 1713454721
 transform 1 0 7002 0 1 0
 box 0 0 3449 2492
 use sky130_osu_single_mpr2ct_8_b0r2  sky130_osu_single_mpr2ct_8_b0r2_3
-timestamp 1712684334
+timestamp 1713454721
 transform 1 0 10446 0 1 1
 box 0 0 3449 2492
 use sky130_osu_single_mpr2ct_8_b0r2  sky130_osu_single_mpr2ct_8_b0r2_4
-timestamp 1712684334
+timestamp 1713454721
 transform 1 0 13890 0 1 0
 box 0 0 3449 2492
 << labels >>
 flabel metal1 s 3034 1640 3092 1686 0 FreeSans 100 0 0 0 start
 port 15 nsew signal input
-flabel metal1 s 6894 441 6929 475 0 FreeSans 100 0 0 0 X1_Y1
-port 10 s signal output
-flabel metal1 s 17225 441 17261 475 0 FreeSans 100 0 0 0 X4_Y1
-port 19 nsew signal output
-flabel metal1 s 20670 441 20705 475 0 FreeSans 100 0 0 0 X5_Y1
-port 6 s signal output
+flabel viali s 6895 441 6929 475 0 FreeSans 100 0 0 0 X1_Y1
+port 10 se signal output
+flabel viali s 17227 441 17261 475 0 FreeSans 100 0 0 0 X4_Y1
+port 19 se signal output
+flabel viali s 20671 441 20705 475 0 FreeSans 100 0 0 0 X5_Y1
+port 6 se signal output
 flabel metal1 s 5807 1086 7716 1406 0 FreeSans 100 0 0 0 vccd1
 port 17 nsew power bidirectional
 flabel metal1 s 9251 1086 11161 1406 0 FreeSans 100 0 0 0 vccd1
@@ -249,17 +249,17 @@ port 17 nsew power bidirectional
 flabel metal1 s 9 0 20783 320 0 FreeSans 100 0 0 0 vssd1
 port 18 nsew ground bidirectional
 flabel metal1 s 3727 1647 3761 1681 0 FreeSans 100 0 0 0 s1
-port 1 n signal input
+port 1 nw signal input
 flabel metal1 s 7171 1647 7205 1681 0 FreeSans 100 0 0 0 s2
-port 2 n signal input
+port 2 nw signal input
 flabel metal1 s 10615 1647 10649 1681 0 FreeSans 100 0 0 0 s3
-port 3 n signal input
+port 3 nw signal input
 flabel metal1 s 14059 1647 14093 1681 0 FreeSans 100 0 0 0 s4
-port 14 n signal input
+port 14 nw signal input
 flabel metal1 s 17503 1647 17537 1681 0 FreeSans 100 0 0 0 s5
-port 13 n signal input
-flabel metal1 s 13782 442 13817 476 0 FreeSans 100 0 0 0 X3_Y1
-port 8 s signal output
-flabel metal1 s 10338 441 10373 475 0 FreeSans 100 0 0 0 X2_Y1
-port 9 s signal output
+port 13 nw signal input
+flabel viali s 13783 442 13817 476 0 FreeSans 100 0 0 0 X3_Y1
+port 8 se signal output
+flabel viali s 10339 441 10373 475 0 FreeSans 100 0 0 0 X2_Y1
+port 9 se signal output
 << end >>

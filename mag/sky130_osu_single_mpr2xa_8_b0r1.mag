@@ -1,10 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1712692843
-<< checkpaint >>
-rect 1355 72 4282 3494
-rect 1355 -1001 4281 72
+timestamp 1713454863
 << nwell >>
 rect 2937 1749 2979 1750
 rect 0 1087 3052 1749
@@ -36,7 +33,7 @@ rect 0 0 3052 320
 rect 2943 1722 2977 1756
 rect 2944 1462 2978 1496
 rect 2943 997 2977 1031
-rect 2942 441 2977 475
+rect 2943 441 2977 475
 << metal1 >>
 rect 0 2173 3052 2493
 rect 1144 1721 1178 2173
@@ -224,39 +221,39 @@ rect 2922 985 2931 1043
 rect 2989 985 2998 1043
 rect 2922 0 2998 985
 use scs130hd_mpr2xa_8  scs130hd_mpr2xa_8_0
-timestamp 1712675931
+timestamp 1713289166
 transform 1 0 150 0 1 559
 box -48 -48 1796 592
 use sky130_osu_sc_12T_hs__fill_8  sky130_osu_sc_12T_hs__fill_8_0
-timestamp 1604095905
+timestamp 1713287902
 transform 1 0 1684 0 -1 2234
 box -9 0 179 897
 use sky130_osu_sc_12T_hs__inv_1  sky130_osu_sc_12T_hs__inv_1_1
-timestamp 1712691322
+timestamp 1713454387
 transform 1 0 2625 0 1 259
 box -10 0 199 902
 use sky130_osu_sc_12T_hs__inv_1  sky130_osu_sc_12T_hs__inv_1_2
-timestamp 1712691322
+timestamp 1713454387
 transform 1 0 2822 0 1 259
 box -10 0 199 902
 use sky130_osu_sc_12T_hs__inv_1  sky130_osu_sc_12T_hs__inv_1_3
-timestamp 1712691322
+timestamp 1713454387
 transform 1 0 2823 0 -1 2234
 box -10 0 199 902
 use sky130_osu_sc_12T_hs__inv_1  sky130_osu_sc_12T_hs__inv_1_4
-timestamp 1712691322
+timestamp 1713454387
 transform 1 0 2625 0 -1 2234
 box -10 0 199 902
 use sky130_osu_sc_12T_hs__mux2_1  sky130_osu_sc_12T_hs__mux2_1_0
-timestamp 1710278372
+timestamp 1713287902
 transform 1 0 2076 0 1 259
 box -10 0 552 902
 use sky130_osu_sc_12T_hs__mux2_1  sky130_osu_sc_12T_hs__mux2_1_1
-timestamp 1710278372
+timestamp 1713287902
 transform 1 0 953 0 -1 2234
 box -10 0 552 902
 use sky130_osu_sc_12T_hs__mux2_1  sky130_osu_sc_12T_hs__mux2_1_2
-timestamp 1710278372
+timestamp 1713287902
 transform 1 0 2076 0 -1 2234
 box -10 0 552 902
 << labels >>
@@ -272,6 +269,6 @@ rlabel metal1 1316 1795 1344 1829 1 in
 port 11 n
 rlabel viali 2943 1722 2977 1756 1 Y0
 port 9 n
-rlabel viali 2942 441 2976 475 1 Y1
+rlabel metal1 2943 441 2977 475 1 Y1
 port 10 n
 << end >>

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1712692843
+timestamp 1713454840
 << nwell >>
 rect 1 1749 474 1750
 rect 1 1087 3713 1749
@@ -24,7 +24,7 @@ rect 3677 1086 3713 1087
 rect 621 549 660 578
 rect 1081 549 1120 578
 rect 1448 549 1487 572
-rect 1816 549 1855 576
+rect 1816 549 1855 575
 rect 2186 549 2226 573
 rect 2521 572 2559 576
 rect 2520 549 2559 572
@@ -35,7 +35,7 @@ rect 0 0 3713 320
 rect 3605 1721 3639 1755
 rect 3606 1461 3640 1495
 rect 3605 998 3639 1032
-rect 3604 442 3639 476
+rect 3605 442 3639 476
 << metal1 >>
 rect 1 2173 3714 2493
 rect 1751 1756 1785 2173
@@ -118,7 +118,7 @@ rect 3048 590 3366 623
 rect 621 549 660 578
 rect 1081 549 1120 578
 rect 1448 549 1487 572
-rect 1816 549 1855 578
+rect 1816 549 1855 575
 rect 2521 572 2559 576
 rect 2520 549 2559 572
 rect 185 542 2559 549
@@ -233,53 +233,53 @@ rect 3585 1507 3661 2493
 rect 3585 1449 3594 1507
 rect 3652 1449 3661 1507
 rect 3585 1440 3661 1449
-rect 80 1339 2106 1399
-rect 80 803 140 1339
+rect 79 1339 2106 1399
+rect 79 803 139 1339
 rect 694 881 754 1339
-rect 80 743 345 803
+rect 79 743 345 803
 rect 981 745 1041 1339
 rect 3584 1044 3660 1053
 rect 3584 986 3593 1044
 rect 3651 986 3660 1044
 rect 3584 0 3660 986
 use scs130hd_mpr2et_8  scs130hd_mpr2et_8_0
-timestamp 1710280277
+timestamp 1713287902
 transform 1 0 150 0 1 559
 box -48 -48 2440 592
 use sky130_osu_sc_12T_hs__fill_2  sky130_osu_sc_12T_hs__fill_2_0
-timestamp 1604095901
+timestamp 1713287902
 transform 1 0 2174 0 -1 2234
-box -7 0 161 1341
+box -7 0 161 897
 use sky130_osu_sc_12T_hs__fill_8  sky130_osu_sc_12T_hs__fill_8_0
-timestamp 1604095905
+timestamp 1713287902
 transform 1 0 2345 0 -1 2234
 box -9 0 179 897
 use sky130_osu_sc_12T_hs__inv_1  sky130_osu_sc_12T_hs__inv_1_1
-timestamp 1712691322
+timestamp 1713454387
 transform 1 0 3286 0 1 259
 box -10 0 199 902
 use sky130_osu_sc_12T_hs__inv_1  sky130_osu_sc_12T_hs__inv_1_2
-timestamp 1712691322
+timestamp 1713454387
 transform 1 0 3484 0 1 260
 box -10 0 199 902
 use sky130_osu_sc_12T_hs__inv_1  sky130_osu_sc_12T_hs__inv_1_3
-timestamp 1712691322
+timestamp 1713454387
 transform 1 0 3485 0 -1 2233
 box -10 0 199 902
 use sky130_osu_sc_12T_hs__inv_1  sky130_osu_sc_12T_hs__inv_1_4
-timestamp 1712691322
+timestamp 1713454387
 transform 1 0 3286 0 -1 2234
 box -10 0 199 902
 use sky130_osu_sc_12T_hs__mux2_1  sky130_osu_sc_12T_hs__mux2_1_0
-timestamp 1710278372
+timestamp 1713287902
 transform 1 0 2737 0 1 259
 box -10 0 552 902
 use sky130_osu_sc_12T_hs__mux2_1  sky130_osu_sc_12T_hs__mux2_1_1
-timestamp 1710278372
+timestamp 1713287902
 transform 1 0 1614 0 -1 2234
 box -10 0 552 902
 use sky130_osu_sc_12T_hs__mux2_1  sky130_osu_sc_12T_hs__mux2_1_2
-timestamp 1710278372
+timestamp 1713287902
 transform 1 0 2737 0 -1 2234
 box -10 0 552 902
 << labels >>
@@ -297,6 +297,6 @@ rlabel metal1 42 1349 42 1349 1 vccd1
 port 5 n
 rlabel metal1 52 1349 52 1349 1 vccd1
 port 5 n
-rlabel viali 3604 442 3638 476 1 Y1
+rlabel metal1 3605 442 3639 476 1 Y1
 port 12 n
 << end >>
