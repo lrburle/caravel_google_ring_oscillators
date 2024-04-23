@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713454387
+timestamp 1713887963
 << nwell >>
 rect -10 484 199 902
 << pmos >>
@@ -61,10 +61,10 @@ rect 84 826 198 866
 rect 34 756 68 826
 rect 34 680 68 696
 rect 120 756 155 772
-rect 46 382 80 552
 rect 120 560 121 756
-rect 120 520 155 560
-rect 120 512 154 520
+rect 120 543 155 560
+rect 46 382 80 520
+rect 120 490 154 543
 rect 46 348 90 382
 rect 124 348 140 382
 rect 34 170 68 186
@@ -77,8 +77,7 @@ rect 0 0 198 20
 << viali >>
 rect 50 860 84 866
 rect 50 832 84 860
-rect 46 552 80 586
-rect 120 478 154 512
+rect 120 456 154 490
 rect 121 182 155 216
 rect 50 26 84 54
 rect 50 20 84 26
@@ -87,16 +86,13 @@ rect 0 866 198 888
 rect 0 832 50 866
 rect 84 832 198 866
 rect 0 826 198 832
-rect 34 586 92 592
-rect 12 552 46 586
-rect 80 552 92 586
-rect 34 546 92 552
-rect 108 512 166 518
-rect 108 478 120 512
-rect 154 478 166 512
-rect 108 472 166 478
-rect 120 222 154 472
-rect 108 216 167 222
+rect 108 490 166 496
+rect 108 456 120 490
+rect 154 456 166 490
+rect 108 449 166 456
+rect 108 448 154 449
+rect 120 228 154 448
+rect 108 216 167 228
 rect 108 182 121 216
 rect 155 182 167 216
 rect 108 176 167 182
@@ -107,10 +103,10 @@ rect 0 0 198 20
 << labels >>
 rlabel metal1 150 344 150 344 1 Y
 port 1 n
-rlabel viali 64 570 64 570 1 A
-port 2 n
 rlabel viali 68 48 68 48 1 vssd1
 port 4 n
 rlabel viali 68 840 68 840 1 vccd1
 port 3 n
+rlabel locali 64 370 64 370 1 A
+port 2 n
 << end >>

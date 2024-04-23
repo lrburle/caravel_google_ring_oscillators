@@ -1012,32 +1012,12 @@
    </references>
   </cell>
   <cell>
-   <name>sky130_osu_ring_oscillator_mpr2ea_8_b0r2</name>
+   <name>sky130_osu_ring_oscillator_mpr2ea_8_b0r1</name>
    <variant/>
    <references>
     <ref>
      <parent>user_project_wrapper</parent>
-     <trans>r0 *1 2343,1523</trans>
-    </ref>
-   </references>
-  </cell>
-  <cell>
-   <name>sky130_osu_ring_oscillator_mpr2xa_8_b0r1</name>
-   <variant/>
-   <references>
-    <ref>
-     <parent>user_project_wrapper</parent>
-     <trans>r0 *1 2343,1780</trans>
-    </ref>
-   </references>
-  </cell>
-  <cell>
-   <name>sky130_osu_ring_oscillator_mpr2xa_8_b0r2</name>
-   <variant/>
-   <references>
-    <ref>
-     <parent>user_project_wrapper</parent>
-     <trans>r0 *1 2343,1325</trans>
+     <trans>r0 *1 2343,2048</trans>
     </ref>
    </references>
   </cell>
@@ -1051,226 +1031,27 @@
     </ref>
    </references>
   </cell>
+  <cell>
+   <name>sky130_osu_ring_oscillator_mpr2xa_8_b0r1</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>user_project_wrapper</parent>
+     <trans>r0 *1 2343,1780</trans>
+    </ref>
+   </references>
+  </cell>
  </cells>
  <items>
   <item>
    <tags/>
-   <category>'ct.1'</category>
+   <category>'m1.2'</category>
    <cell>user_project_wrapper</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge: (2393.08,2050.455;2393.08,2050.21)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.1'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (2392.91,2050.21;2392.91,2050.455)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.1'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (2397.545,1945.395;2397.545,1945.21)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.1'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (2397.545,1427.38;2397.545,1427.065)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.1'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (2385.51,1327.105;2385.51,1327.375)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.1'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (2425.73,2050.455;2425.73,2050.21)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.1'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (2397.375,1945.21;2397.375,1945.395)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.1'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (2397.375,1427.065;2397.375,1427.38)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.1'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (2425.56,2050.21;2425.56,2050.455)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.1'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (2385.68,1327.375;2385.68,1327.105)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.2'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (2425.555,1525.155;2425.725,1525.155)|(2425.725,1525.21;2425.555,1525.21)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.2'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (2392.905,1525.155;2393.075,1525.155)|(2393.075,1525.21;2392.905,1525.21)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.2'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (2400.72,1782.195;2400.89,1782.195)|(2400.89,1782.205;2400.72,1782.205)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.2'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (2385.46,1782.195;2385.63,1782.195)|(2385.63,1782.205;2385.46,1782.205)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.2'</category>
-   <cell>sky130_osu_ring_oscillator_mpr2ea_8_b0r2</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (82.555,2.155;82.725,2.155)|(82.725,2.21;82.555,2.21)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.2'</category>
-   <cell>sky130_osu_ring_oscillator_mpr2ea_8_b0r2</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (49.905,2.155;50.075,2.155)|(50.075,2.21;49.905,2.21)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.2'</category>
-   <cell>sky130_osu_ring_oscillator_mpr2xa_8_b0r1</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (57.72,2.195;57.89,2.195)|(57.89,2.205;57.72,2.205)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'ct.2'</category>
-   <cell>sky130_osu_ring_oscillator_mpr2xa_8_b0r1</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (42.46,2.195;42.63,2.195)|(42.63,2.205;42.46,2.205)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m1.1'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (2399.89,1782.122;2399.89,1782.175)|(2399.965,1782.293;2399.965,1782.24)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m1.1'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (2399.89,1782.175;2399.841,1782.175)|(2399.965,1782.24;2400.014,1782.24)</value>
+    <value>edge-pair: (2389.695,2051.945;2389.72,2051.945)|(2389.849,2052;2389.566,2052)</value>
    </values>
   </item>
   <item>
@@ -1281,7 +1062,7 @@
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge-pair: (2446.44,1328.889;2446.44,1328.96)|(2446.405,1329.096;2446.405,1329.025)</value>
+    <value>edge-pair: (2390.04,2051.945;2390.045,2051.945)|(2390.174,2052;2389.911,2052)</value>
    </values>
   </item>
   <item>
@@ -1292,62 +1073,40 @@
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge-pair: (2446.44,1328.96;2446.529,1328.96)|(2446.405,1329.025;2446.316,1329.025)</value>
+    <value>edge-pair: (2389.72,2051.98;2390.04,2051.98)|(2390.179,2052;2389.581,2052)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'m1.2'</category>
-   <cell>user_project_wrapper</cell>
+   <cell>sky130_osu_ring_oscillator_mpr2ea_8_b0r1</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge-pair: (2438.69,1526.98;2439.01,1526.98)|(2439.136,1527.04;2438.564,1527.04)</value>
+    <value>edge-pair: (46.72,3.98;47.04,3.98)|(47.179,4;46.581,4)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'m1.2'</category>
-   <cell>sky130_osu_ring_oscillator_mpr2ea_8_b0r2</cell>
+   <cell>sky130_osu_ring_oscillator_mpr2ea_8_b0r1</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge-pair: (95.69,3.98;96.01,3.98)|(96.136,4.04;95.564,4.04)</value>
+    <value>edge-pair: (46.695,3.945;46.72,3.945)|(46.849,4;46.566,4)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'m1.2'</category>
-   <cell>sky130_osu_ring_oscillator_mpr2xa_8_b0r2</cell>
+   <cell>sky130_osu_ring_oscillator_mpr2ea_8_b0r1</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge-pair: (103.44,3.919;103.44,3.96)|(103.405,4.096;103.405,4.055)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m1.2'</category>
-   <cell>sky130_osu_ring_oscillator_mpr2xa_8_b0r2</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (103.44,3.96;103.529,3.96)|(103.405,4.025;103.316,4.025)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'m1.2'</category>
-   <cell>sky130_osu_ring_oscillator_mpr2xa_8_b0r2</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (103.44,3.889;103.44,3.96)|(103.405,4.055;103.405,4.025)</value>
+    <value>edge-pair: (47.04,3.945;47.045,3.945)|(47.174,4;46.911,4)</value>
    </values>
   </item>
   <item>
@@ -1402,7 +1161,7 @@
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge: (100.44,8.245;100.365,8.245)</value>
+    <value>edge: (100.29,8.345;100.29,8.395)</value>
    </values>
   </item>
   <item>
@@ -1413,7 +1172,7 @@
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>edge: (100.29,8.345;100.29,8.395)</value>
+    <value>edge: (100.44,8.245;100.365,8.245)</value>
    </values>
   </item>
   <item>
