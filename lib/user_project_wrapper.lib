@@ -402,7 +402,7 @@ library (user_project_wrapper) {
     }
     pin("io_in[4]") {
       direction : input;
-      capacitance : 0.1941;
+      capacitance : 0.1942;
     }
     pin("io_in[3]") {
       direction : input;
@@ -775,7 +775,7 @@ library (user_project_wrapper) {
           values("0.02146,0.02345,0.03228,0.07212,0.26593,1.18273,5.39578");
 	}
 	cell_fall(template_1) {
-          values("1.43613,1.43816,1.44572,1.46882,1.53753,1.80927,3.05631");
+          values("1.43613,1.43816,1.44572,1.46882,1.53753,1.80928,3.05631");
 	}
 	fall_transition(template_1) {
           values("0.01886,0.02016,0.02505,0.04329,0.11876,0.48581,2.21360");

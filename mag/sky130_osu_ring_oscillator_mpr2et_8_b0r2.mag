@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713889264
+timestamp 1713900031
 << nwell >>
 rect 3000 1019 5943 1749
 rect 6909 1730 7316 1751
@@ -112,6 +112,11 @@ rect 20445 1780 20515 1786
 rect 3028 1682 3096 1691
 rect 3028 1639 3039 1682
 rect 3085 1639 3096 1682
+rect 5196 1635 5254 1693
+rect 8908 1635 8966 1693
+rect 12620 1635 12678 1693
+rect 16332 1635 16390 1693
+rect 20044 1635 20102 1693
 rect 0 1088 22099 1408
 rect 7162 441 7196 442
 rect 10874 441 10908 442
@@ -132,11 +137,6 @@ rect 14582 1795 14640 1853
 rect 16739 1786 16797 1844
 rect 18294 1795 18352 1853
 rect 20451 1786 20509 1844
-rect 5196 1635 5254 1693
-rect 8908 1635 8966 1693
-rect 12620 1635 12678 1693
-rect 16332 1635 16390 1693
-rect 20044 1635 20102 1693
 << metal2 >>
 rect 3245 2138 22045 2172
 rect 3245 1779 3279 2138
@@ -198,40 +198,28 @@ rect 20509 1786 20515 1844
 rect 20445 1780 20515 1786
 rect 3233 1773 3291 1779
 rect 3233 1709 3291 1715
-<< via2 >>
-rect 5196 1635 5254 1693
-rect 8908 1635 8966 1693
-rect 12620 1635 12678 1693
-rect 16332 1635 16390 1693
-rect 20044 1635 20102 1693
-<< metal3 >>
-rect 5193 1693 5257 2459
-rect 8905 1693 8969 2459
-rect 12617 1693 12681 2459
-rect 16329 1693 16393 2459
-rect 20041 1693 20105 2459
 use sky130_osu_sc_12T_hs__mux2_1  sky130_osu_sc_12T_hs__mux2_1_0
 timestamp 1713481735
 transform 1 0 3009 0 -1 2234
 box -10 0 552 902
 use sky130_osu_single_mpr2et_8_b0r2  sky130_osu_single_mpr2et_8_b0r2_0
-timestamp 1713888380
+timestamp 1713899806
 transform 1 0 18406 0 1 0
 box 0 0 3714 2493
 use sky130_osu_single_mpr2et_8_b0r2  sky130_osu_single_mpr2et_8_b0r2_1
-timestamp 1713888380
+timestamp 1713899806
 transform 1 0 3558 0 1 0
 box 0 0 3714 2493
 use sky130_osu_single_mpr2et_8_b0r2  sky130_osu_single_mpr2et_8_b0r2_2
-timestamp 1713888380
+timestamp 1713899806
 transform 1 0 7270 0 1 0
 box 0 0 3714 2493
 use sky130_osu_single_mpr2et_8_b0r2  sky130_osu_single_mpr2et_8_b0r2_3
-timestamp 1713888380
+timestamp 1713899806
 transform 1 0 10982 0 1 0
 box 0 0 3714 2493
 use sky130_osu_single_mpr2et_8_b0r2  sky130_osu_single_mpr2et_8_b0r2_4
-timestamp 1713888380
+timestamp 1713899806
 transform 1 0 14694 0 1 0
 box 0 0 3714 2493
 << labels >>
@@ -243,15 +231,15 @@ flabel metal1 s 0 1088 22099 1408 0 FreeSans 100 0 0 0 vccd1
 port 15 nsew power bidirectional
 flabel metal1 s 0 0 22119 320 0 FreeSans 100 0 0 0 vssd1
 port 14 nsew ground bidirectional
-flabel via2 s 5208 1648 5242 1682 0 FreeSans 100 0 0 0 s1
+flabel viali s 5208 1648 5242 1682 0 FreeSans 100 0 0 0 s1
 port 1 nw signal input
-flabel via2 s 8920 1648 8954 1682 0 FreeSans 100 0 0 0 s2
+flabel viali s 8920 1648 8954 1682 0 FreeSans 100 0 0 0 s2
 port 2 nw signal input
-flabel via2 s 12632 1648 12666 1682 0 FreeSans 100 0 0 0 s3
+flabel viali s 12632 1648 12666 1682 0 FreeSans 100 0 0 0 s3
 port 3 nw signal input
-flabel via2 s 16344 1648 16378 1682 0 FreeSans 100 0 0 0 s4
+flabel viali s 16344 1648 16378 1682 0 FreeSans 100 0 0 0 s4
 port 4 nw signal input
-flabel via2 s 20056 1648 20090 1682 0 FreeSans 100 0 0 0 s5
+flabel viali s 20056 1648 20090 1682 0 FreeSans 100 0 0 0 s5
 port 5 nw signal input
 flabel viali s 22011 442 22045 476 0 FreeSans 100 0 0 0 X5_Y1
 port 10 se signal output

@@ -233,12 +233,12 @@ module user_project_wrapper (user_clock2,
     .X3_Y1(\x3[2] ),
     .X4_Y1(\x4[2] ),
     .X5_Y1(\x5[2] ),
-    .start(io_in[5]),
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
     .s4(io_in[3]),
-    .s5(io_in[4]));
+    .s5(io_in[4]),
+    .start(io_in[5]));
  sky130_osu_ring_oscillator_mpr2et_8_b0r1 ro4 (.X1_Y1(\x1[3] ),
     .X2_Y1(\x2[3] ),
     .X3_Y1(\x3[3] ),
@@ -255,12 +255,12 @@ module user_project_wrapper (user_clock2,
     .X3_Y1(\x3[4] ),
     .X4_Y1(\x4[4] ),
     .X5_Y1(\x5[4] ),
-    .start(io_in[5]),
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
     .s4(io_in[3]),
-    .s5(io_in[4]));
+    .s5(io_in[4]),
+    .start(io_in[5]));
  sky130_osu_ring_oscillator_mpr2ca_8_b0r2 ro6 (.X1_Y1(\x1[5] ),
     .X2_Y1(\x2[5] ),
     .X3_Y1(\x3[5] ),
@@ -299,12 +299,12 @@ module user_project_wrapper (user_clock2,
     .X3_Y1(\x3[8] ),
     .X4_Y1(\x4[8] ),
     .X5_Y1(\x5[8] ),
-    .start(io_in[5]),
     .s1(io_in[0]),
     .s2(io_in[1]),
     .s3(io_in[2]),
     .s4(io_in[3]),
-    .s5(io_in[4]));
+    .s5(io_in[4]),
+    .start(io_in[5]));
  sky130_fd_sc_hd__conb_1 TIE_ZERO_zero_ (.LO(zero_));
 endmodule
 

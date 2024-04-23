@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713889364
+timestamp 1713898091
 << nwell >>
 rect 4996 1462 7827 1749
 rect 9578 1636 9636 1694
@@ -25,11 +25,11 @@ rect 17647 441 17682 475
 rect 20699 441 20734 475
 << pdiff >>
 rect 5035 1648 5069 1682
-rect 6526 1636 6584 1694
-rect 9578 1636 9636 1694
+rect 6528 1636 6584 1694
+rect 9580 1636 9636 1694
 rect 12630 1636 12688 1694
-rect 15682 1636 15740 1694
-rect 18734 1636 18792 1694
+rect 15684 1636 15740 1694
+rect 18736 1636 18792 1694
 << locali >>
 rect 0 2173 20800 2493
 rect 5396 1407 5430 1471
@@ -98,6 +98,11 @@ rect 19135 1781 19205 1787
 rect 5024 1682 5082 1687
 rect 5024 1641 5029 1682
 rect 5075 1641 5082 1682
+rect 6526 1636 6584 1694
+rect 9578 1636 9636 1694
+rect 12630 1636 12688 1694
+rect 15682 1636 15740 1694
+rect 18734 1636 18792 1694
 rect 0 1087 20809 1407
 rect 0 0 20809 320
 << via1 >>
@@ -113,11 +118,6 @@ rect 14592 1796 14650 1854
 rect 16090 1787 16148 1845
 rect 17644 1796 17702 1854
 rect 19141 1787 19199 1845
-rect 6526 1636 6584 1694
-rect 9578 1636 9636 1694
-rect 12630 1636 12688 1694
-rect 15682 1636 15740 1694
-rect 18734 1636 18792 1694
 << metal2 >>
 rect 5235 2138 20735 2172
 rect 5235 1779 5269 2138
@@ -179,54 +179,42 @@ rect 19199 1787 19205 1845
 rect 19135 1781 19205 1787
 rect 5223 1773 5281 1779
 rect 5223 1709 5281 1715
-<< via2 >>
-rect 6526 1636 6584 1694
-rect 9578 1636 9636 1694
-rect 12630 1636 12688 1694
-rect 15682 1636 15740 1694
-rect 18734 1636 18792 1694
-<< metal3 >>
-rect 6520 1694 6590 2493
-rect 9572 1694 9642 2493
-rect 12624 1694 12694 2493
-rect 15676 1694 15746 2493
-rect 18728 1694 18798 2493
 use sky130_osu_sc_12T_hs__mux2_1  sky130_osu_sc_12T_hs__mux2_1_0
 timestamp 1713481735
 transform 1 0 4999 0 -1 2234
 box -10 0 552 902
 use sky130_osu_single_mpr2xa_8_b0r1  sky130_osu_single_mpr2xa_8_b0r1_0
-timestamp 1713888380
+timestamp 1713897945
 transform 1 0 17757 0 1 0
 box 0 0 3052 2493
 use sky130_osu_single_mpr2xa_8_b0r1  sky130_osu_single_mpr2xa_8_b0r1_1
-timestamp 1713888380
+timestamp 1713897945
 transform 1 0 5549 0 1 0
 box 0 0 3052 2493
 use sky130_osu_single_mpr2xa_8_b0r1  sky130_osu_single_mpr2xa_8_b0r1_2
-timestamp 1713888380
+timestamp 1713897945
 transform 1 0 8601 0 1 0
 box 0 0 3052 2493
 use sky130_osu_single_mpr2xa_8_b0r1  sky130_osu_single_mpr2xa_8_b0r1_3
-timestamp 1713888380
+timestamp 1713897945
 transform 1 0 11653 0 1 0
 box 0 0 3052 2493
 use sky130_osu_single_mpr2xa_8_b0r1  sky130_osu_single_mpr2xa_8_b0r1_4
-timestamp 1713888380
+timestamp 1713897945
 transform 1 0 14705 0 1 0
 box 0 0 3052 2493
 << labels >>
 flabel metal1 s 5024 1641 5082 1687 0 FreeSans 100 0 0 0 start
 port 13 nsew signal input
-flabel via2 s 6538 1648 6572 1682 0 FreeSans 100 0 0 0 s1
+flabel viali s 6538 1648 6572 1682 0 FreeSans 100 0 0 0 s1
 port 16 nw signal input
-flabel via2 s 9590 1648 9624 1682 0 FreeSans 100 0 0 0 s2
+flabel viali s 9590 1648 9624 1682 0 FreeSans 100 0 0 0 s2
 port 17 nw signal input
-flabel via2 s 12642 1648 12676 1682 0 FreeSans 100 0 0 0 s3
+flabel viali s 12642 1648 12676 1682 0 FreeSans 100 0 0 0 s3
 port 18 nw signal input
-flabel via2 s 15694 1648 15728 1682 0 FreeSans 100 0 0 0 s4
+flabel viali s 15694 1648 15728 1682 0 FreeSans 100 0 0 0 s4
 port 19 nw signal input
-flabel via2 s 18746 1648 18780 1682 0 FreeSans 100 0 0 0 s5
+flabel viali s 18746 1648 18780 1682 0 FreeSans 100 0 0 0 s5
 port 20 nw signal input
 flabel viali s 8492 441 8526 475 0 FreeSans 100 0 0 0 X1_Y1
 port 6 se signal output

@@ -1021,26 +1021,6 @@
     </ref>
    </references>
   </cell>
-  <cell>
-   <name>sky130_osu_ring_oscillator_mpr2et_8_b0r2</name>
-   <variant/>
-   <references>
-    <ref>
-     <parent>user_project_wrapper</parent>
-     <trans>r0 *1 2343,1425</trans>
-    </ref>
-   </references>
-  </cell>
-  <cell>
-   <name>sky130_osu_ring_oscillator_mpr2xa_8_b0r1</name>
-   <variant/>
-   <references>
-    <ref>
-     <parent>user_project_wrapper</parent>
-     <trans>r0 *1 2343,1780</trans>
-    </ref>
-   </references>
-  </cell>
  </cells>
  <items>
   <item>
@@ -1107,94 +1087,6 @@
    <image/>
    <values>
     <value>edge-pair: (47.04,3.945;47.045,3.945)|(47.174,4;46.911,4)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'via.1a'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (2375.595,1788.305;2375.7,1788.305)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'via.1a'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (2375.745,1788.25;2375.745,1788.155)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'via.1a'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (2443.365,1433.245;2443.365,1433.195)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'via.1a'</category>
-   <cell>user_project_wrapper</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (2443.215,1433.345;2443.29,1433.345)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'via.1a'</category>
-   <cell>sky130_osu_ring_oscillator_mpr2et_8_b0r2</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (100.29,8.345;100.29,8.395)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'via.1a'</category>
-   <cell>sky130_osu_ring_oscillator_mpr2et_8_b0r2</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (100.44,8.245;100.365,8.245)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'via.1a'</category>
-   <cell>sky130_osu_ring_oscillator_mpr2xa_8_b0r1</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (32.7,8.305;32.7,8.4)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'via.1a'</category>
-   <cell>sky130_osu_ring_oscillator_mpr2xa_8_b0r1</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge: (32.85,8.25;32.745,8.25)</value>
    </values>
   </item>
  </items>
