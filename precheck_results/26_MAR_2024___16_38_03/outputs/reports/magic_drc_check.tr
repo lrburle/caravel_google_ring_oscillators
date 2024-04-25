@@ -1,0 +1,1374 @@
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.700, 1527.230 ) - ( 2392.760, 1527.260 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.700, 1527.195 ) - ( 2392.840, 1527.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.700, 1527.230 ) - ( 2392.760, 1527.260 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.700, 1527.195 ) - ( 2392.930, 1527.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.850, 1527.180 ) - ( 2392.930, 1527.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.850, 1527.180 ) - ( 2392.930, 1527.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.840, 1527.365 ) - ( 2392.900, 1527.400 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.840, 1527.335 ) - ( 2392.900, 1527.365 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.840, 1527.365 ) - ( 2392.900, 1527.400 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.840, 1527.335 ) - ( 2392.900, 1527.365 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.840, 1527.365 ) - ( 2392.900, 1527.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.900, 1527.365 ) - ( 2393.020, 1527.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.840, 1527.335 ) - ( 2393.020, 1527.365 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.990, 1527.320 ) - ( 2393.020, 1527.335 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.020, 1527.320 ) - ( 2393.070, 1527.365 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.930, 1527.365 ) - ( 2393.020, 1527.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.930, 1527.335 ) - ( 2393.020, 1527.365 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.990, 1527.320 ) - ( 2393.020, 1527.335 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.020, 1527.320 ) - ( 2393.070, 1527.365 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.350, 1527.230 ) - ( 2425.410, 1527.260 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.350, 1527.195 ) - ( 2425.490, 1527.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.350, 1527.230 ) - ( 2425.410, 1527.260 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.350, 1527.195 ) - ( 2425.580, 1527.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.510, 1527.180 ) - ( 2425.580, 1527.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.510, 1527.180 ) - ( 2425.580, 1527.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.490, 1527.365 ) - ( 2425.550, 1527.400 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.490, 1527.335 ) - ( 2425.550, 1527.365 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.490, 1527.365 ) - ( 2425.550, 1527.400 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.490, 1527.335 ) - ( 2425.550, 1527.365 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.490, 1527.365 ) - ( 2425.550, 1527.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.550, 1527.365 ) - ( 2425.680, 1527.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.490, 1527.335 ) - ( 2425.680, 1527.365 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.650, 1527.320 ) - ( 2425.680, 1527.335 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.680, 1527.320 ) - ( 2425.720, 1527.365 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.580, 1527.365 ) - ( 2425.680, 1527.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.580, 1527.335 ) - ( 2425.680, 1527.365 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.650, 1527.320 ) - ( 2425.680, 1527.335 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.680, 1527.320 ) - ( 2425.720, 1527.365 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2397.230, 1422.120 ) - ( 2397.400, 1422.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2397.230, 1422.305 ) - ( 2397.370, 1422.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2397.370, 1422.305 ) - ( 2397.420, 1422.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2397.420, 1422.305 ) - ( 2397.540, 1422.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2397.230, 1422.260 ) - ( 2397.420, 1422.305 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2397.420, 1422.275 ) - ( 2397.540, 1422.305 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2397.420, 1422.260 ) - ( 2397.450, 1422.275 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2397.400, 1422.305 ) - ( 2397.420, 1422.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2397.420, 1422.305 ) - ( 2397.540, 1422.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2397.400, 1422.260 ) - ( 2397.420, 1422.305 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2397.420, 1422.275 ) - ( 2397.540, 1422.305 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2397.420, 1422.260 ) - ( 2397.450, 1422.275 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2372.995, 1842.630 ) - ( 2374.020, 1842.700 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2372.995, 1842.620 ) - ( 2374.020, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.880, 1842.630 ) - ( 2374.020, 1842.700 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.880, 1842.620 ) - ( 2374.020, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2372.995, 1842.830 ) - ( 2373.880, 1842.840 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2372.995, 1842.800 ) - ( 2373.880, 1842.830 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2372.995, 1842.760 ) - ( 2373.880, 1842.800 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.255, 1842.630 ) - ( 2389.280, 1842.700 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.255, 1842.620 ) - ( 2389.280, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2389.140, 1842.630 ) - ( 2389.280, 1842.700 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2389.140, 1842.620 ) - ( 2389.280, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.255, 1842.830 ) - ( 2389.140, 1842.840 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.255, 1842.800 ) - ( 2389.140, 1842.830 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.255, 1842.760 ) - ( 2389.140, 1842.800 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.185, 1842.520 ) - ( 2373.475, 1842.550 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.185, 1842.420 ) - ( 2373.245, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.245, 1842.420 ) - ( 2373.415, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.415, 1842.505 ) - ( 2373.475, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.415, 1842.420 ) - ( 2373.640, 1842.505 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.045, 1842.630 ) - ( 2373.615, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.045, 1842.585 ) - ( 2373.615, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.045, 1842.565 ) - ( 2373.615, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.045, 1842.560 ) - ( 2373.615, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.045, 1842.630 ) - ( 2373.185, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.045, 1842.585 ) - ( 2373.185, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.045, 1842.565 ) - ( 2373.185, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.045, 1842.560 ) - ( 2373.185, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.475, 1842.630 ) - ( 2373.615, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.475, 1842.585 ) - ( 2373.615, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.475, 1842.565 ) - ( 2373.615, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.475, 1842.560 ) - ( 2373.615, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.475, 1842.630 ) - ( 2373.780, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.475, 1842.585 ) - ( 2373.780, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.475, 1842.565 ) - ( 2373.780, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.475, 1842.560 ) - ( 2373.780, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.640, 1842.630 ) - ( 2373.780, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.640, 1842.585 ) - ( 2373.780, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.640, 1842.565 ) - ( 2373.780, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2373.640, 1842.560 ) - ( 2373.780, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2374.450, 1842.520 ) - ( 2374.675, 1842.550 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2374.450, 1842.420 ) - ( 2374.615, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2374.615, 1842.420 ) - ( 2374.675, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.705, 1842.520 ) - ( 2378.995, 1842.550 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.705, 1842.420 ) - ( 2378.765, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.765, 1842.420 ) - ( 2378.935, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.935, 1842.505 ) - ( 2378.995, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.445, 1842.520 ) - ( 2388.735, 1842.550 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.935, 1842.420 ) - ( 2379.280, 1842.505 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.445, 1842.420 ) - ( 2388.505, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.505, 1842.420 ) - ( 2388.675, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.675, 1842.505 ) - ( 2388.735, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.675, 1842.420 ) - ( 2388.900, 1842.505 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2374.450, 1842.630 ) - ( 2374.815, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2374.450, 1842.585 ) - ( 2374.815, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2374.450, 1842.565 ) - ( 2374.815, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2374.450, 1842.560 ) - ( 2374.815, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2374.675, 1842.630 ) - ( 2374.815, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2374.675, 1842.585 ) - ( 2374.815, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2374.675, 1842.565 ) - ( 2374.815, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2374.675, 1842.560 ) - ( 2374.815, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.565, 1842.585 ) - ( 2379.135, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.565, 1842.565 ) - ( 2379.135, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.565, 1842.560 ) - ( 2379.135, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.305, 1842.630 ) - ( 2388.875, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.305, 1842.585 ) - ( 2388.875, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.305, 1842.565 ) - ( 2388.875, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.305, 1842.560 ) - ( 2388.875, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.565, 1842.585 ) - ( 2378.705, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.565, 1842.565 ) - ( 2378.705, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.565, 1842.560 ) - ( 2378.705, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.995, 1842.585 ) - ( 2379.135, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.995, 1842.565 ) - ( 2379.135, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.995, 1842.560 ) - ( 2379.135, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.995, 1842.585 ) - ( 2379.420, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.995, 1842.565 ) - ( 2379.420, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2378.995, 1842.560 ) - ( 2379.420, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.305, 1842.630 ) - ( 2388.445, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.305, 1842.585 ) - ( 2388.445, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.305, 1842.565 ) - ( 2388.445, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.305, 1842.560 ) - ( 2388.445, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2379.280, 1842.585 ) - ( 2379.420, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2379.280, 1842.565 ) - ( 2379.420, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2379.280, 1842.560 ) - ( 2379.420, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.735, 1842.630 ) - ( 2388.875, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.735, 1842.585 ) - ( 2388.875, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.735, 1842.565 ) - ( 2388.875, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.735, 1842.560 ) - ( 2388.875, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.735, 1842.630 ) - ( 2389.040, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.735, 1842.585 ) - ( 2389.040, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.735, 1842.565 ) - ( 2389.040, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.735, 1842.560 ) - ( 2389.040, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.900, 1842.630 ) - ( 2389.040, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.900, 1842.585 ) - ( 2389.040, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.900, 1842.565 ) - ( 2389.040, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2388.900, 1842.560 ) - ( 2389.040, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2389.710, 1842.520 ) - ( 2389.935, 1842.550 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2389.710, 1842.420 ) - ( 2389.875, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2389.875, 1842.420 ) - ( 2389.935, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.965, 1842.520 ) - ( 2394.255, 1842.550 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.965, 1842.420 ) - ( 2394.025, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.025, 1842.420 ) - ( 2394.195, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.195, 1842.505 ) - ( 2394.255, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.195, 1842.420 ) - ( 2394.540, 1842.505 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2389.710, 1842.630 ) - ( 2390.075, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2389.710, 1842.585 ) - ( 2390.075, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2389.710, 1842.565 ) - ( 2390.075, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2389.710, 1842.560 ) - ( 2390.075, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2389.935, 1842.630 ) - ( 2390.075, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2389.935, 1842.585 ) - ( 2390.075, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2389.935, 1842.565 ) - ( 2390.075, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2389.935, 1842.560 ) - ( 2390.075, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.825, 1842.585 ) - ( 2394.395, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.825, 1842.565 ) - ( 2394.395, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.825, 1842.560 ) - ( 2394.395, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.825, 1842.585 ) - ( 2393.965, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.825, 1842.565 ) - ( 2393.965, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.825, 1842.560 ) - ( 2393.965, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.255, 1842.585 ) - ( 2394.395, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.255, 1842.565 ) - ( 2394.395, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.255, 1842.560 ) - ( 2394.395, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.255, 1842.585 ) - ( 2394.680, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.255, 1842.565 ) - ( 2394.680, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.255, 1842.560 ) - ( 2394.680, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.540, 1842.585 ) - ( 2394.680, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.540, 1842.565 ) - ( 2394.680, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.540, 1842.560 ) - ( 2394.680, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.775, 1842.630 ) - ( 2419.800, 1842.700 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.775, 1842.620 ) - ( 2419.800, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.660, 1842.630 ) - ( 2419.800, 1842.700 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.660, 1842.620 ) - ( 2419.800, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.775, 1842.830 ) - ( 2419.660, 1842.840 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.775, 1842.800 ) - ( 2419.660, 1842.830 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.775, 1842.760 ) - ( 2419.660, 1842.800 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.035, 1842.630 ) - ( 2435.060, 1842.700 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.035, 1842.620 ) - ( 2435.060, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.920, 1842.630 ) - ( 2435.060, 1842.700 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.920, 1842.620 ) - ( 2435.060, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.035, 1842.830 ) - ( 2434.920, 1842.840 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.035, 1842.800 ) - ( 2434.920, 1842.830 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.035, 1842.760 ) - ( 2434.920, 1842.800 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.965, 1842.520 ) - ( 2419.255, 1842.550 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.965, 1842.420 ) - ( 2419.025, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.025, 1842.420 ) - ( 2419.195, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.195, 1842.505 ) - ( 2419.255, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.195, 1842.420 ) - ( 2419.420, 1842.505 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.825, 1842.630 ) - ( 2419.395, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.825, 1842.585 ) - ( 2419.395, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.825, 1842.565 ) - ( 2419.395, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.825, 1842.560 ) - ( 2419.395, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.825, 1842.630 ) - ( 2418.965, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.825, 1842.585 ) - ( 2418.965, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.825, 1842.565 ) - ( 2418.965, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2418.825, 1842.560 ) - ( 2418.965, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.255, 1842.630 ) - ( 2419.395, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.255, 1842.585 ) - ( 2419.395, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.255, 1842.565 ) - ( 2419.395, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.255, 1842.560 ) - ( 2419.395, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.255, 1842.630 ) - ( 2419.560, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.255, 1842.585 ) - ( 2419.560, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.255, 1842.565 ) - ( 2419.560, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.255, 1842.560 ) - ( 2419.560, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.420, 1842.630 ) - ( 2419.560, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.420, 1842.585 ) - ( 2419.560, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.420, 1842.565 ) - ( 2419.560, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2419.420, 1842.560 ) - ( 2419.560, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2420.230, 1842.520 ) - ( 2420.455, 1842.550 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2420.230, 1842.420 ) - ( 2420.395, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2420.395, 1842.420 ) - ( 2420.455, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.485, 1842.520 ) - ( 2424.775, 1842.550 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.485, 1842.420 ) - ( 2424.545, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.545, 1842.420 ) - ( 2424.715, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.715, 1842.505 ) - ( 2424.775, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.225, 1842.520 ) - ( 2434.515, 1842.550 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.715, 1842.420 ) - ( 2425.060, 1842.505 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.225, 1842.420 ) - ( 2434.285, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.285, 1842.420 ) - ( 2434.455, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.455, 1842.505 ) - ( 2434.515, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.455, 1842.420 ) - ( 2434.680, 1842.505 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2420.230, 1842.630 ) - ( 2420.595, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2420.230, 1842.585 ) - ( 2420.595, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2420.230, 1842.565 ) - ( 2420.595, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2420.230, 1842.560 ) - ( 2420.595, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2420.455, 1842.630 ) - ( 2420.595, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2420.455, 1842.585 ) - ( 2420.595, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2420.455, 1842.565 ) - ( 2420.595, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2420.455, 1842.560 ) - ( 2420.595, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.345, 1842.585 ) - ( 2424.915, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.345, 1842.565 ) - ( 2424.915, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.345, 1842.560 ) - ( 2424.915, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.085, 1842.630 ) - ( 2434.655, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.085, 1842.585 ) - ( 2434.655, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.085, 1842.565 ) - ( 2434.655, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.085, 1842.560 ) - ( 2434.655, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.345, 1842.585 ) - ( 2424.485, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.345, 1842.565 ) - ( 2424.485, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.345, 1842.560 ) - ( 2424.485, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.775, 1842.585 ) - ( 2424.915, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.775, 1842.565 ) - ( 2424.915, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.775, 1842.560 ) - ( 2424.915, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.775, 1842.585 ) - ( 2425.200, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.775, 1842.565 ) - ( 2425.200, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2424.775, 1842.560 ) - ( 2425.200, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.085, 1842.630 ) - ( 2434.225, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.085, 1842.585 ) - ( 2434.225, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.085, 1842.565 ) - ( 2434.225, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.085, 1842.560 ) - ( 2434.225, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.060, 1842.585 ) - ( 2425.200, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.060, 1842.565 ) - ( 2425.200, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.060, 1842.560 ) - ( 2425.200, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.515, 1842.630 ) - ( 2434.655, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.515, 1842.585 ) - ( 2434.655, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.515, 1842.565 ) - ( 2434.655, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.515, 1842.560 ) - ( 2434.655, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.515, 1842.630 ) - ( 2434.820, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.515, 1842.585 ) - ( 2434.820, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.515, 1842.565 ) - ( 2434.820, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.515, 1842.560 ) - ( 2434.820, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.680, 1842.630 ) - ( 2434.820, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.680, 1842.585 ) - ( 2434.820, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.680, 1842.565 ) - ( 2434.820, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.680, 1842.560 ) - ( 2434.820, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2435.490, 1842.520 ) - ( 2435.715, 1842.550 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2435.490, 1842.420 ) - ( 2435.655, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2435.655, 1842.420 ) - ( 2435.715, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2439.745, 1842.520 ) - ( 2440.035, 1842.550 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2439.745, 1842.420 ) - ( 2439.805, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2439.805, 1842.420 ) - ( 2439.975, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2439.975, 1842.505 ) - ( 2440.035, 1842.520 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2439.975, 1842.420 ) - ( 2440.320, 1842.505 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2435.490, 1842.630 ) - ( 2435.855, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2435.490, 1842.585 ) - ( 2435.855, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2435.490, 1842.565 ) - ( 2435.855, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2435.490, 1842.560 ) - ( 2435.855, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2435.715, 1842.630 ) - ( 2435.855, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2435.715, 1842.585 ) - ( 2435.855, 1842.630 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2435.715, 1842.565 ) - ( 2435.855, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2435.715, 1842.560 ) - ( 2435.855, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2439.605, 1842.585 ) - ( 2440.175, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2439.605, 1842.565 ) - ( 2440.175, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2439.605, 1842.560 ) - ( 2440.175, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2439.605, 1842.585 ) - ( 2439.745, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2439.605, 1842.565 ) - ( 2439.745, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2439.605, 1842.560 ) - ( 2439.745, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2440.035, 1842.585 ) - ( 2440.175, 1842.690 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2440.035, 1842.565 ) - ( 2440.175, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2440.035, 1842.560 ) - ( 2440.175, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2440.035, 1842.585 ) - ( 2440.460, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2440.035, 1842.565 ) - ( 2440.460, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2440.035, 1842.560 ) - ( 2440.460, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2440.320, 1842.585 ) - ( 2440.460, 1842.645 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2440.320, 1842.565 ) - ( 2440.460, 1842.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2440.320, 1842.560 ) - ( 2440.460, 1842.565 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.610, 1736.985 ) - ( 2367.940, 1737.015 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2377.145, 1737.315 ) - ( 2377.205, 1737.345 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2377.145, 1737.260 ) - ( 2377.205, 1737.315 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2377.145, 1737.315 ) - ( 2377.205, 1737.345 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2377.145, 1737.230 ) - ( 2377.205, 1737.315 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2377.005, 1737.230 ) - ( 2377.065, 1737.260 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.470, 1737.125 ) - ( 2368.080, 1737.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.470, 1737.125 ) - ( 2367.610, 1737.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.940, 1737.125 ) - ( 2368.080, 1737.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2377.350, 1737.100 ) - ( 2377.375, 1737.115 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2377.210, 1737.060 ) - ( 2377.235, 1737.115 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2377.210, 1737.060 ) - ( 2377.235, 1737.100 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2384.195, 1736.985 ) - ( 2384.525, 1737.015 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.730, 1737.315 ) - ( 2393.790, 1737.345 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.730, 1737.260 ) - ( 2393.790, 1737.315 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.730, 1737.315 ) - ( 2393.790, 1737.345 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.730, 1737.230 ) - ( 2393.790, 1737.315 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.590, 1737.230 ) - ( 2393.650, 1737.260 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.470, 1736.545 ) - ( 2367.610, 1736.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.470, 1736.545 ) - ( 2368.080, 1736.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.940, 1736.545 ) - ( 2368.080, 1736.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.610, 1736.685 ) - ( 2367.940, 1736.715 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2384.055, 1737.125 ) - ( 2384.665, 1737.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2384.055, 1737.125 ) - ( 2384.195, 1737.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2384.525, 1737.125 ) - ( 2384.665, 1737.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.910, 1737.100 ) - ( 2393.940, 1737.115 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.940, 1737.100 ) - ( 2393.960, 1737.115 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.770, 1737.060 ) - ( 2393.820, 1737.115 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.770, 1737.060 ) - ( 2393.820, 1737.100 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.780, 1736.990 ) - ( 2401.110, 1737.020 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2410.315, 1737.315 ) - ( 2410.375, 1737.345 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2410.315, 1737.265 ) - ( 2410.375, 1737.315 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2410.315, 1737.315 ) - ( 2410.375, 1737.345 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2410.315, 1737.235 ) - ( 2410.375, 1737.315 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2410.175, 1737.235 ) - ( 2410.235, 1737.265 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2384.055, 1736.545 ) - ( 2384.195, 1736.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2384.055, 1736.545 ) - ( 2384.665, 1736.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2384.525, 1736.545 ) - ( 2384.665, 1736.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2384.195, 1736.685 ) - ( 2384.525, 1736.715 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.640, 1737.130 ) - ( 2401.250, 1737.160 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.640, 1737.130 ) - ( 2400.780, 1737.160 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2401.110, 1737.130 ) - ( 2401.250, 1737.160 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2410.470, 1737.100 ) - ( 2410.500, 1737.115 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2410.500, 1737.100 ) - ( 2410.545, 1737.115 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2410.330, 1737.065 ) - ( 2410.405, 1737.115 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2410.330, 1737.065 ) - ( 2410.405, 1737.100 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2417.365, 1736.995 ) - ( 2417.695, 1737.025 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.640, 1736.550 ) - ( 2400.780, 1736.580 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.640, 1736.550 ) - ( 2401.250, 1736.580 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2401.110, 1736.550 ) - ( 2401.250, 1736.580 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.780, 1736.690 ) - ( 2401.110, 1736.720 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2417.225, 1737.135 ) - ( 2417.835, 1737.165 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2417.225, 1737.135 ) - ( 2417.365, 1737.165 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2417.695, 1737.135 ) - ( 2417.835, 1737.165 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.945, 1736.995 ) - ( 2434.275, 1737.025 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2417.225, 1736.555 ) - ( 2417.365, 1736.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2417.225, 1736.555 ) - ( 2417.835, 1736.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2417.695, 1736.555 ) - ( 2417.835, 1736.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2417.365, 1736.695 ) - ( 2417.695, 1736.725 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.805, 1737.135 ) - ( 2434.415, 1737.165 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.805, 1737.135 ) - ( 2433.945, 1737.165 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.275, 1737.135 ) - ( 2434.415, 1737.165 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.805, 1736.555 ) - ( 2433.945, 1736.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.805, 1736.555 ) - ( 2434.415, 1736.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2434.275, 1736.555 ) - ( 2434.415, 1736.585 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.945, 1736.695 ) - ( 2434.275, 1736.725 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.630, 1632.260 ) - ( 2394.690, 1632.285 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.630, 1632.255 ) - ( 2394.690, 1632.285 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.630, 1632.225 ) - ( 2394.690, 1632.255 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.490, 1632.255 ) - ( 2394.550, 1632.260 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2394.490, 1632.225 ) - ( 2394.550, 1632.255 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.705, 2052.230 ) - ( 2392.765, 2052.260 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.705, 2052.155 ) - ( 2392.845, 2052.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.705, 2052.230 ) - ( 2392.765, 2052.260 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.705, 2052.155 ) - ( 2392.935, 2052.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.850, 2052.140 ) - ( 2392.935, 2052.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.850, 2052.140 ) - ( 2392.935, 2052.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.845, 2052.325 ) - ( 2392.905, 2052.400 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.845, 2052.295 ) - ( 2392.905, 2052.325 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.845, 2052.325 ) - ( 2392.905, 2052.400 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.845, 2052.295 ) - ( 2392.905, 2052.325 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.845, 2052.325 ) - ( 2392.905, 2052.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.905, 2052.325 ) - ( 2393.020, 2052.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.020, 2052.325 ) - ( 2393.075, 2052.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.845, 2052.295 ) - ( 2393.020, 2052.325 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.990, 2052.280 ) - ( 2393.020, 2052.295 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.020, 2052.280 ) - ( 2393.075, 2052.325 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.935, 2052.325 ) - ( 2393.020, 2052.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.020, 2052.325 ) - ( 2393.075, 2052.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.935, 2052.295 ) - ( 2393.020, 2052.325 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2392.990, 2052.280 ) - ( 2393.020, 2052.295 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2393.020, 2052.280 ) - ( 2393.075, 2052.325 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.355, 2052.230 ) - ( 2425.415, 2052.260 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.355, 2052.155 ) - ( 2425.495, 2052.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.355, 2052.230 ) - ( 2425.415, 2052.260 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.355, 2052.155 ) - ( 2425.585, 2052.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.510, 2052.140 ) - ( 2425.585, 2052.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.510, 2052.140 ) - ( 2425.585, 2052.230 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.495, 2052.325 ) - ( 2425.555, 2052.400 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.495, 2052.295 ) - ( 2425.555, 2052.325 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.495, 2052.325 ) - ( 2425.555, 2052.400 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.495, 2052.295 ) - ( 2425.555, 2052.325 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.495, 2052.325 ) - ( 2425.555, 2052.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.555, 2052.325 ) - ( 2425.680, 2052.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.680, 2052.325 ) - ( 2425.725, 2052.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.495, 2052.295 ) - ( 2425.680, 2052.325 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.650, 2052.280 ) - ( 2425.680, 2052.295 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.680, 2052.280 ) - ( 2425.725, 2052.325 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.585, 2052.325 ) - ( 2425.680, 2052.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.680, 2052.325 ) - ( 2425.725, 2052.370 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.585, 2052.295 ) - ( 2425.680, 2052.325 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.650, 2052.280 ) - ( 2425.680, 2052.295 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2425.680, 2052.280 ) - ( 2425.725, 2052.325 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.250, 2248.985 ) - ( 2367.580, 2249.015 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.110, 2249.125 ) - ( 2367.720, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.110, 2249.125 ) - ( 2367.250, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.580, 2249.125 ) - ( 2367.720, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2383.835, 2248.985 ) - ( 2384.165, 2249.015 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.110, 2248.545 ) - ( 2367.250, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.110, 2248.545 ) - ( 2367.720, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.580, 2248.545 ) - ( 2367.720, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2367.250, 2248.685 ) - ( 2367.580, 2248.715 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2383.695, 2249.125 ) - ( 2384.305, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2383.695, 2249.125 ) - ( 2383.835, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2384.165, 2249.125 ) - ( 2384.305, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.420, 2248.985 ) - ( 2400.750, 2249.015 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2383.695, 2248.545 ) - ( 2383.835, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2383.695, 2248.545 ) - ( 2384.305, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2384.165, 2248.545 ) - ( 2384.305, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2383.835, 2248.685 ) - ( 2384.165, 2248.715 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.280, 2249.125 ) - ( 2400.890, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.280, 2249.125 ) - ( 2400.420, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.750, 2249.125 ) - ( 2400.890, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2417.005, 2248.985 ) - ( 2417.335, 2249.015 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.280, 2248.545 ) - ( 2400.420, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.280, 2248.545 ) - ( 2400.890, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.750, 2248.545 ) - ( 2400.890, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2400.420, 2248.685 ) - ( 2400.750, 2248.715 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2416.865, 2249.125 ) - ( 2417.475, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2416.865, 2249.125 ) - ( 2417.005, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2417.335, 2249.125 ) - ( 2417.475, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.585, 2248.985 ) - ( 2433.915, 2249.015 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2416.865, 2248.545 ) - ( 2417.005, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2416.865, 2248.545 ) - ( 2417.475, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2417.335, 2248.545 ) - ( 2417.475, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2417.005, 2248.685 ) - ( 2417.335, 2248.715 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.445, 2249.125 ) - ( 2434.055, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.445, 2249.125 ) - ( 2433.585, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.915, 2249.125 ) - ( 2434.055, 2249.155 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.445, 2248.545 ) - ( 2433.585, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.445, 2248.545 ) - ( 2434.055, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.915, 2248.545 ) - ( 2434.055, 2248.575 ) on Layer met1
+  violation type: Metal1_spacing_lt_0dot14um_met1dot2
+    srcs: N/A N/A
+    bbox = ( 2433.585, 2248.685 ) - ( 2433.915, 2248.715 ) on Layer met1
+  violation type: All_nwells_must_contain_metal_connected_Nplus_taps_nwelldot4
+    srcs: N/A N/A
+    bbox = ( 2626.870, 3069.465 ) - ( 2628.630, 3071.070 ) on Layer nwell
+  violation type: Metal1_width_lt_0dot14um_met1dot1
+    srcs: N/A N/A
+    bbox = ( 2397.090, 1422.350 ) - ( 2397.130, 1422.400 ) on Layer met1
+  violation type: Metal1_width_lt_0dot14um_met1dot1
+    srcs: N/A N/A
+    bbox = ( 2397.090, 1422.260 ) - ( 2397.130, 1422.350 ) on Layer met1

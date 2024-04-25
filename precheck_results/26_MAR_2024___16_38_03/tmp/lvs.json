@@ -1,0 +1,3689 @@
+[
+  {
+   "pins": [
+      [
+        "1",
+        "2",
+        "3",
+        "4"
+      ], [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "1",
+        "2",
+        "3",
+        "4"
+      ], [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_ef_sc_hd__decap_12",
+      "sky130_ef_sc_hd__decap_12"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1 ],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ]
+   ],
+   "nets": [
+    4,
+    4
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ], [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__decap_4",
+      "sky130_fd_sc_hd__decap_4"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1 ],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ]
+   ],
+   "nets": [
+    4,
+    4
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ], [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__buf_12",
+      "sky130_fd_sc_hd__buf_12"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 2],
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 2 ],
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "X",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB",
+        "A"
+      ], [
+        "X",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB",
+        "A"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__decap_3",
+      "sky130_fd_sc_hd__decap_3"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1 ],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ]
+   ],
+   "nets": [
+    4,
+    4
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ], [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__decap_6",
+      "sky130_fd_sc_hd__decap_6"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1 ],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ]
+   ],
+   "nets": [
+    4,
+    4
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ], [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VPWR",
+        "VGND",
+        "VPB",
+        "VNB"
+      ], [
+        "VPWR",
+        "VGND",
+        "VPB",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VGND",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ], [
+        "VGND",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__decap_8",
+      "sky130_fd_sc_hd__decap_8"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 1 ],
+         ["sky130_fd_pr__nfet_01v8", 1 ]
+       ]
+   ],
+   "nets": [
+    4,
+    4
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ], [
+        "VPB",
+        "VNB",
+        "VPWR",
+        "VGND"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__a21oi_2",
+      "sky130_fd_sc_hd__a21oi_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 5],
+         ["sky130_fd_pr__pfet_01v8_hvt", 3 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 5 ],
+         ["sky130_fd_pr__pfet_01v8_hvt", 3 ]
+       ]
+   ],
+   "nets": [
+    11,
+    11
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "Y",
+        "VNB",
+        "VPWR",
+        "B1",
+        "VGND",
+        "A2",
+        "A1",
+        "VPB"
+      ], [
+        "Y",
+        "VNB",
+        "VPWR",
+        "B1",
+        "VGND",
+        "A2",
+        "A1",
+        "VPB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__nor2_1",
+      "sky130_fd_sc_hd__nor2_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    8,
+    8
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "Y",
+        "A",
+        "VPB",
+        "VGND",
+        "VNB",
+        "B",
+        "VPWR"
+      ], [
+        "Y",
+        "A",
+        "VPB",
+        "VGND",
+        "VNB",
+        "B",
+        "VPWR"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__mux2_1",
+      "sky130_fd_sc_hd__mux2_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 6],
+         ["sky130_fd_pr__nfet_01v8", 6 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 6 ],
+         ["sky130_fd_pr__nfet_01v8", 6 ]
+       ]
+   ],
+   "nets": [
+    14,
+    14
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPB",
+        "VNB",
+        "A0",
+        "A1",
+        "X",
+        "VPWR",
+        "S",
+        "VGND"
+      ], [
+        "VPB",
+        "VNB",
+        "A0",
+        "A1",
+        "X",
+        "VPWR",
+        "S",
+        "VGND"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__mux4_1",
+      "sky130_fd_sc_hd__mux4_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 13],
+         ["sky130_fd_pr__nfet_01v8", 13 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 13 ],
+         ["sky130_fd_pr__nfet_01v8", 13 ]
+       ]
+   ],
+   "nets": [
+    24,
+    24
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "S1",
+        "VPWR",
+        "VGND",
+        "VPB",
+        "VNB",
+        "X",
+        "A1",
+        "A3",
+        "A0",
+        "A2",
+        "S0"
+      ], [
+        "S1",
+        "VPWR",
+        "VGND",
+        "VPB",
+        "VNB",
+        "X",
+        "A1",
+        "A3",
+        "A0",
+        "A2",
+        "S0"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__a41o_1",
+      "sky130_fd_sc_hd__a41o_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 6],
+         ["sky130_fd_pr__pfet_01v8_hvt", 6 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 6 ],
+         ["sky130_fd_pr__pfet_01v8_hvt", 6 ]
+       ]
+   ],
+   "nets": [
+    15,
+    15
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPWR",
+        "VGND",
+        "VNB",
+        "VPB",
+        "B1",
+        "A4",
+        "A3",
+        "A2",
+        "A1",
+        "X"
+      ], [
+        "VPWR",
+        "VGND",
+        "VNB",
+        "VPB",
+        "B1",
+        "A4",
+        "A3",
+        "A2",
+        "A1",
+        "X"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__or3b_1",
+      "sky130_fd_sc_hd__or3b_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 5],
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 5 ],
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ]
+       ]
+   ],
+   "nets": [
+    12,
+    12
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPWR",
+        "VGND",
+        "VNB",
+        "VPB",
+        "X",
+        "B",
+        "A",
+        "C_N"
+      ], [
+        "VPWR",
+        "VGND",
+        "VNB",
+        "VPB",
+        "X",
+        "B",
+        "A",
+        "C_N"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__clkbuf_1",
+      "sky130_fd_sc_hd__clkbuf_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "A",
+        "VNB",
+        "X",
+        "VPWR",
+        "VPB"
+      ], [
+        "VGND",
+        "A",
+        "VNB",
+        "X",
+        "VPWR",
+        "VPB"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VPWR",
+        "VGND"
+      ], [
+        "VPWR",
+        "VGND"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "X",
+        "VNB",
+        "A",
+        "VPWR",
+        "VPB"
+      ], [
+        "VGND",
+        "X",
+        "VNB",
+        "A",
+        "VPWR",
+        "VPB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__nand3b_1",
+      "sky130_fd_sc_hd__nand3b_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 4],
+         ["sky130_fd_pr__nfet_01v8", 4 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 4 ],
+         ["sky130_fd_pr__nfet_01v8", 4 ]
+       ]
+   ],
+   "nets": [
+    11,
+    11
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "A_N",
+        "VGND",
+        "B",
+        "C",
+        "VNB",
+        "VPWR",
+        "VPB",
+        "Y"
+      ], [
+        "A_N",
+        "VGND",
+        "B",
+        "C",
+        "VNB",
+        "VPWR",
+        "VPB",
+        "Y"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__nand2_1",
+      "sky130_fd_sc_hd__nand2_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    8,
+    8
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "Y",
+        "A",
+        "VPWR",
+        "VPB",
+        "B",
+        "VNB"
+      ], [
+        "VGND",
+        "Y",
+        "A",
+        "VPWR",
+        "VPB",
+        "B",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__clkbuf_2",
+      "sky130_fd_sc_hd__clkbuf_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "A",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB",
+        "X"
+      ], [
+        "A",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "VNB",
+        "X"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__a2111oi_1",
+      "sky130_fd_sc_hd__a2111oi_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 5],
+         ["sky130_fd_pr__nfet_01v8", 5 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ],
+         ["sky130_fd_pr__nfet_01v8", 5 ]
+       ]
+   ],
+   "nets": [
+    14,
+    14
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "Y",
+        "VNB",
+        "VPB",
+        "C1",
+        "B1",
+        "A1",
+        "D1",
+        "VPWR",
+        "A2"
+      ], [
+        "VGND",
+        "Y",
+        "VNB",
+        "VPB",
+        "C1",
+        "B1",
+        "A1",
+        "D1",
+        "VPWR",
+        "A2"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__nor3b_1",
+      "sky130_fd_sc_hd__nor3b_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 4],
+         ["sky130_fd_pr__pfet_01v8_hvt", 4 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 4 ],
+         ["sky130_fd_pr__pfet_01v8_hvt", 4 ]
+       ]
+   ],
+   "nets": [
+    11,
+    11
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VPWR",
+        "C_N",
+        "A",
+        "B",
+        "Y",
+        "VGND",
+        "VNB",
+        "VPB"
+      ], [
+        "VPWR",
+        "C_N",
+        "A",
+        "B",
+        "Y",
+        "VGND",
+        "VNB",
+        "VPB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__buf_2",
+      "sky130_fd_sc_hd__buf_2"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ], [
+         ["sky130_fd_pr__pfet_01v8_hvt", 2 ],
+         ["sky130_fd_pr__nfet_01v8", 2 ]
+       ]
+   ],
+   "nets": [
+    7,
+    7
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "X",
+        "VGND",
+        "VNB",
+        "A",
+        "VPWR",
+        "VPB"
+      ], [
+        "X",
+        "VGND",
+        "VNB",
+        "A",
+        "VPWR",
+        "VPB"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__and3b_1",
+      "sky130_fd_sc_hd__and3b_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__nfet_01v8", 5],
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ]
+       ], [
+         ["sky130_fd_pr__nfet_01v8", 5 ],
+         ["sky130_fd_pr__pfet_01v8_hvt", 5 ]
+       ]
+   ],
+   "nets": [
+    12,
+    12
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VNB",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "X",
+        "A_N",
+        "C",
+        "B"
+      ], [
+        "VNB",
+        "VPWR",
+        "VPB",
+        "VGND",
+        "X",
+        "A_N",
+        "C",
+        "B"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "data_in[0]",
+        "data_in[10]",
+        "data_in[11]",
+        "data_in[12]",
+        "data_in[13]",
+        "data_in[14]",
+        "data_in[15]",
+        "data_in[1]",
+        "data_in[2]",
+        "data_in[3]",
+        "data_in[4]",
+        "data_in[5]",
+        "data_in[6]",
+        "data_in[7]",
+        "data_in[8]",
+        "data_in[9]",
+        "select[0]",
+        "select[1]",
+        "select[2]",
+        "select[3]",
+        "y",
+        "vssd1",
+        "vccd1"
+      ], [
+        "data_in[0]",
+        "data_in[10]",
+        "data_in[11]",
+        "data_in[12]",
+        "data_in[13]",
+        "data_in[14]",
+        "data_in[15]",
+        "data_in[1]",
+        "data_in[2]",
+        "data_in[3]",
+        "data_in[4]",
+        "data_in[5]",
+        "data_in[6]",
+        "data_in[7]",
+        "data_in[8]",
+        "data_in[9]",
+        "select[0]",
+        "select[1]",
+        "select[2]",
+        "select[3]",
+        "y",
+        "vssd1",
+        "vccd1"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "s4",
+        "s5",
+        "X5_Y1",
+        "X4_Y1",
+        "X3_Y1",
+        "X2_Y1",
+        "X1_Y1",
+        "start",
+        "vccd1",
+        "s2",
+        "s3",
+        "s1",
+        "vssd1"
+      ], [
+        "s4",
+        "s5",
+        "X5_Y1",
+        "X4_Y1",
+        "X3_Y1",
+        "X2_Y1",
+        "X1_Y1",
+        "start",
+        "vccd1",
+        "s2",
+        "s3",
+        "s1",
+        "vssd1"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "s1",
+        "s2",
+        "s3",
+        "s5",
+        "X2_Y1",
+        "X3_Y1",
+        "X4_Y1",
+        "X5_Y1",
+        "start",
+        "vccd1",
+        "X1_Y1",
+        "vssd1",
+        "s4"
+      ], [
+        "s1",
+        "s2",
+        "s3",
+        "s5",
+        "X2_Y1",
+        "X3_Y1",
+        "X4_Y1",
+        "X5_Y1",
+        "start",
+        "vccd1",
+        "X1_Y1",
+        "vssd1",
+        "s4"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "s1",
+        "s2",
+        "s3",
+        "X5_Y1",
+        "X3_Y1",
+        "X2_Y1",
+        "X1_Y1",
+        "s5",
+        "s4",
+        "start",
+        "vccd1",
+        "X4_Y1",
+        "vssd1"
+      ], [
+        "s1",
+        "s2",
+        "s3",
+        "X5_Y1",
+        "X3_Y1",
+        "X2_Y1",
+        "X1_Y1",
+        "s5",
+        "s4",
+        "start",
+        "vccd1",
+        "X4_Y1",
+        "vssd1"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "X2_Y1",
+        "X3_Y1",
+        "X4_Y1",
+        "X5_Y1",
+        "start",
+        "vccd1",
+        "X1_Y1",
+        "vssd1"
+      ], [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "X2_Y1",
+        "X3_Y1",
+        "X4_Y1",
+        "X5_Y1",
+        "start",
+        "vccd1",
+        "X1_Y1",
+        "vssd1"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "s1",
+        "s4",
+        "s5",
+        "X2_Y1",
+        "X5_Y1",
+        "start",
+        "vccd1",
+        "X4_Y1",
+        "X1_Y1",
+        "X3_Y1",
+        "s3",
+        "vssd1",
+        "s2"
+      ], [
+        "s1",
+        "s4",
+        "s5",
+        "X2_Y1",
+        "X5_Y1",
+        "start",
+        "vccd1",
+        "X4_Y1",
+        "X1_Y1",
+        "X3_Y1",
+        "s3",
+        "vssd1",
+        "s2"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X1_Y1",
+        "X2_Y1",
+        "X3_Y1",
+        "X4_Y1",
+        "X5_Y1",
+        "start",
+        "vccd1",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "vssd1"
+      ], [
+        "X1_Y1",
+        "X2_Y1",
+        "X3_Y1",
+        "X4_Y1",
+        "X5_Y1",
+        "start",
+        "vccd1",
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "vssd1"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "s1",
+        "s2",
+        "s4",
+        "s5",
+        "X5_Y1",
+        "X4_Y1",
+        "X3_Y1",
+        "X2_Y1",
+        "X1_Y1",
+        "start",
+        "vccd1",
+        "vssd1",
+        "s3"
+      ], [
+        "s1",
+        "s2",
+        "s4",
+        "s5",
+        "X5_Y1",
+        "X4_Y1",
+        "X3_Y1",
+        "X2_Y1",
+        "X1_Y1",
+        "start",
+        "vccd1",
+        "vssd1",
+        "s3"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "sky130_fd_sc_hd__conb_1",
+      "sky130_fd_sc_hd__conb_1"
+   ],
+   "devices": [
+       [
+         ["sky130_fd_pr__res_generic_po", 2 ]
+       ], [
+         ["sky130_fd_pr__res_generic_po", 2 ]
+       ]
+   ],
+   "nets": [
+    4,
+    4
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "VGND",
+        "LO",
+        "HI",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ], [
+        "VGND",
+        "LO",
+        "HI",
+        "VPWR",
+        "VPB",
+        "VNB"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "s1",
+        "s2",
+        "s3",
+        "X5_Y1",
+        "X4_Y1",
+        "X3_Y1",
+        "X2_Y1",
+        "X1_Y1",
+        "s5",
+        "s4",
+        "start",
+        "vccd1",
+        "vssd1"
+      ], [
+        "s1",
+        "s2",
+        "s3",
+        "X5_Y1",
+        "X4_Y1",
+        "X3_Y1",
+        "X2_Y1",
+        "X1_Y1",
+        "s5",
+        "s4",
+        "start",
+        "vccd1",
+        "vssd1"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "s1",
+        "s2",
+        "s3",
+        "s5",
+        "X2_Y1",
+        "start",
+        "vccd1",
+        "X4_Y1",
+        "X1_Y1",
+        "X3_Y1",
+        "X5_Y1",
+        "s4",
+        "vssd1"
+      ], [
+        "s1",
+        "s2",
+        "s3",
+        "s5",
+        "X2_Y1",
+        "start",
+        "vccd1",
+        "X4_Y1",
+        "X1_Y1",
+        "X3_Y1",
+        "X5_Y1",
+        "s4",
+        "vssd1"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "s1",
+        "s2",
+        "s4",
+        "X1_Y1",
+        "X2_Y1",
+        "X4_Y1",
+        "X5_Y1",
+        "start",
+        "vccd1",
+        "X3_Y1",
+        "s5",
+        "s3",
+        "vssd1"
+      ], [
+        "s1",
+        "s2",
+        "s4",
+        "X1_Y1",
+        "X2_Y1",
+        "X4_Y1",
+        "X5_Y1",
+        "start",
+        "vccd1",
+        "X3_Y1",
+        "s5",
+        "s3",
+        "vssd1"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "user_project_wrapper",
+      "user_project_wrapper"
+   ],
+   "devices": [
+       [
+         ["mux16x1_project", 5],
+         ["sky130_osu_ring_oscillator_mpr2ca_8_b0r1", 1],
+         ["sky130_osu_ring_oscillator_mpr2xa_8_b0r2", 1],
+         ["sky130_osu_ring_oscillator_mpr2ct_8_b0r1", 1],
+         ["sky130_osu_ring_oscillator_mpr2ea_8_b0r1", 1],
+         ["sky130_osu_ring_oscillator_mpr2et_8_b0r1", 1],
+         ["sky130_osu_ring_oscillator_mpr2xa_8_b0r1", 1],
+         ["sky130_osu_ring_oscillator_mpr2ca_8_b0r2", 1],
+         ["sky130_fd_sc_hd__conb_1", 1],
+         ["sky130_osu_ring_oscillator_mpr2ct_8_b0r2", 1],
+         ["sky130_osu_ring_oscillator_mpr2et_8_b0r2", 1],
+         ["sky130_osu_ring_oscillator_mpr2ea_8_b0r2", 1 ]
+       ], [
+         ["mux16x1_project", 5 ],
+         ["sky130_osu_ring_oscillator_mpr2ca_8_b0r1", 1 ],
+         ["sky130_osu_ring_oscillator_mpr2xa_8_b0r2", 1 ],
+         ["sky130_osu_ring_oscillator_mpr2ct_8_b0r1", 1 ],
+         ["sky130_osu_ring_oscillator_mpr2ea_8_b0r1", 1 ],
+         ["sky130_osu_ring_oscillator_mpr2et_8_b0r1", 1 ],
+         ["sky130_osu_ring_oscillator_mpr2xa_8_b0r1", 1 ],
+         ["sky130_osu_ring_oscillator_mpr2ca_8_b0r2", 1 ],
+         ["sky130_fd_sc_hd__conb_1", 1 ],
+         ["sky130_osu_ring_oscillator_mpr2ct_8_b0r2", 1 ],
+         ["sky130_osu_ring_oscillator_mpr2et_8_b0r2", 1 ],
+         ["sky130_osu_ring_oscillator_mpr2ea_8_b0r2", 1 ]
+       ]
+   ],
+   "nets": [
+    68,
+    93
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "ro1/X3_Y1",
+            [
+              [ "mux16x1_project", "data_in[0]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro2/X3_Y1",
+            [
+              [ "mux16x1_project", "data_in[1]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro3/X3_Y1",
+            [
+              [ "mux16x1_project", "data_in[2]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro4/X3_Y1",
+            [
+              [ "mux16x1_project", "data_in[3]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro5/X3_Y1",
+            [
+              [ "mux16x1_project", "data_in[4]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro7/X3_Y1",
+            [
+              [ "mux16x1_project", "data_in[6]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro8/X3_Y1",
+            [
+              [ "mux16x1_project", "data_in[7]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro9/X3_Y1",
+            [
+              [ "mux16x1_project", "data_in[8]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro10/X3_Y1",
+            [
+              [ "mux16x1_project", "data_in[9]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro1/X4_Y1",
+            [
+              [ "mux16x1_project", "data_in[0]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro2/X4_Y1",
+            [
+              [ "mux16x1_project", "data_in[1]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro3/X4_Y1",
+            [
+              [ "mux16x1_project", "data_in[2]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro4/X4_Y1",
+            [
+              [ "mux16x1_project", "data_in[3]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro5/X4_Y1",
+            [
+              [ "mux16x1_project", "data_in[4]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro6/X4_Y1",
+            [
+              [ "mux16x1_project", "data_in[5]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro7/X4_Y1",
+            [
+              [ "mux16x1_project", "data_in[6]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro8/X4_Y1",
+            [
+              [ "mux16x1_project", "data_in[7]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro9/X4_Y1",
+            [
+              [ "mux16x1_project", "data_in[8]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro10/X4_Y1",
+            [
+              [ "mux16x1_project", "data_in[9]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro1/X5_Y1",
+            [
+              [ "mux16x1_project", "data_in[0]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro2/X5_Y1",
+            [
+              [ "mux16x1_project", "data_in[1]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro3/X5_Y1",
+            [
+              [ "mux16x1_project", "data_in[2]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro4/X5_Y1",
+            [
+              [ "mux16x1_project", "data_in[3]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro5/X5_Y1",
+            [
+              [ "mux16x1_project", "data_in[4]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro6/X5_Y1",
+            [
+              [ "mux16x1_project", "data_in[5]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro7/X5_Y1",
+            [
+              [ "mux16x1_project", "data_in[6]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro8/X5_Y1",
+            [
+              [ "mux16x1_project", "data_in[7]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro9/X5_Y1",
+            [
+              [ "mux16x1_project", "data_in[8]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro10/X5_Y1",
+            [
+              [ "mux16x1_project", "data_in[9]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "ro1/X2_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "X2_Y1", 1 ],
+              [ "mux16x1_project", "data_in[0]", 1 ]
+            ]
+          ],
+          [
+            "ro1/X1_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "X1_Y1", 1 ],
+              [ "mux16x1_project", "data_in[0]", 1 ]
+            ]
+          ],
+          [
+            "ro10/X2_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "X2_Y1", 1 ],
+              [ "mux16x1_project", "data_in[9]", 1 ]
+            ]
+          ],
+          [
+            "ro10/X1_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "X1_Y1", 1 ],
+              [ "mux16x1_project", "data_in[9]", 1 ]
+            ]
+          ],
+          [
+            "ro2/X2_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "X2_Y1", 1 ],
+              [ "mux16x1_project", "data_in[1]", 1 ]
+            ]
+          ],
+          [
+            "ro2/X1_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "X1_Y1", 1 ],
+              [ "mux16x1_project", "data_in[1]", 1 ]
+            ]
+          ],
+          [
+            "ro3/X2_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "X2_Y1", 1 ],
+              [ "mux16x1_project", "data_in[2]", 1 ]
+            ]
+          ],
+          [
+            "ro3/X1_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "X1_Y1", 1 ],
+              [ "mux16x1_project", "data_in[2]", 1 ]
+            ]
+          ],
+          [
+            "ro4/X1_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "X1_Y1", 1 ],
+              [ "mux16x1_project", "data_in[3]", 1 ]
+            ]
+          ],
+          [
+            "ro5/X1_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "X1_Y1", 1 ],
+              [ "mux16x1_project", "data_in[4]", 1 ]
+            ]
+          ],
+          [
+            "ro5/X2_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "X2_Y1", 1 ],
+              [ "mux16x1_project", "data_in[4]", 1 ]
+            ]
+          ],
+          [
+            "ro7/X1_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "X1_Y1", 1 ],
+              [ "mux16x1_project", "data_in[6]", 1 ]
+            ]
+          ],
+          [
+            "ro9/X1_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "X1_Y1", 1 ],
+              [ "mux16x1_project", "data_in[8]", 1 ]
+            ]
+          ],
+          [
+            "ro8/X1_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "X1_Y1", 1 ],
+              [ "mux16x1_project", "data_in[7]", 1 ]
+            ]
+          ],
+          [
+            "ro8/X2_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "X2_Y1", 1 ],
+              [ "mux16x1_project", "data_in[7]", 1 ]
+            ]
+          ],
+          [
+            "ro6/X3_Y1",
+            [
+              [ "mux16x1_project", "data_in[5]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "X3_Y1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "sky130_osu_single_mpr2ca_8_b0r2_3/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ]
+            ]
+          ],
+          [
+            "ro4/X2_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "X2_Y1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "sky130_osu_single_mpr2et_8_b0r1_2/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ],
+              [ "mux16x1_project", "data_in[3]", 1 ]
+            ]
+          ],
+          [
+            "ro6/X2_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "X2_Y1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "sky130_osu_single_mpr2ca_8_b0r2_2/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ],
+              [ "mux16x1_project", "data_in[5]", 1 ]
+            ]
+          ],
+          [
+            "ro6/X1_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "X1_Y1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "sky130_osu_single_mpr2ca_8_b0r2_1/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ],
+              [ "mux16x1_project", "data_in[5]", 1 ]
+            ]
+          ],
+          [
+            "ro7/X2_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "X2_Y1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "sky130_osu_single_mpr2ct_8_b0r2_2/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ],
+              [ "mux16x1_project", "data_in[6]", 1 ]
+            ]
+          ],
+          [
+            "ro9/X2_Y1",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "X2_Y1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "sky130_osu_single_mpr2et_8_b0r2_2/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ],
+              [ "mux16x1_project", "data_in[8]", 1 ]
+            ]
+          ],
+          [
+            "vssd1",
+            [
+              [ "mux16x1_project", "vssd1", 5 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "vssd1", 1 ],
+              [ "sky130_fd_sc_hd__conb_1", "VNB", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "vssd1", 1 ]
+            ]
+          ],
+          [
+            "vccd1",
+            [
+              [ "mux16x1_project", "vccd1", 5 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "vccd1", 1 ]
+            ]
+          ],
+          [
+            "io_in[4]",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "s5", 1 ]
+            ]
+          ],
+          [
+            "io_in[5]",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "start", 1 ]
+            ]
+          ],
+          [
+            "TIE_ZERO_zero_/HI",
+            [
+              [ "sky130_fd_sc_hd__conb_1", "HI", 1 ]
+            ]
+          ],
+          [
+            "TIE_ZERO_zero_/VPB",
+            [
+              [ "sky130_fd_sc_hd__conb_1", "VPB", 1 ]
+            ]
+          ],
+          [
+            "TIE_ZERO_zero_/VGND",
+            [
+              [ "sky130_fd_sc_hd__conb_1", "VGND", 1 ]
+            ]
+          ],
+          [
+            "TIE_ZERO_zero_/VPWR",
+            [
+              [ "sky130_fd_sc_hd__conb_1", "VPWR", 1 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "\\x1[9] ",
+            [
+              [ "mux16x1_project", "data_in[9]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "X1_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x1[8] ",
+            [
+              [ "mux16x1_project", "data_in[8]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "X1_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x1[7] ",
+            [
+              [ "mux16x1_project", "data_in[7]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "X1_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x1[6] ",
+            [
+              [ "mux16x1_project", "data_in[6]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "X1_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x1[5] ",
+            [
+              [ "mux16x1_project", "data_in[5]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "X1_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x1[4] ",
+            [
+              [ "mux16x1_project", "data_in[4]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "X1_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x1[3] ",
+            [
+              [ "mux16x1_project", "data_in[3]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "X1_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x1[2] ",
+            [
+              [ "mux16x1_project", "data_in[2]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "X1_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x1[1] ",
+            [
+              [ "mux16x1_project", "data_in[1]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "X1_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x1[0] ",
+            [
+              [ "mux16x1_project", "data_in[0]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "X1_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x2[9] ",
+            [
+              [ "mux16x1_project", "data_in[9]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "X2_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x2[8] ",
+            [
+              [ "mux16x1_project", "data_in[8]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "X2_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x2[7] ",
+            [
+              [ "mux16x1_project", "data_in[7]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "X2_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x2[6] ",
+            [
+              [ "mux16x1_project", "data_in[6]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "X2_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x2[5] ",
+            [
+              [ "mux16x1_project", "data_in[5]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "X2_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x2[4] ",
+            [
+              [ "mux16x1_project", "data_in[4]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "X2_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x2[3] ",
+            [
+              [ "mux16x1_project", "data_in[3]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "X2_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x2[2] ",
+            [
+              [ "mux16x1_project", "data_in[2]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "X2_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x2[1] ",
+            [
+              [ "mux16x1_project", "data_in[1]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "X2_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x2[0] ",
+            [
+              [ "mux16x1_project", "data_in[0]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "X2_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x3[9] ",
+            [
+              [ "mux16x1_project", "data_in[9]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x3[8] ",
+            [
+              [ "mux16x1_project", "data_in[8]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x3[7] ",
+            [
+              [ "mux16x1_project", "data_in[7]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x3[6] ",
+            [
+              [ "mux16x1_project", "data_in[6]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x3[5] ",
+            [
+              [ "mux16x1_project", "data_in[5]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x3[4] ",
+            [
+              [ "mux16x1_project", "data_in[4]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x3[3] ",
+            [
+              [ "mux16x1_project", "data_in[3]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x3[2] ",
+            [
+              [ "mux16x1_project", "data_in[2]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x3[1] ",
+            [
+              [ "mux16x1_project", "data_in[1]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x3[0] ",
+            [
+              [ "mux16x1_project", "data_in[0]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "X3_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x4[9] ",
+            [
+              [ "mux16x1_project", "data_in[9]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x4[8] ",
+            [
+              [ "mux16x1_project", "data_in[8]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x4[7] ",
+            [
+              [ "mux16x1_project", "data_in[7]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x4[6] ",
+            [
+              [ "mux16x1_project", "data_in[6]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x4[5] ",
+            [
+              [ "mux16x1_project", "data_in[5]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x4[4] ",
+            [
+              [ "mux16x1_project", "data_in[4]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x4[3] ",
+            [
+              [ "mux16x1_project", "data_in[3]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x4[2] ",
+            [
+              [ "mux16x1_project", "data_in[2]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x4[1] ",
+            [
+              [ "mux16x1_project", "data_in[1]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x4[0] ",
+            [
+              [ "mux16x1_project", "data_in[0]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "X4_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x5[9] ",
+            [
+              [ "mux16x1_project", "data_in[9]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x5[8] ",
+            [
+              [ "mux16x1_project", "data_in[8]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x5[7] ",
+            [
+              [ "mux16x1_project", "data_in[7]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x5[6] ",
+            [
+              [ "mux16x1_project", "data_in[6]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x5[5] ",
+            [
+              [ "mux16x1_project", "data_in[5]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x5[4] ",
+            [
+              [ "mux16x1_project", "data_in[4]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x5[3] ",
+            [
+              [ "mux16x1_project", "data_in[3]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x5[2] ",
+            [
+              [ "mux16x1_project", "data_in[2]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x5[1] ",
+            [
+              [ "mux16x1_project", "data_in[1]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "\\x5[0] ",
+            [
+              [ "mux16x1_project", "data_in[0]", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "X5_Y1", 1 ]
+            ]
+          ],
+          [
+            "io_in[0]",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "s1", 1 ]
+            ]
+          ],
+          [
+            "io_in[1]",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "s2", 1 ]
+            ]
+          ],
+          [
+            "io_in[2]",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "s3", 1 ]
+            ]
+          ],
+          [
+            "io_in[3]",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "s4", 1 ]
+            ]
+          ],
+          [
+            "io_in[4]",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "s5", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "s5", 1 ]
+            ]
+          ],
+          [
+            "io_in[5]",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "start", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "start", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_1_",
+            [
+              [ "sky130_fd_sc_hd__conb_1", "HI", 1 ]
+            ]
+          ],
+          [
+            "dummy_66",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "proxysky130_osu_single_mpr2et_8_b0r1_2/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ]
+            ]
+          ],
+          [
+            "dummy_67",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/a_57_49#", 1 ]
+            ]
+          ],
+          [
+            "dummy_68",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/a_676_199#", 1 ]
+            ]
+          ],
+          [
+            "dummy_69",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/a_676_199#", 1 ]
+            ]
+          ],
+          [
+            "dummy_70",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/a_57_49#", 1 ]
+            ]
+          ],
+          [
+            "dummy_71",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/R3", 1 ]
+            ]
+          ],
+          [
+            "dummy_72",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/B1", 1 ]
+            ]
+          ],
+          [
+            "dummy_73",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_sc_12T_hs__mux2_1_0/Y", 1 ]
+            ]
+          ],
+          [
+            "dummy_74",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/B1", 1 ]
+            ]
+          ],
+          [
+            "dummy_75",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/B1", 1 ]
+            ]
+          ],
+          [
+            "dummy_76",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/a_57_49#", 1 ]
+            ]
+          ],
+          [
+            "dummy_77",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/a_238_297#", 1 ]
+            ]
+          ],
+          [
+            "dummy_78",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/R3", 1 ]
+            ]
+          ],
+          [
+            "dummy_79",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/R3", 1 ]
+            ]
+          ],
+          [
+            "dummy_80",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/R3", 1 ]
+            ]
+          ],
+          [
+            "dummy_81",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/a_238_297#", 1 ]
+            ]
+          ],
+          [
+            "dummy_82",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/a_57_49#", 1 ]
+            ]
+          ],
+          [
+            "dummy_83",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/a_238_297#", 1 ]
+            ]
+          ],
+          [
+            "dummy_84",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/B1", 1 ]
+            ]
+          ],
+          [
+            "dummy_85",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/a_676_199#", 1 ]
+            ]
+          ],
+          [
+            "dummy_86",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/a_238_297#", 1 ]
+            ]
+          ],
+          [
+            "dummy_87",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "proxysky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/a_676_199#", 1 ]
+            ]
+          ],
+          [
+            "dummy_88",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "proxysky130_osu_single_mpr2ca_8_b0r2_1/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ]
+            ]
+          ],
+          [
+            "dummy_89",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "proxysky130_osu_single_mpr2ca_8_b0r2_2/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ]
+            ]
+          ],
+          [
+            "dummy_90",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "proxysky130_osu_single_mpr2ca_8_b0r2_3/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ]
+            ]
+          ],
+          [
+            "dummy_91",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "proxysky130_osu_single_mpr2ct_8_b0r2_2/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ]
+            ]
+          ],
+          [
+            "dummy_92",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "proxysky130_osu_single_mpr2et_8_b0r2_2/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ]
+            ]
+          ],
+          [
+            "dummy_93",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "proxysky130_osu_single_mpr2ea_8_b0r2_4/scs130hd_mpr2ea_8_0/R2", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "vssd1",
+            [
+              [ "mux16x1_project", "vssd1", 5 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "vssd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "vssd1", 1 ],
+              [ "sky130_fd_sc_hd__conb_1", "VNB", 1 ],
+              [ "sky130_fd_sc_hd__conb_1", "VGND", 1 ]
+            ]
+          ],
+          [
+            "vccd1",
+            [
+              [ "mux16x1_project", "vccd1", 5 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "vccd1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "vccd1", 1 ],
+              [ "sky130_fd_sc_hd__conb_1", "VPB", 1 ],
+              [ "sky130_fd_sc_hd__conb_1", "VPWR", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "io_in[2]",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/a_57_49#", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/a_676_199#", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/a_57_49#", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/B1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/B1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/a_238_297#", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/R3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/R3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/a_676_199#", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/a_238_297#", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "s3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "s3", 1 ]
+            ]
+          ],
+          [
+            "io_in[1]",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/a_676_199#", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/R3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/B1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/a_57_49#", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/R3", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/a_238_297#", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/a_57_49#", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/a_238_297#", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/B1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/a_676_199#", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "s2", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "s2", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "io_in[0]",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "sky130_osu_sc_12T_hs__mux2_1_0/Y", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "s1", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "s1", 1 ]
+            ]
+          ],
+          [
+            "io_in[3]",
+            [
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r1", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r2", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r1", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r1", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r1", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2xa_8_b0r1", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ca_8_b0r2", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ct_8_b0r2", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2et_8_b0r2", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "s4", 1 ],
+              [ "sky130_osu_ring_oscillator_mpr2ea_8_b0r2", "sky130_osu_single_mpr2ea_8_b0r2_4/scs130hd_mpr2ea_8_0/R2", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "io_out[0]",
+            [
+              [ "mux16x1_project", "y", 5 ]
+            ]
+          ],
+          [
+            "io_in[9]",
+            [
+              [ "mux16x1_project", "select[3]", 5 ]
+            ]
+          ],
+          [
+            "io_in[8]",
+            [
+              [ "mux16x1_project", "select[2]", 5 ]
+            ]
+          ],
+          [
+            "io_in[7]",
+            [
+              [ "mux16x1_project", "select[1]", 5 ]
+            ]
+          ],
+          [
+            "io_in[6]",
+            [
+              [ "mux16x1_project", "select[0]", 5 ]
+            ]
+          ]
+        ], [
+          [
+            "io_in[6]",
+            [
+              [ "mux16x1_project", "select[0]", 5 ]
+            ]
+          ],
+          [
+            "io_in[7]",
+            [
+              [ "mux16x1_project", "select[1]", 5 ]
+            ]
+          ],
+          [
+            "io_in[8]",
+            [
+              [ "mux16x1_project", "select[2]", 5 ]
+            ]
+          ],
+          [
+            "io_in[9]",
+            [
+              [ "mux16x1_project", "select[3]", 5 ]
+            ]
+          ],
+          [
+            "io_out[0]",
+            [
+              [ "mux16x1_project", "y", 5 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "mprj5/data_in[15]",
+            [
+              [ "mux16x1_project", "data_in[10]", 5 ],
+              [ "mux16x1_project", "data_in[11]", 5 ],
+              [ "mux16x1_project", "data_in[12]", 5 ],
+              [ "mux16x1_project", "data_in[13]", 5 ],
+              [ "mux16x1_project", "data_in[14]", 5 ],
+              [ "mux16x1_project", "data_in[15]", 5 ],
+              [ "sky130_fd_sc_hd__conb_1", "LO", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "zero_",
+            [
+              [ "mux16x1_project", "data_in[10]", 5 ],
+              [ "mux16x1_project", "data_in[11]", 5 ],
+              [ "mux16x1_project", "data_in[12]", 5 ],
+              [ "mux16x1_project", "data_in[13]", 5 ],
+              [ "mux16x1_project", "data_in[14]", 5 ],
+              [ "mux16x1_project", "data_in[15]", 5 ],
+              [ "sky130_fd_sc_hd__conb_1", "LO", 1 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+      [
+        [
+          [
+            "sky130_osu_ring_oscillator_mpr2ea_8_b0r2:ro8",
+            [
+              [ "s1", 11 ],
+              [ "s2", 20 ],
+              [ "s4", 11 ],
+              [ "X1_Y1", 2 ],
+              [ "X2_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X5_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 15 ],
+              [ "X3_Y1", 2 ],
+              [ "s5", 10 ],
+              [ "s3", 20 ],
+              [ "sky130_osu_single_mpr2ea_8_b0r2_4/scs130hd_mpr2ea_8_0/R2", 11 ],
+              [ "vssd1", 16 ]
+            ]
+          ]
+        ], [
+          [
+            "ro8",
+            [
+              [ "s1", 10 ],
+              [ "s2", 10 ],
+              [ "s4", 10 ],
+              [ "X1_Y1", 2 ],
+              [ "X2_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X5_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 17 ],
+              [ "X3_Y1", 2 ],
+              [ "s5", 10 ],
+              [ "s3", 10 ],
+              [ "proxysky130_osu_single_mpr2ea_8_b0r2_4/scs130hd_mpr2ea_8_0/R2", 1 ],
+              [ "vssd1", 17 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_osu_ring_oscillator_mpr2et_8_b0r2:ro9",
+            [
+              [ "s1", 11 ],
+              [ "s2", 20 ],
+              [ "s3", 20 ],
+              [ "s5", 10 ],
+              [ "X2_Y1", 3 ],
+              [ "start", 10 ],
+              [ "vccd1", 15 ],
+              [ "sky130_osu_single_mpr2et_8_b0r2_2/sky130_osu_sc_12T_hs__inv_1_2/A", 3 ],
+              [ "X4_Y1", 2 ],
+              [ "X1_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X5_Y1", 2 ],
+              [ "s4", 11 ],
+              [ "vssd1", 16 ]
+            ]
+          ]
+        ], [
+          [
+            "ro9",
+            [
+              [ "s1", 10 ],
+              [ "s2", 10 ],
+              [ "s3", 10 ],
+              [ "s5", 10 ],
+              [ "X2_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 17 ],
+              [ "proxysky130_osu_single_mpr2et_8_b0r2_2/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ],
+              [ "X4_Y1", 2 ],
+              [ "X1_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X5_Y1", 2 ],
+              [ "s4", 10 ],
+              [ "vssd1", 17 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_osu_ring_oscillator_mpr2ct_8_b0r2:ro7",
+            [
+              [ "s1", 11 ],
+              [ "s2", 20 ],
+              [ "s3", 20 ],
+              [ "X5_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X2_Y1", 3 ],
+              [ "X1_Y1", 2 ],
+              [ "s5", 10 ],
+              [ "s4", 11 ],
+              [ "start", 10 ],
+              [ "vccd1", 15 ],
+              [ "sky130_osu_single_mpr2ct_8_b0r2_2/sky130_osu_sc_12T_hs__inv_1_2/A", 3 ],
+              [ "vssd1", 16 ]
+            ]
+          ]
+        ], [
+          [
+            "ro7",
+            [
+              [ "s1", 10 ],
+              [ "s2", 10 ],
+              [ "s3", 10 ],
+              [ "X5_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X2_Y1", 2 ],
+              [ "X1_Y1", 2 ],
+              [ "s5", 10 ],
+              [ "s4", 10 ],
+              [ "start", 10 ],
+              [ "vccd1", 17 ],
+              [ "proxysky130_osu_single_mpr2ct_8_b0r2_2/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ],
+              [ "vssd1", 17 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_fd_sc_hd__conb_1:TIE_ZERO_zero_",
+            [
+              [ "LO", 31 ],
+              [ "HI", 1 ],
+              [ "VPB", 1 ],
+              [ "VNB", 16 ],
+              [ "VGND", 1 ],
+              [ "VPWR", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "TIE_ZERO_zero_",
+            [
+              [ "LO", 31 ],
+              [ "HI", 1 ],
+              [ "VPB", 17 ],
+              [ "VNB", 17 ],
+              [ "VGND", 17 ],
+              [ "VPWR", 17 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_osu_ring_oscillator_mpr2ca_8_b0r2:ro6",
+            [
+              [ "s1", 11 ],
+              [ "s2", 20 ],
+              [ "s4", 11 ],
+              [ "s5", 10 ],
+              [ "X5_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X3_Y1", 3 ],
+              [ "X2_Y1", 3 ],
+              [ "X1_Y1", 3 ],
+              [ "start", 10 ],
+              [ "vccd1", 15 ],
+              [ "sky130_osu_single_mpr2ca_8_b0r2_1/sky130_osu_sc_12T_hs__inv_1_2/A", 3 ],
+              [ "sky130_osu_single_mpr2ca_8_b0r2_2/sky130_osu_sc_12T_hs__inv_1_2/A", 3 ],
+              [ "sky130_osu_single_mpr2ca_8_b0r2_3/sky130_osu_sc_12T_hs__inv_1_2/A", 3 ],
+              [ "vssd1", 16 ],
+              [ "s3", 20 ]
+            ]
+          ]
+        ], [
+          [
+            "ro6",
+            [
+              [ "s1", 10 ],
+              [ "s2", 10 ],
+              [ "s4", 10 ],
+              [ "s5", 10 ],
+              [ "X5_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X2_Y1", 2 ],
+              [ "X1_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 17 ],
+              [ "proxysky130_osu_single_mpr2ca_8_b0r2_1/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ],
+              [ "proxysky130_osu_single_mpr2ca_8_b0r2_2/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ],
+              [ "proxysky130_osu_single_mpr2ca_8_b0r2_3/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ],
+              [ "vssd1", 17 ],
+              [ "s3", 10 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_osu_ring_oscillator_mpr2xa_8_b0r1:ro5",
+            [
+              [ "X1_Y1", 2 ],
+              [ "X2_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X5_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 15 ],
+              [ "s1", 11 ],
+              [ "s2", 20 ],
+              [ "s3", 20 ],
+              [ "s4", 11 ],
+              [ "s5", 10 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/a_57_49#", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/a_676_199#", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/a_676_199#", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/a_57_49#", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/R3", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/B1", 20 ],
+              [ "sky130_osu_sc_12T_hs__mux2_1_0/Y", 11 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/B1", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/B1", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/a_57_49#", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/a_238_297#", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/R3", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/R3", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/R3", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/a_238_297#", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/a_57_49#", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/a_238_297#", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/B1", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/a_676_199#", 20 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/a_238_297#", 20 ],
+              [ "vssd1", 16 ],
+              [ "sky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/a_676_199#", 20 ]
+            ]
+          ]
+        ], [
+          [
+            "ro5",
+            [
+              [ "X1_Y1", 2 ],
+              [ "X2_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X5_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 17 ],
+              [ "s1", 10 ],
+              [ "s2", 10 ],
+              [ "s3", 10 ],
+              [ "s4", 10 ],
+              [ "s5", 10 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/a_57_49#", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/a_676_199#", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/a_676_199#", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/a_57_49#", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/R3", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/B1", 1 ],
+              [ "proxysky130_osu_sc_12T_hs__mux2_1_0/Y", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/B1", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/B1", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/a_57_49#", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/a_238_297#", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/R3", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/R3", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/R3", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/a_238_297#", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/a_57_49#", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/a_238_297#", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_1/scs130hd_mpr2xa_8_0/B1", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_4/scs130hd_mpr2xa_8_0/a_676_199#", 1 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_0/scs130hd_mpr2xa_8_0/a_238_297#", 1 ],
+              [ "vssd1", 17 ],
+              [ "proxysky130_osu_single_mpr2xa_8_b0r1_2/scs130hd_mpr2xa_8_0/a_676_199#", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_osu_ring_oscillator_mpr2et_8_b0r1:ro4",
+            [
+              [ "s1", 11 ],
+              [ "s4", 11 ],
+              [ "s5", 10 ],
+              [ "X2_Y1", 3 ],
+              [ "X5_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 15 ],
+              [ "X4_Y1", 2 ],
+              [ "X1_Y1", 2 ],
+              [ "sky130_osu_single_mpr2et_8_b0r1_2/sky130_osu_sc_12T_hs__inv_1_2/A", 3 ],
+              [ "X3_Y1", 2 ],
+              [ "s3", 20 ],
+              [ "vssd1", 16 ],
+              [ "s2", 20 ]
+            ]
+          ]
+        ], [
+          [
+            "ro4",
+            [
+              [ "s1", 10 ],
+              [ "s4", 10 ],
+              [ "s5", 10 ],
+              [ "X2_Y1", 2 ],
+              [ "X5_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 17 ],
+              [ "X4_Y1", 2 ],
+              [ "X1_Y1", 2 ],
+              [ "proxysky130_osu_single_mpr2et_8_b0r1_2/sky130_osu_sc_12T_hs__inv_1_2/A", 1 ],
+              [ "X3_Y1", 2 ],
+              [ "s3", 10 ],
+              [ "vssd1", 17 ],
+              [ "s2", 10 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_osu_ring_oscillator_mpr2ea_8_b0r1:ro3",
+            [
+              [ "s1", 11 ],
+              [ "s2", 20 ],
+              [ "s3", 20 ],
+              [ "s4", 11 ],
+              [ "s5", 10 ],
+              [ "X2_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X5_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 15 ],
+              [ "X1_Y1", 2 ],
+              [ "vssd1", 16 ]
+            ]
+          ]
+        ], [
+          [
+            "ro3",
+            [
+              [ "s1", 10 ],
+              [ "s2", 10 ],
+              [ "s3", 10 ],
+              [ "s4", 10 ],
+              [ "s5", 10 ],
+              [ "X2_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X5_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 17 ],
+              [ "X1_Y1", 2 ],
+              [ "vssd1", 17 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_osu_ring_oscillator_mpr2ct_8_b0r1:ro2",
+            [
+              [ "s1", 11 ],
+              [ "s2", 20 ],
+              [ "s3", 20 ],
+              [ "X5_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X2_Y1", 2 ],
+              [ "X1_Y1", 2 ],
+              [ "s5", 10 ],
+              [ "s4", 11 ],
+              [ "start", 10 ],
+              [ "vccd1", 15 ],
+              [ "X4_Y1", 2 ],
+              [ "vssd1", 16 ]
+            ]
+          ]
+        ], [
+          [
+            "ro2",
+            [
+              [ "s1", 10 ],
+              [ "s2", 10 ],
+              [ "s3", 10 ],
+              [ "X5_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X2_Y1", 2 ],
+              [ "X1_Y1", 2 ],
+              [ "s5", 10 ],
+              [ "s4", 10 ],
+              [ "start", 10 ],
+              [ "vccd1", 17 ],
+              [ "X4_Y1", 2 ],
+              [ "vssd1", 17 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_osu_ring_oscillator_mpr2xa_8_b0r2:ro10",
+            [
+              [ "s1", 11 ],
+              [ "s2", 20 ],
+              [ "s3", 20 ],
+              [ "s5", 10 ],
+              [ "X2_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X5_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 15 ],
+              [ "X1_Y1", 2 ],
+              [ "vssd1", 16 ],
+              [ "s4", 11 ]
+            ]
+          ]
+        ], [
+          [
+            "ro10",
+            [
+              [ "s1", 10 ],
+              [ "s2", 10 ],
+              [ "s3", 10 ],
+              [ "s5", 10 ],
+              [ "X2_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X5_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 17 ],
+              [ "X1_Y1", 2 ],
+              [ "vssd1", 17 ],
+              [ "s4", 10 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_osu_ring_oscillator_mpr2ca_8_b0r1:ro1",
+            [
+              [ "s4", 11 ],
+              [ "s5", 10 ],
+              [ "X5_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X2_Y1", 2 ],
+              [ "X1_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 15 ],
+              [ "s2", 20 ],
+              [ "s3", 20 ],
+              [ "s1", 11 ],
+              [ "vssd1", 16 ]
+            ]
+          ]
+        ], [
+          [
+            "ro1",
+            [
+              [ "s4", 10 ],
+              [ "s5", 10 ],
+              [ "X5_Y1", 2 ],
+              [ "X4_Y1", 2 ],
+              [ "X3_Y1", 2 ],
+              [ "X2_Y1", 2 ],
+              [ "X1_Y1", 2 ],
+              [ "start", 10 ],
+              [ "vccd1", 17 ],
+              [ "s2", 10 ],
+              [ "s3", 10 ],
+              [ "s1", 10 ],
+              [ "vssd1", 17 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "mux16x1_project:mprj2",
+            [
+              [ "data_in[0]", 2 ],
+              [ "data_in[10]", 31 ],
+              [ "data_in[11]", 31 ],
+              [ "data_in[12]", 31 ],
+              [ "data_in[13]", 31 ],
+              [ "data_in[14]", 31 ],
+              [ "data_in[15]", 31 ],
+              [ "data_in[1]", 2 ],
+              [ "data_in[2]", 2 ],
+              [ "data_in[3]", 3 ],
+              [ "data_in[4]", 2 ],
+              [ "data_in[5]", 3 ],
+              [ "data_in[6]", 3 ],
+              [ "data_in[7]", 2 ],
+              [ "data_in[8]", 3 ],
+              [ "data_in[9]", 2 ],
+              [ "select[0]", 5 ],
+              [ "select[1]", 5 ],
+              [ "select[2]", 5 ],
+              [ "select[3]", 5 ],
+              [ "y", 5 ],
+              [ "vssd1", 16 ],
+              [ "vccd1", 15 ]
+            ]
+          ],
+          [
+            "mux16x1_project:mprj1",
+            [
+              [ "data_in[0]", 2 ],
+              [ "data_in[10]", 31 ],
+              [ "data_in[11]", 31 ],
+              [ "data_in[12]", 31 ],
+              [ "data_in[13]", 31 ],
+              [ "data_in[14]", 31 ],
+              [ "data_in[15]", 31 ],
+              [ "data_in[1]", 2 ],
+              [ "data_in[2]", 2 ],
+              [ "data_in[3]", 2 ],
+              [ "data_in[4]", 2 ],
+              [ "data_in[5]", 3 ],
+              [ "data_in[6]", 2 ],
+              [ "data_in[7]", 2 ],
+              [ "data_in[8]", 2 ],
+              [ "data_in[9]", 2 ],
+              [ "select[0]", 5 ],
+              [ "select[1]", 5 ],
+              [ "select[2]", 5 ],
+              [ "select[3]", 5 ],
+              [ "y", 5 ],
+              [ "vssd1", 16 ],
+              [ "vccd1", 15 ]
+            ]
+          ],
+          [
+            "mux16x1_project:mprj5",
+            [
+              [ "data_in[0]", 2 ],
+              [ "data_in[10]", 31 ],
+              [ "data_in[11]", 31 ],
+              [ "data_in[12]", 31 ],
+              [ "data_in[13]", 31 ],
+              [ "data_in[14]", 31 ],
+              [ "data_in[15]", 31 ],
+              [ "data_in[1]", 2 ],
+              [ "data_in[2]", 2 ],
+              [ "data_in[3]", 2 ],
+              [ "data_in[4]", 2 ],
+              [ "data_in[5]", 2 ],
+              [ "data_in[6]", 2 ],
+              [ "data_in[7]", 2 ],
+              [ "data_in[8]", 2 ],
+              [ "data_in[9]", 2 ],
+              [ "select[0]", 5 ],
+              [ "select[1]", 5 ],
+              [ "select[2]", 5 ],
+              [ "select[3]", 5 ],
+              [ "y", 5 ],
+              [ "vssd1", 16 ],
+              [ "vccd1", 15 ]
+            ]
+          ],
+          [
+            "mux16x1_project:mprj4",
+            [
+              [ "data_in[0]", 2 ],
+              [ "data_in[10]", 31 ],
+              [ "data_in[11]", 31 ],
+              [ "data_in[12]", 31 ],
+              [ "data_in[13]", 31 ],
+              [ "data_in[14]", 31 ],
+              [ "data_in[15]", 31 ],
+              [ "data_in[1]", 2 ],
+              [ "data_in[2]", 2 ],
+              [ "data_in[3]", 2 ],
+              [ "data_in[4]", 2 ],
+              [ "data_in[5]", 2 ],
+              [ "data_in[6]", 2 ],
+              [ "data_in[7]", 2 ],
+              [ "data_in[8]", 2 ],
+              [ "data_in[9]", 2 ],
+              [ "select[0]", 5 ],
+              [ "select[1]", 5 ],
+              [ "select[2]", 5 ],
+              [ "select[3]", 5 ],
+              [ "y", 5 ],
+              [ "vssd1", 16 ],
+              [ "vccd1", 15 ]
+            ]
+          ],
+          [
+            "mux16x1_project:mprj3",
+            [
+              [ "data_in[0]", 2 ],
+              [ "data_in[10]", 31 ],
+              [ "data_in[11]", 31 ],
+              [ "data_in[12]", 31 ],
+              [ "data_in[13]", 31 ],
+              [ "data_in[14]", 31 ],
+              [ "data_in[15]", 31 ],
+              [ "data_in[1]", 2 ],
+              [ "data_in[2]", 2 ],
+              [ "data_in[3]", 2 ],
+              [ "data_in[4]", 2 ],
+              [ "data_in[5]", 3 ],
+              [ "data_in[6]", 2 ],
+              [ "data_in[7]", 2 ],
+              [ "data_in[8]", 2 ],
+              [ "data_in[9]", 2 ],
+              [ "select[0]", 5 ],
+              [ "select[1]", 5 ],
+              [ "select[2]", 5 ],
+              [ "select[3]", 5 ],
+              [ "y", 5 ],
+              [ "vssd1", 16 ],
+              [ "vccd1", 15 ]
+            ]
+          ]
+        ], [
+          [
+            "mprj5",
+            [
+              [ "data_in[0]", 2 ],
+              [ "data_in[10]", 31 ],
+              [ "data_in[11]", 31 ],
+              [ "data_in[12]", 31 ],
+              [ "data_in[13]", 31 ],
+              [ "data_in[14]", 31 ],
+              [ "data_in[15]", 31 ],
+              [ "data_in[1]", 2 ],
+              [ "data_in[2]", 2 ],
+              [ "data_in[3]", 2 ],
+              [ "data_in[4]", 2 ],
+              [ "data_in[5]", 2 ],
+              [ "data_in[6]", 2 ],
+              [ "data_in[7]", 2 ],
+              [ "data_in[8]", 2 ],
+              [ "data_in[9]", 2 ],
+              [ "select[0]", 5 ],
+              [ "select[1]", 5 ],
+              [ "select[2]", 5 ],
+              [ "select[3]", 5 ],
+              [ "y", 5 ],
+              [ "vssd1", 17 ],
+              [ "vccd1", 17 ]
+            ]
+          ],
+          [
+            "mprj4",
+            [
+              [ "data_in[0]", 2 ],
+              [ "data_in[10]", 31 ],
+              [ "data_in[11]", 31 ],
+              [ "data_in[12]", 31 ],
+              [ "data_in[13]", 31 ],
+              [ "data_in[14]", 31 ],
+              [ "data_in[15]", 31 ],
+              [ "data_in[1]", 2 ],
+              [ "data_in[2]", 2 ],
+              [ "data_in[3]", 2 ],
+              [ "data_in[4]", 2 ],
+              [ "data_in[5]", 2 ],
+              [ "data_in[6]", 2 ],
+              [ "data_in[7]", 2 ],
+              [ "data_in[8]", 2 ],
+              [ "data_in[9]", 2 ],
+              [ "select[0]", 5 ],
+              [ "select[1]", 5 ],
+              [ "select[2]", 5 ],
+              [ "select[3]", 5 ],
+              [ "y", 5 ],
+              [ "vssd1", 17 ],
+              [ "vccd1", 17 ]
+            ]
+          ],
+          [
+            "mprj3",
+            [
+              [ "data_in[0]", 2 ],
+              [ "data_in[10]", 31 ],
+              [ "data_in[11]", 31 ],
+              [ "data_in[12]", 31 ],
+              [ "data_in[13]", 31 ],
+              [ "data_in[14]", 31 ],
+              [ "data_in[15]", 31 ],
+              [ "data_in[1]", 2 ],
+              [ "data_in[2]", 2 ],
+              [ "data_in[3]", 2 ],
+              [ "data_in[4]", 2 ],
+              [ "data_in[5]", 2 ],
+              [ "data_in[6]", 2 ],
+              [ "data_in[7]", 2 ],
+              [ "data_in[8]", 2 ],
+              [ "data_in[9]", 2 ],
+              [ "select[0]", 5 ],
+              [ "select[1]", 5 ],
+              [ "select[2]", 5 ],
+              [ "select[3]", 5 ],
+              [ "y", 5 ],
+              [ "vssd1", 17 ],
+              [ "vccd1", 17 ]
+            ]
+          ],
+          [
+            "mprj2",
+            [
+              [ "data_in[0]", 2 ],
+              [ "data_in[10]", 31 ],
+              [ "data_in[11]", 31 ],
+              [ "data_in[12]", 31 ],
+              [ "data_in[13]", 31 ],
+              [ "data_in[14]", 31 ],
+              [ "data_in[15]", 31 ],
+              [ "data_in[1]", 2 ],
+              [ "data_in[2]", 2 ],
+              [ "data_in[3]", 2 ],
+              [ "data_in[4]", 2 ],
+              [ "data_in[5]", 2 ],
+              [ "data_in[6]", 2 ],
+              [ "data_in[7]", 2 ],
+              [ "data_in[8]", 2 ],
+              [ "data_in[9]", 2 ],
+              [ "select[0]", 5 ],
+              [ "select[1]", 5 ],
+              [ "select[2]", 5 ],
+              [ "select[3]", 5 ],
+              [ "y", 5 ],
+              [ "vssd1", 17 ],
+              [ "vccd1", 17 ]
+            ]
+          ],
+          [
+            "mprj1",
+            [
+              [ "data_in[0]", 2 ],
+              [ "data_in[10]", 31 ],
+              [ "data_in[11]", 31 ],
+              [ "data_in[12]", 31 ],
+              [ "data_in[13]", 31 ],
+              [ "data_in[14]", 31 ],
+              [ "data_in[15]", 31 ],
+              [ "data_in[1]", 2 ],
+              [ "data_in[2]", 2 ],
+              [ "data_in[3]", 2 ],
+              [ "data_in[4]", 2 ],
+              [ "data_in[5]", 2 ],
+              [ "data_in[6]", 2 ],
+              [ "data_in[7]", 2 ],
+              [ "data_in[8]", 2 ],
+              [ "data_in[9]", 2 ],
+              [ "select[0]", 5 ],
+              [ "select[1]", 5 ],
+              [ "select[2]", 5 ],
+              [ "select[3]", 5 ],
+              [ "y", 5 ],
+              [ "vssd1", 17 ],
+              [ "vccd1", 17 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "pins": [
+      [
+        "vssd1",
+        "vccd1",
+        "io_in[4]",
+        "io_in[5]"
+      ], [
+        "io_in[0]",
+        "io_in[1]",
+        "io_in[2]",
+        "io_in[3]"
+      ]
+   ]
+  }
+]

@@ -1,0 +1,84 @@
+
+Magic 8.3 revision 452 - Compiled on Wed Dec  6 15:58:28 UTC 2023.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/home/lburleson/mpw_precheck/checks/drc_checks/magic/magic_drc_check.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: user_project_wrapper
+Reading "sky130_fd_sc_hd__buf_1".
+Reading "sky130_fd_sc_hd__decap_3".
+Reading "sky130_fd_sc_hd__fill_1".
+Reading "sky130_fd_sc_hd__decap_4".
+Reading "sky130_fd_sc_hd__clkbuf_2".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "sky130_ef_sc_hd__decap_12".
+Reading "sky130_fd_sc_hd__decap_8".
+Reading "sky130_fd_sc_hd__buf_2".
+Reading "sky130_fd_sc_hd__clkbuf_1".
+Reading "sky130_fd_sc_hd__fill_2".
+Reading "sky130_fd_sc_hd__mux4_1".
+Reading "sky130_fd_sc_hd__decap_6".
+Reading "sky130_fd_sc_hd__mux2_1".
+Reading "sky130_fd_sc_hd__nor2_1".
+Reading "sky130_fd_sc_hd__a21oi_2".
+Reading "sky130_fd_sc_hd__buf_12".
+Reading "sky130_fd_sc_hd__nor3b_1".
+Reading "sky130_fd_sc_hd__a2111oi_1".
+CIF file read warning: CIF style sky130(): units rescaled by factor of 5 / 1
+CIF file read warning: Input off lambda grid by 2/5; snapped to grid.
+Reading "sky130_fd_sc_hd__and3b_1".
+Reading "sky130_fd_sc_hd__a41o_1".
+Reading "sky130_fd_sc_hd__nand3b_1".
+Reading "sky130_fd_sc_hd__nand2_1".
+Reading "sky130_fd_sc_hd__or3b_1".
+Reading "mux16x1_project".
+Reading "sky130_osu_sc_12T_hs__mux2_1".
+Reading "sky130_osu_sc_12T_hs__fill_2".
+Reading "sky130_osu_sc_12T_hs__inv_1".
+Reading "sky130_osu_sc_12T_hs__fill_8".
+Reading "scs130hd_mpr2et_8".
+Reading "sky130_osu_single_mpr2et_8_b0r2".
+Reading "sky130_osu_ring_oscillator_mpr2et_8_b0r2".
+Reading "scs130hd_mpr2xa_8".
+Reading "sky130_osu_single_mpr2xa_8_b0r2".
+Reading "sky130_osu_ring_oscillator_mpr2xa_8_b0r2".
+Reading "scs130hd_mpr2ea_8".
+Reading "sky130_osu_single_mpr2ea_8_b0r2".
+Reading "sky130_osu_ring_oscillator_mpr2ea_8_b0r2".
+Reading "scs130hd_mpr2ct_8".
+Reading "sky130_osu_single_mpr2ct_8_b0r2".
+Reading "sky130_osu_ring_oscillator_mpr2ct_8_b0r2".
+Reading "scs130hd_mpr2ca_8".
+Reading "sky130_osu_single_mpr2ca_8_b0r2".
+Reading "sky130_osu_ring_oscillator_mpr2ca_8_b0r2".
+Reading "sky130_osu_single_mpr2xa_8_b0r1".
+Reading "sky130_osu_ring_oscillator_mpr2xa_8_b0r1".
+Reading "sky130_osu_single_mpr2et_8_b0r1".
+Reading "sky130_osu_ring_oscillator_mpr2et_8_b0r1".
+Reading "sky130_osu_single_mpr2ea_8_b0r1".
+Reading "sky130_osu_ring_oscillator_mpr2ea_8_b0r1".
+Reading "sky130_osu_single_mpr2ct_8_b0r1".
+Reading "sky130_osu_ring_oscillator_mpr2ct_8_b0r1".
+Reading "sky130_osu_single_mpr2ca_8_b0r1".
+Reading "sky130_osu_ring_oscillator_mpr2ca_8_b0r1".
+Reading "sky130_fd_sc_hd__conb_1".
+Reading "user_project_wrapper".
+[INFO]: Loading user_project_wrapper
+
+DRC style is now "drc(full)"
+Loading DRC CIF style.
+[INFO]: COUNT: 458
+[INFO]: Should be divided by 3 or 4
+[INFO]: DRC Checking DONE (/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/26_MAR_2024___16_38_03/outputs/reports/magic_drc_check.drc.report)
+[INFO]: Saving mag view with DRC errors(/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/26_MAR_2024___16_38_03/outputs/user_project_wrapper.magic.drc.mag)
+[INFO]: Saved

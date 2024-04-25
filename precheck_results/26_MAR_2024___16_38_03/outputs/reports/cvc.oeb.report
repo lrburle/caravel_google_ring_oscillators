@@ -1,0 +1,39 @@
+ gpio |   in   |   out  | analog |  oeb min/sim/max  | Message
+  35  |        |        |        |      /     /      | 
+  26  |        |        |        |      /     /      | 
+  17  |        |        |        |      /     /      | 
+   4  |    240 |        |        |      /     /      | ERROR: oeb should always be high for input only
+  36  |        |        |        |      /     /      | 
+  27  |        |        |        |      /     /      | 
+  18  |        |        |        |      /     /      | 
+   5  |     80 |        |        |      /     /      | ERROR: oeb should always be high for input only
+  37  |        |        |        |      /     /      | 
+  28  |        |        |        |      /     /      | 
+  19  |        |        |        |      /     /      | 
+   6  |     20 |        |        |      /     /      | ERROR: oeb should always be high for input only
+  29  |        |        |        |      /     /      | 
+   7  |     20 |        |        |      /     /      | ERROR: oeb should always be high for input only
+   8  |     20 |        |        |      /     /      | ERROR: oeb should always be high for input only
+   9  |     20 |        |        |      /     /      | ERROR: oeb should always be high for input only
+  10  |        |        |        |      /     /      | 
+  20  |        |        |        |      /     /      | 
+  11  |        |        |        |      /     /      | 
+  30  |        |        |        |      /     /      | 
+  21  |        |        |        |      /     /      | 
+  12  |        |        |        |      /     /      | 
+  31  |        |        |        |      /     /      | 
+  22  |        |        |        |      /     /      | 
+  13  |        |        |        |      /     /      | 
+   0  |    260 |     10 |        |      /     /      | ERROR: oeb must have possible low for output
+  32  |        |        |        |      /     /      | 
+  23  |        |        |        |      /     /      | 
+  14  |        |        |        |      /     /      | 
+   1  |    400 |        |        |      /     /      | ERROR: oeb should always be high for input only
+  33  |        |        |        |      /     /      | 
+  24  |        |        |        |      /     /      | 
+  15  |        |        |        |      /     /      | 
+   2  |    400 |        |        |      /     /      | ERROR: oeb should always be high for input only
+  34  |        |        |        |      /     /      | 
+  25  |        |        |        |      /     /      | 
+  16  |        |        |        |      /     /      | 
+   3  |    254 |        |        |      /     /      | ERROR: oeb should always be high for input only

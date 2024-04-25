@@ -1,0 +1,10 @@
+$user_project_wrapper
+ 100
+r_0_nwell.4
+Rule File Pathname: /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/25_APR_2024___17_23_21/outputs/reports/magic_drc_check.drc.report
+nwell.4: All nwells must contain metal-connected N+ taps 
+p 1 4
+104200 34900
+104300 34900
+104300 35100
+104200 35100

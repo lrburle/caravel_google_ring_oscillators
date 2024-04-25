@@ -1,0 +1,63 @@
+CVC: Log output to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/06_APR_2024___22_13_02/tmp/cvc.oeb.log
+CVC: Error output to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/06_APR_2024___22_13_02/tmp/cvc.oeb.error.gz
+CVC: Debug output to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/06_APR_2024___22_13_02/tmp/cvc.oeb.debug.gz
+CVC: Circuit Validation Check  Version 1.1.5
+CVC: Start: Sat Apr  6 22:13:41 2024
+
+Using the following parameters for CVC (Circuit Validation Check) from /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/06_APR_2024___22_13_02/tmp/cvcrc.oeb
+CVC_TOP = 'user_project_wrapper'
+CVC_NETLIST = '/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/06_APR_2024___22_13_02/tmp/ext/user_project_wrapper.cdl.gz'
+CVC_MODE = 'user_project_wrapper'
+CVC_MODEL_FILE = '/home/lburleson/mpw_precheck/checks/be_checks//tech/sky130A/cvc.models'
+CVC_POWER_FILE = '/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/06_APR_2024___22_13_02/tmp/cvc.power.user_project_wrapper'
+CVC_FUSE_FILE = ''
+CVC_REPORT_FILE = '/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/06_APR_2024___22_13_02/tmp/cvc.oeb.log'
+CVC_REPORT_TITLE = 'CVC user_project_wrapper'
+CVC_CIRCUIT_ERROR_LIMIT = '100'
+CVC_SEARCH_LIMIT = '100'
+CVC_LEAK_LIMIT = '0.0002'
+CVC_SOI = 'false'
+CVC_SCRC = 'false'
+CVC_VTH_GATES = 'false'
+CVC_MIN_VTH_GATES = 'false'
+CVC_IGNORE_VTH_FLOATING = 'false'
+CVC_IGNORE_NO_LEAK_FLOATING = 'false'
+CVC_LEAK_OVERVOLTAGE = 'true'
+CVC_LOGIC_DIODES = 'false'
+CVC_ANALOG_GATES = 'true'
+CVC_BACKUP_RESULTS = 'false'
+CVC_MOS_DIODE_ERROR_THRESHOLD = '0'
+CVC_SHORT_ERROR_THRESHOLD = '0'
+CVC_BIAS_ERROR_THRESHOLD = '0'
+CVC_FORWARD_ERROR_THRESHOLD = '0'
+CVC_FLOATING_ERROR_THRESHOLD = '0'
+CVC_GATE_ERROR_THRESHOLD = '0'
+CVC_LEAK?_ERROR_THRESHOLD = '0'
+CVC_EXPECTED_ERROR_THRESHOLD = '0'
+CVC_OVERVOLTAGE_ERROR_THRESHOLD = '0'
+CVC_PARALLEL_CIRCUIT_PORT_LIMIT = '0'
+CVC_CELL_ERROR_LIMIT_FILE = ''
+CVC_CELL_CHECKSUM_FILE = ''
+CVC_LARGE_CIRCUIT_SIZE = '10000000'
+CVC_NET_CHECK_FILE = ''
+CVC_MODEL_CHECK_FILE = ''
+End of parameters
+
+CVC: Reading device model settings...
+CVC: Reading power settings...
+CVC: Parsing netlist /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/06_APR_2024___22_13_02/tmp/ext/user_project_wrapper.cdl.gz
+Cdl fixed data size 26964
+Usage CDL: Time: 0  Memory: 4912  I/O: 8  Swap: 0
+CVC: Counting and linking...
+CVC: Assigning IDs ...
+Usage DB: Time: 0  Memory: 5164  I/O: 8  Swap: 0
+CVC: 2322(2322) instances, 2614(2614) nets, 7002(7002) devices.
+ERROR: could not expand signal vssa* signal vssa* not found
+ERROR: Could not find net vssa*
+Power definition error
+CVC: Setting models ...
+Setting model tolerances...
+
+> c 6
+ERROR: skipped due to problems in model/power/fuse files
+Runtime: 0:00:00 (hh:mm:ss)

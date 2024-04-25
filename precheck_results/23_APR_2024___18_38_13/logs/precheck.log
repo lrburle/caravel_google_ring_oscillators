@@ -1,0 +1,86 @@
+2024-04-23 18:38:13 - [INFO] - {{EXTRACTING FILES}} Extracting compressed files in: /home/lburleson/OSU/google_ring_oscillator/caravel
+2024-04-23 18:38:13 - [INFO] - {{Project Type Info}} digital
+2024-04-23 18:38:13 - [INFO] - {{Project GDS Info}} user_project_wrapper: 3fdc21aa399f0b882eeb5de87eb4c8b4fc9501e5
+2024-04-23 18:38:14 - [INFO] - {{Tools Info}} KLayout: v0.28.12 | Magic: v8.3.452
+2024-04-23 18:38:14 - [INFO] - {{PDKs Info}} SKY130A: None | Open PDKs: e3b630d9b7c0e23615367d52c4f78b2d2ede58ac
+2024-04-23 18:38:14 - [INFO] - {{START}} Precheck Started, the full log 'precheck.log' will be located in '/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/logs'
+2024-04-23 18:38:14 - [INFO] - {{PRECHECK SEQUENCE}} Precheck will run the following checks: [License, Makefile, Default, Documentation, Consistency, GPIO-Defines, XOR, Magic DRC, Klayout FEOL, Klayout BEOL, Klayout Offgrid, Klayout Metal Minimum Clear Area Density, Klayout Pin Label Purposes Overlapping Drawing, Klayout ZeroArea, OEB, LVS]
+2024-04-23 18:38:14 - [INFO] - {{STEP UPDATE}} Executing Check 1 of 16: License
+2024-04-23 18:38:14 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/lburleson/OSU/google_ring_oscillator/caravel.
+2024-04-23 18:38:14 - [INFO] - {{MAIN LICENSE CHECK PASSED}} An approved LICENSE was found in project root.
+2024-04-23 18:38:16 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/lburleson/OSU/google_ring_oscillator/caravel.
+2024-04-23 18:38:16 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/lburleson/OSU/google_ring_oscillator/caravel.
+2024-04-23 18:38:17 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/lburleson/OSU/google_ring_oscillator/caravel.
+2024-04-23 18:38:18 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/lburleson/OSU/google_ring_oscillator/caravel.
+2024-04-23 18:38:18 - [INFO] - {{SUBMODULES LICENSE CHECK PASSED}} No prohibited LICENSE file(s) was found in project submodules
+2024-04-23 18:38:20 - [INFO] - {{SPDX COMPLIANCE CHECK PASSED}} Project is compliant with the SPDX Standard
+2024-04-23 18:38:20 - [INFO] - {{STEP UPDATE}} Executing Check 2 of 16: Makefile
+2024-04-23 18:38:20 - [INFO] - {{MAKEFILE CHECK PASSED}} Makefile valid.
+2024-04-23 18:38:20 - [INFO] - {{STEP UPDATE}} Executing Check 3 of 16: Default
+2024-04-23 18:38:20 - [INFO] - {{README DEFAULT CHECK PASSED}} Project 'README.md' was modified and is not identical to the default 'README.md'
+2024-04-23 18:38:21 - [INFO] - {{CONTENT DEFAULT CHECK PASSED}} Project 'gds' was modified and is not identical to the default 'gds'
+2024-04-23 18:38:21 - [INFO] - {{STEP UPDATE}} Executing Check 4 of 16: Documentation
+2024-04-23 18:38:21 - [INFO] - {{DOCUMENTATION CHECK PASSED}} Project documentation is appropriate.
+2024-04-23 18:38:21 - [INFO] - {{STEP UPDATE}} Executing Check 5 of 16: Consistency
+2024-04-23 18:38:26 - [INFO] - PORTS CHECK PASSED: Netlist user_project_wrapper ports match the golden wrapper ports
+2024-04-23 18:38:26 - [INFO] - COMPLEXITY CHECK PASSED: Netlist user_project_wrapper contains at least 1 instances (16 instances). 
+2024-04-23 18:38:26 - [INFO] - MODELING CHECK PASSED: Netlist user_project_wrapper is structural.
+2024-04-23 18:38:26 - [INFO] - LAYOUT CHECK PASSED: The GDS layout for user_project_wrapper matches the provided structural netlist.
+2024-04-23 18:38:26 - [INFO] - POWER CONNECTIONS CHECK PASSED: All instances in user_project_wrapper are connected to power
+2024-04-23 18:38:26 - [INFO] - PORT TYPES CHECK PASSED: Netlist user_project_wrapper port types match the golden wrapper port types.
+2024-04-23 18:38:26 - [INFO] - {{NETLIST CONSISTENCY CHECK PASSED}} user_project_wrapper netlist passed all consistency checks.
+2024-04-23 18:38:26 - [INFO] - {{CONSISTENCY CHECK PASSED}} The user netlist and the top netlist are valid.
+2024-04-23 18:38:26 - [INFO] - {{STEP UPDATE}} Executing Check 6 of 16: GPIO-Defines
+2024-04-23 18:38:26 - [INFO] - GPIO-DEFINES: Checking verilog/rtl/user_defines.v, parsing files: ['/home/lburleson/mpw_precheck/checks/gpio_defines_check/verilog_assets/gpio_modes_base.v', '/home/lburleson/OSU/google_ring_oscillator/caravel/verilog/rtl/user_defines.v', '/home/lburleson/mpw_precheck/checks/gpio_defines_check/verilog_assets/gpio_modes_observe.v']
+2024-04-23 18:38:27 - [INFO] - GPIO-DEFINES report path: /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/outputs/reports/gpio_defines.report
+2024-04-23 18:38:27 - [INFO] - {{GPIO-DEFINES CHECK PASSED}} The user verilog/rtl/user_defines.v is valid.
+2024-04-23 18:38:27 - [INFO] - {{STEP UPDATE}} Executing Check 7 of 16: XOR
+2024-04-23 18:38:30 - [INFO] - {{XOR CHECK UPDATE}} Total XOR differences: 0, for more details view /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/outputs/user_project_wrapper.xor.gds
+2024-04-23 18:38:30 - [INFO] - {{XOR CHECK PASSED}} The GDS file has no XOR violations.
+2024-04-23 18:38:30 - [INFO] - {{STEP UPDATE}} Executing Check 8 of 16: Magic DRC
+2024-04-23 18:38:35 - [ERROR] - Violation Message 'Metal1 spacing < 0.14um (met1.2)' found 23 times.
+2024-04-23 18:38:35 - [ERROR] - Violation Message 'This layer can't abut or partially overlap between subcells' found 37 times.
+2024-04-23 18:38:35 - [ERROR] - Violation Message 'All nwells must contain metal-connected N+ taps (nwell.4)' found 1 times.
+2024-04-23 18:38:35 - [ERROR] - Violation Message 'Via1 width < 0.26um (via.1a + 2 * via.4a)' found 2 times.
+2024-04-23 18:38:35 - [ERROR] - 63 DRC violations
+2024-04-23 18:38:35 - [WARNING] - {{MAGIC DRC CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.
+2024-04-23 18:38:35 - [INFO] - {{STEP UPDATE}} Executing Check 9 of 16: Klayout FEOL
+2024-04-23 18:38:35 - [INFO] - in CUSTOM klayout_gds_drc_check
+2024-04-23 18:38:35 - [INFO] - run: klayout -b -r /home/lburleson/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lburleson/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/outputs/reports/klayout_feol_check.xml -rd feol=true >& /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/logs/klayout_feol_check.log
+2024-04-23 18:38:37 - [ERROR] - Total # of DRC violations is 8 Please check /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/outputs/reports/klayout_feol_check.xml For more details
+2024-04-23 18:38:37 - [WARNING] - {{Klayout FEOL CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.
+2024-04-23 18:38:37 - [INFO] - {{STEP UPDATE}} Executing Check 10 of 16: Klayout BEOL
+2024-04-23 18:38:37 - [INFO] - in CUSTOM klayout_gds_drc_check
+2024-04-23 18:38:37 - [INFO] - run: klayout -b -r /home/lburleson/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lburleson/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/outputs/reports/klayout_beol_check.xml -rd beol=true >& /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/logs/klayout_beol_check.log
+2024-04-23 18:38:42 - [ERROR] - Total # of DRC violations is 9 Please check /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/outputs/reports/klayout_beol_check.xml For more details
+2024-04-23 18:38:42 - [WARNING] - {{Klayout BEOL CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.
+2024-04-23 18:38:42 - [INFO] - {{STEP UPDATE}} Executing Check 11 of 16: Klayout Offgrid
+2024-04-23 18:38:42 - [INFO] - in CUSTOM klayout_gds_drc_check
+2024-04-23 18:38:42 - [INFO] - run: klayout -b -r /home/lburleson/mpw_precheck/checks/tech-files/sky130A_mr.drc -rd input=/home/lburleson/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/outputs/reports/klayout_offgrid_check.xml -rd offgrid=true >& /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/logs/klayout_offgrid_check.log
+2024-04-23 18:38:44 - [INFO] - No DRC Violations found
+2024-04-23 18:38:44 - [INFO] - {{Klayout Offgrid CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2024-04-23 18:38:44 - [INFO] - {{STEP UPDATE}} Executing Check 12 of 16: Klayout Metal Minimum Clear Area Density
+2024-04-23 18:38:44 - [INFO] - in CUSTOM klayout_gds_drc_check
+2024-04-23 18:38:44 - [INFO] - run: klayout -b -r /home/lburleson/mpw_precheck/checks/drc_checks/klayout/met_min_ca_density.lydrc -rd input=/home/lburleson/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/outputs/reports/klayout_met_min_ca_density_check.xml >& /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/logs/klayout_met_min_ca_density_check.log
+2024-04-23 18:38:45 - [INFO] - No DRC Violations found
+2024-04-23 18:38:45 - [INFO] - {{Klayout Metal Minimum Clear Area Density CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2024-04-23 18:38:45 - [INFO] - {{STEP UPDATE}} Executing Check 13 of 16: Klayout Pin Label Purposes Overlapping Drawing
+2024-04-23 18:38:45 - [INFO] - in CUSTOM klayout_gds_drc_check
+2024-04-23 18:38:45 - [INFO] - run: klayout -b -r /home/lburleson/mpw_precheck/checks/drc_checks/klayout/pin_label_purposes_overlapping_drawing.rb.drc -rd input=/home/lburleson/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/outputs/reports/klayout_pin_label_purposes_overlapping_drawing_check.xml -rd top_cell_name=user_project_wrapper >& /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/logs/klayout_pin_label_purposes_overlapping_drawing_check.log
+2024-04-23 18:38:46 - [ERROR] - ERROR klayout_pin_label_purposes_overlapping_drawing FAILED, stat=2, see /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/logs/klayout_pin_label_purposes_overlapping_drawing_check.log
+2024-04-23 18:38:46 - [WARNING] - {{Klayout Pin Label Purposes Overlapping Drawing CHECK FAILED}} The GDS file, user_project_wrapper.gds, has DRC violations.
+2024-04-23 18:38:46 - [INFO] - {{STEP UPDATE}} Executing Check 14 of 16: Klayout ZeroArea
+2024-04-23 18:38:46 - [INFO] - in CUSTOM klayout_gds_drc_check
+2024-04-23 18:38:46 - [INFO] - run: klayout -b -r /home/lburleson/mpw_precheck/checks/drc_checks/klayout/zeroarea.rb.drc -rd input=/home/lburleson/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/outputs/reports/klayout_zeroarea_check.xml -rd cleaned_output=/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/outputs/user_project_wrapper_no_zero_areas.gds >& /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/logs/klayout_zeroarea_check.log
+2024-04-23 18:38:48 - [INFO] - No DRC Violations found
+2024-04-23 18:38:48 - [INFO] - {{Klayout ZeroArea CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2024-04-23 18:38:48 - [INFO] - {{STEP UPDATE}} Executing Check 15 of 16: OEB
+2024-04-23 18:38:48 - [INFO] - Loading LVS environment from /home/lburleson/OSU/google_ring_oscillator/caravel/lvs/user_project_wrapper/lvs_config.json
+2024-04-23 18:38:48 - [ERROR] - /import/yukari1/lrburle/google_ring_oscillator/layout/xschem/b0r1_b0r2_MUX_IO/spice/*.spice is an absolute path, paths must start with $PDK_ROOT or $UPRJ_ROOT
+2024-04-23 18:38:48 - [WARNING] - {{OEB CHECK FAILED}} The design, user_project_wrapper, has OEB violations.
+2024-04-23 18:38:48 - [INFO] - {{STEP UPDATE}} Executing Check 16 of 16: LVS
+2024-04-23 18:38:48 - [INFO] - Loading LVS environment from /home/lburleson/OSU/google_ring_oscillator/caravel/lvs/user_project_wrapper/lvs_config.json
+2024-04-23 18:38:48 - [ERROR] - /import/yukari1/lrburle/google_ring_oscillator/layout/xschem/b0r1_b0r2_MUX_IO/spice/*.spice is an absolute path, paths must start with $PDK_ROOT or $UPRJ_ROOT
+2024-04-23 18:38:48 - [WARNING] - {{LVS CHECK FAILED}} The design, user_project_wrapper, has LVS violations.
+2024-04-23 18:38:48 - [INFO] - {{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/23_APR_2024___18_38_13/logs'
+2024-04-23 18:38:48 - [CRITICAL] - {{FAILURE}} 5 Check(s) Failed: ['Klayout FEOL', 'Klayout BEOL', 'Klayout Pin Label Purposes Overlapping Drawing', 'OEB', 'LVS'] !!!
