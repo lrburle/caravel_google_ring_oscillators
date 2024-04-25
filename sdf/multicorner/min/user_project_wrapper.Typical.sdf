@@ -1,7 +1,7 @@
 (DELAYFILE
  (SDFVERSION "3.0")
  (DESIGN "user_project_wrapper")
- (DATE "Tue Apr 23 19:43:25 2024")
+ (DATE "Thu Apr 25 16:36:06 2024")
  (VENDOR "Parallax")
  (PROGRAM "STA")
  (VERSION "2.4.0")
@@ -37,7 +37,7 @@
     (INTERCONNECT io_in[6] mprj5.input17.A (0.015:0.015:0.015) (0.015:0.015:0.015))
     (INTERCONNECT io_in[5] ro1.start (0.072:0.072:0.072))
     (INTERCONNECT io_in[5] ro10.start (0.051:0.051:0.051))
-    (INTERCONNECT io_in[5] ro2.start (0.072:0.072:0.072))
+    (INTERCONNECT io_in[5] ro2.start (0.071:0.071:0.071))
     (INTERCONNECT io_in[5] ro3.start (0.071:0.071:0.071))
     (INTERCONNECT io_in[5] ro4.start (0.070:0.070:0.070))
     (INTERCONNECT io_in[5] ro5.start (0.067:0.067:0.067))

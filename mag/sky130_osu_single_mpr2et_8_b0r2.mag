@@ -1,7 +1,10 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713899806
+timestamp 1714057206
+<< error_s >>
+rect 1776 1756 1785 1786
+rect 1804 1756 1813 1758
 << nwell >>
 rect 1 1749 474 1750
 rect 1 1087 3713 1749
@@ -209,39 +212,39 @@ timestamp 1713287902
 transform 1 0 150 0 1 559
 box -48 -48 2440 592
 use sky130_osu_sc_12T_hs__fill_2  sky130_osu_sc_12T_hs__fill_2_0
-timestamp 1713287902
+timestamp 1714057206
 transform 1 0 2174 0 -1 2234
 box -7 0 161 897
 use sky130_osu_sc_12T_hs__fill_8  sky130_osu_sc_12T_hs__fill_8_0
-timestamp 1713287902
+timestamp 1714057206
 transform 1 0 2345 0 -1 2234
 box -9 0 179 897
 use sky130_osu_sc_12T_hs__inv_1  sky130_osu_sc_12T_hs__inv_1_1
-timestamp 1713887963
+timestamp 1714057206
 transform 1 0 3286 0 1 259
 box -10 0 199 902
 use sky130_osu_sc_12T_hs__inv_1  sky130_osu_sc_12T_hs__inv_1_2
-timestamp 1713887963
+timestamp 1714057206
 transform 1 0 3484 0 1 260
 box -10 0 199 902
 use sky130_osu_sc_12T_hs__inv_1  sky130_osu_sc_12T_hs__inv_1_3
-timestamp 1713887963
+timestamp 1714057206
 transform 1 0 3485 0 -1 2233
 box -10 0 199 902
 use sky130_osu_sc_12T_hs__inv_1  sky130_osu_sc_12T_hs__inv_1_4
-timestamp 1713887963
+timestamp 1714057206
 transform 1 0 3286 0 -1 2234
 box -10 0 199 902
 use sky130_osu_sc_12T_hs__mux2_1  sky130_osu_sc_12T_hs__mux2_1_0
-timestamp 1713481735
+timestamp 1714057206
 transform 1 0 2737 0 1 259
 box -10 0 552 902
 use sky130_osu_sc_12T_hs__mux2_1  sky130_osu_sc_12T_hs__mux2_1_1
-timestamp 1713481735
+timestamp 1714057206
 transform 1 0 1614 0 -1 2234
 box -10 0 552 902
 use sky130_osu_sc_12T_hs__mux2_1  sky130_osu_sc_12T_hs__mux2_1_2
-timestamp 1713481735
+timestamp 1714057206
 transform 1 0 2737 0 -1 2234
 box -10 0 552 902
 << labels >>

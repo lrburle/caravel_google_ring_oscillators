@@ -234,11 +234,11 @@ module user_project_wrapper (user_clock2,
     .X4_Y1(\x4[2] ),
     .X5_Y1(\x5[2] ),
     .s1(io_in[0]),
-    .s2(io_in[1]),
     .s3(io_in[2]),
     .s4(io_in[3]),
     .s5(io_in[4]),
-    .start(io_in[5]));
+    .start(io_in[5]),
+    .s2(io_in[1]));
  sky130_osu_ring_oscillator_mpr2et_8_b0r1 ro4 (.X1_Y1(\x1[3] ),
     .X2_Y1(\x2[3] ),
     .X3_Y1(\x3[3] ),
