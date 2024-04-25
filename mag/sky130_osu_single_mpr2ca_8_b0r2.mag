@@ -301,7 +301,7 @@ rect 1703 1011 1763 1012
 rect 1703 810 1763 872
 rect 1699 805 1763 810
 use scs130hd_mpr2ca_8  scs130hd_mpr2ca_8_0
-timestamp 1714073110
+timestamp 1714076846
 transform 1 0 744 0 1 601
 box -58 -60 1418 1148
 use sky130_osu_sc_12T_hs__inv_1  sky130_osu_sc_12T_hs__inv_1_1
