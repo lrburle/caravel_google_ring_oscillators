@@ -1,3 +1,0 @@
-  violation type: All_nwells_must_contain_metal_connected_Nplus_taps_nwelldot4
-    srcs: N/A N/A
-    bbox = ( 1042.170, 349.465 ) - ( 1043.930, 351.070 ) on Layer nwell

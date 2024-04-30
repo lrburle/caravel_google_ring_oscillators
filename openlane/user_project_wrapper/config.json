@@ -58,7 +58,7 @@
     "RUN_LVS": 0,
     "MAGIC_ZEROIZE_ORIGIN": 0,
     "FP_SIZING": "absolute",
-    "RUN_CVC": 0,
+    "RUN_CVC": 1,
     "UNIT": 2.4,
     "FP_IO_VEXTEND": "expr::2 * $UNIT",
     "FP_IO_HEXTEND": "expr::2 * $UNIT",

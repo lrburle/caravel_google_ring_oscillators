@@ -82,6 +82,23 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
+// To account for OEB requirements:
+// assign io_oeb[5] = vccd1;
+// assign io_oeb[6] = vccd1;
+// assign io_oeb[7] = vccd1;
+// assign io_oeb[8] = vccd1;
+// assign io_oeb[9] = vccd1;
+// assign io_oeb[10] = vccd1;
+// assign io_oeb[11] = vccd1;
+// assign io_oeb[12] = vccd1;
+// assign io_oeb[13] = vccd1;
+// assign io_oeb[14] = vccd1;
+
+// assign io_oeb[15] = vssd1;
+
+assign io_oeb[5:14] = 10'b1111111111; 
+assign io_oeb[15] = 1'b0; 
+
 wire [9:0] x1, x2, x3, x4, x5;
 
 // sky130_osu_ring_oscillator_mpr2aa_8_b0r1 ro1(
@@ -125,12 +142,12 @@ sky130_osu_ring_oscillator_mpr2ca_8_b0r1 ro1(
     .vccd1(vccd1),
     .vssd1(vssd1),
 `endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
+    .s1(io_in[5]),
+    .s2(io_in[6]),
+    .s3(io_in[7]),
+    .s4(io_in[8]),
+    .s5(io_in[9]),
+    .start(io_in[10]),
    .X1_Y1(x1[0]),
    .X2_Y1(x2[0]),
    .X3_Y1(x3[0]),
@@ -143,12 +160,12 @@ sky130_osu_ring_oscillator_mpr2ct_8_b0r1 ro2(
     .vccd1(vccd1),
     .vssd1(vssd1),
 `endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
+    .s1(io_in[5]),
+    .s2(io_in[6]),
+    .s3(io_in[7]),
+    .s4(io_in[8]),
+    .s5(io_in[9]),
+    .start(io_in[10]),
     .X1_Y1(x1[1]),
     .X2_Y1(x2[1]),
     .X3_Y1(x3[1]),
@@ -161,12 +178,12 @@ sky130_osu_ring_oscillator_mpr2ea_8_b0r1 ro3(
     .vccd1(vccd1),
     .vssd1(vssd1),
 `endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
+    .s1(io_in[5]),
+    .s2(io_in[6]),
+    .s3(io_in[7]),
+    .s4(io_in[8]),
+    .s5(io_in[9]),
+    .start(io_in[10]),
     .X1_Y1(x1[2]),
     .X2_Y1(x2[2]),
     .X3_Y1(x3[2]),
@@ -179,12 +196,12 @@ sky130_osu_ring_oscillator_mpr2et_8_b0r1 ro4(
     .vccd1(vccd1),
     .vssd1(vssd1),
 `endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
+    .s1(io_in[5]),
+    .s2(io_in[6]),
+    .s3(io_in[7]),
+    .s4(io_in[8]),
+    .s5(io_in[9]),
+    .start(io_in[10]),
     .X1_Y1(x1[3]),
     .X2_Y1(x2[3]),
     .X3_Y1(x3[3]),
@@ -197,12 +214,12 @@ sky130_osu_ring_oscillator_mpr2xa_8_b0r1 ro5(
     .vccd1(vccd1),
     .vssd1(vssd1),
 `endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
+    .s1(io_in[5]),
+    .s2(io_in[6]),
+    .s3(io_in[7]),
+    .s4(io_in[8]),
+    .s5(io_in[9]),
+    .start(io_in[10]),
     .X1_Y1(x1[4]),
     .X2_Y1(x2[4]),
     .X3_Y1(x3[4]),
@@ -269,12 +286,12 @@ sky130_osu_ring_oscillator_mpr2ca_8_b0r2 ro6(
     .vccd1(vccd1),
     .vssd1(vssd1),
 `endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
+    .s1(io_in[5]),
+    .s2(io_in[6]),
+    .s3(io_in[7]),
+    .s4(io_in[8]),
+    .s5(io_in[9]),
+    .start(io_in[10]),
     .X1_Y1(x1[5]),
     .X2_Y1(x2[5]),
     .X3_Y1(x3[5]),
@@ -287,12 +304,12 @@ sky130_osu_ring_oscillator_mpr2ct_8_b0r2 ro7(
     .vccd1(vccd1),
     .vssd1(vssd1),
 `endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
+    .s1(io_in[5]),
+    .s2(io_in[6]),
+    .s3(io_in[7]),
+    .s4(io_in[8]),
+    .s5(io_in[9]),
+    .start(io_in[10]),
     .X1_Y1(x1[6]),
     .X2_Y1(x2[6]),
     .X3_Y1(x3[6]),
@@ -305,12 +322,12 @@ sky130_osu_ring_oscillator_mpr2ea_8_b0r2 ro8(
     .vccd1(vccd1),
     .vssd1(vssd1),
 `endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
+    .s1(io_in[5]),
+    .s2(io_in[6]),
+    .s3(io_in[7]),
+    .s4(io_in[8]),
+    .s5(io_in[9]),
+    .start(io_in[10]),
     .X1_Y1(x1[7]),
     .X2_Y1(x2[7]),
     .X3_Y1(x3[7]),
@@ -323,12 +340,12 @@ sky130_osu_ring_oscillator_mpr2et_8_b0r2 ro9(
     .vccd1(vccd1),
     .vssd1(vssd1),
 `endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
+    .s1(io_in[5]),
+    .s2(io_in[6]),
+    .s3(io_in[7]),
+    .s4(io_in[8]),
+    .s5(io_in[9]),
+    .start(io_in[10]),
     .X1_Y1(x1[8]),
     .X2_Y1(x2[8]),
     .X3_Y1(x3[8]),
@@ -341,12 +358,12 @@ sky130_osu_ring_oscillator_mpr2xa_8_b0r2 ro10(
     .vccd1(vccd1),
     .vssd1(vssd1),
 `endif
-    .s1(io_in[0]),
-    .s2(io_in[1]),
-    .s3(io_in[2]),
-    .s4(io_in[3]),
-    .s5(io_in[4]),
-    .start(io_in[5]),
+    .s1(io_in[5]),
+    .s2(io_in[6]),
+    .s3(io_in[7]),
+    .s4(io_in[8]),
+    .s5(io_in[9]),
+    .start(io_in[10]),
     .X1_Y1(x1[9]),
     .X2_Y1(x2[9]),
     .X3_Y1(x3[9]),
@@ -378,8 +395,8 @@ mux16x1_project mprj1 (
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
     .data_in(x1[15:0]),
-    .select(io_in[6:9]),
-    .y(io_out[0])
+    .select(io_in[11:14]),
+    .y(io_out[15])
 );
 
 mux16x1_project mprj2 (
@@ -388,8 +405,8 @@ mux16x1_project mprj2 (
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
     .data_in(x2[15:0]),
-    .select(io_in[6:9]),
-    .y(io_out[0])
+    .select(io_in[11:14]),
+    .y(io_out[15])
 );
 
 mux16x1_project mprj3 (
@@ -398,8 +415,8 @@ mux16x1_project mprj3 (
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
     .data_in(x3[15:0]),
-    .select(io_in[6:9]),
-    .y(io_out[0])
+    .select(io_in[11:14]),
+    .y(io_out[15])
 );
 
 mux16x1_project mprj4 (
@@ -408,8 +425,8 @@ mux16x1_project mprj4 (
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
     .data_in(x4[15:0]),
-    .select(io_in[6:9]),
-    .y(io_out[0])
+    .select(io_in[11:14]),
+    .y(io_out[15])
 );
 
 mux16x1_project mprj5 (
@@ -418,8 +435,8 @@ mux16x1_project mprj5 (
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
     .data_in(x5[15:0]),
-    .select(io_in[6:9]),
-    .y(io_out[0])
+    .select(io_in[11:14]),
+    .y(io_out[15])
 );
 
 endmodule	// user_project_wrapper

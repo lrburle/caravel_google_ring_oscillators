@@ -67,7 +67,7 @@
     "FP_PDN_HWIDTH": 3.1,
     "FP_PDN_VSPACING": "expr::(5 * $FP_PDN_CORE_RING_VWIDTH)",
     "FP_PDN_HSPACING": "expr::(5 * $FP_PDN_CORE_RING_HWIDTH)",
-    "FP_PDN_MACRO_HOOKS": "submodule.ro1 VDD, GND,
+    "FP_PDN_MACRO_HOOKS": "submodule.ro1 VDD, GND",
     "VDD_NETS": [
         "vccd1",
         "vccd2",
