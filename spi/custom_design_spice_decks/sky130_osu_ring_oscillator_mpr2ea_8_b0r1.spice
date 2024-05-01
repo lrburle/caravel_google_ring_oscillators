@@ -1,0 +1,82 @@
+* NGSPICE file created from sky130_osu_ring_oscillator_mpr2ea_8_b0r1.ext - technology: sky130A
+
+.subckt sky130_osu_sc_12T_hs__mux2_1 S0 Y A0 A1 vccd1 vssd1 
+X0 Y S0 A0 vccd1 sky130_fd_pr__pfet_01v8 ad=0.1764 pd=1.54 as=0.3402 ps=3.06 w=1.26 l=0.15
+X1 Y a_110_114# A0 vssd1  sky130_fd_pr__nfet_01v8_lvt ad=0.077 pd=0.83 as=0.1485 ps=1.64 w=0.55 l=0.15
+X2 A1 a_110_114# Y vccd1 sky130_fd_pr__pfet_01v8 ad=0.3339 pd=3.05 as=0.1764 ps=1.54 w=1.26 l=0.15
+X3 A1 S0 Y vssd1  sky130_fd_pr__nfet_01v8_lvt ad=0.14575 pd=1.63 as=0.077 ps=0.83 w=0.55 l=0.15
+X4 a_110_114# S0 vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0.3339 pd=3.05 as=0.3402 ps=3.06 w=1.26 l=0.15
+X5 a_110_114# S0 vssd1  vssd1  sky130_fd_pr__nfet_01v8_lvt ad=0.14575 pd=1.63 as=0.1485 ps=1.64 w=0.55 l=0.15
+.ends
+
+.subckt sky130_osu_sc_12T_hs__inv_1 Y A vccd1 vssd1
+X0 Y A vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0.3339 pd=3.05 as=0.3402 ps=3.06 w=1.26 l=0.15
+X1 Y A vssd1 vssd1 sky130_fd_pr__nfet_01v8_lvt ad=0.14575 pd=1.63 as=0.1485 ps=1.64 w=0.55 l=0.15
+.ends
+
+.subckt scs130hd_mpr2ea_8 VPB VNB B0 A1 R2 A0 R0 R3 B1 R1 vpwr vgnd
+X0 vgnd R0 R2 VNB sky130_fd_pr__nfet_01v8 ad=0.10725 pd=0.98 as=0.10725 ps=0.98 w=0.65 l=0.15
+X1 a_826_46# A1 vgnd VNB sky130_fd_pr__nfet_01v8 ad=0.10725 pd=0.98 as=0.10725 ps=0.98 w=0.65 l=0.15
+X2 a_104_198# A1 vpwr VPB sky130_fd_pr__pfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X3 vpwr B1 a_104_198# VPB sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.165 ps=1.33 w=1 l=0.15
+X4 R2 a_104_198# vgnd VNB sky130_fd_pr__nfet_01v8 ad=0.10725 pd=0.98 as=0.1885 ps=1.88 w=0.65 l=0.15
+X5 a_688_198# B0 a_1706_46# VNB sky130_fd_pr__nfet_01v8 ad=0.1885 pd=1.88 as=0.10725 ps=0.98 w=0.65 l=0.15
+X6 vpwr a_688_198# a_634_296# VPB sky130_fd_pr__pfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X7 vgnd R3 R1 VNB sky130_fd_pr__nfet_01v8 ad=0.1885 pd=1.88 as=0.10725 ps=0.98 w=0.65 l=0.15
+X8 a_1706_46# A0 vgnd VNB sky130_fd_pr__nfet_01v8 ad=0.10725 pd=0.98 as=0.10725 ps=0.98 w=0.65 l=0.15
+X9 a_634_296# a_104_198# R3 VPB sky130_fd_pr__pfet_01v8 ad=0.165 pd=1.33 as=0.29 ps=2.58 w=1 l=0.15
+X10 a_1122_46# B1 a_296_198# VNB sky130_fd_pr__nfet_01v8 ad=0.10725 pd=0.98 as=0.1885 ps=1.88 w=0.65 l=0.15
+X11 R1 a_296_198# vgnd VNB sky130_fd_pr__nfet_01v8 ad=0.10725 pd=0.98 as=0.10725 ps=0.98 w=0.65 l=0.15
+X12 a_296_198# B0 a_1314_46# VNB sky130_fd_pr__nfet_01v8 ad=0.1885 pd=1.88 as=0.10725 ps=0.98 w=0.65 l=0.15
+X13 vpwr B1 a_1034_296# VPB sky130_fd_pr__pfet_01v8 ad=0.165 pd=1.33 as=0.29 ps=2.58 w=1 l=0.15
+X14 a_1034_296# B0 a_296_198# VPB sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.165 ps=1.33 w=1 l=0.15
+X15 a_1034_296# A0 vpwr VPB sky130_fd_pr__pfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X16 a_296_198# A1 a_1034_296# VPB sky130_fd_pr__pfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X17 a_1314_46# A1 vgnd VNB sky130_fd_pr__nfet_01v8 ad=0.10725 pd=0.98 as=0.10725 ps=0.98 w=0.65 l=0.15
+X18 vgnd a_688_198# R3 VNB sky130_fd_pr__nfet_01v8 ad=0.10725 pd=0.98 as=0.10725 ps=0.98 w=0.65 l=0.15
+X19 vgnd A0 a_1122_46# VNB sky130_fd_pr__nfet_01v8 ad=0.10725 pd=0.98 as=0.10725 ps=0.98 w=0.65 l=0.15
+X20 R3 a_104_198# vgnd VNB sky130_fd_pr__nfet_01v8 ad=0.10725 pd=0.98 as=0.1885 ps=1.88 w=0.65 l=0.15
+X21 vpwr R0 a_146_296# VPB sky130_fd_pr__pfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X22 a_146_296# a_104_198# R2 VPB sky130_fd_pr__pfet_01v8 ad=0.165 pd=1.33 as=0.29 ps=2.58 w=1 l=0.15
+X23 a_338_296# a_296_198# vpwr VPB sky130_fd_pr__pfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+X24 R1 R3 a_338_296# VPB sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.165 ps=1.33 w=1 l=0.15
+X25 vpwr a_688_198# R0 VPB sky130_fd_pr__pfet_01v8 ad=0.165 pd=1.33 as=0.29 ps=2.58 w=1 l=0.15
+X26 vpwr B0 a_688_198# VPB sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.165 ps=1.33 w=1 l=0.15
+X27 a_104_198# B1 a_826_46# VNB sky130_fd_pr__nfet_01v8 ad=0.1885 pd=1.88 as=0.10725 ps=0.98 w=0.65 l=0.15
+X28 vgnd a_688_198# R0 VNB sky130_fd_pr__nfet_01v8 ad=0.10725 pd=0.98 as=0.1885 ps=1.88 w=0.65 l=0.15
+X29 a_688_198# A0 vpwr VPB sky130_fd_pr__pfet_01v8 ad=0.165 pd=1.33 as=0.165 ps=1.33 w=1 l=0.15
+.ends
+
+.subckt sky130_osu_single_mpr2ea_8_b0r1 vccd1 in Y0 Y1 sel vssd1
+Xsky130_osu_sc_12T_hs__mux2_1_0 sel sky130_osu_sc_12T_hs__inv_1_1/A in scs130hd_mpr2ea_8_0/R1
++ vccd1 vssd1 sky130_osu_sc_12T_hs__mux2_1
+Xsky130_osu_sc_12T_hs__mux2_1_1 sel scs130hd_mpr2ea_8_0/B1 vssd1 in vccd1 vssd1 sky130_osu_sc_12T_hs__mux2_1
+Xsky130_osu_sc_12T_hs__inv_1_1 sky130_osu_sc_12T_hs__inv_1_2/A sky130_osu_sc_12T_hs__inv_1_1/A
++ vccd1 vssd1 sky130_osu_sc_12T_hs__inv_1
+Xsky130_osu_sc_12T_hs__inv_1_2 Y1 sky130_osu_sc_12T_hs__inv_1_2/A vccd1 vssd1 sky130_osu_sc_12T_hs__inv_1
+Xsky130_osu_sc_12T_hs__mux2_1_2 sel sky130_osu_sc_12T_hs__inv_1_4/A scs130hd_mpr2ea_8_0/R1
++ in vccd1 vssd1 sky130_osu_sc_12T_hs__mux2_1
+Xsky130_osu_sc_12T_hs__inv_1_3 Y0 sky130_osu_sc_12T_hs__inv_1_4/Y vccd1 vssd1 sky130_osu_sc_12T_hs__inv_1
+Xsky130_osu_sc_12T_hs__inv_1_4 sky130_osu_sc_12T_hs__inv_1_4/Y sky130_osu_sc_12T_hs__inv_1_4/A
++ vccd1 vssd1 sky130_osu_sc_12T_hs__inv_1
+Xscs130hd_mpr2ea_8_0 vccd1 vssd1 vssd1 scs130hd_mpr2ea_8_0/B1 scs130hd_mpr2ea_8_0/R2
++ scs130hd_mpr2ea_8_0/B1 scs130hd_mpr2ea_8_0/R0 scs130hd_mpr2ea_8_0/R3 scs130hd_mpr2ea_8_0/B1
++ scs130hd_mpr2ea_8_0/R1 vccd1 vssd1 scs130hd_mpr2ea_8
+.ends
+
+.subckt sky130_osu_ring_oscillator_mpr2ea_8_b0r1 s1 s2 s3 s4 s5 X1_Y1 X2_Y1 X3_Y1
++ X4_Y1 X5_Y1 start vssd1 vccd1
+Xsky130_osu_single_mpr2ea_8_b0r1_2 vccd1 sky130_osu_single_mpr2ea_8_b0r1_2/in sky130_osu_single_mpr2ea_8_b0r1_3/in
++ X2_Y1 s2 vssd1 sky130_osu_single_mpr2ea_8_b0r1
+Xsky130_osu_single_mpr2ea_8_b0r1_3 vccd1 sky130_osu_single_mpr2ea_8_b0r1_3/in sky130_osu_single_mpr2ea_8_b0r1_4/in
++ X3_Y1 s3 vssd1 sky130_osu_single_mpr2ea_8_b0r1
+Xsky130_osu_single_mpr2ea_8_b0r1_4 vccd1 sky130_osu_single_mpr2ea_8_b0r1_4/in sky130_osu_single_mpr2ea_8_b0r1_4/Y0
++ X4_Y1 s4 vssd1 sky130_osu_single_mpr2ea_8_b0r1
+Xsky130_osu_sc_12T_hs__mux2_1_0 start sky130_osu_sc_12T_hs__mux2_1_0/Y sky130_osu_sc_12T_hs__mux2_1_0/A0
++ vccd1 vccd1 vssd1 sky130_osu_sc_12T_hs__mux2_1
+Xsky130_osu_single_mpr2ea_8_b0r1_0 vccd1 sky130_osu_single_mpr2ea_8_b0r1_4/Y0 sky130_osu_sc_12T_hs__mux2_1_0/A0
++ X5_Y1 s5 vssd1 sky130_osu_single_mpr2ea_8_b0r1
+Xsky130_osu_single_mpr2ea_8_b0r1_1 vccd1 sky130_osu_sc_12T_hs__mux2_1_0/Y sky130_osu_single_mpr2ea_8_b0r1_2/in
++ X1_Y1 s1 vssd1 sky130_osu_single_mpr2ea_8_b0r1
+.ends
+

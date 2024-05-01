@@ -54,15 +54,6 @@ module user_project_wrapper (user_clock2,
  input [3:0] wbs_sel_i;
 
  wire one_;
- wire one_1;
- wire one_2;
- wire one_3;
- wire one_4;
- wire one_5;
- wire one_6;
- wire one_7;
- wire one_8;
- wire one_9;
  wire \x1[0] ;
  wire \x1[1] ;
  wire \x1[2] ;
@@ -370,60 +361,15 @@ module user_project_wrapper (user_clock2,
     .VPB(vccd1),
     .VPWR(vccd1),
     .HI(one_));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_1 (.VGND(vssd1),
-    .VNB(vssd1),
-    .VPB(vccd1),
-    .VPWR(vccd1),
-    .HI(one_1));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_2 (.VGND(vssd1),
-    .VNB(vssd1),
-    .VPB(vccd1),
-    .VPWR(vccd1),
-    .HI(one_2));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_3 (.VGND(vssd1),
-    .VNB(vssd1),
-    .VPB(vccd1),
-    .VPWR(vccd1),
-    .HI(one_3));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_4 (.VGND(vssd1),
-    .VNB(vssd1),
-    .VPB(vccd1),
-    .VPWR(vccd1),
-    .HI(one_4));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_5 (.VGND(vssd1),
-    .VNB(vssd1),
-    .VPB(vccd1),
-    .VPWR(vccd1),
-    .HI(one_5));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_6 (.VGND(vssd1),
-    .VNB(vssd1),
-    .VPB(vccd1),
-    .VPWR(vccd1),
-    .HI(one_6));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_7 (.VGND(vssd1),
-    .VNB(vssd1),
-    .VPB(vccd1),
-    .VPWR(vccd1),
-    .HI(one_7));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_8 (.VGND(vssd1),
-    .VNB(vssd1),
-    .VPB(vccd1),
-    .VPWR(vccd1),
-    .HI(one_8));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_9 (.VGND(vssd1),
-    .VNB(vssd1),
-    .VPB(vccd1),
-    .VPWR(vccd1),
-    .HI(one_9));
- assign io_oeb[14] = one_6;
- assign io_oeb[13] = one_9;
- assign io_oeb[12] = one_8;
- assign io_oeb[11] = one_7;
- assign io_oeb[10] = one_5;
- assign io_oeb[9] = one_4;
- assign io_oeb[8] = one_3;
- assign io_oeb[7] = one_2;
+ assign io_oeb[10] = one_;
+ assign io_oeb[11] = one_;
+ assign io_oeb[12] = one_;
+ assign io_oeb[13] = one_;
+ assign io_oeb[14] = one_;
+ assign io_oeb[5] = one_;
  assign io_oeb[6] = one_;
- assign io_oeb[5] = one_1;
+ assign io_oeb[7] = one_;
+ assign io_oeb[8] = one_;
+ assign io_oeb[9] = one_;
  assign io_oeb[15] = zero_;
 endmodule
