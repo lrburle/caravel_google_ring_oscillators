@@ -429,8 +429,8 @@ module user_project_wrapper (user_clock2,
  assign io_oeb[13] = one_9;
  assign io_oeb[12] = one_8;
  assign io_oeb[11] = one_7;
- assign io_oeb[10] = one_6;
- assign io_oeb[9] = one_5;
+ assign io_oeb[10] = one_5;
+ assign io_oeb[9] = one_6;
  assign io_oeb[8] = one_4;
  assign io_oeb[7] = one_3;
  assign io_oeb[6] = one_2;

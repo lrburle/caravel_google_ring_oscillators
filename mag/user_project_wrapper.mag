@@ -89805,28 +89805,6 @@ flabel metal2 s 5234 -960 5346 480 0 FreeSans 448 90 0 0 wbs_stb_i
 port 643 nsew signal input
 flabel metal2 s 6430 -960 6542 480 0 FreeSans 448 90 0 0 wbs_we_i
 port 644 nsew signal input
-rlabel nsubdiffcont 575762 696866 575762 696866 1 vccd1
-port 3 n
-rlabel nsubdiffcont 575762 643690 575762 643690 1 vccd1
-port 3 n
-rlabel nsubdiffcont 575762 590650 575762 590650 1 vccd1
-port 3 n
-rlabel nsubdiffcont 575762 537474 575762 537474 1 vccd1
-port 3 n
-rlabel nsubdiffcont 575762 484298 575762 484298 1 vccd1
-port 3 n
-rlabel nsubdiffcont 575762 431258 575762 431258 1 vccd1
-port 3 n
-rlabel nsubdiffcont 575762 378082 575762 378082 1 vccd1
-port 3 n
-rlabel nsubdiffcont 575762 324906 575762 324906 1 vccd1
-port 3 n
-rlabel nsubdiffcont 575762 271866 575762 271866 1 vccd1
-port 3 n
-rlabel nsubdiffcont 575762 232018 575762 232018 1 vccd1
-port 3 n
-rlabel nsubdiffcont 288422 440099 288422 440099 5 vccd1
-port 3 n
 << properties >>
 string FIXED_BBOX 0 0 584000 704000
 << end >>
