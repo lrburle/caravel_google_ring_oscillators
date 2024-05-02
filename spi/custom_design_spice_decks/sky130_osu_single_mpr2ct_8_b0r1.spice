@@ -1,0 +1,74 @@
+* NGSPICE file created from sky130_osu_single_mpr2ct_8_b0r1.ext - technology: sky130A
+
+.subckt sky130_osu_sc_12T_hs__mux2_1 S0 Y A0 A1 vccd1 vssd1 
+X0 Y S0 A0 vccd1 sky130_fd_pr__pfet_01v8 ad=0.1764 pd=1.54 as=0.3402 ps=3.06 w=1.26 l=0.15
+X1 Y a_110_114# A0 vssd1  sky130_fd_pr__nfet_01v8_lvt ad=0.077 pd=0.83 as=0.1485 ps=1.64 w=0.55 l=0.15
+X2 A1 a_110_114# Y vccd1 sky130_fd_pr__pfet_01v8 ad=0.3339 pd=3.05 as=0.1764 ps=1.54 w=1.26 l=0.15
+X3 A1 S0 Y vssd1  sky130_fd_pr__nfet_01v8_lvt ad=0.14575 pd=1.63 as=0.077 ps=0.83 w=0.55 l=0.15
+X4 a_110_114# S0 vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0.3339 pd=3.05 as=0.3402 ps=3.06 w=1.26 l=0.15
+X5 a_110_114# S0 vssd1  vssd1  sky130_fd_pr__nfet_01v8_lvt ad=0.14575 pd=1.63 as=0.1485 ps=1.64 w=0.55 l=0.15
+.ends
+
+.subckt sky130_osu_sc_12T_hs__inv_1 Y A vccd1 vssd1
+X0 Y A vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0.3339 pd=3.05 as=0.3402 ps=3.06 w=1.26 l=0.15
+X1 Y A vssd1 vssd1 sky130_fd_pr__nfet_01v8_lvt ad=0.14575 pd=1.63 as=0.1485 ps=1.64 w=0.55 l=0.15
+.ends
+
+.subckt scs130hd_mpr2ct_8 A1 A0 B0 B1 R0 R1 R2 R3 VNB vgnd VPB vpwr
+X0 vpwr B1 a_1131_911# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.135 ps=1.27 w=1 l=0.15
+X1 vgnd a_1131_911# a_1133_47# VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.08775 ps=0.92 w=0.65 l=0.15
+X2 vpwr A1 a_665_591# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.135 ps=1.27 w=1 l=0.15
+X3 vgnd a_665_591# a_915_232# VNB sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+X4 a_1131_911# A0 vpwr VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+X5 R3 a_443_21# a_401_297# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.105 ps=1.21 w=1 l=0.15
+X6 a_945_297# a_665_591# vpwr VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+X7 a_665_591# B0 vpwr VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+X8 vpwr a_443_21# a_661_297# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.105 ps=1.21 w=1 l=0.15
+X9 R0 a_81_21# vpwr VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+X10 a_401_297# a_81_21# vpwr VPB sky130_fd_pr__pfet_01v8_hvt ad=0.105 pd=1.21 as=0.26 ps=2.52 w=1 l=0.15
+X11 R1 a_915_232# vgnd VNB sky130_fd_pr__nfet_01v8 ad=0.25025 pd=1.42 as=0.208 ps=1.94 w=0.65 l=0.15
+X12 vgnd B1 a_937_911# VNB sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+X13 vgnd B1 a_1213_911# VNB sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+X14 a_443_21# A1 vpwr VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+X15 vgnd a_443_21# R3 VNB sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+X16 a_661_297# R0 R2 VPB sky130_fd_pr__pfet_01v8_hvt ad=0.105 pd=1.21 as=0.26 ps=2.52 w=1 l=0.15
+X17 vgnd a_81_21# R0 VNB sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+X18 a_665_591# A1 a_665_911# VNB sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+X19 R0 a_81_21# vgnd VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+X20 a_1213_911# A0 a_1131_911# VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+X21 a_665_911# B0 vgnd VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+X22 vpwr A0 a_81_21# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.135 ps=1.27 w=1 l=0.15
+X23 a_915_232# a_665_591# a_1301_297# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.135 ps=1.27 w=1 l=0.15
+X24 R3 a_81_21# vgnd VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+X25 a_81_21# B0 vpwr VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+X26 a_1301_297# a_1131_911# vpwr VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.135 ps=1.27 w=1 l=0.15
+X27 a_937_911# A1 a_443_21# VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+X28 a_945_297# a_915_232# R1 VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.3 ps=2.6 w=1 l=0.15
+X29 R2 R0 vgnd VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+X30 a_1133_47# a_665_591# R1 VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.25025 ps=1.42 w=0.65 l=0.15
+X31 vpwr a_1131_911# a_945_297# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.135 ps=1.27 w=1 l=0.15
+X32 a_915_232# a_1131_911# vgnd VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.08775 ps=0.92 w=0.65 l=0.15
+X33 vpwr a_81_21# R0 VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.135 ps=1.27 w=1 l=0.15
+X34 a_81_21# A0 a_205_911# VNB sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+X35 a_205_911# B0 vgnd VNB sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+X36 vpwr B1 a_443_21# VPB sky130_fd_pr__pfet_01v8_hvt ad=0.26 pd=2.52 as=0.135 ps=1.27 w=1 l=0.15
+X37 vgnd a_443_21# R2 VNB sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+.ends
+
+.subckt sky130_osu_single_mpr2ct_8_b0r1 vssd1 vccd1 sel Y0 Y1 in
+Xsky130_osu_sc_12T_hs__mux2_1_0 sel sky130_osu_sc_12T_hs__inv_1_1/A in scs130hd_mpr2ct_8_1/R1
++ vccd1 vssd1 sky130_osu_sc_12T_hs__mux2_1
+Xsky130_osu_sc_12T_hs__inv_1_0 Y1 sky130_osu_sc_12T_hs__inv_1_1/Y vccd1 vssd1 sky130_osu_sc_12T_hs__inv_1
+Xsky130_osu_sc_12T_hs__mux2_1_1 sel scs130hd_mpr2ct_8_1/B1 vssd1 in vccd1 vssd1 sky130_osu_sc_12T_hs__mux2_1
+Xsky130_osu_sc_12T_hs__inv_1_1 sky130_osu_sc_12T_hs__inv_1_1/Y sky130_osu_sc_12T_hs__inv_1_1/A
++ vccd1 vssd1 sky130_osu_sc_12T_hs__inv_1
+Xsky130_osu_sc_12T_hs__mux2_1_2 sel sky130_osu_sc_12T_hs__inv_1_4/A scs130hd_mpr2ct_8_1/R1
++ in vccd1 vssd1 sky130_osu_sc_12T_hs__mux2_1
+Xsky130_osu_sc_12T_hs__inv_1_3 Y0 sky130_osu_sc_12T_hs__inv_1_4/Y vccd1 vssd1 sky130_osu_sc_12T_hs__inv_1
+Xsky130_osu_sc_12T_hs__inv_1_4 sky130_osu_sc_12T_hs__inv_1_4/Y sky130_osu_sc_12T_hs__inv_1_4/A
++ vccd1 vssd1 sky130_osu_sc_12T_hs__inv_1
+Xscs130hd_mpr2ct_8_1 scs130hd_mpr2ct_8_1/B1 scs130hd_mpr2ct_8_1/B1 vssd1 scs130hd_mpr2ct_8_1/B1
++ scs130hd_mpr2ct_8_1/R0 scs130hd_mpr2ct_8_1/R1 scs130hd_mpr2ct_8_1/R2 scs130hd_mpr2ct_8_1/R3
++ vssd1 vssd1 vccd1 vccd1 scs130hd_mpr2ct_8
+.ends
+

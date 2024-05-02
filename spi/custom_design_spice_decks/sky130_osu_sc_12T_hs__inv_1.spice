@@ -1,0 +1,7 @@
+* NGSPICE file created from sky130_osu_sc_12T_hs__inv_1.ext - technology: sky130A
+
+.subckt sky130_osu_sc_12T_hs__inv_1 Y A vccd1 vssd1
+X0 Y A vccd1 vccd1 sky130_fd_pr__pfet_01v8 ad=0.3339 pd=3.05 as=0.3402 ps=3.06 w=1.26 l=0.15
+X1 Y A vssd1 vssd1 sky130_fd_pr__nfet_01v8_lvt ad=0.14575 pd=1.63 as=0.1485 ps=1.64 w=0.55 l=0.15
+.ends
+

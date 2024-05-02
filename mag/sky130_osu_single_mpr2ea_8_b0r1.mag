@@ -248,6 +248,6 @@ rlabel viali 3159 442 3193 476 1 Y1
 port 10 n
 rlabel viali 3159 1742 3193 1776 1 Y0
 port 9 n
-rlabel via1 2347 841 2347 841 1 sel
+rlabel metal2 2347 841 2347 841 1 sel
 port 7 n
 << end >>

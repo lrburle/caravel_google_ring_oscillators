@@ -362,13 +362,13 @@ timestamp 1714057206
 transform 1 0 2342 0 -1 2232
 box -10 0 552 902
 << labels >>
-rlabel via1 2397 1019 2397 1019 1 sel
+rlabel metal2 2397 1019 2397 1019 1 sel
 port 8 n
 rlabel metal1 60 291 60 291 1 vssd1
 port 5 n
 rlabel metal1 63 1349 63 1349 1 vccd1
 port 6 n
-rlabel via1 536 1810 536 1810 1 in
+rlabel metal2 536 1810 536 1810 1 in
 port 9 n
 rlabel metal1 49 2199 49 2199 1 vssd1
 port 5 n

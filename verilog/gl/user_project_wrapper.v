@@ -12,7 +12,6 @@ module user_project_wrapper (user_clock2,
     vssd2,
     vccd2,
     vssd1,
-    vccd1,
     analog_io,
     io_in,
     io_oeb,
@@ -134,10 +133,10 @@ module user_project_wrapper (user_clock2,
     \x1[2] ,
     \x1[1] ,
     \x1[0] }),
-    .select({io_in[14],
-    io_in[13],
+    .select({io_in[11],
     io_in[12],
-    io_in[11]}));
+    io_in[13],
+    io_in[14]}));
  mux16x1_project mprj2 (.vccd1(vccd1),
     .vssd1(vssd1),
     .y(io_out[15]),
@@ -157,10 +156,10 @@ module user_project_wrapper (user_clock2,
     \x2[2] ,
     \x2[1] ,
     \x2[0] }),
-    .select({io_in[14],
-    io_in[13],
+    .select({io_in[11],
     io_in[12],
-    io_in[11]}));
+    io_in[13],
+    io_in[14]}));
  mux16x1_project mprj3 (.vccd1(vccd1),
     .vssd1(vssd1),
     .y(io_out[15]),
@@ -180,10 +179,10 @@ module user_project_wrapper (user_clock2,
     \x3[2] ,
     \x3[1] ,
     \x3[0] }),
-    .select({io_in[14],
-    io_in[13],
+    .select({io_in[11],
     io_in[12],
-    io_in[11]}));
+    io_in[13],
+    io_in[14]}));
  mux16x1_project mprj4 (.vccd1(vccd1),
     .vssd1(vssd1),
     .y(io_out[15]),
@@ -203,10 +202,10 @@ module user_project_wrapper (user_clock2,
     \x4[2] ,
     \x4[1] ,
     \x4[0] }),
-    .select({io_in[14],
-    io_in[13],
+    .select({io_in[11],
     io_in[12],
-    io_in[11]}));
+    io_in[13],
+    io_in[14]}));
  mux16x1_project mprj5 (.vccd1(vccd1),
     .vssd1(vssd1),
     .y(io_out[15]),
@@ -226,10 +225,10 @@ module user_project_wrapper (user_clock2,
     \x5[2] ,
     \x5[1] ,
     \x5[0] }),
-    .select({io_in[14],
-    io_in[13],
+    .select({io_in[11],
     io_in[12],
-    io_in[11]}));
+    io_in[13],
+    io_in[14]}));
  sky130_osu_ring_oscillator_mpr2ca_8_b0r1 ro1 (.X1_Y1(\x1[0] ),
     .X2_Y1(\x2[0] ),
     .X3_Y1(\x3[0] ),
@@ -360,70 +359,81 @@ module user_project_wrapper (user_clock2,
     .start(io_in[10]),
     .vccd1(vccd1),
     .vssd1(vssd1));
- sky130_fd_sc_hd__conb_1 TIE_ZERO_zero_ (.VGND(vssd1),
-    .VNB(vssd1),
+ sky130_fd_sc_hd__conb_1 TIE_ZERO_zero_ (
     .VPB(vccd1),
     .VPWR(vccd1),
+    .VGND(vssd1),
+    .VNB(vssd1),
     .LO(zero_));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_ (.VGND(vssd1),
-    .VNB(vssd1),
+ sky130_fd_sc_hd__conb_1 sky130_fd_sc_hd__conb_1_0 (
     .VPB(vccd1),
     .VPWR(vccd1),
+    .VGND(vssd1),
+    .VNB(vssd1),
     .HI(one_));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_1 (.VGND(vssd1),
-    .VNB(vssd1),
+ sky130_fd_sc_hd__conb_1 sky130_fd_sc_hd__conb_1_1 (
     .VPB(vccd1),
     .VPWR(vccd1),
+    .VGND(vssd1),
+    .VNB(vssd1),
     .HI(one_1));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_2 (.VGND(vssd1),
-    .VNB(vssd1),
+ sky130_fd_sc_hd__conb_1 sky130_fd_sc_hd__conb_1_2 (
     .VPB(vccd1),
     .VPWR(vccd1),
+    .VGND(vssd1),
+    .VNB(vssd1),
     .HI(one_2));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_3 (.VGND(vssd1),
-    .VNB(vssd1),
+ sky130_fd_sc_hd__conb_1 sky130_fd_sc_hd__conb_1_3 (
     .VPB(vccd1),
     .VPWR(vccd1),
+    .VGND(vssd1),
+    .VNB(vssd1),
     .HI(one_3));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_4 (.VGND(vssd1),
-    .VNB(vssd1),
+ sky130_fd_sc_hd__conb_1 sky130_fd_sc_hd__conb_1_5 (
     .VPB(vccd1),
     .VPWR(vccd1),
+    .VGND(vssd1),
+    .VNB(vssd1),
     .HI(one_4));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_5 (.VGND(vssd1),
-    .VNB(vssd1),
+ sky130_fd_sc_hd__conb_1 sky130_fd_sc_hd__conb_1_6 (
     .VPB(vccd1),
     .VPWR(vccd1),
+    .VGND(vssd1),
+    .VNB(vssd1),
     .HI(one_5));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_6 (.VGND(vssd1),
-    .VNB(vssd1),
+ sky130_fd_sc_hd__conb_1 sky130_fd_sc_hd__conb_1_7 (
     .VPB(vccd1),
     .VPWR(vccd1),
+    .VGND(vssd1),
+    .VNB(vssd1),
     .HI(one_6));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_7 (.VGND(vssd1),
-    .VNB(vssd1),
+ sky130_fd_sc_hd__conb_1 sky130_fd_sc_hd__conb_1_8 (
     .VPB(vccd1),
     .VPWR(vccd1),
+    .VGND(vssd1),
+    .VNB(vssd1),
     .HI(one_7));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_8 (.VGND(vssd1),
-    .VNB(vssd1),
+ sky130_fd_sc_hd__conb_1 sky130_fd_sc_hd__conb_1_4 (
     .VPB(vccd1),
     .VPWR(vccd1),
+    .VGND(vssd1),
+    .VNB(vssd1),
     .HI(one_8));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_9 (.VGND(vssd1),
-    .VNB(vssd1),
+ sky130_fd_sc_hd__conb_1 sky130_fd_sc_hd__conb_1_4 (
     .VPB(vccd1),
     .VPWR(vccd1),
+    .VGND(vssd1),
+    .VNB(vssd1),
     .HI(one_9));
- assign io_oeb[14] = one_6;
+ assign io_oeb[14] = one_;
  assign io_oeb[13] = one_9;
  assign io_oeb[12] = one_8;
  assign io_oeb[11] = one_7;
- assign io_oeb[10] = one_5;
- assign io_oeb[9] = one_4;
- assign io_oeb[8] = one_3;
- assign io_oeb[7] = one_2;
- assign io_oeb[6] = one_;
+ assign io_oeb[10] = one_6;
+ assign io_oeb[9] = one_5;
+ assign io_oeb[8] = one_4;
+ assign io_oeb[7] = one_3;
+ assign io_oeb[6] = one_2;
  assign io_oeb[5] = one_1;
  assign io_oeb[15] = zero_;
 endmodule

@@ -83,59 +83,14 @@ module user_project_wrapper #(
 /*--------------------------------------*/
 
 // To account for OEB requirements:
-// assign io_oeb[5] = vccd1;
-// assign io_oeb[6] = vccd1;
-// assign io_oeb[7] = vccd1;
-// assign io_oeb[8] = vccd1;
-// assign io_oeb[9] = vccd1;
-// assign io_oeb[10] = vccd1;
-// assign io_oeb[11] = vccd1;
-// assign io_oeb[12] = vccd1;
-// assign io_oeb[13] = vccd1;
-// assign io_oeb[14] = vccd1;
-
-// assign io_oeb[15] = vssd1;
-
-assign io_oeb[5:14] = 10'b1111111111; 
+assign io_oeb[14:5] = 10'b1111111111; 
 assign io_oeb[15] = 1'b0; 
 
-wire [9:0] x1, x2, x3, x4, x5;
-
-// sky130_osu_ring_oscillator_mpr2aa_8_b0r1 ro1(
-// `ifdef USE_POWER_PINS
-//    .vccd1(vccd1),
-//    .vssd1(vssd1),
-// `endif
-//    .s1(io_in[0]),
-//    .s2(io_in[1]),
-//    .s3(io_in[2]),
-//    .s4(io_in[3]),
-//    .s5(io_in[4]),
-//    .start(io_in[5]),
-//    .X1_Y1(x1[0]),
-//    .X2_Y1(x2[0]),
-//    .X3_Y1(x3[0]),
-//    .X4_Y1(x4[0]),
-//    .X5_Y1(x5[0])
-// );
-
-// sky130_osu_ring_oscillator_mpr2at_8_b0r1 ro2(
-// `ifdef USE_POWER_PINS
-//     .vccd1(vccd1),
-//     .vssd1(vssd1),
-// `endif
-//     .s1(io_in[0]),
-//     .s2(io_in[1]),
-//     .s3(io_in[2]),
-//     .s4(io_in[3]),
-//     .s5(io_in[4]),
-//     .start(io_in[5]),
-//    .X1_Y1(x1[1]),
-//    .X2_Y1(x2[1]),
-//    .X3_Y1(x3[1]),
-//    .X4_Y1(x4[1]),
-//    .X5_Y1(x5[1])
-// );
+wire [9:0] x1;
+wire [9:0] x2; 
+wire [9:0] x3; 
+wire [9:0] x4; 
+wire [9:0] x5; 
 
 sky130_osu_ring_oscillator_mpr2ca_8_b0r1 ro1(
 `ifdef USE_POWER_PINS
@@ -227,60 +182,6 @@ sky130_osu_ring_oscillator_mpr2xa_8_b0r1 ro5(
     .X5_Y1(x5[4])
 );
 
-// sky130_osu_ring_oscillator_mpr2ya_8_b0r1 ro8(
-// `ifdef USE_POWER_PINS
-//     .vccd1(vccd1),
-//     .vssd1(vssd1),
-// `endif
-//     .s1(io_in[0]),
-//     .s2(io_in[1]),
-//     .s3(io_in[2]),
-//     .s4(io_in[3]),
-//     .s5(io_in[4]),
-//     .start(io_in[5]),
-//     .X1_Y1(x1[7]),
-//     .X2_Y1(x2[7]),
-//     .X3_Y1(x3[7]),
-//     .X4_Y1(x4[7]),
-//     .X5_Y1(x5[7])
-// );
-
-// sky130_osu_ring_oscillator_mpr2aa_8_b0r2 ro9(
-// `ifdef USE_POWER_PINS
-//     .vccd1(vccd1),
-//     .vssd1(vssd1),
-// `endif
-//     .s1(io_in[0]),
-//     .s2(io_in[1]),
-//     .s3(io_in[2]),
-//     .s4(io_in[3]),
-//     .s5(io_in[4]),
-//     .start(io_in[5]),
-//     .X1_Y1(x1[8]),
-//     .X2_Y1(x2[8]),
-//     .X3_Y1(x3[8]),
-//     .X4_Y1(x4[8]),
-//     .X5_Y1(x5[8])
-// );
-
-// sky130_osu_ring_oscillator_mpr2at_8_b0r2 ro10(
-// `ifdef USE_POWER_PINS
-//     .vccd1(vccd1),
-//     .vssd1(vssd1),
-// `endif
-//     .s1(io_in[0]),
-//     .s2(io_in[1]),
-//     .s3(io_in[2]),
-//     .s4(io_in[3]),
-//     .s5(io_in[4]),
-//     .start(io_in[5]),
-//     .X1_Y1(x1[9]),
-//     .X2_Y1(x2[9]),
-//     .X3_Y1(x3[9]),
-//     .X4_Y1(x4[9]),
-//     .X5_Y1(x5[9])
-// );
-
 sky130_osu_ring_oscillator_mpr2ca_8_b0r2 ro6(
 `ifdef USE_POWER_PINS
     .vccd1(vccd1),
@@ -371,31 +272,13 @@ sky130_osu_ring_oscillator_mpr2xa_8_b0r2 ro10(
     .X5_Y1(x5[9])
 );
 
-// sky130_osu_ring_oscillator_mpr2ya_8_b0r2 ro16(
-// `ifdef USE_POWER_PINS
-//     .vccd1(vccd1),
-//     .vssd1(vssd1),
-// `endif
-//     .s1(io_in[0]),
-//     .s2(io_in[1]),
-//     .s3(io_in[2]),
-//     .s4(io_in[3]),
-//     .s5(io_in[4]),
-//     .start(io_in[5]),
-//     .X1_Y1(x1[15]),
-//     .X2_Y1(x2[15]),
-//     .X3_Y1(x3[15]),
-//     .X4_Y1(x4[15]),
-//     .X5_Y1(x5[15])
-// );
-
 mux16x1_project mprj1 (
 `ifdef USE_POWER_PINS
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
     .data_in(x1[15:0]),
-    .select(io_in[11:14]),
+    .select(io_in[14:11]),
     .y(io_out[15])
 );
 
@@ -405,7 +288,7 @@ mux16x1_project mprj2 (
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
     .data_in(x2[15:0]),
-    .select(io_in[11:14]),
+    .select(io_in[14:11]),
     .y(io_out[15])
 );
 
@@ -415,7 +298,7 @@ mux16x1_project mprj3 (
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
     .data_in(x3[15:0]),
-    .select(io_in[11:14]),
+    .select(io_in[14:11]),
     .y(io_out[15])
 );
 
@@ -425,7 +308,7 @@ mux16x1_project mprj4 (
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
     .data_in(x4[15:0]),
-    .select(io_in[11:14]),
+    .select(io_in[14:11]),
     .y(io_out[15])
 );
 
@@ -435,7 +318,7 @@ mux16x1_project mprj5 (
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
     .data_in(x5[15:0]),
-    .select(io_in[11:14]),
+    .select(io_in[14:11]),
     .y(io_out[15])
 );
 

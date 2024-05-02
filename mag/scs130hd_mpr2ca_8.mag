@@ -1358,13 +1358,13 @@ rlabel metal3 s 610 816 676 882 4 A0
 port 22 nsew
 rlabel metal3 s 546 136 612 202 4 R2
 port 18 nsew
-rlabel viali 138 1086 138 1086 1 VNB
+rlabel pwell 138 1086 138 1086 1 VNB
 port 25 n
 rlabel metal1 182 1086 182 1086 1 vgnd
 port 23 n
 rlabel metal1 138 2 138 2 1 vgnd
 port 23 n
-rlabel viali 76 -2 76 -2 1 VNB
+rlabel pwell 76 -2 76 -2 1 VNB
 port 25 n
 rlabel nwell 76 542 76 542 1 VPB
 port 26 n

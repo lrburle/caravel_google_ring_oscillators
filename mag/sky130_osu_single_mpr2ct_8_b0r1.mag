@@ -353,7 +353,7 @@ rlabel metal1 -2106 26 -2106 26 1 vssd1
 port 5 n
 rlabel metal1 -2097 1088 -2097 1088 1 vccd1
 port 6 n
-rlabel via1 -1612 1537 -1612 1537 1 in
+rlabel metal2 -1612 1537 -1612 1537 1 in
 port 11 n
 rlabel metal1 -2100 1944 -2100 1944 1 vssd1
 port 5 n
