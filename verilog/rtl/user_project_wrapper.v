@@ -84,13 +84,19 @@ module user_project_wrapper #(
 
 // To account for OEB requirements:
 assign io_oeb[14:5] = 10'b1111111111; 
-assign io_oeb[15] = 1'b0; 
+assign io_oeb[19:15] = 5'b00000; 
 
-wire [9:0] x1;
-wire [9:0] x2; 
-wire [9:0] x3; 
-wire [9:0] x4; 
-wire [9:0] x5; 
+// wire [9:0] x1;
+// wire [9:0] x2; 
+// wire [9:0] x3; 
+// wire [9:0] x4; 
+// wire [9:0] x5; 
+
+wire x1_9,x1_8,x1_7,x1_6,x1_5,x1_4,x1_3,x1_2,x1_1,x1_0;
+wire x2_9,x2_8,x2_7,x2_6,x2_5,x2_4,x2_3,x2_2,x2_1,x2_0;
+wire x3_9,x3_8,x3_7,x3_6,x3_5,x3_4,x3_3,x3_2,x3_1,x3_0;
+wire x4_9,x4_8,x4_7,x4_6,x4_5,x4_4,x4_3,x4_2,x4_1,x4_0;
+wire x5_9,x5_8,x5_7,x5_6,x5_5,x5_4,x5_3,x5_2,x5_1,x5_0;
 
 sky130_osu_ring_oscillator_mpr2ca_8_b0r1 ro1(
 `ifdef USE_POWER_PINS
@@ -103,11 +109,11 @@ sky130_osu_ring_oscillator_mpr2ca_8_b0r1 ro1(
     .s4(io_in[8]),
     .s5(io_in[9]),
     .start(io_in[10]),
-   .X1_Y1(x1[0]),
-   .X2_Y1(x2[0]),
-   .X3_Y1(x3[0]),
-   .X4_Y1(x4[0]),
-   .X5_Y1(x5[0])
+   .X1_Y1(x1_0),
+   .X2_Y1(x2_0),
+   .X3_Y1(x3_0),
+   .X4_Y1(x4_0),
+   .X5_Y1(x5_0)
 );
 
 sky130_osu_ring_oscillator_mpr2ct_8_b0r1 ro2(
@@ -121,11 +127,11 @@ sky130_osu_ring_oscillator_mpr2ct_8_b0r1 ro2(
     .s4(io_in[8]),
     .s5(io_in[9]),
     .start(io_in[10]),
-    .X1_Y1(x1[1]),
-    .X2_Y1(x2[1]),
-    .X3_Y1(x3[1]),
-    .X4_Y1(x4[1]),
-    .X5_Y1(x5[1])
+    .X1_Y1(x1_1),
+    .X2_Y1(x2_1),
+    .X3_Y1(x3_1),
+    .X4_Y1(x4_1),
+    .X5_Y1(x5_1)
 );
 
 sky130_osu_ring_oscillator_mpr2ea_8_b0r1 ro3(
@@ -139,11 +145,11 @@ sky130_osu_ring_oscillator_mpr2ea_8_b0r1 ro3(
     .s4(io_in[8]),
     .s5(io_in[9]),
     .start(io_in[10]),
-    .X1_Y1(x1[2]),
-    .X2_Y1(x2[2]),
-    .X3_Y1(x3[2]),
-    .X4_Y1(x4[2]),
-    .X5_Y1(x5[2])
+    .X1_Y1(x1_2),
+    .X2_Y1(x2_2),
+    .X3_Y1(x3_2),
+    .X4_Y1(x4_2),
+    .X5_Y1(x5_2)
 );
 
 sky130_osu_ring_oscillator_mpr2et_8_b0r1 ro4(
@@ -157,11 +163,11 @@ sky130_osu_ring_oscillator_mpr2et_8_b0r1 ro4(
     .s4(io_in[8]),
     .s5(io_in[9]),
     .start(io_in[10]),
-    .X1_Y1(x1[3]),
-    .X2_Y1(x2[3]),
-    .X3_Y1(x3[3]),
-    .X4_Y1(x4[3]),
-    .X5_Y1(x5[3])
+    .X1_Y1(x1_3),
+    .X2_Y1(x2_3),
+    .X3_Y1(x3_3),
+    .X4_Y1(x4_3),
+    .X5_Y1(x5_3)
 );
 
 sky130_osu_ring_oscillator_mpr2xa_8_b0r1 ro5(
@@ -175,11 +181,11 @@ sky130_osu_ring_oscillator_mpr2xa_8_b0r1 ro5(
     .s4(io_in[8]),
     .s5(io_in[9]),
     .start(io_in[10]),
-    .X1_Y1(x1[4]),
-    .X2_Y1(x2[4]),
-    .X3_Y1(x3[4]),
-    .X4_Y1(x4[4]),
-    .X5_Y1(x5[4])
+    .X1_Y1(x1_4),
+    .X2_Y1(x2_4),
+    .X3_Y1(x3_4),
+    .X4_Y1(x4_4),
+    .X5_Y1(x5_4)
 );
 
 sky130_osu_ring_oscillator_mpr2ca_8_b0r2 ro6(
@@ -193,11 +199,11 @@ sky130_osu_ring_oscillator_mpr2ca_8_b0r2 ro6(
     .s4(io_in[8]),
     .s5(io_in[9]),
     .start(io_in[10]),
-    .X1_Y1(x1[5]),
-    .X2_Y1(x2[5]),
-    .X3_Y1(x3[5]),
-    .X4_Y1(x4[5]),
-    .X5_Y1(x5[5])
+    .X1_Y1(x1_5),
+    .X2_Y1(x2_5),
+    .X3_Y1(x3_5),
+    .X4_Y1(x4_5),
+    .X5_Y1(x5_5)
 );
 
 sky130_osu_ring_oscillator_mpr2ct_8_b0r2 ro7(
@@ -211,11 +217,11 @@ sky130_osu_ring_oscillator_mpr2ct_8_b0r2 ro7(
     .s4(io_in[8]),
     .s5(io_in[9]),
     .start(io_in[10]),
-    .X1_Y1(x1[6]),
-    .X2_Y1(x2[6]),
-    .X3_Y1(x3[6]),
-    .X4_Y1(x4[6]),
-    .X5_Y1(x5[6])
+    .X1_Y1(x1_6),
+    .X2_Y1(x2_6),
+    .X3_Y1(x3_6),
+    .X4_Y1(x4_6),
+    .X5_Y1(x5_6)
 );
 
 sky130_osu_ring_oscillator_mpr2ea_8_b0r2 ro8(
@@ -229,11 +235,11 @@ sky130_osu_ring_oscillator_mpr2ea_8_b0r2 ro8(
     .s4(io_in[8]),
     .s5(io_in[9]),
     .start(io_in[10]),
-    .X1_Y1(x1[7]),
-    .X2_Y1(x2[7]),
-    .X3_Y1(x3[7]),
-    .X4_Y1(x4[7]),
-    .X5_Y1(x5[7])
+    .X1_Y1(x1_7),
+    .X2_Y1(x2_7),
+    .X3_Y1(x3_7),
+    .X4_Y1(x4_7),
+    .X5_Y1(x5_7)
 );
 
 sky130_osu_ring_oscillator_mpr2et_8_b0r2 ro9(
@@ -247,11 +253,11 @@ sky130_osu_ring_oscillator_mpr2et_8_b0r2 ro9(
     .s4(io_in[8]),
     .s5(io_in[9]),
     .start(io_in[10]),
-    .X1_Y1(x1[8]),
-    .X2_Y1(x2[8]),
-    .X3_Y1(x3[8]),
-    .X4_Y1(x4[8]),
-    .X5_Y1(x5[8])
+    .X1_Y1(x1_8),
+    .X2_Y1(x2_8),
+    .X3_Y1(x3_8),
+    .X4_Y1(x4_8),
+    .X5_Y1(x5_8)
 );
 
 sky130_osu_ring_oscillator_mpr2xa_8_b0r2 ro10(
@@ -265,11 +271,11 @@ sky130_osu_ring_oscillator_mpr2xa_8_b0r2 ro10(
     .s4(io_in[8]),
     .s5(io_in[9]),
     .start(io_in[10]),
-    .X1_Y1(x1[9]),
-    .X2_Y1(x2[9]),
-    .X3_Y1(x3[9]),
-    .X4_Y1(x4[9]),
-    .X5_Y1(x5[9])
+    .X1_Y1(x1_9),
+    .X2_Y1(x2_9),
+    .X3_Y1(x3_9),
+    .X4_Y1(x4_9),
+    .X5_Y1(x5_9)
 );
 
 mux16x1_project mprj1 (
@@ -277,7 +283,7 @@ mux16x1_project mprj1 (
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
-    .data_in(x1[15:0]),
+    .data_in({6'b000000,x1_9_,x1_8_,x1_7_,x1_6_,x1_5_,x1_4_,x1_3_,x1_2_,x1_1_,x1_0_}),
     .select(io_in[14:11]),
     .y(io_out[15])
 );
@@ -287,9 +293,9 @@ mux16x1_project mprj2 (
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
-    .data_in(x2[15:0]),
+    .data_in({6'b000000,x2_9_,x2_8_,x2_7_,x2_6_,x2_5_,x2_4_,x2_3_,x2_2_,x2_1_,x2_0_}),
     .select(io_in[14:11]),
-    .y(io_out[15])
+    .y(io_out[16])
 );
 
 mux16x1_project mprj3 (
@@ -297,9 +303,9 @@ mux16x1_project mprj3 (
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
-    .data_in(x3[15:0]),
+    .data_in({6'b000000,x3_9_,x3_8_,x3_7_,x3_6_,x3_5_,x3_4_,x3_3_,x3_2_,x3_1_,x3_0_}),
     .select(io_in[14:11]),
-    .y(io_out[15])
+    .y(io_out[17])
 );
 
 mux16x1_project mprj4 (
@@ -307,9 +313,9 @@ mux16x1_project mprj4 (
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
-    .data_in(x4[15:0]),
+    .data_in({6'b000000,x4_9_,x4_8_,x4_7_,x4_6_,x4_5_,x4_4_,x4_3_,x4_2_,x4_1_,x4_0_}),
     .select(io_in[14:11]),
-    .y(io_out[15])
+    .y(io_out[18])
 );
 
 mux16x1_project mprj5 (
@@ -317,9 +323,9 @@ mux16x1_project mprj5 (
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
-    .data_in(x5[15:0]),
+    .data_in({6'b000000,x5_9_,x5_8_,x5_7_,x5_6_,x5_5_,x5_4_,x5_3_,x5_2_,x5_1_,x5_0_}),
     .select(io_in[14:11]),
-    .y(io_out[15])
+    .y(io_out[19])
 );
 
 endmodule	// user_project_wrapper

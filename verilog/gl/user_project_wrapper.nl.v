@@ -39,56 +39,106 @@ module user_project_wrapper (user_clock2,
  input [3:0] wbs_sel_i;
 
  wire one_;
- wire \x1[0] ;
- wire \x1[1] ;
- wire \x1[2] ;
- wire \x1[3] ;
- wire \x1[4] ;
- wire \x1[5] ;
- wire \x1[6] ;
- wire \x1[7] ;
- wire \x1[8] ;
- wire \x1[9] ;
- wire \x2[0] ;
- wire \x2[1] ;
- wire \x2[2] ;
- wire \x2[3] ;
- wire \x2[4] ;
- wire \x2[5] ;
- wire \x2[6] ;
- wire \x2[7] ;
- wire \x2[8] ;
- wire \x2[9] ;
- wire \x3[0] ;
- wire \x3[1] ;
- wire \x3[2] ;
- wire \x3[3] ;
- wire \x3[4] ;
- wire \x3[5] ;
- wire \x3[6] ;
- wire \x3[7] ;
- wire \x3[8] ;
- wire \x3[9] ;
- wire \x4[0] ;
- wire \x4[1] ;
- wire \x4[2] ;
- wire \x4[3] ;
- wire \x4[4] ;
- wire \x4[5] ;
- wire \x4[6] ;
- wire \x4[7] ;
- wire \x4[8] ;
- wire \x4[9] ;
- wire \x5[0] ;
- wire \x5[1] ;
- wire \x5[2] ;
- wire \x5[3] ;
- wire \x5[4] ;
- wire \x5[5] ;
- wire \x5[6] ;
- wire \x5[7] ;
- wire \x5[8] ;
- wire \x5[9] ;
+ wire x1_0;
+ wire x1_0_;
+ wire x1_1;
+ wire x1_1_;
+ wire x1_2;
+ wire x1_2_;
+ wire x1_3;
+ wire x1_3_;
+ wire x1_4;
+ wire x1_4_;
+ wire x1_5;
+ wire x1_5_;
+ wire x1_6;
+ wire x1_6_;
+ wire x1_7;
+ wire x1_7_;
+ wire x1_8;
+ wire x1_8_;
+ wire x1_9;
+ wire x1_9_;
+ wire x2_0;
+ wire x2_0_;
+ wire x2_1;
+ wire x2_1_;
+ wire x2_2;
+ wire x2_2_;
+ wire x2_3;
+ wire x2_3_;
+ wire x2_4;
+ wire x2_4_;
+ wire x2_5;
+ wire x2_5_;
+ wire x2_6;
+ wire x2_6_;
+ wire x2_7;
+ wire x2_7_;
+ wire x2_8;
+ wire x2_8_;
+ wire x2_9;
+ wire x2_9_;
+ wire x3_0;
+ wire x3_0_;
+ wire x3_1;
+ wire x3_1_;
+ wire x3_2;
+ wire x3_2_;
+ wire x3_3;
+ wire x3_3_;
+ wire x3_4;
+ wire x3_4_;
+ wire x3_5;
+ wire x3_5_;
+ wire x3_6;
+ wire x3_6_;
+ wire x3_7;
+ wire x3_7_;
+ wire x3_8;
+ wire x3_8_;
+ wire x3_9;
+ wire x3_9_;
+ wire x4_0;
+ wire x4_0_;
+ wire x4_1;
+ wire x4_1_;
+ wire x4_2;
+ wire x4_2_;
+ wire x4_3;
+ wire x4_3_;
+ wire x4_4;
+ wire x4_4_;
+ wire x4_5;
+ wire x4_5_;
+ wire x4_6;
+ wire x4_6_;
+ wire x4_7;
+ wire x4_7_;
+ wire x4_8;
+ wire x4_8_;
+ wire x4_9;
+ wire x4_9_;
+ wire x5_0;
+ wire x5_0_;
+ wire x5_1;
+ wire x5_1_;
+ wire x5_2;
+ wire x5_2_;
+ wire x5_3;
+ wire x5_3_;
+ wire x5_4;
+ wire x5_4_;
+ wire x5_5;
+ wire x5_5_;
+ wire x5_6;
+ wire x5_6_;
+ wire x5_7;
+ wire x5_7_;
+ wire x5_8;
+ wire x5_8_;
+ wire x5_9;
+ wire x5_9_;
  wire zero_;
 
  mux16x1_project mprj1 (.y(io_out[15]),
@@ -98,208 +148,208 @@ module user_project_wrapper (user_clock2,
     zero_,
     zero_,
     zero_,
-    \x1[9] ,
-    \x1[8] ,
-    \x1[7] ,
-    \x1[6] ,
-    \x1[5] ,
-    \x1[4] ,
-    \x1[3] ,
-    \x1[2] ,
-    \x1[1] ,
-    \x1[0] }),
+    x1_9_,
+    x1_8_,
+    x1_7_,
+    x1_6_,
+    x1_5_,
+    x1_4_,
+    x1_3_,
+    x1_2_,
+    x1_1_,
+    x1_0_}),
     .select({io_in[14],
     io_in[13],
     io_in[12],
     io_in[11]}));
- mux16x1_project mprj2 (.y(io_out[15]),
+ mux16x1_project mprj2 (.y(io_out[16]),
     .data_in({zero_,
     zero_,
     zero_,
     zero_,
     zero_,
     zero_,
-    \x2[9] ,
-    \x2[8] ,
-    \x2[7] ,
-    \x2[6] ,
-    \x2[5] ,
-    \x2[4] ,
-    \x2[3] ,
-    \x2[2] ,
-    \x2[1] ,
-    \x2[0] }),
+    x2_9_,
+    x2_8_,
+    x2_7_,
+    x2_6_,
+    x2_5_,
+    x2_4_,
+    x2_3_,
+    x2_2_,
+    x2_1_,
+    x2_0_}),
     .select({io_in[14],
     io_in[13],
     io_in[12],
     io_in[11]}));
- mux16x1_project mprj3 (.y(io_out[15]),
+ mux16x1_project mprj3 (.y(io_out[17]),
     .data_in({zero_,
     zero_,
     zero_,
     zero_,
     zero_,
     zero_,
-    \x3[9] ,
-    \x3[8] ,
-    \x3[7] ,
-    \x3[6] ,
-    \x3[5] ,
-    \x3[4] ,
-    \x3[3] ,
-    \x3[2] ,
-    \x3[1] ,
-    \x3[0] }),
+    x3_9_,
+    x3_8_,
+    x3_7_,
+    x3_6_,
+    x3_5_,
+    x3_4_,
+    x3_3_,
+    x3_2_,
+    x3_1_,
+    x3_0_}),
     .select({io_in[14],
     io_in[13],
     io_in[12],
     io_in[11]}));
- mux16x1_project mprj4 (.y(io_out[15]),
+ mux16x1_project mprj4 (.y(io_out[18]),
     .data_in({zero_,
     zero_,
     zero_,
     zero_,
     zero_,
     zero_,
-    \x4[9] ,
-    \x4[8] ,
-    \x4[7] ,
-    \x4[6] ,
-    \x4[5] ,
-    \x4[4] ,
-    \x4[3] ,
-    \x4[2] ,
-    \x4[1] ,
-    \x4[0] }),
+    x4_9_,
+    x4_8_,
+    x4_7_,
+    x4_6_,
+    x4_5_,
+    x4_4_,
+    x4_3_,
+    x4_2_,
+    x4_1_,
+    x4_0_}),
     .select({io_in[14],
     io_in[13],
     io_in[12],
     io_in[11]}));
- mux16x1_project mprj5 (.y(io_out[15]),
+ mux16x1_project mprj5 (.y(io_out[19]),
     .data_in({zero_,
     zero_,
     zero_,
     zero_,
     zero_,
     zero_,
-    \x5[9] ,
-    \x5[8] ,
-    \x5[7] ,
-    \x5[6] ,
-    \x5[5] ,
-    \x5[4] ,
-    \x5[3] ,
-    \x5[2] ,
-    \x5[1] ,
-    \x5[0] }),
+    x5_9_,
+    x5_8_,
+    x5_7_,
+    x5_6_,
+    x5_5_,
+    x5_4_,
+    x5_3_,
+    x5_2_,
+    x5_1_,
+    x5_0_}),
     .select({io_in[14],
     io_in[13],
     io_in[12],
     io_in[11]}));
- sky130_osu_ring_oscillator_mpr2ca_8_b0r1 ro1 (.X1_Y1(\x1[0] ),
-    .X2_Y1(\x2[0] ),
-    .X3_Y1(\x3[0] ),
-    .X4_Y1(\x4[0] ),
-    .X5_Y1(\x5[0] ),
+ sky130_osu_ring_oscillator_mpr2ca_8_b0r1 ro1 (.X1_Y1(x1_0),
+    .X2_Y1(x2_0),
+    .X3_Y1(x3_0),
+    .X4_Y1(x4_0),
+    .X5_Y1(x5_0),
     .start(io_in[10]),
     .s1(io_in[5]),
     .s2(io_in[6]),
     .s3(io_in[7]),
     .s4(io_in[8]),
     .s5(io_in[9]));
- sky130_osu_ring_oscillator_mpr2xa_8_b0r2 ro10 (.X1_Y1(\x1[9] ),
-    .X2_Y1(\x2[9] ),
-    .X3_Y1(\x3[9] ),
-    .X4_Y1(\x4[9] ),
-    .X5_Y1(\x5[9] ),
+ sky130_osu_ring_oscillator_mpr2xa_8_b0r2 ro10 (.X1_Y1(x1_9),
+    .X2_Y1(x2_9),
+    .X3_Y1(x3_9),
+    .X4_Y1(x4_9),
+    .X5_Y1(x5_9),
     .start(io_in[10]),
     .s1(io_in[5]),
     .s2(io_in[6]),
     .s3(io_in[7]),
     .s4(io_in[8]),
     .s5(io_in[9]));
- sky130_osu_ring_oscillator_mpr2ct_8_b0r1 ro2 (.X1_Y1(\x1[1] ),
-    .X2_Y1(\x2[1] ),
-    .X3_Y1(\x3[1] ),
-    .X4_Y1(\x4[1] ),
-    .X5_Y1(\x5[1] ),
+ sky130_osu_ring_oscillator_mpr2ct_8_b0r1 ro2 (.X1_Y1(x1_1),
+    .X2_Y1(x2_1),
+    .X3_Y1(x3_1),
+    .X4_Y1(x4_1),
+    .X5_Y1(x5_1),
     .start(io_in[10]),
     .s1(io_in[5]),
     .s2(io_in[6]),
     .s3(io_in[7]),
     .s4(io_in[8]),
     .s5(io_in[9]));
- sky130_osu_ring_oscillator_mpr2ea_8_b0r1 ro3 (.X1_Y1(\x1[2] ),
-    .X2_Y1(\x2[2] ),
-    .X3_Y1(\x3[2] ),
-    .X4_Y1(\x4[2] ),
-    .X5_Y1(\x5[2] ),
+ sky130_osu_ring_oscillator_mpr2ea_8_b0r1 ro3 (.X1_Y1(x1_2),
+    .X2_Y1(x2_2),
+    .X3_Y1(x3_2),
+    .X4_Y1(x4_2),
+    .X5_Y1(x5_2),
     .s1(io_in[5]),
     .s3(io_in[7]),
     .s4(io_in[8]),
     .s5(io_in[9]),
     .start(io_in[10]),
     .s2(io_in[6]));
- sky130_osu_ring_oscillator_mpr2et_8_b0r1 ro4 (.X1_Y1(\x1[3] ),
-    .X2_Y1(\x2[3] ),
-    .X3_Y1(\x3[3] ),
-    .X4_Y1(\x4[3] ),
-    .X5_Y1(\x5[3] ),
+ sky130_osu_ring_oscillator_mpr2et_8_b0r1 ro4 (.X1_Y1(x1_3),
+    .X2_Y1(x2_3),
+    .X3_Y1(x3_3),
+    .X4_Y1(x4_3),
+    .X5_Y1(x5_3),
     .start(io_in[10]),
     .s1(io_in[5]),
     .s2(io_in[6]),
     .s3(io_in[7]),
     .s4(io_in[8]),
     .s5(io_in[9]));
- sky130_osu_ring_oscillator_mpr2xa_8_b0r1 ro5 (.X1_Y1(\x1[4] ),
-    .X2_Y1(\x2[4] ),
-    .X3_Y1(\x3[4] ),
-    .X4_Y1(\x4[4] ),
-    .X5_Y1(\x5[4] ),
+ sky130_osu_ring_oscillator_mpr2xa_8_b0r1 ro5 (.X1_Y1(x1_4),
+    .X2_Y1(x2_4),
+    .X3_Y1(x3_4),
+    .X4_Y1(x4_4),
+    .X5_Y1(x5_4),
     .s1(io_in[5]),
     .s2(io_in[6]),
     .s3(io_in[7]),
     .s4(io_in[8]),
     .s5(io_in[9]),
     .start(io_in[10]));
- sky130_osu_ring_oscillator_mpr2ca_8_b0r2 ro6 (.X1_Y1(\x1[5] ),
-    .X2_Y1(\x2[5] ),
-    .X3_Y1(\x3[5] ),
-    .X4_Y1(\x4[5] ),
-    .X5_Y1(\x5[5] ),
+ sky130_osu_ring_oscillator_mpr2ca_8_b0r2 ro6 (.X1_Y1(x1_5),
+    .X2_Y1(x2_5),
+    .X3_Y1(x3_5),
+    .X4_Y1(x4_5),
+    .X5_Y1(x5_5),
     .start(io_in[10]),
     .s1(io_in[5]),
     .s2(io_in[6]),
     .s3(io_in[7]),
     .s4(io_in[8]),
     .s5(io_in[9]));
- sky130_osu_ring_oscillator_mpr2ct_8_b0r2 ro7 (.X1_Y1(\x1[6] ),
-    .X2_Y1(\x2[6] ),
-    .X3_Y1(\x3[6] ),
-    .X4_Y1(\x4[6] ),
-    .X5_Y1(\x5[6] ),
+ sky130_osu_ring_oscillator_mpr2ct_8_b0r2 ro7 (.X1_Y1(x1_6),
+    .X2_Y1(x2_6),
+    .X3_Y1(x3_6),
+    .X4_Y1(x4_6),
+    .X5_Y1(x5_6),
     .start(io_in[10]),
     .s1(io_in[5]),
     .s2(io_in[6]),
     .s3(io_in[7]),
     .s4(io_in[8]),
     .s5(io_in[9]));
- sky130_osu_ring_oscillator_mpr2ea_8_b0r2 ro8 (.X1_Y1(\x1[7] ),
-    .X2_Y1(\x2[7] ),
-    .X3_Y1(\x3[7] ),
-    .X4_Y1(\x4[7] ),
-    .X5_Y1(\x5[7] ),
+ sky130_osu_ring_oscillator_mpr2ea_8_b0r2 ro8 (.X1_Y1(x1_7),
+    .X2_Y1(x2_7),
+    .X3_Y1(x3_7),
+    .X4_Y1(x4_7),
+    .X5_Y1(x5_7),
     .start(io_in[10]),
     .s1(io_in[5]),
     .s2(io_in[6]),
     .s3(io_in[7]),
     .s4(io_in[8]),
     .s5(io_in[9]));
- sky130_osu_ring_oscillator_mpr2et_8_b0r2 ro9 (.X1_Y1(\x1[8] ),
-    .X2_Y1(\x2[8] ),
-    .X3_Y1(\x3[8] ),
-    .X4_Y1(\x4[8] ),
-    .X5_Y1(\x5[8] ),
+ sky130_osu_ring_oscillator_mpr2et_8_b0r2 ro9 (.X1_Y1(x1_8),
+    .X2_Y1(x2_8),
+    .X3_Y1(x3_8),
+    .X4_Y1(x4_8),
+    .X5_Y1(x5_8),
     .s1(io_in[5]),
     .s2(io_in[6]),
     .s3(io_in[7]),
@@ -319,5 +369,9 @@ module user_project_wrapper (user_clock2,
  assign io_oeb[8] = one_;
  assign io_oeb[9] = one_;
  assign io_oeb[15] = zero_;
+ assign io_oeb[16] = zero_;
+ assign io_oeb[17] = zero_;
+ assign io_oeb[18] = zero_;
+ assign io_oeb[19] = zero_;
 endmodule
 

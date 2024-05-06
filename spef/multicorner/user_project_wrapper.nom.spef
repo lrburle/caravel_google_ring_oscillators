@@ -84,631 +84,677 @@
 *68 io_oeb[0]
 *69 one_
 *70 zero_
-*71 io_oeb[16]
-*72 io_oeb[17]
-*73 io_oeb[18]
-*74 io_oeb[19]
-*75 io_oeb[1]
-*76 io_oeb[20]
-*77 io_oeb[21]
-*78 io_oeb[22]
-*79 io_oeb[23]
-*80 io_oeb[24]
-*81 io_oeb[25]
-*82 io_oeb[26]
-*83 io_oeb[27]
-*84 io_oeb[28]
-*85 io_oeb[29]
-*86 io_oeb[2]
-*87 io_oeb[30]
-*88 io_oeb[31]
-*89 io_oeb[32]
-*90 io_oeb[33]
-*91 io_oeb[34]
-*92 io_oeb[35]
-*93 io_oeb[36]
-*94 io_oeb[37]
-*95 io_oeb[3]
-*96 io_oeb[4]
-*97 io_out[0]
-*98 io_out[10]
-*99 io_out[11]
-*100 io_out[12]
-*101 io_out[13]
-*102 io_out[14]
-*103 io_out[15]
-*104 io_out[16]
-*105 io_out[17]
-*106 io_out[18]
-*107 io_out[19]
-*108 io_out[1]
-*109 io_out[20]
-*110 io_out[21]
-*111 io_out[22]
-*112 io_out[23]
-*113 io_out[24]
-*114 io_out[25]
-*115 io_out[26]
-*116 io_out[27]
-*117 io_out[28]
-*118 io_out[29]
-*119 io_out[2]
-*120 io_out[30]
-*121 io_out[31]
-*122 io_out[32]
-*123 io_out[33]
-*124 io_out[34]
-*125 io_out[35]
-*126 io_out[36]
-*127 io_out[37]
-*128 io_out[3]
-*129 io_out[4]
-*130 io_out[5]
-*131 io_out[6]
-*132 io_out[7]
-*133 io_out[8]
-*134 io_out[9]
-*135 la_data_in[0]
-*136 la_data_in[100]
-*137 la_data_in[101]
-*138 la_data_in[102]
-*139 la_data_in[103]
-*140 la_data_in[104]
-*141 la_data_in[105]
-*142 la_data_in[106]
-*143 la_data_in[107]
-*144 la_data_in[108]
-*145 la_data_in[109]
-*146 la_data_in[10]
-*147 la_data_in[110]
-*148 la_data_in[111]
-*149 la_data_in[112]
-*150 la_data_in[113]
-*151 la_data_in[114]
-*152 la_data_in[115]
-*153 la_data_in[116]
-*154 la_data_in[117]
-*155 la_data_in[118]
-*156 la_data_in[119]
-*157 la_data_in[11]
-*158 la_data_in[120]
-*159 la_data_in[121]
-*160 la_data_in[122]
-*161 la_data_in[123]
-*162 la_data_in[124]
-*163 la_data_in[125]
-*164 la_data_in[126]
-*165 la_data_in[127]
-*166 la_data_in[12]
-*167 la_data_in[13]
-*168 la_data_in[14]
-*169 la_data_in[15]
-*170 la_data_in[16]
-*171 la_data_in[17]
-*172 la_data_in[18]
-*173 la_data_in[19]
-*174 la_data_in[1]
-*175 la_data_in[20]
-*176 la_data_in[21]
-*177 la_data_in[22]
-*178 la_data_in[23]
-*179 la_data_in[24]
-*180 la_data_in[25]
-*181 la_data_in[26]
-*182 la_data_in[27]
-*183 la_data_in[28]
-*184 la_data_in[29]
-*185 la_data_in[2]
-*186 la_data_in[30]
-*187 la_data_in[31]
-*188 la_data_in[32]
-*189 la_data_in[33]
-*190 la_data_in[34]
-*191 la_data_in[35]
-*192 la_data_in[36]
-*193 la_data_in[37]
-*194 la_data_in[38]
-*195 la_data_in[39]
-*196 la_data_in[3]
-*197 la_data_in[40]
-*198 la_data_in[41]
-*199 la_data_in[42]
-*200 la_data_in[43]
-*201 la_data_in[44]
-*202 la_data_in[45]
-*203 la_data_in[46]
-*204 la_data_in[47]
-*205 la_data_in[48]
-*206 la_data_in[49]
-*207 la_data_in[4]
-*208 la_data_in[50]
-*209 la_data_in[51]
-*210 la_data_in[52]
-*211 la_data_in[53]
-*212 la_data_in[54]
-*213 la_data_in[55]
-*214 la_data_in[56]
-*215 la_data_in[57]
-*216 la_data_in[58]
-*217 la_data_in[59]
-*218 la_data_in[5]
-*219 la_data_in[60]
-*220 la_data_in[61]
-*221 la_data_in[62]
-*222 la_data_in[63]
-*223 la_data_in[64]
-*224 la_data_in[65]
-*225 la_data_in[66]
-*226 la_data_in[67]
-*227 la_data_in[68]
-*228 la_data_in[69]
-*229 la_data_in[6]
-*230 la_data_in[70]
-*231 la_data_in[71]
-*232 la_data_in[72]
-*233 la_data_in[73]
-*234 la_data_in[74]
-*235 la_data_in[75]
-*236 la_data_in[76]
-*237 la_data_in[77]
-*238 la_data_in[78]
-*239 la_data_in[79]
-*240 la_data_in[7]
-*241 la_data_in[80]
-*242 la_data_in[81]
-*243 la_data_in[82]
-*244 la_data_in[83]
-*245 la_data_in[84]
-*246 la_data_in[85]
-*247 la_data_in[86]
-*248 la_data_in[87]
-*249 la_data_in[88]
-*250 la_data_in[89]
-*251 la_data_in[8]
-*252 la_data_in[90]
-*253 la_data_in[91]
-*254 la_data_in[92]
-*255 la_data_in[93]
-*256 la_data_in[94]
-*257 la_data_in[95]
-*258 la_data_in[96]
-*259 la_data_in[97]
-*260 la_data_in[98]
-*261 la_data_in[99]
-*262 la_data_in[9]
-*263 la_data_out[0]
-*264 la_data_out[100]
-*265 la_data_out[101]
-*266 la_data_out[102]
-*267 la_data_out[103]
-*268 la_data_out[104]
-*269 la_data_out[105]
-*270 la_data_out[106]
-*271 la_data_out[107]
-*272 la_data_out[108]
-*273 la_data_out[109]
-*274 la_data_out[10]
-*275 la_data_out[110]
-*276 la_data_out[111]
-*277 la_data_out[112]
-*278 la_data_out[113]
-*279 la_data_out[114]
-*280 la_data_out[115]
-*281 la_data_out[116]
-*282 la_data_out[117]
-*283 la_data_out[118]
-*284 la_data_out[119]
-*285 la_data_out[11]
-*286 la_data_out[120]
-*287 la_data_out[121]
-*288 la_data_out[122]
-*289 la_data_out[123]
-*290 la_data_out[124]
-*291 la_data_out[125]
-*292 la_data_out[126]
-*293 la_data_out[127]
-*294 la_data_out[12]
-*295 la_data_out[13]
-*296 la_data_out[14]
-*297 la_data_out[15]
-*298 la_data_out[16]
-*299 la_data_out[17]
-*300 la_data_out[18]
-*301 la_data_out[19]
-*302 la_data_out[1]
-*303 la_data_out[20]
-*304 la_data_out[21]
-*305 la_data_out[22]
-*306 la_data_out[23]
-*307 la_data_out[24]
-*308 la_data_out[25]
-*309 la_data_out[26]
-*310 la_data_out[27]
-*311 la_data_out[28]
-*312 la_data_out[29]
-*313 la_data_out[2]
-*314 la_data_out[30]
-*315 la_data_out[31]
-*316 la_data_out[32]
-*317 la_data_out[33]
-*318 la_data_out[34]
-*319 la_data_out[35]
-*320 la_data_out[36]
-*321 la_data_out[37]
-*322 la_data_out[38]
-*323 la_data_out[39]
-*324 la_data_out[3]
-*325 la_data_out[40]
-*326 la_data_out[41]
-*327 la_data_out[42]
-*328 la_data_out[43]
-*329 la_data_out[44]
-*330 la_data_out[45]
-*331 la_data_out[46]
-*332 la_data_out[47]
-*333 la_data_out[48]
-*334 la_data_out[49]
-*335 la_data_out[4]
-*336 la_data_out[50]
-*337 la_data_out[51]
-*338 la_data_out[52]
-*339 la_data_out[53]
-*340 la_data_out[54]
-*341 la_data_out[55]
-*342 la_data_out[56]
-*343 la_data_out[57]
-*344 la_data_out[58]
-*345 la_data_out[59]
-*346 la_data_out[5]
-*347 la_data_out[60]
-*348 la_data_out[61]
-*349 la_data_out[62]
-*350 la_data_out[63]
-*351 la_data_out[64]
-*352 la_data_out[65]
-*353 la_data_out[66]
-*354 la_data_out[67]
-*355 la_data_out[68]
-*356 la_data_out[69]
-*357 la_data_out[6]
-*358 la_data_out[70]
-*359 la_data_out[71]
-*360 la_data_out[72]
-*361 la_data_out[73]
-*362 la_data_out[74]
-*363 la_data_out[75]
-*364 la_data_out[76]
-*365 la_data_out[77]
-*366 la_data_out[78]
-*367 la_data_out[79]
-*368 la_data_out[7]
-*369 la_data_out[80]
-*370 la_data_out[81]
-*371 la_data_out[82]
-*372 la_data_out[83]
-*373 la_data_out[84]
-*374 la_data_out[85]
-*375 la_data_out[86]
-*376 la_data_out[87]
-*377 la_data_out[88]
-*378 la_data_out[89]
-*379 la_data_out[8]
-*380 la_data_out[90]
-*381 la_data_out[91]
-*382 la_data_out[92]
-*383 la_data_out[93]
-*384 la_data_out[94]
-*385 la_data_out[95]
-*386 la_data_out[96]
-*387 la_data_out[97]
-*388 la_data_out[98]
-*389 la_data_out[99]
-*390 la_data_out[9]
-*391 la_oenb[0]
-*392 la_oenb[100]
-*393 la_oenb[101]
-*394 la_oenb[102]
-*395 la_oenb[103]
-*396 la_oenb[104]
-*397 la_oenb[105]
-*398 la_oenb[106]
-*399 la_oenb[107]
-*400 la_oenb[108]
-*401 la_oenb[109]
-*402 la_oenb[10]
-*403 la_oenb[110]
-*404 la_oenb[111]
-*405 la_oenb[112]
-*406 la_oenb[113]
-*407 la_oenb[114]
-*408 la_oenb[115]
-*409 la_oenb[116]
-*410 la_oenb[117]
-*411 la_oenb[118]
-*412 la_oenb[119]
-*413 la_oenb[11]
-*414 la_oenb[120]
-*415 la_oenb[121]
-*416 la_oenb[122]
-*417 la_oenb[123]
-*418 la_oenb[124]
-*419 la_oenb[125]
-*420 la_oenb[126]
-*421 la_oenb[127]
-*422 la_oenb[12]
-*423 la_oenb[13]
-*424 la_oenb[14]
-*425 la_oenb[15]
-*426 la_oenb[16]
-*427 la_oenb[17]
-*428 la_oenb[18]
-*429 la_oenb[19]
-*430 la_oenb[1]
-*431 la_oenb[20]
-*432 la_oenb[21]
-*433 la_oenb[22]
-*434 la_oenb[23]
-*435 la_oenb[24]
-*436 la_oenb[25]
-*437 la_oenb[26]
-*438 la_oenb[27]
-*439 la_oenb[28]
-*440 la_oenb[29]
-*441 la_oenb[2]
-*442 la_oenb[30]
-*443 la_oenb[31]
-*444 la_oenb[32]
-*445 la_oenb[33]
-*446 la_oenb[34]
-*447 la_oenb[35]
-*448 la_oenb[36]
-*449 la_oenb[37]
-*450 la_oenb[38]
-*451 la_oenb[39]
-*452 la_oenb[3]
-*453 la_oenb[40]
-*454 la_oenb[41]
-*455 la_oenb[42]
-*456 la_oenb[43]
-*457 la_oenb[44]
-*458 la_oenb[45]
-*459 la_oenb[46]
-*460 la_oenb[47]
-*461 la_oenb[48]
-*462 la_oenb[49]
-*463 la_oenb[4]
-*464 la_oenb[50]
-*465 la_oenb[51]
-*466 la_oenb[52]
-*467 la_oenb[53]
-*468 la_oenb[54]
-*469 la_oenb[55]
-*470 la_oenb[56]
-*471 la_oenb[57]
-*472 la_oenb[58]
-*473 la_oenb[59]
-*474 la_oenb[5]
-*475 la_oenb[60]
-*476 la_oenb[61]
-*477 la_oenb[62]
-*478 la_oenb[63]
-*479 la_oenb[64]
-*480 la_oenb[65]
-*481 la_oenb[66]
-*482 la_oenb[67]
-*483 la_oenb[68]
-*484 la_oenb[69]
-*485 la_oenb[6]
-*486 la_oenb[70]
-*487 la_oenb[71]
-*488 la_oenb[72]
-*489 la_oenb[73]
-*490 la_oenb[74]
-*491 la_oenb[75]
-*492 la_oenb[76]
-*493 la_oenb[77]
-*494 la_oenb[78]
-*495 la_oenb[79]
-*496 la_oenb[7]
-*497 la_oenb[80]
-*498 la_oenb[81]
-*499 la_oenb[82]
-*500 la_oenb[83]
-*501 la_oenb[84]
-*502 la_oenb[85]
-*503 la_oenb[86]
-*504 la_oenb[87]
-*505 la_oenb[88]
-*506 la_oenb[89]
-*507 la_oenb[8]
-*508 la_oenb[90]
-*509 la_oenb[91]
-*510 la_oenb[92]
-*511 la_oenb[93]
-*512 la_oenb[94]
-*513 la_oenb[95]
-*514 la_oenb[96]
-*515 la_oenb[97]
-*516 la_oenb[98]
-*517 la_oenb[99]
-*518 la_oenb[9]
-*519 user_clock2
-*520 user_irq[0]
-*521 user_irq[1]
-*522 user_irq[2]
-*531 wb_clk_i
-*532 wb_rst_i
-*533 wbs_ack_o
-*534 wbs_adr_i[0]
-*535 wbs_adr_i[10]
-*536 wbs_adr_i[11]
-*537 wbs_adr_i[12]
-*538 wbs_adr_i[13]
-*539 wbs_adr_i[14]
-*540 wbs_adr_i[15]
-*541 wbs_adr_i[16]
-*542 wbs_adr_i[17]
-*543 wbs_adr_i[18]
-*544 wbs_adr_i[19]
-*545 wbs_adr_i[1]
-*546 wbs_adr_i[20]
-*547 wbs_adr_i[21]
-*548 wbs_adr_i[22]
-*549 wbs_adr_i[23]
-*550 wbs_adr_i[24]
-*551 wbs_adr_i[25]
-*552 wbs_adr_i[26]
-*553 wbs_adr_i[27]
-*554 wbs_adr_i[28]
-*555 wbs_adr_i[29]
-*556 wbs_adr_i[2]
-*557 wbs_adr_i[30]
-*558 wbs_adr_i[31]
-*559 wbs_adr_i[3]
-*560 wbs_adr_i[4]
-*561 wbs_adr_i[5]
-*562 wbs_adr_i[6]
-*563 wbs_adr_i[7]
-*564 wbs_adr_i[8]
-*565 wbs_adr_i[9]
-*566 wbs_cyc_i
-*567 wbs_dat_i[0]
-*568 wbs_dat_i[10]
-*569 wbs_dat_i[11]
-*570 wbs_dat_i[12]
-*571 wbs_dat_i[13]
-*572 wbs_dat_i[14]
-*573 wbs_dat_i[15]
-*574 wbs_dat_i[16]
-*575 wbs_dat_i[17]
-*576 wbs_dat_i[18]
-*577 wbs_dat_i[19]
-*578 wbs_dat_i[1]
-*579 wbs_dat_i[20]
-*580 wbs_dat_i[21]
-*581 wbs_dat_i[22]
-*582 wbs_dat_i[23]
-*583 wbs_dat_i[24]
-*584 wbs_dat_i[25]
-*585 wbs_dat_i[26]
-*586 wbs_dat_i[27]
-*587 wbs_dat_i[28]
-*588 wbs_dat_i[29]
-*589 wbs_dat_i[2]
-*590 wbs_dat_i[30]
-*591 wbs_dat_i[31]
-*592 wbs_dat_i[3]
-*593 wbs_dat_i[4]
-*594 wbs_dat_i[5]
-*595 wbs_dat_i[6]
-*596 wbs_dat_i[7]
-*597 wbs_dat_i[8]
-*598 wbs_dat_i[9]
-*599 wbs_dat_o[0]
-*600 wbs_dat_o[10]
-*601 wbs_dat_o[11]
-*602 wbs_dat_o[12]
-*603 wbs_dat_o[13]
-*604 wbs_dat_o[14]
-*605 wbs_dat_o[15]
-*606 wbs_dat_o[16]
-*607 wbs_dat_o[17]
-*608 wbs_dat_o[18]
-*609 wbs_dat_o[19]
-*610 wbs_dat_o[1]
-*611 wbs_dat_o[20]
-*612 wbs_dat_o[21]
-*613 wbs_dat_o[22]
-*614 wbs_dat_o[23]
-*615 wbs_dat_o[24]
-*616 wbs_dat_o[25]
-*617 wbs_dat_o[26]
-*618 wbs_dat_o[27]
-*619 wbs_dat_o[28]
-*620 wbs_dat_o[29]
-*621 wbs_dat_o[2]
-*622 wbs_dat_o[30]
-*623 wbs_dat_o[31]
-*624 wbs_dat_o[3]
-*625 wbs_dat_o[4]
-*626 wbs_dat_o[5]
-*627 wbs_dat_o[6]
-*628 wbs_dat_o[7]
-*629 wbs_dat_o[8]
-*630 wbs_dat_o[9]
-*631 wbs_sel_i[0]
-*632 wbs_sel_i[1]
-*633 wbs_sel_i[2]
-*634 wbs_sel_i[3]
-*635 wbs_stb_i
-*636 wbs_we_i
-*637 x1\[0\]
-*638 x1\[1\]
-*639 x1\[2\]
-*640 x1\[3\]
-*641 x1\[4\]
-*642 x1\[5\]
-*643 x1\[6\]
-*644 x1\[7\]
-*645 x1\[8\]
-*646 x1\[9\]
-*647 x2\[0\]
-*648 x2\[1\]
-*649 x2\[2\]
-*650 x2\[3\]
-*651 x2\[4\]
-*652 x2\[5\]
-*653 x2\[6\]
-*654 x2\[7\]
-*655 x2\[8\]
-*656 x2\[9\]
-*657 x3\[0\]
-*658 x3\[1\]
-*659 x3\[2\]
-*660 x3\[3\]
-*661 x3\[4\]
-*662 x3\[5\]
-*663 x3\[6\]
-*664 x3\[7\]
-*665 x3\[8\]
-*666 x3\[9\]
-*667 x4\[0\]
-*668 x4\[1\]
-*669 x4\[2\]
-*670 x4\[3\]
-*671 x4\[4\]
-*672 x4\[5\]
-*673 x4\[6\]
-*674 x4\[7\]
-*675 x4\[8\]
-*676 x4\[9\]
-*677 x5\[0\]
-*678 x5\[1\]
-*679 x5\[2\]
-*680 x5\[3\]
-*681 x5\[4\]
-*682 x5\[5\]
-*683 x5\[6\]
-*684 x5\[7\]
-*685 x5\[8\]
-*686 x5\[9\]
-*687 TIE_ONE_one_
-*688 TIE_ZERO_zero_
-*689 mprj1
-*690 mprj2
-*691 mprj3
-*692 mprj4
-*693 mprj5
-*694 ro1
-*695 ro10
-*696 ro2
-*697 ro3
-*698 ro4
-*699 ro5
-*700 ro6
-*701 ro7
-*702 ro8
-*703 ro9
+*71 io_oeb[1]
+*72 io_oeb[20]
+*73 io_oeb[21]
+*74 io_oeb[22]
+*75 io_oeb[23]
+*76 io_oeb[24]
+*77 io_oeb[25]
+*78 io_oeb[26]
+*79 io_oeb[27]
+*80 io_oeb[28]
+*81 io_oeb[29]
+*82 io_oeb[2]
+*83 io_oeb[30]
+*84 io_oeb[31]
+*85 io_oeb[32]
+*86 io_oeb[33]
+*87 io_oeb[34]
+*88 io_oeb[35]
+*89 io_oeb[36]
+*90 io_oeb[37]
+*91 io_oeb[3]
+*92 io_oeb[4]
+*93 io_out[0]
+*94 io_out[10]
+*95 io_out[11]
+*96 io_out[12]
+*97 io_out[13]
+*98 io_out[14]
+*99 io_out[15]
+*100 io_out[16]
+*101 io_out[17]
+*102 io_out[18]
+*103 io_out[19]
+*104 io_out[1]
+*105 io_out[20]
+*106 io_out[21]
+*107 io_out[22]
+*108 io_out[23]
+*109 io_out[24]
+*110 io_out[25]
+*111 io_out[26]
+*112 io_out[27]
+*113 io_out[28]
+*114 io_out[29]
+*115 io_out[2]
+*116 io_out[30]
+*117 io_out[31]
+*118 io_out[32]
+*119 io_out[33]
+*120 io_out[34]
+*121 io_out[35]
+*122 io_out[36]
+*123 io_out[37]
+*124 io_out[3]
+*125 io_out[4]
+*126 io_out[5]
+*127 io_out[6]
+*128 io_out[7]
+*129 io_out[8]
+*130 io_out[9]
+*131 la_data_in[0]
+*132 la_data_in[100]
+*133 la_data_in[101]
+*134 la_data_in[102]
+*135 la_data_in[103]
+*136 la_data_in[104]
+*137 la_data_in[105]
+*138 la_data_in[106]
+*139 la_data_in[107]
+*140 la_data_in[108]
+*141 la_data_in[109]
+*142 la_data_in[10]
+*143 la_data_in[110]
+*144 la_data_in[111]
+*145 la_data_in[112]
+*146 la_data_in[113]
+*147 la_data_in[114]
+*148 la_data_in[115]
+*149 la_data_in[116]
+*150 la_data_in[117]
+*151 la_data_in[118]
+*152 la_data_in[119]
+*153 la_data_in[11]
+*154 la_data_in[120]
+*155 la_data_in[121]
+*156 la_data_in[122]
+*157 la_data_in[123]
+*158 la_data_in[124]
+*159 la_data_in[125]
+*160 la_data_in[126]
+*161 la_data_in[127]
+*162 la_data_in[12]
+*163 la_data_in[13]
+*164 la_data_in[14]
+*165 la_data_in[15]
+*166 la_data_in[16]
+*167 la_data_in[17]
+*168 la_data_in[18]
+*169 la_data_in[19]
+*170 la_data_in[1]
+*171 la_data_in[20]
+*172 la_data_in[21]
+*173 la_data_in[22]
+*174 la_data_in[23]
+*175 la_data_in[24]
+*176 la_data_in[25]
+*177 la_data_in[26]
+*178 la_data_in[27]
+*179 la_data_in[28]
+*180 la_data_in[29]
+*181 la_data_in[2]
+*182 la_data_in[30]
+*183 la_data_in[31]
+*184 la_data_in[32]
+*185 la_data_in[33]
+*186 la_data_in[34]
+*187 la_data_in[35]
+*188 la_data_in[36]
+*189 la_data_in[37]
+*190 la_data_in[38]
+*191 la_data_in[39]
+*192 la_data_in[3]
+*193 la_data_in[40]
+*194 la_data_in[41]
+*195 la_data_in[42]
+*196 la_data_in[43]
+*197 la_data_in[44]
+*198 la_data_in[45]
+*199 la_data_in[46]
+*200 la_data_in[47]
+*201 la_data_in[48]
+*202 la_data_in[49]
+*203 la_data_in[4]
+*204 la_data_in[50]
+*205 la_data_in[51]
+*206 la_data_in[52]
+*207 la_data_in[53]
+*208 la_data_in[54]
+*209 la_data_in[55]
+*210 la_data_in[56]
+*211 la_data_in[57]
+*212 la_data_in[58]
+*213 la_data_in[59]
+*214 la_data_in[5]
+*215 la_data_in[60]
+*216 la_data_in[61]
+*217 la_data_in[62]
+*218 la_data_in[63]
+*219 la_data_in[64]
+*220 la_data_in[65]
+*221 la_data_in[66]
+*222 la_data_in[67]
+*223 la_data_in[68]
+*224 la_data_in[69]
+*225 la_data_in[6]
+*226 la_data_in[70]
+*227 la_data_in[71]
+*228 la_data_in[72]
+*229 la_data_in[73]
+*230 la_data_in[74]
+*231 la_data_in[75]
+*232 la_data_in[76]
+*233 la_data_in[77]
+*234 la_data_in[78]
+*235 la_data_in[79]
+*236 la_data_in[7]
+*237 la_data_in[80]
+*238 la_data_in[81]
+*239 la_data_in[82]
+*240 la_data_in[83]
+*241 la_data_in[84]
+*242 la_data_in[85]
+*243 la_data_in[86]
+*244 la_data_in[87]
+*245 la_data_in[88]
+*246 la_data_in[89]
+*247 la_data_in[8]
+*248 la_data_in[90]
+*249 la_data_in[91]
+*250 la_data_in[92]
+*251 la_data_in[93]
+*252 la_data_in[94]
+*253 la_data_in[95]
+*254 la_data_in[96]
+*255 la_data_in[97]
+*256 la_data_in[98]
+*257 la_data_in[99]
+*258 la_data_in[9]
+*259 la_data_out[0]
+*260 la_data_out[100]
+*261 la_data_out[101]
+*262 la_data_out[102]
+*263 la_data_out[103]
+*264 la_data_out[104]
+*265 la_data_out[105]
+*266 la_data_out[106]
+*267 la_data_out[107]
+*268 la_data_out[108]
+*269 la_data_out[109]
+*270 la_data_out[10]
+*271 la_data_out[110]
+*272 la_data_out[111]
+*273 la_data_out[112]
+*274 la_data_out[113]
+*275 la_data_out[114]
+*276 la_data_out[115]
+*277 la_data_out[116]
+*278 la_data_out[117]
+*279 la_data_out[118]
+*280 la_data_out[119]
+*281 la_data_out[11]
+*282 la_data_out[120]
+*283 la_data_out[121]
+*284 la_data_out[122]
+*285 la_data_out[123]
+*286 la_data_out[124]
+*287 la_data_out[125]
+*288 la_data_out[126]
+*289 la_data_out[127]
+*290 la_data_out[12]
+*291 la_data_out[13]
+*292 la_data_out[14]
+*293 la_data_out[15]
+*294 la_data_out[16]
+*295 la_data_out[17]
+*296 la_data_out[18]
+*297 la_data_out[19]
+*298 la_data_out[1]
+*299 la_data_out[20]
+*300 la_data_out[21]
+*301 la_data_out[22]
+*302 la_data_out[23]
+*303 la_data_out[24]
+*304 la_data_out[25]
+*305 la_data_out[26]
+*306 la_data_out[27]
+*307 la_data_out[28]
+*308 la_data_out[29]
+*309 la_data_out[2]
+*310 la_data_out[30]
+*311 la_data_out[31]
+*312 la_data_out[32]
+*313 la_data_out[33]
+*314 la_data_out[34]
+*315 la_data_out[35]
+*316 la_data_out[36]
+*317 la_data_out[37]
+*318 la_data_out[38]
+*319 la_data_out[39]
+*320 la_data_out[3]
+*321 la_data_out[40]
+*322 la_data_out[41]
+*323 la_data_out[42]
+*324 la_data_out[43]
+*325 la_data_out[44]
+*326 la_data_out[45]
+*327 la_data_out[46]
+*328 la_data_out[47]
+*329 la_data_out[48]
+*330 la_data_out[49]
+*331 la_data_out[4]
+*332 la_data_out[50]
+*333 la_data_out[51]
+*334 la_data_out[52]
+*335 la_data_out[53]
+*336 la_data_out[54]
+*337 la_data_out[55]
+*338 la_data_out[56]
+*339 la_data_out[57]
+*340 la_data_out[58]
+*341 la_data_out[59]
+*342 la_data_out[5]
+*343 la_data_out[60]
+*344 la_data_out[61]
+*345 la_data_out[62]
+*346 la_data_out[63]
+*347 la_data_out[64]
+*348 la_data_out[65]
+*349 la_data_out[66]
+*350 la_data_out[67]
+*351 la_data_out[68]
+*352 la_data_out[69]
+*353 la_data_out[6]
+*354 la_data_out[70]
+*355 la_data_out[71]
+*356 la_data_out[72]
+*357 la_data_out[73]
+*358 la_data_out[74]
+*359 la_data_out[75]
+*360 la_data_out[76]
+*361 la_data_out[77]
+*362 la_data_out[78]
+*363 la_data_out[79]
+*364 la_data_out[7]
+*365 la_data_out[80]
+*366 la_data_out[81]
+*367 la_data_out[82]
+*368 la_data_out[83]
+*369 la_data_out[84]
+*370 la_data_out[85]
+*371 la_data_out[86]
+*372 la_data_out[87]
+*373 la_data_out[88]
+*374 la_data_out[89]
+*375 la_data_out[8]
+*376 la_data_out[90]
+*377 la_data_out[91]
+*378 la_data_out[92]
+*379 la_data_out[93]
+*380 la_data_out[94]
+*381 la_data_out[95]
+*382 la_data_out[96]
+*383 la_data_out[97]
+*384 la_data_out[98]
+*385 la_data_out[99]
+*386 la_data_out[9]
+*387 la_oenb[0]
+*388 la_oenb[100]
+*389 la_oenb[101]
+*390 la_oenb[102]
+*391 la_oenb[103]
+*392 la_oenb[104]
+*393 la_oenb[105]
+*394 la_oenb[106]
+*395 la_oenb[107]
+*396 la_oenb[108]
+*397 la_oenb[109]
+*398 la_oenb[10]
+*399 la_oenb[110]
+*400 la_oenb[111]
+*401 la_oenb[112]
+*402 la_oenb[113]
+*403 la_oenb[114]
+*404 la_oenb[115]
+*405 la_oenb[116]
+*406 la_oenb[117]
+*407 la_oenb[118]
+*408 la_oenb[119]
+*409 la_oenb[11]
+*410 la_oenb[120]
+*411 la_oenb[121]
+*412 la_oenb[122]
+*413 la_oenb[123]
+*414 la_oenb[124]
+*415 la_oenb[125]
+*416 la_oenb[126]
+*417 la_oenb[127]
+*418 la_oenb[12]
+*419 la_oenb[13]
+*420 la_oenb[14]
+*421 la_oenb[15]
+*422 la_oenb[16]
+*423 la_oenb[17]
+*424 la_oenb[18]
+*425 la_oenb[19]
+*426 la_oenb[1]
+*427 la_oenb[20]
+*428 la_oenb[21]
+*429 la_oenb[22]
+*430 la_oenb[23]
+*431 la_oenb[24]
+*432 la_oenb[25]
+*433 la_oenb[26]
+*434 la_oenb[27]
+*435 la_oenb[28]
+*436 la_oenb[29]
+*437 la_oenb[2]
+*438 la_oenb[30]
+*439 la_oenb[31]
+*440 la_oenb[32]
+*441 la_oenb[33]
+*442 la_oenb[34]
+*443 la_oenb[35]
+*444 la_oenb[36]
+*445 la_oenb[37]
+*446 la_oenb[38]
+*447 la_oenb[39]
+*448 la_oenb[3]
+*449 la_oenb[40]
+*450 la_oenb[41]
+*451 la_oenb[42]
+*452 la_oenb[43]
+*453 la_oenb[44]
+*454 la_oenb[45]
+*455 la_oenb[46]
+*456 la_oenb[47]
+*457 la_oenb[48]
+*458 la_oenb[49]
+*459 la_oenb[4]
+*460 la_oenb[50]
+*461 la_oenb[51]
+*462 la_oenb[52]
+*463 la_oenb[53]
+*464 la_oenb[54]
+*465 la_oenb[55]
+*466 la_oenb[56]
+*467 la_oenb[57]
+*468 la_oenb[58]
+*469 la_oenb[59]
+*470 la_oenb[5]
+*471 la_oenb[60]
+*472 la_oenb[61]
+*473 la_oenb[62]
+*474 la_oenb[63]
+*475 la_oenb[64]
+*476 la_oenb[65]
+*477 la_oenb[66]
+*478 la_oenb[67]
+*479 la_oenb[68]
+*480 la_oenb[69]
+*481 la_oenb[6]
+*482 la_oenb[70]
+*483 la_oenb[71]
+*484 la_oenb[72]
+*485 la_oenb[73]
+*486 la_oenb[74]
+*487 la_oenb[75]
+*488 la_oenb[76]
+*489 la_oenb[77]
+*490 la_oenb[78]
+*491 la_oenb[79]
+*492 la_oenb[7]
+*493 la_oenb[80]
+*494 la_oenb[81]
+*495 la_oenb[82]
+*496 la_oenb[83]
+*497 la_oenb[84]
+*498 la_oenb[85]
+*499 la_oenb[86]
+*500 la_oenb[87]
+*501 la_oenb[88]
+*502 la_oenb[89]
+*503 la_oenb[8]
+*504 la_oenb[90]
+*505 la_oenb[91]
+*506 la_oenb[92]
+*507 la_oenb[93]
+*508 la_oenb[94]
+*509 la_oenb[95]
+*510 la_oenb[96]
+*511 la_oenb[97]
+*512 la_oenb[98]
+*513 la_oenb[99]
+*514 la_oenb[9]
+*515 user_clock2
+*516 user_irq[0]
+*517 user_irq[1]
+*518 user_irq[2]
+*527 wb_clk_i
+*528 wb_rst_i
+*529 wbs_ack_o
+*530 wbs_adr_i[0]
+*531 wbs_adr_i[10]
+*532 wbs_adr_i[11]
+*533 wbs_adr_i[12]
+*534 wbs_adr_i[13]
+*535 wbs_adr_i[14]
+*536 wbs_adr_i[15]
+*537 wbs_adr_i[16]
+*538 wbs_adr_i[17]
+*539 wbs_adr_i[18]
+*540 wbs_adr_i[19]
+*541 wbs_adr_i[1]
+*542 wbs_adr_i[20]
+*543 wbs_adr_i[21]
+*544 wbs_adr_i[22]
+*545 wbs_adr_i[23]
+*546 wbs_adr_i[24]
+*547 wbs_adr_i[25]
+*548 wbs_adr_i[26]
+*549 wbs_adr_i[27]
+*550 wbs_adr_i[28]
+*551 wbs_adr_i[29]
+*552 wbs_adr_i[2]
+*553 wbs_adr_i[30]
+*554 wbs_adr_i[31]
+*555 wbs_adr_i[3]
+*556 wbs_adr_i[4]
+*557 wbs_adr_i[5]
+*558 wbs_adr_i[6]
+*559 wbs_adr_i[7]
+*560 wbs_adr_i[8]
+*561 wbs_adr_i[9]
+*562 wbs_cyc_i
+*563 wbs_dat_i[0]
+*564 wbs_dat_i[10]
+*565 wbs_dat_i[11]
+*566 wbs_dat_i[12]
+*567 wbs_dat_i[13]
+*568 wbs_dat_i[14]
+*569 wbs_dat_i[15]
+*570 wbs_dat_i[16]
+*571 wbs_dat_i[17]
+*572 wbs_dat_i[18]
+*573 wbs_dat_i[19]
+*574 wbs_dat_i[1]
+*575 wbs_dat_i[20]
+*576 wbs_dat_i[21]
+*577 wbs_dat_i[22]
+*578 wbs_dat_i[23]
+*579 wbs_dat_i[24]
+*580 wbs_dat_i[25]
+*581 wbs_dat_i[26]
+*582 wbs_dat_i[27]
+*583 wbs_dat_i[28]
+*584 wbs_dat_i[29]
+*585 wbs_dat_i[2]
+*586 wbs_dat_i[30]
+*587 wbs_dat_i[31]
+*588 wbs_dat_i[3]
+*589 wbs_dat_i[4]
+*590 wbs_dat_i[5]
+*591 wbs_dat_i[6]
+*592 wbs_dat_i[7]
+*593 wbs_dat_i[8]
+*594 wbs_dat_i[9]
+*595 wbs_dat_o[0]
+*596 wbs_dat_o[10]
+*597 wbs_dat_o[11]
+*598 wbs_dat_o[12]
+*599 wbs_dat_o[13]
+*600 wbs_dat_o[14]
+*601 wbs_dat_o[15]
+*602 wbs_dat_o[16]
+*603 wbs_dat_o[17]
+*604 wbs_dat_o[18]
+*605 wbs_dat_o[19]
+*606 wbs_dat_o[1]
+*607 wbs_dat_o[20]
+*608 wbs_dat_o[21]
+*609 wbs_dat_o[22]
+*610 wbs_dat_o[23]
+*611 wbs_dat_o[24]
+*612 wbs_dat_o[25]
+*613 wbs_dat_o[26]
+*614 wbs_dat_o[27]
+*615 wbs_dat_o[28]
+*616 wbs_dat_o[29]
+*617 wbs_dat_o[2]
+*618 wbs_dat_o[30]
+*619 wbs_dat_o[31]
+*620 wbs_dat_o[3]
+*621 wbs_dat_o[4]
+*622 wbs_dat_o[5]
+*623 wbs_dat_o[6]
+*624 wbs_dat_o[7]
+*625 wbs_dat_o[8]
+*626 wbs_dat_o[9]
+*627 wbs_sel_i[0]
+*628 wbs_sel_i[1]
+*629 wbs_sel_i[2]
+*630 wbs_sel_i[3]
+*631 wbs_stb_i
+*632 wbs_we_i
+*633 x1_0
+*634 x1_0_
+*635 x1_1
+*636 x1_1_
+*637 x1_2
+*638 x1_2_
+*639 x1_3
+*640 x1_3_
+*641 x1_4
+*642 x1_4_
+*643 x1_5
+*644 x1_5_
+*645 x1_6
+*646 x1_6_
+*647 x1_7
+*648 x1_7_
+*649 x1_8
+*650 x1_8_
+*651 x1_9
+*652 x1_9_
+*653 x2_0
+*654 x2_0_
+*655 x2_1
+*656 x2_1_
+*657 x2_2
+*658 x2_2_
+*659 x2_3
+*660 x2_3_
+*661 x2_4
+*662 x2_4_
+*663 x2_5
+*664 x2_5_
+*665 x2_6
+*666 x2_6_
+*667 x2_7
+*668 x2_7_
+*669 x2_8
+*670 x2_8_
+*671 x2_9
+*672 x2_9_
+*673 x3_0
+*674 x3_0_
+*675 x3_1
+*676 x3_1_
+*677 x3_2
+*678 x3_2_
+*679 x3_3
+*680 x3_3_
+*681 x3_4
+*682 x3_4_
+*683 x3_5
+*684 x3_5_
+*685 x3_6
+*686 x3_6_
+*687 x3_7
+*688 x3_7_
+*689 x3_8
+*690 x3_8_
+*691 x3_9
+*692 x3_9_
+*693 x4_0
+*694 x4_0_
+*695 x4_1
+*696 x4_1_
+*697 x4_2
+*698 x4_2_
+*699 x4_3
+*700 x4_3_
+*701 x4_4
+*702 x4_4_
+*703 x4_5
+*704 x4_5_
+*705 x4_6
+*706 x4_6_
+*707 x4_7
+*708 x4_7_
+*709 x4_8
+*710 x4_8_
+*711 x4_9
+*712 x4_9_
+*713 x5_0
+*714 x5_0_
+*715 x5_1
+*716 x5_1_
+*717 x5_2
+*718 x5_2_
+*719 x5_3
+*720 x5_3_
+*721 x5_4
+*722 x5_4_
+*723 x5_5
+*724 x5_5_
+*725 x5_6
+*726 x5_6_
+*727 x5_7
+*728 x5_7_
+*729 x5_8
+*730 x5_8_
+*731 x5_9
+*732 x5_9_
+*733 TIE_ONE_one_
+*734 TIE_ZERO_zero_
+*735 mprj1
+*736 mprj2
+*737 mprj3
+*738 mprj4
+*739 mprj5
+*740 ro1
+*741 ro10
+*742 ro2
+*743 ro3
+*744 ro4
+*745 ro5
+*746 ro6
+*747 ro7
+*748 ro8
+*749 ro9
 
 *PORTS
 analog_io[0] I
@@ -1349,31 +1395,31 @@ wbs_sel_i[3] I
 wbs_stb_i I
 wbs_we_i I
 
-*D_NET *31 0.142353
+*D_NET *31 0.142419
 *CONN
 *P io_in[10] I
-*I *694:start I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
-*I *696:start I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
-*I *697:start I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
-*I *699:start I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
-*I *700:start I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
-*I *701:start I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
-*I *702:start I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
-*I *695:start I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
-*I *703:start I *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
-*I *698:start I *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
+*I *740:start I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
+*I *742:start I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
+*I *743:start I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
+*I *745:start I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
+*I *746:start I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
+*I *747:start I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
+*I *748:start I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
+*I *741:start I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
+*I *749:start I *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
+*I *744:start I *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
 *CAP
 1 io_in[10] 0.0017458
-2 *694:start 8.30295e-05
-3 *696:start 0
-4 *697:start 0.000109336
-5 *699:start 0.000486309
-6 *700:start 1.97312e-05
-7 *701:start 0.000114907
-8 *702:start 0.000111425
-9 *695:start 0.00101331
-10 *703:start 0.000164822
-11 *698:start 0.000181592
+2 *740:start 8.30295e-05
+3 *742:start 0
+4 *743:start 0.000109336
+5 *745:start 0.000486309
+6 *746:start 1.97312e-05
+7 *747:start 0.000114907
+8 *748:start 0.000111425
+9 *741:start 0.00101331
+10 *749:start 0.000164822
+11 *744:start 0.000181592
 12 *31:91 0.00493185
 13 *31:89 0.00398756
 14 *31:72 0.00433894
@@ -1388,11 +1434,11 @@ wbs_we_i I
 23 *31:31 0.0046213
 24 *31:29 0.00916908
 25 *31:27 0.00469793
-26 *31:23 0.00226451
-27 *31:21 0.00412167
+26 *31:23 0.00225804
+27 *31:21 0.0041152
 28 *31:17 0.0027588
-29 *31:13 0.0259661
-30 *31:11 0.0270569
+29 *31:13 0.0260053
+30 *31:11 0.0270961
 31 *31:11 *35:9 0.0017615
 *RES
 1 io_in[10] *31:11 32.0907 
@@ -1403,8 +1449,8 @@ wbs_we_i I
 6 *31:23 *31:27 3.33929 
 7 *31:27 *31:29 92.5804 
 8 *31:29 *31:31 93.625 
-9 *31:31 *698:start 6.26786 
-10 *698:start *31:46 5.91071 
+9 *31:31 *744:start 6.26786 
+10 *744:start *31:46 5.91071 
 11 *31:46 *31:48 145.232 
 12 *31:48 *31:52 14.0982 
 13 *31:52 *31:56 44.1964 
@@ -1413,34 +1459,34 @@ wbs_we_i I
 16 *31:66 *31:68 89.9821 
 17 *31:68 *31:70 68.4286 
 18 *31:70 *31:72 87.8571 
-19 *31:72 *703:start 6.26786 
-20 *703:start *31:89 5.75446 
+19 *31:72 *749:start 6.26786 
+20 *749:start *31:89 5.75446 
 21 *31:89 *31:91 77.8393 
-22 *31:91 *695:start 33.2902 
-23 *31:70 *702:start 6.51786 
-24 *31:68 *701:start 6.58482 
-25 *31:62 *700:start 0.379464 
-26 *31:48 *699:start 13.6964 
-27 *31:29 *697:start 6.47768 
-28 *31:23 *696:start 4.5 
-29 *31:17 *694:start 5.97321 
+22 *31:91 *741:start 33.2902 
+23 *31:70 *748:start 6.51786 
+24 *31:68 *747:start 6.58482 
+25 *31:62 *746:start 0.379464 
+26 *31:48 *745:start 13.6964 
+27 *31:29 *743:start 6.47768 
+28 *31:23 *742:start 4.5 
+29 *31:17 *740:start 5.97321 
 *END
 
-*D_NET *32 0.145827
+*D_NET *32 0.145889
 *CONN
 *P io_in[11] I
-*I *690:select[0] I *D mux16x1_project
-*I *691:select[0] I *D mux16x1_project
-*I *692:select[0] I *D mux16x1_project
-*I *693:select[0] I *D mux16x1_project
-*I *689:select[0] I *D mux16x1_project
+*I *736:select[0] I *D mux16x1_project
+*I *737:select[0] I *D mux16x1_project
+*I *738:select[0] I *D mux16x1_project
+*I *739:select[0] I *D mux16x1_project
+*I *735:select[0] I *D mux16x1_project
 *CAP
 1 io_in[11] 0.000896469
-2 *690:select[0] 8.34412e-05
-3 *691:select[0] 0.000103537
-4 *692:select[0] 8.34412e-05
-5 *693:select[0] 8.34412e-05
-6 *689:select[0] 0.00588996
+2 *736:select[0] 8.34412e-05
+3 *737:select[0] 0.000103537
+4 *738:select[0] 8.34412e-05
+5 *739:select[0] 8.34412e-05
+6 *735:select[0] 0.00593372
 7 *32:57 0.00321909
 8 *32:55 0.00316186
 9 *32:53 0.00471088
@@ -1456,18 +1502,18 @@ wbs_we_i I
 19 *32:25 0.00292114
 20 *32:23 0.00511013
 21 *32:21 0.00518746
-22 *32:9 0.0103651
+22 *32:9 0.0104089
 23 *32:7 0.00549525
-24 *689:select[0] *689:select[1] 0.00531727
-25 *689:select[0] *689:select[2] 0.01825
+24 *735:select[0] *735:select[1] 0.00530426
+25 *735:select[0] *735:select[2] 0.0182373
 26 *32:9 *33:9 0.0130307
 27 *32:9 *69:58 0.0132128
 28 *32:9 *69:68 0.00955018
 *RES
 1 io_in[11] *32:7 5.55947 
 2 *32:7 *32:9 283.661 
-3 *32:9 *689:select[0] 48.6108 
-4 *689:select[0] *32:21 2.52679 
+3 *32:9 *735:select[0] 48.6108 
+4 *735:select[0] *32:21 2.52679 
 5 *32:21 *32:23 104.857 
 6 *32:23 *32:25 0.946429 
 7 *32:25 *32:27 58.7143 
@@ -1482,465 +1528,453 @@ wbs_we_i I
 16 *32:51 *32:53 97.1607 
 17 *32:53 *32:55 0.535714 
 18 *32:55 *32:57 63.9821 
-19 *32:57 *693:select[0] 1.70536 
-20 *32:49 *692:select[0] 1.70536 
-21 *32:39 *691:select[0] 2.11607 
-22 *32:27 *690:select[0] 1.70536 
+19 *32:57 *739:select[0] 1.70536 
+20 *32:49 *738:select[0] 1.70536 
+21 *32:39 *737:select[0] 2.11607 
+22 *32:27 *736:select[0] 1.70536 
 *END
 
-*D_NET *33 0.159518
+*D_NET *33 0.159599
 *CONN
 *P io_in[12] I
-*I *690:select[1] I *D mux16x1_project
-*I *691:select[1] I *D mux16x1_project
-*I *692:select[1] I *D mux16x1_project
-*I *693:select[1] I *D mux16x1_project
-*I *689:select[1] I *D mux16x1_project
+*I *736:select[1] I *D mux16x1_project
+*I *737:select[1] I *D mux16x1_project
+*I *738:select[1] I *D mux16x1_project
+*I *739:select[1] I *D mux16x1_project
+*I *735:select[1] I *D mux16x1_project
 *CAP
 1 io_in[12] 0.000930359
-2 *690:select[1] 5.56109e-05
-3 *691:select[1] 6.29935e-05
-4 *692:select[1] 0.000466213
-5 *693:select[1] 0.00945694
-6 *689:select[1] 0.0172811
+2 *736:select[1] 5.56109e-05
+3 *737:select[1] 6.29935e-05
+4 *738:select[1] 0.000466213
+5 *739:select[1] 0.00945694
+6 *735:select[1] 0.0173281
 7 *33:35 0.0182359
 8 *33:33 0.0172331
 9 *33:31 0.0179138
-10 *33:9 0.0176582
+10 *33:9 0.0177052
 11 *33:7 0.0103084
-12 *690:select[1] *67:13 1.56658e-05
+12 *736:select[1] *67:13 1.56658e-05
 13 *33:9 *34:9 0.0238765
 14 *33:9 *69:58 7.3994e-05
 15 *33:9 *69:68 0.00384668
 16 *33:9 *69:78 0.00375433
-17 *689:select[0] *689:select[1] 0.00531727
+17 *735:select[0] *735:select[1] 0.00530426
 18 *32:9 *33:9 0.0130307
 *RES
 1 io_in[12] *33:7 5.7036 
 2 *33:7 *33:9 522.875 
-3 *33:9 *689:select[1] 44.0923 
-4 *689:select[1] *33:31 35.2534 
+3 *33:9 *735:select[1] 44.0923 
+4 *735:select[1] *33:31 35.2534 
 5 *33:31 *33:33 28.3849 
 6 *33:33 *33:35 26.3607 
-7 *33:35 *693:select[1] 44.21 
-8 *33:35 *692:select[1] 14.9305 
-9 *33:33 *691:select[1] 6.9751 
-10 *33:31 *690:select[1] 6.9751 
+7 *33:35 *739:select[1] 44.21 
+8 *33:35 *738:select[1] 14.9305 
+9 *33:33 *737:select[1] 6.9751 
+10 *33:31 *736:select[1] 6.9751 
 *END
 
-*D_NET *34 0.208311
+*D_NET *34 0.208357
 *CONN
 *P io_in[13] I
-*I *690:select[2] I *D mux16x1_project
-*I *691:select[2] I *D mux16x1_project
-*I *692:select[2] I *D mux16x1_project
-*I *693:select[2] I *D mux16x1_project
-*I *689:select[2] I *D mux16x1_project
+*I *736:select[2] I *D mux16x1_project
+*I *737:select[2] I *D mux16x1_project
+*I *738:select[2] I *D mux16x1_project
+*I *739:select[2] I *D mux16x1_project
+*I *735:select[2] I *D mux16x1_project
 *CAP
 1 io_in[13] 0.00100305
-2 *690:select[2] 6.73701e-05
-3 *691:select[2] 6.30211e-05
-4 *692:select[2] 0.000466216
-5 *693:select[2] 0.00945695
-6 *689:select[2] 0.0123732
+2 *736:select[2] 6.73701e-05
+3 *737:select[2] 6.30211e-05
+4 *738:select[2] 0.000466216
+5 *739:select[2] 0.00945695
+6 *735:select[2] 0.0124086
 7 *34:31 0.0182359
 8 *34:29 0.0172331
 9 *34:27 0.0179422
-10 *34:9 0.0199896
+10 *34:9 0.020025
 11 *34:7 0.017637
-12 *689:select[2] *689:select[3] 0.0169541
-13 *690:select[2] *67:13 6.63171e-06
+12 *735:select[2] *735:select[3] 0.0169413
+13 *736:select[2] *67:13 6.63171e-06
 14 *34:9 *35:9 0.0347565
 15 *34:9 *69:78 0
 16 *34:9 *69:88 0
-17 *689:select[0] *689:select[2] 0.01825
+17 *735:select[0] *735:select[2] 0.0182373
 18 *33:9 *34:9 0.0238765
 *RES
 1 io_in[13] *34:7 5.84773 
 2 *34:7 *34:9 757.232 
-3 *34:9 *689:select[2] 45.0381 
-4 *689:select[2] *34:27 35.573 
+3 *34:9 *735:select[2] 45.0381 
+4 *735:select[2] *34:27 35.573 
 5 *34:27 *34:29 28.3849 
 6 *34:29 *34:31 26.3607 
-7 *34:31 *693:select[2] 44.21 
-8 *34:31 *692:select[2] 14.9305 
-9 *34:29 *691:select[2] 6.9751 
-10 *34:27 *690:select[2] 7.37625 
+7 *34:31 *739:select[2] 44.21 
+8 *34:31 *738:select[2] 14.9305 
+9 *34:29 *737:select[2] 6.9751 
+10 *34:27 *736:select[2] 7.37625 
 *END
 
-*D_NET *35 0.207421
+*D_NET *35 0.231311
 *CONN
 *P io_in[14] I
-*I *693:select[3] I *D mux16x1_project
-*I *692:select[3] I *D mux16x1_project
-*I *691:select[3] I *D mux16x1_project
-*I *690:select[3] I *D mux16x1_project
-*I *689:select[3] I *D mux16x1_project
+*I *736:select[3] I *D mux16x1_project
+*I *737:select[3] I *D mux16x1_project
+*I *739:select[3] I *D mux16x1_project
+*I *738:select[3] I *D mux16x1_project
+*I *735:select[3] I *D mux16x1_project
 *CAP
 1 io_in[14] 0.00101621
-2 *693:select[3] 0.00120326
-3 *692:select[3] 8.37728e-05
-4 *691:select[3] 8.22051e-05
-5 *690:select[3] 8.37728e-05
-6 *689:select[3] 0.00615168
-7 *35:83 0.00769523
-8 *35:81 0.0071051
-9 *35:71 0.0023913
-10 *35:67 0.00603031
-11 *35:65 0.00640835
-12 *35:55 0.00238816
-13 *35:51 0.00672549
-14 *35:49 0.00795167
-15 *35:39 0.00242002
-16 *35:35 0.00763659
-17 *35:33 0.00698377
-18 *35:9 0.0418633
-19 *35:7 0.0369515
-20 *689:select[3] *103:69 0
-21 *35:9 *69:88 0
-22 *35:9 *69:98 0
-23 *35:33 *103:69 3.33532e-05
-24 *35:35 *103:65 0.00222882
-25 *35:35 *103:69 0.00051516
-26 *689:select[2] *689:select[3] 0.0169541
-27 *31:11 *35:9 0.0017615
-28 *34:9 *35:9 0.0347565
+2 *736:select[3] 0.000390416
+3 *737:select[3] 0.000257059
+4 *739:select[3] 0.000580564
+5 *738:select[3] 6.33454e-05
+6 *735:select[3] 0.00633467
+7 *35:63 0.00589701
+8 *35:61 0.00550169
+9 *35:47 0.00201095
+10 *35:35 0.00591988
+11 *35:33 0.00952815
+12 *35:31 0.0109326
+13 *35:29 0.00579447
+14 *35:9 0.0419041
+15 *35:7 0.0369515
+16 *735:select[3] *103:11 0
+17 *736:select[3] *103:11 0.000298083
+18 *737:select[3] *103:11 1.4279e-05
+19 *739:select[3] *103:11 0.000248072
+20 *35:9 *69:88 0
+21 *35:9 *69:98 0
+22 *35:29 *103:11 0
+23 *35:31 *101:11 0
+24 *35:31 *102:11 0.0132506
+25 *35:33 *102:11 0.0124975
+26 *35:35 *102:11 0.0101408
+27 *35:47 *103:11 4.42631e-06
+28 *35:61 *103:11 0
+29 *35:63 *102:11 0.00384466
+30 *35:63 *103:11 0.00447069
+31 *735:select[2] *735:select[3] 0.0169413
+32 *31:11 *35:9 0.0017615
+33 *34:9 *35:9 0.0347565
 *RES
 1 io_in[14] *35:7 5.99187 
 2 *35:7 *35:9 994.018 
-3 *35:9 *689:select[3] 43.5553 
-4 *689:select[3] *35:33 13.4554 
-5 *35:33 *35:35 148.589 
-6 *35:35 *35:39 17.3571 
-7 *35:39 *690:select[3] 1.70536 
-8 *35:39 *35:49 29.1429 
-9 *35:49 *35:51 129.5 
-10 *35:51 *35:55 4.73214 
-11 *35:55 *691:select[3] 1.70536 
-12 *35:55 *35:65 41.3571 
-13 *35:65 *35:67 86.375 
-14 *35:67 *35:71 33.8214 
-15 *35:71 *692:select[3] 1.70536 
-16 *35:71 *35:81 12.2679 
-17 *35:81 *35:83 129.5 
-18 *35:83 *693:select[3] 23.9196 
+3 *35:9 *735:select[3] 43.5553 
+4 *735:select[3] *35:29 15.5893 
+5 *35:29 *35:31 165.268 
+6 *35:31 *35:33 155.857 
+7 *35:33 *35:35 126.411 
+8 *35:35 *35:47 44.3125 
+9 *35:47 *738:select[3] 1.29464 
+10 *35:47 *35:61 11.8661 
+11 *35:61 *35:63 151.911 
+12 *35:63 *739:select[3] 21.9643 
+13 *35:33 *737:select[3] 13.4643 
+14 *35:31 *736:select[3] 17.6607 
 *END
 
-*D_NET *63 0.226208
+*D_NET *63 0.227386
 *CONN
 *P io_in[5] I
-*I *695:s1 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
-*I *694:s1 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
-*I *696:s1 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
-*I *697:s1 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
-*I *698:s1 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
-*I *699:s1 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
-*I *700:s1 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
-*I *701:s1 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
-*I *702:s1 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
-*I *703:s1 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
+*I *740:s1 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
+*I *742:s1 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
+*I *743:s1 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
+*I *744:s1 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
+*I *745:s1 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
+*I *746:s1 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
+*I *747:s1 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
+*I *748:s1 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
+*I *749:s1 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
+*I *741:s1 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
 *CAP
-1 io_in[5] 0.0272279
-2 *695:s1 0.000241051
-3 *694:s1 0.00670981
-4 *696:s1 0.000379714
-5 *697:s1 0.00012332
-6 *698:s1 7.70124e-05
-7 *699:s1 0.000116837
-8 *700:s1 0.000466633
-9 *701:s1 0.000338864
-10 *702:s1 0.000129784
-11 *703:s1 0.000400846
-12 *63:158 0.013745
-13 *63:143 0.0147986
-14 *63:121 0.0191077
-15 *63:104 0.0170453
-16 *63:71 0.0130758
-17 *63:57 0.0119243
-18 *63:42 0.0125993
-19 *63:23 0.0145205
-20 *63:13 0.00704116
-21 *63:9 0.0194651
-22 *63:5 0.0464368
-23 *695:s1 *646:14 0
-24 *63:9 *646:14 0.000236582
+1 io_in[5] 0.0272498
+2 *740:s1 0.00670918
+3 *742:s1 0.000379714
+4 *743:s1 0.00012332
+5 *744:s1 7.70124e-05
+6 *745:s1 0.000116837
+7 *746:s1 0.000466633
+8 *747:s1 0.000338864
+9 *748:s1 0.000129784
+10 *749:s1 0.000531632
+11 *741:s1 0.000167965
+12 *63:177 0.0137444
+13 *63:162 0.0147986
+14 *63:140 0.0191077
+15 *63:123 0.0170453
+16 *63:90 0.0130758
+17 *63:76 0.0119243
+18 *63:61 0.0124585
+19 *63:33 0.0148343
+20 *63:13 0.0269462
+21 *63:7 0.0199104
+22 *63:5 0.0272498
+23 *63:13 *64:13 0
 *RES
 1 io_in[5] *63:5 83.1884 
-2 *63:5 *63:9 49.9055 
-3 *63:9 *63:13 4.14163 
-4 *63:13 *63:23 20.8611 
-5 *63:23 *703:s1 7.76862 
-6 *63:23 *63:42 23.9625 
-7 *63:42 *702:s1 12.9834 
-8 *63:42 *63:57 12.0853 
-9 *63:57 *701:s1 9.06758 
-10 *63:57 *63:71 15.0682 
-11 *63:71 *700:s1 14.2882 
-12 *63:71 *63:104 22.0511 
-13 *63:104 *699:s1 12.8227 
-14 *63:104 *63:121 24.9758 
-15 *63:121 *698:s1 7.57268 
-16 *63:121 *63:143 24.9087 
-17 *63:143 *697:s1 13.0191 
-18 *63:143 *63:158 16.4531 
-19 *63:158 *696:s1 9.82204 
-20 *63:158 *694:s1 26.346 
-21 *63:13 *695:s1 8.49482 
+2 *63:5 *63:7 3.41 
+3 *63:7 *63:13 49.0523 
+4 *63:13 *741:s1 9.22 
+5 *63:13 *63:33 15.9079 
+6 *63:33 *749:s1 9.46202 
+7 *63:33 *63:61 23.6335 
+8 *63:61 *748:s1 12.9834 
+9 *63:61 *63:76 12.0853 
+10 *63:76 *747:s1 9.06758 
+11 *63:76 *63:90 15.0682 
+12 *63:90 *746:s1 14.2882 
+13 *63:90 *63:123 22.0511 
+14 *63:123 *745:s1 12.8227 
+15 *63:123 *63:140 24.9758 
+16 *63:140 *744:s1 7.57268 
+17 *63:140 *63:162 24.9087 
+18 *63:162 *743:s1 13.0191 
+19 *63:162 *63:177 16.4531 
+20 *63:177 *742:s1 9.82204 
+21 *63:177 *740:s1 26.346 
 *END
 
-*D_NET *64 0.17544
+*D_NET *64 0.174614
 *CONN
 *P io_in[6] I
-*I *694:s2 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
-*I *696:s2 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
-*I *697:s2 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
-*I *698:s2 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
-*I *699:s2 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
-*I *700:s2 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
-*I *701:s2 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
-*I *702:s2 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
-*I *703:s2 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
-*I *695:s2 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
+*I *740:s2 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
+*I *742:s2 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
+*I *743:s2 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
+*I *744:s2 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
+*I *745:s2 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
+*I *746:s2 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
+*I *747:s2 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
+*I *748:s2 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
+*I *749:s2 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
+*I *741:s2 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
 *CAP
-1 io_in[6] 0.0264924
-2 *694:s2 0.00670486
-3 *696:s2 0.000156662
-4 *697:s2 0.000268067
-5 *698:s2 6.51328e-05
-6 *699:s2 0.000183836
-7 *700:s2 0.000226084
-8 *701:s2 0.000253537
-9 *702:s2 0.000377315
-10 *703:s2 0.000181187
-11 *695:s2 0.0105265
-12 *64:160 0.0135232
-13 *64:155 6.4997e-06
-14 *64:140 0.0133681
-15 *64:122 0.0150624
-16 *64:107 0.0131496
-17 *64:92 0.0113169
-18 *64:72 0.0107469
-19 *64:57 0.00932597
-20 *64:41 0.0101939
-21 *64:5 0.0321389
-22 *695:s2 *656:12 0.00024118
-23 *697:s2 *649:12 6.34448e-05
-24 *698:s2 *650:12 0
-25 *64:57 *654:16 0.000313247
-26 *64:140 *648:20 0
-27 *64:140 *649:12 0.000554124
-28 *64:160 *648:20 0
+1 io_in[6] 0.0265033
+2 *740:s2 0.00670364
+3 *742:s2 0.000156662
+4 *743:s2 0.000290671
+5 *744:s2 6.51328e-05
+6 *745:s2 0.000183836
+7 *746:s2 0.000226084
+8 *747:s2 0.000253537
+9 *748:s2 0.000377245
+10 *749:s2 0.000181187
+11 *741:s2 0.000208834
+12 *64:150 0.0135081
+13 *64:145 6.4997e-06
+14 *64:130 0.0133764
+15 *64:112 0.0150608
+16 *64:97 0.0131476
+17 *64:82 0.0113154
+18 *64:62 0.0107453
+19 *64:47 0.00932345
+20 *64:31 0.00973034
+21 *64:13 0.0106867
+22 *64:5 0.0325634
+23 *63:13 *64:13 0
 *RES
 1 io_in[6] *64:5 81.0264 
-2 *64:5 *695:s2 31.0401 
-3 *695:s2 *64:41 24.8463 
-4 *64:41 *703:s2 8.4626 
-5 *64:41 *64:57 14.6327 
-6 *64:57 *702:s2 7.72318 
-7 *64:57 *64:72 12.2169 
-8 *64:72 *701:s2 8.2589 
-9 *64:72 *64:92 16.0521 
-10 *64:92 *700:s2 7.29705 
-11 *64:92 *64:107 13.6018 
-12 *64:107 *699:s2 13.2927 
-13 *64:107 *64:122 24.5497 
-14 *64:122 *698:s2 7.54761 
-15 *64:122 *64:140 16.5847 
-16 *64:140 *697:s2 15.8941 
-17 *697:s2 *64:155 0.125 
-18 *64:140 *64:160 16.8793 
-19 *64:160 *696:s2 7.15057 
-20 *64:160 *694:s2 21.9955 
+2 *64:5 *64:13 21.2481 
+3 *64:13 *741:s2 10.0325 
+4 *64:13 *64:31 15.9079 
+5 *64:31 *749:s2 8.4626 
+6 *64:31 *64:47 14.6327 
+7 *64:47 *748:s2 7.72318 
+8 *64:47 *64:62 12.2169 
+9 *64:62 *747:s2 8.2589 
+10 *64:62 *64:82 16.0521 
+11 *64:82 *746:s2 7.29705 
+12 *64:82 *64:97 13.6018 
+13 *64:97 *745:s2 13.2927 
+14 *64:97 *64:112 24.5497 
+15 *64:112 *744:s2 7.54761 
+16 *64:112 *64:130 16.5847 
+17 *64:130 *743:s2 15.8941 
+18 *743:s2 *64:145 0.125 
+19 *64:130 *64:150 16.8793 
+20 *64:150 *742:s2 7.15057 
+21 *64:150 *740:s2 21.9955 
 *END
 
-*D_NET *65 0.145977
+*D_NET *65 0.145666
 *CONN
 *P io_in[7] I
-*I *703:s3 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
-*I *695:s3 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
-*I *694:s3 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
-*I *696:s3 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
-*I *697:s3 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
-*I *698:s3 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
-*I *699:s3 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
-*I *700:s3 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
-*I *701:s3 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
-*I *702:s3 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
+*I *749:s3 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
+*I *741:s3 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
+*I *740:s3 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
+*I *742:s3 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
+*I *743:s3 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
+*I *744:s3 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
+*I *745:s3 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
+*I *746:s3 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
+*I *747:s3 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
+*I *748:s3 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
 *CAP
 1 io_in[7] 0.00184568
-2 *703:s3 0.000131778
-3 *695:s3 0.00428738
-4 *694:s3 0.00497543
-5 *696:s3 0.000110502
-6 *697:s3 0.000225256
-7 *698:s3 0.000170842
-8 *699:s3 0.000137877
-9 *700:s3 7.18861e-05
-10 *701:s3 0.000152818
-11 *702:s3 0.000173376
-12 *65:172 0.00511732
-13 *65:164 0.00367948
-14 *65:162 0.00298133
-15 *65:137 0.0100622
-16 *65:109 0.0107959
-17 *65:91 0.0135902
-18 *65:76 0.0118358
-19 *65:57 0.00938249
-20 *65:39 0.00884649
-21 *65:19 0.0047862
-22 *65:13 0.0260639
-23 *65:11 0.0265527
-24 *65:11 *69:28 0
-25 *65:91 *659:16 0
-26 *65:109 *648:20 0
-27 *65:109 *659:16 0
-28 *65:137 *648:20 0
+2 *749:s3 0.000131778
+3 *741:s3 0.000100261
+4 *740:s3 0.00497264
+5 *742:s3 0.000110502
+6 *743:s3 0.000225256
+7 *744:s3 0.000170842
+8 *745:s3 0.000137877
+9 *746:s3 7.18861e-05
+10 *747:s3 0.000152818
+11 *748:s3 0.000173376
+12 *65:186 0.00433145
+13 *65:172 0.00506112
+14 *65:164 0.00367948
+15 *65:162 0.00298133
+16 *65:137 0.0100649
+17 *65:109 0.0107905
+18 *65:91 0.0135773
+19 *65:76 0.0118265
+20 *65:57 0.00937325
+21 *65:39 0.00884261
+22 *65:19 0.00478231
+23 *65:13 0.0258855
+24 *65:11 0.0263763
+25 *65:11 *69:28 0
 *RES
 1 io_in[7] *65:11 25.3846 
 2 *65:11 *65:13 76.7259 
 3 *65:13 *65:19 7.92357 
-4 *65:19 *702:s3 9.36732 
+4 *65:19 *748:s3 9.36732 
 5 *65:19 *65:39 11.6842 
-6 *65:39 *701:s3 8.65367 
+6 *65:39 *747:s3 8.65367 
 7 *65:39 *65:57 16.0897 
-8 *65:57 *700:s3 7.00487 
+8 *65:57 *746:s3 7.00487 
 9 *65:57 *65:76 13.8399 
-10 *65:76 *699:s3 13.1486 
+10 *65:76 *745:s3 13.1486 
 11 *65:76 *65:91 24.6562 
-12 *65:91 *698:s3 8.28888 
+12 *65:91 *744:s3 8.28888 
 13 *65:91 *65:109 16.6223 
-14 *65:109 *697:s3 10.7557 
+14 *65:109 *743:s3 10.7557 
 15 *65:109 *65:137 17.9258 
-16 *65:137 *696:s3 8.19321 
-17 *65:137 *694:s3 21.1331 
+16 *65:137 *742:s3 8.19321 
+17 *65:137 *740:s3 21.1331 
 18 *65:13 *65:162 3.41 
 19 *65:162 *65:164 62.0536 
 20 *65:164 *65:172 9.15277 
-21 *65:172 *695:s3 22.9954 
-22 *65:172 *703:s3 8.38964 
+21 *65:172 *65:186 47.2981 
+22 *65:186 *741:s3 5.58411 
+23 *65:172 *749:s3 8.38964 
 *END
 
-*D_NET *66 0.146517
+*D_NET *66 0.141846
 *CONN
 *P io_in[8] I
-*I *694:s4 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
-*I *696:s4 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
-*I *697:s4 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
-*I *698:s4 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
-*I *699:s4 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
-*I *700:s4 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
-*I *701:s4 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
-*I *702:s4 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
-*I *703:s4 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
-*I *695:s4 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
+*I *740:s4 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
+*I *742:s4 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
+*I *743:s4 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
+*I *744:s4 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
+*I *745:s4 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
+*I *747:s4 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
+*I *748:s4 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
+*I *749:s4 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
+*I *741:s4 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
+*I *746:s4 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
 *CAP
-1 io_in[8] 0.0250395
-2 *694:s4 0.00516074
-3 *696:s4 0.000217512
-4 *697:s4 0.000124485
-5 *698:s4 0
-6 *699:s4 0.000137877
-7 *700:s4 0.000233575
-8 *701:s4 0.000225943
-9 *702:s4 9.10951e-05
-10 *703:s4 0.000237851
-11 *695:s4 0.00459109
-12 *66:153 0.01023
-13 *66:133 0.01046
-14 *66:122 0.012835
-15 *66:107 0.00877741
-16 *66:25 0.00995298
-17 *66:23 0.00868357
-18 *66:21 0.0089788
-19 *66:19 0.00617646
-20 *66:17 0.002837
-21 *66:5 0.0285063
-22 *66:5 *70:124 0.000198588
-23 *66:19 *669:18 0
-24 *66:21 *669:18 0
-25 *66:107 *669:18 0.00125201
-26 *66:122 *669:18 0.00141458
-27 *66:133 *659:16 0
-28 *66:133 *669:18 0.000154664
+1 io_in[8] 0.0246885
+2 *740:s4 0.000219903
+3 *742:s4 0.000142986
+4 *743:s4 0.000124485
+5 *744:s4 0.000134033
+6 *745:s4 0.000187748
+7 *747:s4 0.000186597
+8 *748:s4 9.10951e-05
+9 *749:s4 0.000237851
+10 *741:s4 0
+11 *746:s4 0.00086705
+12 *66:227 0.0038767
+13 *66:225 0.00384498
+14 *66:205 0.00527019
+15 *66:185 0.0110663
+16 *66:159 0.0139598
+17 *66:139 0.00941348
+18 *66:89 0.00466402
+19 *66:67 0.010023
+20 *66:65 0.00887236
+21 *66:59 0.00420385
+22 *66:51 0.0040739
+23 *66:49 0.00413055
+24 *66:11 0.00286508
+25 *66:5 0.0285031
+26 *66:5 *737:data_in[15] 0.000198588
 *RES
-1 io_in[8] *66:5 76.8466 
-2 *66:5 *66:17 47.8865 
-3 *66:17 *66:19 2.17767 
-4 *66:19 *66:21 15.4943 
-5 *66:21 *66:23 12.4049 
-6 *66:23 *66:25 14.8551 
-7 *66:25 *695:s4 28.7807 
-8 *66:25 *703:s4 13.0586 
-9 *66:23 *702:s4 7.62178 
-10 *66:21 *701:s4 9.04844 
-11 *66:19 *700:s4 9.9802 
-12 *66:5 *66:107 8.7774 
-13 *66:107 *699:s4 13.1486 
-14 *66:107 *66:122 25.3056 
-15 *66:122 *698:s4 3.41 
-16 *66:122 *66:133 16.4743 
-17 *66:133 *697:s4 8.35839 
-18 *66:133 *66:153 17.4621 
-19 *66:153 *696:s4 9.30698 
-20 *66:153 *694:s4 21.9611 
+1 io_in[8] *66:5 76.7024 
+2 *66:5 *66:11 47.5179 
+3 *66:11 *746:s4 17.2947 
+4 *746:s4 *66:49 12.6116 
+5 *66:49 *66:51 77.2321 
+6 *66:51 *66:59 7.88063 
+7 *66:59 *66:65 13.1443 
+8 *66:65 *66:67 14.8551 
+9 *66:67 *66:89 48.7687 
+10 *66:89 *741:s4 4.5 
+11 *66:67 *749:s4 13.0586 
+12 *66:65 *748:s4 7.62178 
+13 *66:59 *747:s4 9.4126 
+14 *66:5 *66:139 8.251 
+15 *66:139 *745:s4 9.99678 
+16 *66:139 *66:159 24.6562 
+17 *66:159 *744:s4 8.26974 
+18 *66:159 *66:185 24.6142 
+19 *66:185 *743:s4 8.35839 
+20 *66:185 *66:205 17.7253 
+21 *66:205 *742:s4 8.99678 
+22 *66:205 *66:225 7.37617 
+23 *66:225 *66:227 75.8661 
+24 *66:227 *740:s4 8.70089 
 *END
 
-*D_NET *67 0.14743
+*D_NET *67 0.143326
 *CONN
 *P io_in[9] I
-*I *698:s5 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
-*I *699:s5 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
-*I *700:s5 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
-*I *701:s5 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
-*I *703:s5 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
-*I *695:s5 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
-*I *702:s5 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
-*I *694:s5 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
-*I *696:s5 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
-*I *697:s5 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
+*I *744:s5 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
+*I *745:s5 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
+*I *746:s5 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
+*I *747:s5 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
+*I *749:s5 I *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
+*I *741:s5 I *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
+*I *748:s5 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
+*I *740:s5 I *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
+*I *742:s5 I *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
+*I *743:s5 I *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
 *CAP
 1 io_in[9] 0.00216922
-2 *698:s5 0.00013868
-3 *699:s5 0.000106269
-4 *700:s5 6.30211e-05
-5 *701:s5 0.000130101
-6 *703:s5 0.000163147
-7 *695:s5 0.000108227
-8 *702:s5 0.000115241
-9 *694:s5 0.00528965
-10 *696:s5 3.45251e-05
-11 *697:s5 0.000389833
-12 *67:136 0.00462626
-13 *67:118 0.0101265
-14 *67:101 0.00887076
-15 *67:95 0.00882792
-16 *67:93 0.00935414
-17 *67:83 0.012099
-18 *67:77 0.00897577
-19 *67:69 0.00464348
-20 *67:67 0.00389569
-21 *67:41 0.0101418
-22 *67:15 0.00553748
-23 *67:13 0.0231878
-24 *67:11 0.025027
-25 *67:11 *69:48 0
-26 *67:13 *690:data_in[0] 0.000280062
-27 *67:13 *647:22 0.00287006
-28 *67:15 *679:11 0.000235564
-29 *67:41 *668:18 0
-30 *67:69 *679:13 0
-31 *67:93 *670:16 0
-32 *67:95 *670:16 0
-33 *690:select[1] *67:13 1.56658e-05
-34 *690:select[2] *67:13 6.63171e-06
+2 *744:s5 0.00013868
+3 *745:s5 0.000106269
+4 *746:s5 6.30211e-05
+5 *747:s5 0.000130101
+6 *749:s5 0.00015446
+7 *741:s5 0.00445367
+8 *748:s5 0.000115241
+9 *740:s5 0.00528491
+10 *742:s5 3.45251e-05
+11 *743:s5 0.000374673
+12 *67:118 0.0100864
+13 *67:101 0.00889977
+14 *67:95 0.00877698
+15 *67:93 0.00932194
+16 *67:83 0.0120959
+17 *67:77 0.00895779
+18 *67:69 0.00462032
+19 *67:67 0.00387253
+20 *67:41 0.0101186
+21 *67:15 0.00549741
+22 *67:13 0.0230928
+23 *67:11 0.0249385
+24 *67:11 *69:48 0
+25 *736:select[1] *67:13 1.56658e-05
+26 *736:select[2] *67:13 6.63171e-06
 *RES
 1 io_in[9] *67:11 32.0632 
 2 *67:11 *67:13 70.8165 
 3 *67:13 *67:15 1.05593 
-4 *67:15 *697:s5 7.28927 
+4 *67:15 *743:s5 7.28927 
 5 *67:15 *67:41 42.0136 
-6 *67:41 *696:s5 6.89285 
-7 *67:41 *694:s5 22.0786 
+6 *67:41 *742:s5 6.89285 
+7 *67:41 *740:s5 22.0786 
 8 *67:13 *67:67 3.41 
 9 *67:67 *67:69 80.2679 
 10 *67:69 *67:77 9.3345 
@@ -1948,18 +1982,17 @@ wbs_we_i I
 12 *67:83 *67:93 17.239 
 13 *67:93 *67:95 15.7074 
 14 *67:95 *67:101 11.9192 
-15 *67:101 *702:s5 7.18503 
-16 *67:101 *67:118 16.027 
-17 *67:118 *67:136 48.1723 
-18 *67:136 *695:s5 5.52161 
-19 *67:118 *703:s5 12.4411 
-20 *67:95 *701:s5 8.18939 
-21 *67:93 *700:s5 6.9751 
-22 *67:83 *699:s5 5.60196 
-23 *67:77 *698:s5 8.7691 
+15 *67:101 *748:s5 7.18503 
+16 *67:101 *67:118 16.1335 
+17 *67:118 *741:s5 24.4024 
+18 *67:118 *749:s5 12.4541 
+19 *67:95 *747:s5 8.18939 
+20 *67:93 *746:s5 6.9751 
+21 *67:83 *745:s5 5.60196 
+22 *67:77 *744:s5 8.7691 
 *END
 
-*D_NET *69 0.424714
+*D_NET *69 0.375076
 *CONN
 *P io_oeb[5] O
 *P io_oeb[14] O
@@ -1971,7 +2004,7 @@ wbs_we_i I
 *P io_oeb[8] O
 *P io_oeb[7] O
 *P io_oeb[6] O
-*I *687:HI O *D sky130_fd_sc_hd__conb_1
+*I *733:HI O *D sky130_fd_sc_hd__conb_1
 *CAP
 1 io_oeb[5] 0.000827671
 2 io_oeb[14] 0.000827671
@@ -1983,7 +2016,7 @@ wbs_we_i I
 8 io_oeb[8] 0.000827671
 9 io_oeb[7] 0.000827671
 10 io_oeb[6] 0.000827671
-11 *687:HI 0
+11 *733:HI 0
 12 *69:98 0.0126483
 13 *69:88 0.0243644
 14 *69:78 0.0226273
@@ -1994,1471 +2027,340 @@ wbs_we_i I
 19 *69:28 0.0246502
 20 *69:18 0.0216633
 21 *69:16 0.00894491
-22 *69:14 0.00169154
-23 *69:6 0.0934775
-24 *69:4 0.0926136
-25 *32:9 *69:58 0.0132128
-26 *32:9 *69:68 0.00955018
-27 *33:9 *69:58 7.3994e-05
-28 *33:9 *69:68 0.00384668
-29 *33:9 *69:78 0.00375433
-30 *34:9 *69:78 0
-31 *34:9 *69:88 0
-32 *35:9 *69:88 0
-33 *35:9 *69:98 0
-34 *65:11 *69:28 0
-35 *67:11 *69:48 0
+22 *69:14 0.00104503
+23 *69:10 0.0208324
+24 *69:8 0.020615
+25 *69:6 0.047826
+26 *69:4 0.047826
+27 *32:9 *69:58 0.0132128
+28 *32:9 *69:68 0.00955018
+29 *33:9 *69:58 7.3994e-05
+30 *33:9 *69:68 0.00384668
+31 *33:9 *69:78 0.00375433
+32 *34:9 *69:78 0
+33 *34:9 *69:88 0
+34 *35:9 *69:88 0
+35 *35:9 *69:98 0
+36 *65:11 *69:28 0
+37 *67:11 *69:48 0
 *RES
-1 *687:HI *69:4 9.3 
-2 *69:4 *69:6 1774.41 
-3 *69:6 *69:14 22.2548 
-4 *69:14 *69:16 3.41 
-5 *69:16 *69:18 178.018 
-6 *69:18 io_oeb[6] 5.4874 
-7 *69:18 *69:28 236.911 
-8 *69:28 io_oeb[7] 5.4874 
-9 *69:28 *69:38 237.518 
-10 *69:38 io_oeb[8] 5.4874 
-11 *69:38 *69:48 237.518 
-12 *69:48 io_oeb[9] 5.4874 
-13 *69:48 *69:58 236.911 
-14 *69:58 io_oeb[10] 5.4874 
-15 *69:58 *69:68 237.518 
-16 *69:68 io_oeb[11] 5.4874 
-17 *69:68 *69:78 237.518 
-18 *69:78 io_oeb[12] 5.4874 
-19 *69:78 *69:88 236.911 
-20 *69:88 io_oeb[13] 5.4874 
-21 *69:88 *69:98 237.518 
-22 *69:98 io_oeb[14] 5.4874 
-23 *69:14 io_oeb[5] 2.0774 
+1 *733:HI *69:4 9.3 
+2 *69:4 *69:6 916.018 
+3 *69:6 *69:8 4.5 
+4 *69:8 *69:10 424.973 
+5 *69:10 *69:14 3.96147 
+6 *69:14 *69:16 3.41 
+7 *69:16 *69:18 178.018 
+8 *69:18 io_oeb[6] 5.4874 
+9 *69:18 *69:28 236.911 
+10 *69:28 io_oeb[7] 5.4874 
+11 *69:28 *69:38 237.518 
+12 *69:38 io_oeb[8] 5.4874 
+13 *69:38 *69:48 237.518 
+14 *69:48 io_oeb[9] 5.4874 
+15 *69:48 *69:58 236.911 
+16 *69:58 io_oeb[10] 5.4874 
+17 *69:58 *69:68 237.518 
+18 *69:68 io_oeb[11] 5.4874 
+19 *69:68 *69:78 237.518 
+20 *69:78 io_oeb[12] 5.4874 
+21 *69:78 *69:88 236.911 
+22 *69:88 io_oeb[13] 5.4874 
+23 *69:88 *69:98 237.518 
+24 *69:98 io_oeb[14] 5.4874 
+25 *69:14 io_oeb[5] 2.0774 
 *END
 
-*D_NET *70 0.310369
+*D_NET *70 0.582467
 *CONN
 *P io_oeb[15] O
-*I *693:data_in[15] I *D mux16x1_project
-*I *693:data_in[14] I *D mux16x1_project
-*I *693:data_in[13] I *D mux16x1_project
-*I *693:data_in[12] I *D mux16x1_project
-*I *693:data_in[11] I *D mux16x1_project
-*I *693:data_in[10] I *D mux16x1_project
-*I *692:data_in[15] I *D mux16x1_project
-*I *692:data_in[14] I *D mux16x1_project
-*I *692:data_in[13] I *D mux16x1_project
-*I *692:data_in[12] I *D mux16x1_project
-*I *692:data_in[11] I *D mux16x1_project
-*I *692:data_in[10] I *D mux16x1_project
-*I *691:data_in[15] I *D mux16x1_project
-*I *691:data_in[14] I *D mux16x1_project
-*I *691:data_in[13] I *D mux16x1_project
-*I *691:data_in[12] I *D mux16x1_project
-*I *691:data_in[11] I *D mux16x1_project
-*I *691:data_in[10] I *D mux16x1_project
-*I *690:data_in[15] I *D mux16x1_project
-*I *690:data_in[14] I *D mux16x1_project
-*I *690:data_in[13] I *D mux16x1_project
-*I *690:data_in[12] I *D mux16x1_project
-*I *690:data_in[11] I *D mux16x1_project
-*I *690:data_in[10] I *D mux16x1_project
-*I *689:data_in[15] I *D mux16x1_project
-*I *689:data_in[14] I *D mux16x1_project
-*I *689:data_in[13] I *D mux16x1_project
-*I *689:data_in[12] I *D mux16x1_project
-*I *689:data_in[11] I *D mux16x1_project
-*I *689:data_in[10] I *D mux16x1_project
-*I *688:LO O *D sky130_fd_sc_hd__conb_1
+*P io_oeb[16] O
+*P io_oeb[17] O
+*P io_oeb[18] O
+*P io_oeb[19] O
+*I *735:data_in[10] I *D mux16x1_project
+*I *735:data_in[11] I *D mux16x1_project
+*I *735:data_in[12] I *D mux16x1_project
+*I *735:data_in[13] I *D mux16x1_project
+*I *735:data_in[14] I *D mux16x1_project
+*I *735:data_in[15] I *D mux16x1_project
+*I *736:data_in[10] I *D mux16x1_project
+*I *736:data_in[11] I *D mux16x1_project
+*I *736:data_in[12] I *D mux16x1_project
+*I *736:data_in[13] I *D mux16x1_project
+*I *736:data_in[14] I *D mux16x1_project
+*I *736:data_in[15] I *D mux16x1_project
+*I *737:data_in[10] I *D mux16x1_project
+*I *737:data_in[11] I *D mux16x1_project
+*I *737:data_in[12] I *D mux16x1_project
+*I *737:data_in[13] I *D mux16x1_project
+*I *737:data_in[14] I *D mux16x1_project
+*I *737:data_in[15] I *D mux16x1_project
+*I *738:data_in[10] I *D mux16x1_project
+*I *738:data_in[11] I *D mux16x1_project
+*I *738:data_in[12] I *D mux16x1_project
+*I *738:data_in[13] I *D mux16x1_project
+*I *738:data_in[14] I *D mux16x1_project
+*I *738:data_in[15] I *D mux16x1_project
+*I *739:data_in[10] I *D mux16x1_project
+*I *739:data_in[11] I *D mux16x1_project
+*I *739:data_in[12] I *D mux16x1_project
+*I *739:data_in[13] I *D mux16x1_project
+*I *739:data_in[14] I *D mux16x1_project
+*I *739:data_in[15] I *D mux16x1_project
+*I *734:LO O *D sky130_fd_sc_hd__conb_1
 *CAP
-1 io_oeb[15] 0.0572057
-2 *693:data_in[15] 0.000317275
-3 *693:data_in[14] 0.00063455
-4 *693:data_in[13] 0.00063455
-5 *693:data_in[12] 0.00063455
-6 *693:data_in[11] 0.00063455
-7 *693:data_in[10] 0.000635483
-8 *692:data_in[15] 0.000644524
-9 *692:data_in[14] 0.00063455
-10 *692:data_in[13] 0.00063455
-11 *692:data_in[12] 0.00063455
-12 *692:data_in[11] 0.00063455
-13 *692:data_in[10] 0.000635483
-14 *691:data_in[15] 0.000558871
-15 *691:data_in[14] 0.00063455
-16 *691:data_in[13] 0.00063455
-17 *691:data_in[12] 0.00063455
-18 *691:data_in[11] 0.00063455
-19 *691:data_in[10] 0.000644524
-20 *690:data_in[15] 0.000674385
-21 *690:data_in[14] 0.00063455
-22 *690:data_in[13] 0.00063455
-23 *690:data_in[12] 0.00063455
-24 *690:data_in[11] 0.00063455
-25 *690:data_in[10] 0.000724909
-26 *689:data_in[15] 0.000644524
-27 *689:data_in[14] 0.00063455
-28 *689:data_in[13] 0.00063455
-29 *689:data_in[12] 0.00063455
-30 *689:data_in[11] 0.00063455
-31 *689:data_in[10] 0.00275711
-32 *688:LO 0
-33 *70:158 0.00568682
-34 *70:156 0.00569586
-35 *70:126 0.00466563
-36 *70:124 0.00458901
-37 *70:94 0.00634698
-38 *70:92 0.00637684
-39 *70:58 0.00666061
-40 *70:56 0.00658022
-41 *70:20 0.00415273
-42 *70:16 0.00200165
-43 *70:8 0.0574944
-44 *70:6 0.0543972
-45 *70:4 0.0543972
-46 *689:data_in[10] *689:data_in[9] 0
-47 *690:data_in[10] *690:data_in[9] 0.000274481
-48 *691:data_in[10] *691:data_in[9] 0
-49 *692:data_in[10] *692:data_in[9] 0
-50 *693:data_in[10] *693:data_in[9] 0
-51 *70:6 *640:20 0
-52 *70:16 *641:26 0.000315806
-53 *70:58 *652:18 0
-54 *70:94 *652:18 0
-55 *70:94 *663:14 0.0010891
-56 *70:126 *663:14 0.00509916
-57 *70:126 *674:20 0.00148716
-58 *70:158 *674:20 0.00472592
-59 *70:158 *676:26 0
-60 *66:5 *70:124 0.000198588
+1 io_oeb[15] 0.000579444
+2 io_oeb[16] 0.000579444
+3 io_oeb[17] 0.000594035
+4 io_oeb[18] 0.000594035
+5 io_oeb[19] 0.000579444
+6 *735:data_in[10] 0.000785722
+7 *735:data_in[11] 0.00063455
+8 *735:data_in[12] 0.00063455
+9 *735:data_in[13] 0.00063455
+10 *735:data_in[14] 0.00063455
+11 *735:data_in[15] 0.000644524
+12 *736:data_in[10] 0.000823982
+13 *736:data_in[11] 0.00063455
+14 *736:data_in[12] 0.00063455
+15 *736:data_in[13] 0.00063455
+16 *736:data_in[14] 0.00063455
+17 *736:data_in[15] 0.000674385
+18 *737:data_in[10] 0.000644524
+19 *737:data_in[11] 0.00063455
+20 *737:data_in[12] 0.00063455
+21 *737:data_in[13] 0.00063455
+22 *737:data_in[14] 0.00063455
+23 *737:data_in[15] 0.000558871
+24 *738:data_in[10] 0.000635483
+25 *738:data_in[11] 0.00063455
+26 *738:data_in[12] 0.00063455
+27 *738:data_in[13] 0.00063455
+28 *738:data_in[14] 0.00063455
+29 *738:data_in[15] 0.000644524
+30 *739:data_in[10] 0.000635483
+31 *739:data_in[11] 0.00063455
+32 *739:data_in[12] 0.00063455
+33 *739:data_in[13] 0.00063455
+34 *739:data_in[14] 0.00063455
+35 *739:data_in[15] 0.000794763
+36 *734:LO 0
+37 *70:192 0.0157208
+38 *70:190 0.0309012
+39 *70:188 0.0309001
+40 *70:186 0.0308572
+41 *70:184 0.0151374
+42 *70:182 0.000774205
+43 *70:180 0.00229253
+44 *70:174 0.0604088
+45 *70:172 0.0587795
+46 *70:142 0.00649534
+47 *70:140 0.00667479
+48 *70:106 0.0066656
+49 *70:104 0.00663574
+50 *70:74 0.00658792
+51 *70:72 0.00666454
+52 *70:42 0.00667358
+53 *70:40 0.00666454
+54 *70:10 0.0564093
+55 *70:8 0.0559318
+56 *70:6 0.062522
+57 *70:4 0.062522
+58 *70:180 *103:15 0.00180941
+59 *70:186 *100:15 0.00849919
+60 *70:186 *101:15 0.0016747
+61 *70:188 *101:15 0.00505284
+62 *70:188 *102:15 0.00163138
+63 *70:190 *102:15 0.00492214
+64 *66:5 *737:data_in[15] 0.000198588
 *RES
-1 *688:LO *70:4 9.3 
-2 *70:4 *70:6 1082.77 
+1 *734:LO *70:4 9.3 
+2 *70:4 *70:6 1197.77 
 3 *70:6 *70:8 4.5 
-4 *70:8 *70:16 15.7679 
-5 *70:16 *70:20 39.2321 
-6 *70:20 *689:data_in[10] 49.2195 
-7 *689:data_in[10] *689:data_in[11] 1.06533 
-8 *689:data_in[11] *689:data_in[12] 1.06533 
-9 *689:data_in[12] *689:data_in[13] 1.06533 
-10 *689:data_in[13] *689:data_in[14] 1.06533 
-11 *689:data_in[14] *689:data_in[15] 1.06533 
-12 *689:data_in[15] *70:56 4.47847 
-13 *70:56 *70:58 127.018 
-14 *70:58 *690:data_in[10] 5.1114 
-15 *690:data_in[10] *690:data_in[11] 1.06533 
-16 *690:data_in[11] *690:data_in[12] 1.06533 
-17 *690:data_in[12] *690:data_in[13] 1.06533 
-18 *690:data_in[13] *690:data_in[14] 1.06533 
-19 *690:data_in[14] *690:data_in[15] 1.06533 
-20 *690:data_in[15] *70:92 4.57873 
-21 *70:92 *70:94 130.054 
-22 *70:94 *691:data_in[10] 4.47847 
-23 *691:data_in[10] *691:data_in[11] 1.06533 
-24 *691:data_in[11] *691:data_in[12] 1.06533 
-25 *691:data_in[12] *691:data_in[13] 1.06533 
-26 *691:data_in[13] *691:data_in[14] 1.06533 
-27 *691:data_in[14] *691:data_in[15] 1.06533 
-28 *691:data_in[15] *70:124 4.47847 
-29 *70:124 *70:126 130.661 
-30 *70:126 *692:data_in[10] 4.47847 
-31 *692:data_in[10] *692:data_in[11] 1.06533 
-32 *692:data_in[11] *692:data_in[12] 1.06533 
-33 *692:data_in[12] *692:data_in[13] 1.06533 
-34 *692:data_in[13] *692:data_in[14] 1.06533 
-35 *692:data_in[14] *692:data_in[15] 1.06533 
-36 *692:data_in[15] *70:156 4.47847 
-37 *70:156 *70:158 130.661 
-38 *70:158 *693:data_in[10] 4.47847 
-39 *693:data_in[10] *693:data_in[11] 1.06533 
-40 *693:data_in[11] *693:data_in[12] 1.06533 
-41 *693:data_in[12] *693:data_in[13] 1.06533 
-42 *693:data_in[13] *693:data_in[14] 1.06533 
-43 *693:data_in[14] *693:data_in[15] 1.06533 
-44 *70:8 io_oeb[15] 1177.77 
+4 *70:8 *70:10 1151.72 
+5 *70:10 *739:data_in[15] 4.98293 
+6 *739:data_in[15] *739:data_in[14] 1.06533 
+7 *739:data_in[14] *739:data_in[13] 1.06533 
+8 *739:data_in[13] *739:data_in[12] 1.06533 
+9 *739:data_in[12] *739:data_in[11] 1.06533 
+10 *739:data_in[11] *739:data_in[10] 1.06533 
+11 *739:data_in[10] *70:40 4.47847 
+12 *70:40 *70:42 130.661 
+13 *70:42 *738:data_in[15] 4.47847 
+14 *738:data_in[15] *738:data_in[14] 1.06533 
+15 *738:data_in[14] *738:data_in[13] 1.06533 
+16 *738:data_in[13] *738:data_in[12] 1.06533 
+17 *738:data_in[12] *738:data_in[11] 1.06533 
+18 *738:data_in[11] *738:data_in[10] 1.06533 
+19 *738:data_in[10] *70:72 4.47847 
+20 *70:72 *70:74 130.661 
+21 *70:74 *737:data_in[15] 4.47847 
+22 *737:data_in[15] *737:data_in[14] 1.06533 
+23 *737:data_in[14] *737:data_in[13] 1.06533 
+24 *737:data_in[13] *737:data_in[12] 1.06533 
+25 *737:data_in[12] *737:data_in[11] 1.06533 
+26 *737:data_in[11] *737:data_in[10] 1.06533 
+27 *737:data_in[10] *70:104 4.47847 
+28 *70:104 *70:106 130.054 
+29 *70:106 *736:data_in[15] 4.57873 
+30 *736:data_in[15] *736:data_in[14] 1.06533 
+31 *736:data_in[14] *736:data_in[13] 1.06533 
+32 *736:data_in[13] *736:data_in[12] 1.06533 
+33 *736:data_in[12] *736:data_in[11] 1.06533 
+34 *736:data_in[11] *736:data_in[10] 1.06533 
+35 *736:data_in[10] *70:140 5.1114 
+36 *70:140 *70:142 127.018 
+37 *70:142 *735:data_in[15] 4.47847 
+38 *735:data_in[15] *735:data_in[14] 1.06533 
+39 *735:data_in[14] *735:data_in[13] 1.06533 
+40 *735:data_in[13] *735:data_in[12] 1.06533 
+41 *735:data_in[12] *735:data_in[11] 1.06533 
+42 *735:data_in[11] *735:data_in[10] 1.06533 
+43 *735:data_in[10] *70:172 4.98293 
+44 *70:172 *70:174 1201.51 
+45 *70:174 *70:180 48.9643 
+46 *70:180 *70:182 3.16071 
+47 *70:182 *70:184 4.5 
+48 *70:184 *70:186 289.679 
+49 *70:186 *70:188 289.679 
+50 *70:188 *70:190 290.089 
+51 *70:190 *70:192 289.679 
+52 *70:192 io_oeb[19] 16.25 
+53 *70:190 io_oeb[18] 16.25 
+54 *70:188 io_oeb[17] 16.25 
+55 *70:186 io_oeb[16] 16.25 
+56 *70:182 io_oeb[15] 11.75 
 *END
 
-*D_NET *103 0.193547
+*D_NET *99 0.174348
 *CONN
 *P io_out[15] O
-*I *689:y O *D mux16x1_project
-*I *690:y O *D mux16x1_project
-*I *691:y O *D mux16x1_project
-*I *692:y O *D mux16x1_project
-*I *693:y O *D mux16x1_project
+*I *735:y O *D mux16x1_project
 *CAP
-1 io_out[15] 0.00215579
-2 *689:y 0.000140949
-3 *690:y 0.000708095
-4 *691:y 0.000475627
-5 *692:y 0.000475627
-6 *693:y 0.000475627
-7 *103:71 0.0578306
-8 *103:69 0.0576847
-9 *103:65 0.00325934
-10 *103:45 0.00205828
-11 *103:41 0.00864465
-12 *103:29 0.0163939
-13 *103:19 0.0160172
-14 *103:9 0.0161407
-15 *103:7 0.00830816
-16 *689:select[3] *103:69 0
-17 *35:33 *103:69 3.33532e-05
-18 *35:35 *103:65 0.00222882
-19 *35:35 *103:69 0.00051516
+1 io_out[15] 0.00228362
+2 *735:y 0.000483548
+3 *99:11 0.0382504
+4 *99:9 0.0364504
+5 io_out[15] *100:15 0
+6 io_out[15] *102:15 3.79901e-06
+7 io_out[15] *103:15 0.000434225
+8 *99:9 *101:11 0.000106506
+9 *99:11 *100:11 0.0963351
 *RES
-1 *693:y *103:7 4.55053 
-2 *103:7 *103:9 161.018 
-3 *103:9 *692:y 4.55053 
-4 *103:9 *103:19 161.018 
-5 *103:19 *691:y 4.55053 
-6 *103:19 *103:29 158.589 
-7 *103:29 *690:y 4.9704 
-8 *103:29 *103:41 164.054 
-9 *103:41 *103:45 5.00643 
-10 *103:45 *689:y 0.236567 
-11 *103:45 *103:65 32.902 
-12 *103:65 *103:69 44.1964 
-13 *103:69 *103:71 1109.62 
-14 *103:71 io_out[15] 26.9563 
+1 *735:y *99:9 4.19333 
+2 *99:9 *99:11 1180.41 
+3 *99:11 io_out[15] 27.5328 
 *END
 
-*D_NET *637 0.0434969
+*D_NET *100 0.316016
 *CONN
-*I *689:data_in[0] I *D mux16x1_project
-*I *694:X1_Y1 O *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
+*P io_out[16] O
+*I *736:y O *D mux16x1_project
 *CAP
-1 *689:data_in[0] 0.000871006
-2 *694:X1_Y1 0.000852036
-3 *637:10 0.0111102
-4 *637:8 0.0110912
-5 *637:10 *647:12 0
-6 *637:10 *647:14 0.000336994
-7 *637:10 *657:12 0.0185071
-8 *637:10 *667:10 0.000728417
+1 io_out[16] 0.000638223
+2 *736:y 0.000206949
+3 *100:15 0.0119842
+4 *100:13 0.011346
+5 *100:11 0.021821
+6 *100:9 0.022028
+7 *100:11 *101:11 0.108224
+8 *100:15 *101:15 0.0349339
+9 io_out[15] *100:15 0
+10 *70:186 *100:15 0.00849919
+11 *99:11 *100:11 0.0963351
 *RES
-1 *694:X1_Y1 *637:8 25.8929 
-2 *637:8 *637:10 268.321 
-3 *637:10 *689:data_in[0] 14.2106 
+1 *736:y *100:9 3.7484 
+2 *100:9 *100:11 1349.2 
+3 *100:11 *100:13 3.41 
+4 *100:13 *100:15 54.4573 
+5 *100:15 io_out[16] 16.2225 
 *END
 
-*D_NET *638 0.0358182
+*D_NET *101 0.354765
 *CONN
-*I *689:data_in[1] I *D mux16x1_project
-*I *696:X1_Y1 O *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
+*P io_out[17] O
+*I *737:y O *D mux16x1_project
 *CAP
-1 *689:data_in[1] 0.000791863
-2 *696:X1_Y1 0.000446894
-3 *638:18 0.0108979
-4 *638:16 0.010106
-5 *638:14 0.00300027
-6 *638:12 0.00300027
-7 *638:10 0.00356407
-8 *638:8 0.00401097
+1 io_out[17] 0.00066793
+2 *737:y 0.000127644
+3 *101:15 0.0163696
+4 *101:13 0.0157016
+5 *101:11 0.0522528
+6 *101:9 0.0523805
+7 *101:11 *102:11 0
+8 *101:15 *102:15 0.0672729
+9 *35:31 *101:11 0
+10 *70:186 *101:15 0.0016747
+11 *70:188 *101:15 0.00505284
+12 *99:9 *101:11 0.000106506
+13 *100:11 *101:11 0.108224
+14 *100:15 *101:15 0.0349339
 *RES
-1 *696:X1_Y1 *638:8 17.817 
-2 *638:8 *638:10 67.4821 
-3 *638:10 *638:12 4.5 
-4 *638:12 *638:14 62.0536 
-5 *638:14 *638:16 4.5 
-6 *638:16 *638:18 200.554 
-7 *638:18 *689:data_in[1] 12.0856 
+1 *737:y *101:9 3.62307 
+2 *101:9 *101:11 1507.66 
+3 *101:11 *101:13 3.41 
+4 *101:13 *101:15 105.192 
+5 *101:15 io_out[17] 16.8296 
 *END
 
-*D_NET *639 0.0443452
+*D_NET *102 0.481743
 *CONN
-*I *689:data_in[2] I *D mux16x1_project
-*I *697:X1_Y1 O *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
+*P io_out[18] O
+*I *738:y O *D mux16x1_project
 *CAP
-1 *689:data_in[2] 0.000791863
-2 *697:X1_Y1 0.000373659
-3 *639:18 0.0102744
-4 *639:16 0.00948254
-5 *639:14 0.00723539
-6 *639:12 0.00723539
-7 *639:10 0.00428914
-8 *639:8 0.0046628
+1 io_out[18] 0.000697636
+2 *738:y 0.000196878
+3 *102:15 0.0210019
+4 *102:13 0.0203042
+5 *102:11 0.0461221
+6 *102:9 0.046319
+7 *102:11 *103:11 0.133749
+8 *102:15 *103:15 0.0997887
+9 io_out[15] *102:15 3.79901e-06
+10 *35:31 *102:11 0.0132506
+11 *35:33 *102:11 0.0124975
+12 *35:35 *102:11 0.0101408
+13 *35:63 *102:11 0.00384466
+14 *70:188 *102:15 0.00163138
+15 *70:190 *102:15 0.00492214
+16 *101:11 *102:11 0
+17 *101:15 *102:15 0.0672729
 *RES
-1 *697:X1_Y1 *639:8 16.3571 
-2 *639:8 *639:10 80.625 
-3 *639:10 *639:12 4.5 
-4 *639:12 *639:14 148.268 
-5 *639:14 *639:16 4.5 
-6 *639:16 *639:18 188.232 
-7 *639:18 *689:data_in[2] 12.0856 
+1 *738:y *102:9 3.7296 
+2 *102:9 *102:11 1667.34 
+3 *102:11 *102:13 3.41 
+4 *102:13 *102:15 155.639 
+5 *102:15 io_out[18] 17.4368 
 *END
 
-*D_NET *640 0.0569245
+*D_NET *103 0.463821
 *CONN
-*I *689:data_in[3] I *D mux16x1_project
-*I *698:X1_Y1 O *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
+*P io_out[19] O
+*I *739:y O *D mux16x1_project
 *CAP
-1 *689:data_in[3] 0.000791863
-2 *698:X1_Y1 0.000323339
-3 *640:20 0.00996806
-4 *640:18 0.00917619
-5 *640:16 0.0114345
-6 *640:14 0.0114345
-7 *640:12 0.00310553
-8 *640:10 0.00342887
-9 *640:12 *650:14 0.00726161
-10 *70:6 *640:20 0
+1 io_out[19] 0.000727343
+2 *739:y 0.000201953
+3 *103:15 0.0502347
+4 *103:13 0.0495073
+5 *103:11 0.0610654
+6 *103:9 0.0612674
+7 io_out[15] *103:15 0.000434225
+8 *735:select[3] *103:11 0
+9 *736:select[3] *103:11 0.000298083
+10 *737:select[3] *103:11 1.4279e-05
+11 *739:select[3] *103:11 0.000248072
+12 *35:29 *103:11 0
+13 *35:47 *103:11 4.42631e-06
+14 *35:61 *103:11 0
+15 *35:63 *103:11 0.00447069
+16 *70:180 *103:15 0.00180941
+17 *102:11 *103:11 0.133749
+18 *102:15 *103:15 0.0997887
 *RES
-1 *698:X1_Y1 *640:10 15.3214 
-2 *640:10 *640:12 84.7321 
-3 *640:12 *640:14 4.5 
-4 *640:14 *640:16 234.786 
-5 *640:16 *640:18 4.5 
-6 *640:18 *640:20 182.071 
-7 *640:20 *689:data_in[3] 12.0856 
-*END
-
-*D_NET *641 0.0704766
-*CONN
-*I *689:data_in[4] I *D mux16x1_project
-*I *699:X1_Y1 O *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
-*CAP
-1 *689:data_in[4] 0.000791863
-2 *699:X1_Y1 0.00057031
-3 *641:26 0.00960462
-4 *641:24 0.00881275
-5 *641:22 0.0183517
-6 *641:20 0.0183517
-7 *641:18 0.00308972
-8 *641:16 0.00366003
-9 *641:18 *651:14 0.000804717
-10 *641:18 *661:10 0.00612331
-11 *70:16 *641:26 0.000315806
-*RES
-1 *699:X1_Y1 *641:16 29.7196 
-2 *641:16 *641:18 84.7321 
-3 *641:18 *641:20 4.5 
-4 *641:20 *641:22 376.857 
-5 *641:22 *641:24 4.5 
-6 *641:24 *641:26 175.911 
-7 *641:26 *689:data_in[4] 12.0856 
-*END
-
-*D_NET *642 0.0774142
-*CONN
-*I *689:data_in[5] I *D mux16x1_project
-*I *700:X1_Y1 O *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
-*CAP
-1 *689:data_in[5] 0.000806285
-2 *700:X1_Y1 0.000290479
-3 *642:24 0.00936978
-4 *642:22 0.00856349
-5 *642:20 0.0214034
-6 *642:18 0.0214034
-7 *642:16 0.00355254
-8 *642:14 0.00384302
-9 *642:16 *652:14 0.000878013
-10 *642:16 *662:14 0.00730373
-*RES
-1 *700:X1_Y1 *642:14 23.7241 
-2 *642:14 *642:16 98.2857 
-3 *642:16 *642:18 4.5 
-4 *642:18 *642:20 438.482 
-5 *642:20 *642:22 4.5 
-6 *642:22 *642:24 169.75 
-7 *642:24 *689:data_in[5] 12.3892 
-*END
-
-*D_NET *643 0.0856748
-*CONN
-*I *689:data_in[6] I *D mux16x1_project
-*I *701:X1_Y1 O *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
-*CAP
-1 *689:data_in[6] 0.000806285
-2 *701:X1_Y1 0.000448747
-3 *643:20 0.00906343
-4 *643:18 0.00825714
-5 *643:16 0.0256334
-6 *643:14 0.0256334
-7 *643:12 0.00384191
-8 *643:10 0.00429066
-9 *643:12 *653:14 0.000624676
-10 *643:12 *663:10 0.000951308
-11 *643:12 *673:14 0.00612374
-*RES
-1 *701:X1_Y1 *643:10 17.7991 
-2 *643:10 *643:12 104.446 
-3 *643:12 *643:14 4.5 
-4 *643:14 *643:16 525 
-5 *643:16 *643:18 4.5 
-6 *643:18 *643:20 163.589 
-7 *643:20 *689:data_in[6] 12.3892 
-*END
-
-*D_NET *644 0.0934263
-*CONN
-*I *689:data_in[7] I *D mux16x1_project
-*I *702:X1_Y1 O *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
-*CAP
-1 *689:data_in[7] 0.000806285
-2 *702:X1_Y1 0.000396117
-3 *644:20 0.00875708
-4 *644:18 0.00795079
-5 *644:16 0.0286766
-6 *644:14 0.0286766
-7 *644:12 0.00397497
-8 *644:10 0.00437108
-9 *644:12 *654:16 0.000302124
-10 *644:12 *654:18 0.0095146
-*RES
-1 *702:X1_Y1 *644:10 16.75 
-2 *644:10 *644:12 111.429 
-3 *644:12 *644:14 4.5 
-4 *644:14 *644:16 586.625 
-5 *644:16 *644:18 4.5 
-6 *644:18 *644:20 157.429 
-7 *644:20 *689:data_in[7] 12.3892 
-*END
-
-*D_NET *645 0.100891
-*CONN
-*I *689:data_in[8] I *D mux16x1_project
-*I *703:X1_Y1 O *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
-*CAP
-1 *689:data_in[8] 0.000796732
-2 *703:X1_Y1 0.000331617
-3 *645:20 0.00874274
-4 *645:18 0.00794601
-5 *645:16 0.0326169
-6 *645:14 0.0326169
-7 *645:12 0.00413177
-8 *645:10 0.00446339
-9 *689:data_in[8] *689:data_in[9] 0
-10 *645:12 *655:14 0.000711852
-11 *645:12 *665:14 0.00121734
-12 *645:12 *665:16 0.000297962
-13 *645:12 *675:10 0.00701768
-*RES
-1 *703:X1_Y1 *645:10 15.4643 
-2 *645:10 *645:12 115.536 
-3 *645:12 *645:14 4.5 
-4 *645:14 *645:16 666.464 
-5 *645:16 *645:18 4.5 
-6 *645:18 *645:20 151.268 
-7 *645:20 *689:data_in[8] 12.6928 
-*END
-
-*D_NET *646 0.110441
-*CONN
-*I *689:data_in[9] I *D mux16x1_project
-*I *695:X1_Y1 O *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
-*CAP
-1 *689:data_in[9] 0.000769535
-2 *695:X1_Y1 0.000598483
-3 *646:24 0.00839375
-4 *646:22 0.00762422
-5 *646:20 0.0368669
-6 *646:18 0.0368669
-7 *646:16 0.00385427
-8 *646:14 0.00445275
-9 *646:16 *656:12 7.96867e-06
-10 *646:16 *656:14 0.0107698
-11 *689:data_in[10] *689:data_in[9] 0
-12 *689:data_in[8] *689:data_in[9] 0
-13 *695:s1 *646:14 0
-14 *63:9 *646:14 0.000236582
-*RES
-1 *695:X1_Y1 *646:14 30.0857 
-2 *646:14 *646:16 115.536 
-3 *646:16 *646:18 4.5 
-4 *646:18 *646:20 752.982 
-5 *646:20 *646:22 4.5 
-6 *646:22 *646:24 145.107 
-7 *646:24 *689:data_in[9] 12.6928 
-*END
-
-*D_NET *647 0.0581299
-*CONN
-*I *690:data_in[0] I *D mux16x1_project
-*I *694:X2_Y1 O *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
-*CAP
-1 *690:data_in[0] 0.000750994
-2 *694:X2_Y1 0.00115847
-3 *647:22 0.00547612
-4 *647:20 0.00472513
-5 *647:18 0.00793676
-6 *647:16 0.00793676
-7 *647:14 0.00515959
-8 *647:12 0.00631805
-9 *647:14 *657:12 0.000878013
-10 *647:14 *667:10 0.0143029
-11 *67:13 *690:data_in[0] 0.000280062
-12 *67:13 *647:22 0.00287006
-13 *637:10 *647:12 0
-14 *637:10 *647:14 0.000336994
-*RES
-1 *694:X2_Y1 *647:12 32.0089 
-2 *647:12 *647:14 157.223 
-3 *647:14 *647:16 4.5 
-4 *647:16 *647:18 161.321 
-5 *647:18 *647:20 4.5 
-6 *647:20 *647:22 89.6607 
-7 *647:22 *690:data_in[0] 12.8091 
-*END
-
-*D_NET *648 0.0429033
-*CONN
-*I *690:data_in[1] I *D mux16x1_project
-*I *696:X2_Y1 O *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
-*CAP
-1 *690:data_in[1] 0.0156816
-2 *696:X2_Y1 0.0011078
-3 *648:20 0.0202068
-4 *648:16 0.00563301
-5 *690:data_in[1] *659:12 0.000183037
-6 *690:data_in[1] *669:16 9.10212e-05
-7 *64:140 *648:20 0
-8 *64:160 *648:20 0
-9 *65:109 *648:20 0
-10 *65:137 *648:20 0
-*RES
-1 *696:X2_Y1 *648:16 37.6214 
-2 *648:16 *648:20 19.437 
-3 *648:20 *690:data_in[1] 45.5258 
-*END
-
-*D_NET *649 0.029975
-*CONN
-*I *690:data_in[2] I *D mux16x1_project
-*I *697:X2_Y1 O *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
-*CAP
-1 *690:data_in[2] 0.00095304
-2 *697:X2_Y1 0.000743827
-3 *649:14 0.0138203
-4 *649:12 0.0136111
-5 *649:14 *659:12 0.000229049
-6 *697:s2 *649:12 6.34448e-05
-7 *64:140 *649:12 0.000554124
-*RES
-1 *697:X2_Y1 *649:12 33.5679 
-2 *649:12 *649:14 253.946 
-3 *649:14 *690:data_in[2] 12.8091 
-*END
-
-*D_NET *650 0.0401911
-*CONN
-*I *690:data_in[3] I *D mux16x1_project
-*I *698:X2_Y1 O *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
-*CAP
-1 *690:data_in[3] 0.000811869
-2 *698:X2_Y1 0.000409544
-3 *650:22 0.00531672
-4 *650:20 0.00450486
-5 *650:18 0.00359782
-6 *650:16 0.00359782
-7 *650:14 0.00714064
-8 *650:12 0.00755018
-9 *698:s2 *650:12 0
-10 *640:12 *650:14 0.00726161
-*RES
-1 *698:X2_Y1 *650:12 26.2866 
-2 *650:12 *650:14 160.714 
-3 *650:14 *650:16 4.5 
-4 *650:16 *650:18 74.1964 
-5 *650:18 *650:20 4.5 
-6 *650:20 *650:22 89.6607 
-7 *650:22 *690:data_in[3] 11.0781 
-*END
-
-*D_NET *651 0.0596395
-*CONN
-*I *690:data_in[4] I *D mux16x1_project
-*I *699:X2_Y1 O *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
-*CAP
-1 *690:data_in[4] 0.000811869
-2 *699:X2_Y1 0.000511324
-3 *651:22 0.00501037
-4 *651:20 0.00419851
-5 *651:18 0.0105004
-6 *651:16 0.0105004
-7 *651:14 0.00542978
-8 *651:12 0.00594111
-9 *651:14 *661:10 0.015931
-10 *641:18 *651:14 0.000804717
-*RES
-1 *699:X2_Y1 *651:12 28.4161 
-2 *651:12 *651:14 163.589 
-3 *651:14 *651:16 4.5 
-4 *651:16 *651:18 215.964 
-5 *651:18 *651:20 4.5 
-6 *651:20 *651:22 83.5 
-7 *651:22 *690:data_in[4] 11.0781 
-*END
-
-*D_NET *652 0.0835633
-*CONN
-*I *690:data_in[5] I *D mux16x1_project
-*I *700:X2_Y1 O *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
-*CAP
-1 *690:data_in[5] 0.000560777
-2 *700:X2_Y1 0.000244895
-3 *652:18 0.00719179
-4 *652:16 0.00663101
-5 *652:14 0.0104054
-6 *652:12 0.0106503
-7 *652:14 *662:14 0.015801
-8 *652:18 *653:18 0.0221905
-9 *652:18 *663:14 0.000269483
-10 *652:18 *664:22 0.00874017
-11 *70:58 *652:18 0
-12 *70:94 *652:18 0
-13 *642:16 *652:14 0.000878013
-*RES
-1 *700:X2_Y1 *652:12 22.9696 
-2 *652:12 *652:14 257.232 
-3 *652:14 *652:16 4.5 
-4 *652:16 *652:18 278.045 
-5 *652:18 *690:data_in[5] 5.08007 
-*END
-
-*D_NET *653 0.106095
-*CONN
-*I *690:data_in[6] I *D mux16x1_project
-*I *701:X2_Y1 O *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
-*CAP
-1 *690:data_in[6] 0.00059493
-2 *701:X2_Y1 0.000415815
-3 *653:18 0.00605509
-4 *653:16 0.00546016
-5 *653:14 0.00845555
-6 *653:12 0.00887137
-7 *653:14 *663:10 0.0255985
-8 *653:18 *690:data_in[7] 0
-9 *653:18 *655:18 0.00750674
-10 *653:18 *664:22 0.00294248
-11 *653:18 *666:28 0.0152422
-12 *653:18 *676:26 0.00213696
-13 *643:12 *653:14 0.000624676
-14 *652:18 *653:18 0.0221905
-*RES
-1 *701:X2_Y1 *653:12 26.4339 
-2 *653:12 *653:14 255.589 
-3 *653:14 *653:16 4.5 
-4 *653:16 *653:18 364.259 
-5 *653:18 *690:data_in[6] 5.15213 
-*END
-
-*D_NET *654 0.0871645
-*CONN
-*I *690:data_in[7] I *D mux16x1_project
-*I *702:X2_Y1 O *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
-*CAP
-1 *690:data_in[7] 0.000847759
-2 *702:X2_Y1 0.000744691
-3 *654:26 0.00473991
-4 *654:24 0.00389216
-5 *654:22 0.0208337
-6 *654:20 0.0208337
-7 *654:18 0.00392369
-8 *654:16 0.00466838
-9 *654:18 *664:16 0.000873146
-10 *654:18 *674:16 0.0156774
-11 *64:57 *654:16 0.000313247
-12 *644:12 *654:16 0.000302124
-13 *644:12 *654:18 0.0095146
-14 *653:18 *690:data_in[7] 0
-*RES
-1 *702:X2_Y1 *654:16 34.9384 
-2 *654:16 *654:18 169.545 
-3 *654:18 *654:20 4.5 
-4 *654:20 *654:22 426.036 
-5 *654:22 *654:24 4.5 
-6 *654:24 *654:26 77.3393 
-7 *654:26 *690:data_in[7] 11.3817 
-*END
-
-*D_NET *655 0.109538
-*CONN
-*I *690:data_in[8] I *D mux16x1_project
-*I *703:X2_Y1 O *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
-*CAP
-1 *690:data_in[8] 0.000638201
-2 *703:X2_Y1 0.000377389
-3 *655:18 0.0159184
-4 *655:16 0.0152802
-5 *655:14 0.00944628
-6 *655:12 0.00982366
-7 *690:data_in[8] *690:data_in[9] 0
-8 *655:14 *665:14 0.000670342
-9 *655:14 *665:16 0.0173819
-10 *655:14 *675:10 0.000363512
-11 *655:18 *690:data_in[9] 0
-12 *655:18 *691:data_in[0] 0
-13 *655:18 *691:data_in[1] 0
-14 *655:18 *691:data_in[3] 0
-15 *655:18 *691:data_in[4] 0
-16 *655:18 *691:data_in[5] 0
-17 *655:18 *691:data_in[8] 0
-18 *655:18 *692:data_in[0] 0
-19 *655:18 *692:data_in[4] 0
-20 *655:18 *692:data_in[5] 0
-21 *655:18 *693:data_in[4] 0
-22 *655:18 *693:data_in[5] 0
-23 *655:18 *693:data_in[6] 0
-24 *655:18 *693:data_in[7] 0
-25 *655:18 *693:data_in[9] 0
-26 *655:18 *666:28 0.0277656
-27 *655:18 *673:18 0.00365435
-28 *645:12 *655:14 0.000711852
-29 *653:18 *655:18 0.00750674
-*RES
-1 *703:X2_Y1 *655:12 25.6795 
-2 *655:12 *655:14 253.125 
-3 *655:14 *655:16 4.5 
-4 *655:16 *655:18 505.42 
-5 *655:18 *690:data_in[8] 5.4028 
-*END
-
-*D_NET *656 0.104104
-*CONN
-*I *690:data_in[9] I *D mux16x1_project
-*I *695:X2_Y1 O *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
-*CAP
-1 *690:data_in[9] 0.000711935
-2 *695:X2_Y1 0.000485984
-3 *656:22 0.00447169
-4 *656:20 0.00375976
-5 *656:18 0.0290186
-6 *656:16 0.0290186
-7 *656:14 0.00386186
-8 *656:12 0.00434785
-9 *656:14 *666:12 0.00549016
-10 *656:14 *676:20 3.51214e-05
-11 *656:14 *676:22 0.0116094
-12 *690:data_in[10] *690:data_in[9] 0.000274481
-13 *690:data_in[8] *690:data_in[9] 0
-14 *695:s2 *656:12 0.00024118
-15 *646:16 *656:12 7.96867e-06
-16 *646:16 *656:14 0.0107698
-17 *655:18 *690:data_in[9] 0
-*RES
-1 *695:X2_Y1 *656:12 18.7902 
-2 *656:12 *656:14 175.705 
-3 *656:14 *656:16 4.5 
-4 *656:16 *656:18 592.393 
-5 *656:18 *656:20 4.5 
-6 *656:20 *656:22 71.1786 
-7 *656:22 *690:data_in[9] 11.6853 
-*END
-
-*D_NET *657 0.082486
-*CONN
-*I *691:data_in[0] I *D mux16x1_project
-*I *694:X3_Y1 O *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
-*CAP
-1 *691:data_in[0] 0.00095436
-2 *694:X3_Y1 0.000831081
-3 *657:20 0.00438259
-4 *657:18 0.00342823
-5 *657:16 0.0157052
-6 *657:14 0.0157052
-7 *657:12 0.00216621
-8 *657:10 0.00299729
-9 *657:12 *667:10 0.0169307
-10 *637:10 *657:12 0.0185071
-11 *647:14 *657:12 0.000878013
-12 *655:18 *691:data_in[0] 0
-*RES
-1 *694:X3_Y1 *657:10 25.7143 
-2 *657:10 *657:12 173.857 
-3 *657:12 *657:14 4.5 
-4 *657:14 *657:16 320.696 
-5 *657:16 *657:18 4.5 
-6 *657:18 *657:20 65.0179 
-7 *657:20 *691:data_in[0] 15.1213 
-*END
-
-*D_NET *658 0.0526262
-*CONN
-*I *691:data_in[1] I *D mux16x1_project
-*I *696:X3_Y1 O *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
-*CAP
-1 *691:data_in[1] 0.000963712
-2 *696:X3_Y1 0.000724574
-3 *658:18 0.00406042
-4 *658:16 0.0030967
-5 *658:14 0.0120889
-6 *658:12 0.0120889
-7 *658:10 0.00943921
-8 *658:8 0.0101638
-9 *655:18 *691:data_in[1] 0
-*RES
-1 *696:X3_Y1 *658:8 23.5848 
-2 *658:8 *658:10 178.375 
-3 *658:10 *658:12 4.5 
-4 *658:12 *658:14 246.929 
-5 *658:14 *658:16 4.5 
-6 *658:16 *658:18 58.8571 
-7 *658:18 *691:data_in[1] 14.8178 
-*END
-
-*D_NET *659 0.0578608
-*CONN
-*I *691:data_in[2] I *D mux16x1_project
-*I *697:X3_Y1 O *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
-*CAP
-1 *691:data_in[2] 0.0158737
-2 *697:X3_Y1 0.000898124
-3 *659:16 0.0250111
-4 *659:12 0.0100356
-5 *691:data_in[2] *660:18 0.00521405
-6 *659:16 *660:12 0.000416225
-7 *690:data_in[1] *659:12 0.000183037
-8 *65:91 *659:16 0
-9 *65:109 *659:16 0
-10 *66:133 *659:16 0
-11 *649:14 *659:12 0.000229049
-*RES
-1 *697:X3_Y1 *659:12 25.4726 
-2 *659:12 *659:16 32.4341 
-3 *659:16 *691:data_in[2] 43.2635 
-*END
-
-*D_NET *660 0.03979
-*CONN
-*I *691:data_in[3] I *D mux16x1_project
-*I *698:X3_Y1 O *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
-*CAP
-1 *691:data_in[3] 0.00096448
-2 *698:X3_Y1 0.000879464
-3 *660:18 0.0125655
-4 *660:16 0.0116011
-5 *660:14 0.00363485
-6 *660:12 0.00451431
-7 *691:data_in[2] *660:18 0.00521405
-8 *655:18 *691:data_in[3] 0
-9 *659:16 *660:12 0.000416225
-*RES
-1 *698:X3_Y1 *660:12 30.5179 
-2 *660:12 *660:14 74.1964 
-3 *660:14 *660:16 4.5 
-4 *660:16 *660:18 228.482 
-5 *660:18 *691:data_in[3] 14.8178 
-*END
-
-*D_NET *661 0.046024
-*CONN
-*I *691:data_in[4] I *D mux16x1_project
-*I *699:X3_Y1 O *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
-*CAP
-1 *691:data_in[4] 0.00080583
-2 *699:X3_Y1 0.000426651
-3 *661:18 0.00406375
-4 *661:16 0.00325792
-5 *661:14 0.00272093
-6 *661:12 0.00272093
-7 *661:10 0.00477352
-8 *661:8 0.00520017
-9 *641:18 *661:10 0.00612331
-10 *651:14 *661:10 0.015931
-11 *655:18 *691:data_in[4] 0
-*RES
-1 *699:X3_Y1 *661:8 17.4955 
-2 *661:8 *661:10 168.518 
-3 *661:10 *661:12 4.5 
-4 *661:12 *661:14 55.9821 
-5 *661:14 *661:16 4.5 
-6 *661:16 *661:18 65.0179 
-7 *661:18 *691:data_in[4] 11.4785 
-*END
-
-*D_NET *662 0.0531179
-*CONN
-*I *691:data_in[5] I *D mux16x1_project
-*I *700:X3_Y1 O *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
-*CAP
-1 *691:data_in[5] 0.000810252
-2 *700:X3_Y1 0.000369234
-3 *662:22 0.00533664
-4 *662:20 0.00452639
-5 *662:18 0.00578697
-6 *662:16 0.00578697
-7 *662:14 0.00351371
-8 *662:12 0.00388294
-9 *642:16 *662:14 0.00730373
-10 *652:14 *662:14 0.015801
-11 *655:18 *691:data_in[5] 0
-*RES
-1 *700:X3_Y1 *662:12 25.3804 
-2 *662:12 *662:14 148.804 
-3 *662:14 *662:16 4.5 
-4 *662:16 *662:18 117.911 
-5 *662:18 *662:20 4.5 
-6 *662:20 *662:22 89.6607 
-7 *662:22 *691:data_in[5] 11.4785 
-*END
-
-*D_NET *663 0.0913282
-*CONN
-*I *691:data_in[6] I *D mux16x1_project
-*I *701:X3_Y1 O *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
-*CAP
-1 *691:data_in[6] 0.000412514
-2 *701:X3_Y1 0.000403279
-3 *663:14 0.00396999
-4 *663:12 0.00355748
-5 *663:10 0.00320768
-6 *663:8 0.00361096
-7 *663:10 *673:14 0.0237691
-8 *663:14 *664:22 0.0162472
-9 *663:14 *674:20 0.00314247
-10 *70:94 *663:14 0.0010891
-11 *70:126 *663:14 0.00509916
-12 *643:12 *663:10 0.000951308
-13 *652:18 *663:14 0.000269483
-14 *653:14 *663:10 0.0255985
-*RES
-1 *701:X3_Y1 *663:8 17.0179 
-2 *663:8 *663:10 242.036 
-3 *663:10 *663:12 4.5 
-4 *663:12 *663:14 205.491 
-5 *663:14 *691:data_in[6] 4.6226 
-*END
-
-*D_NET *664 0.0891091
-*CONN
-*I *691:data_in[7] I *D mux16x1_project
-*I *702:X3_Y1 O *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
-*CAP
-1 *691:data_in[7] 0.000446667
-2 *702:X3_Y1 0.000899023
-3 *664:22 0.0041472
-4 *664:20 0.00370053
-5 *664:18 0.00751173
-6 *664:16 0.00841075
-7 *664:16 *674:14 2.08464e-05
-8 *664:16 *674:16 2.44318e-05
-9 *664:18 *674:16 0.0243336
-10 *664:22 *674:20 0.00312758
-11 *664:22 *676:26 0.0076838
-12 *652:18 *664:22 0.00874017
-13 *653:18 *664:22 0.00294248
-14 *654:18 *664:16 0.000873146
-15 *663:14 *664:22 0.0162472
-*RES
-1 *702:X3_Y1 *664:16 32.0179 
-2 *664:16 *664:18 228.893 
-3 *664:18 *664:20 4.5 
-4 *664:20 *664:22 266.812 
-5 *664:22 *691:data_in[7] 4.69467 
-*END
-
-*D_NET *665 0.0832416
-*CONN
-*I *691:data_in[8] I *D mux16x1_project
-*I *703:X3_Y1 O *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
-*CAP
-1 *691:data_in[8] 0.000828265
-2 *703:X3_Y1 0.000502368
-3 *665:24 0.00392497
-4 *665:22 0.0030967
-5 *665:20 0.0169556
-6 *665:18 0.0169556
-7 *665:16 0.0020356
-8 *665:14 0.00253797
-9 *691:data_in[8] *691:data_in[9] 0
-10 *665:16 *675:10 0.0168371
-11 *645:12 *665:14 0.00121734
-12 *645:12 *665:16 0.000297962
-13 *655:14 *665:14 0.000670342
-14 *655:14 *665:16 0.0173819
-15 *655:18 *691:data_in[8] 0
-*RES
-1 *703:X3_Y1 *665:14 27.0089 
-2 *665:14 *665:16 163.384 
-3 *665:16 *665:18 4.5 
-4 *665:18 *665:20 345.589 
-5 *665:20 *665:22 4.5 
-6 *665:22 *665:24 58.8571 
-7 *665:24 *691:data_in[8] 11.782 
-*END
-
-*D_NET *666 0.114477
-*CONN
-*I *691:data_in[9] I *D mux16x1_project
-*I *695:X3_Y1 O *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
-*CAP
-1 *691:data_in[9] 0.000510863
-2 *695:X3_Y1 0.000451747
-3 *666:28 0.00831023
-4 *666:26 0.00779936
-5 *666:24 0.00577678
-6 *666:22 0.00595531
-7 *666:12 0.00107425
-8 *666:10 0.00134746
-9 *666:12 *676:20 0.00403353
-10 *666:24 *676:22 0.0194327
-11 *666:28 *676:26 0.0112871
-12 *691:data_in[10] *691:data_in[9] 0
-13 *691:data_in[8] *691:data_in[9] 0
-14 *653:18 *666:28 0.0152422
-15 *655:18 *666:28 0.0277656
-16 *656:14 *666:12 0.00549016
-*RES
-1 *695:X3_Y1 *666:10 18.1562 
-2 *666:10 *666:12 51.875 
-3 *666:12 *666:22 10.9107 
-4 *666:22 *666:24 183.714 
-5 *666:24 *666:26 4.5 
-6 *666:26 *666:28 433.473 
-7 *666:28 *691:data_in[9] 4.91087 
-*END
-
-*D_NET *667 0.0940235
-*CONN
-*I *692:data_in[0] I *D mux16x1_project
-*I *694:X4_Y1 O *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
-*CAP
-1 *692:data_in[0] 0.00100141
-2 *694:X4_Y1 0.000807816
-3 *667:18 0.00377633
-4 *667:16 0.00277491
-5 *667:14 0.0235604
-6 *667:12 0.0235604
-7 *667:10 0.00288619
-8 *667:8 0.003694
-9 *637:10 *667:10 0.000728417
-10 *647:14 *667:10 0.0143029
-11 *655:18 *692:data_in[0] 0
-12 *657:12 *667:10 0.0169307
-*RES
-1 *694:X4_Y1 *667:8 25.2857 
-2 *667:8 *667:10 171.393 
-3 *667:10 *667:12 4.5 
-4 *667:12 *667:14 481.286 
-5 *667:14 *667:16 4.5 
-6 *667:16 *667:18 52.6964 
-7 *667:18 *692:data_in[0] 15.7285 
-*END
-
-*D_NET *668 0.0859213
-*CONN
-*I *692:data_in[1] I *D mux16x1_project
-*I *696:X4_Y1 O *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
-*CAP
-1 *692:data_in[1] 0.0141073
-2 *696:X4_Y1 0.00111587
-3 *668:18 0.0319595
-4 *668:16 0.0189681
-5 *692:data_in[1] *692:data_in[2] 0
-6 *668:18 *669:18 0
-7 *668:18 *670:16 0.0193273
-8 *668:18 *671:12 0.000443403
-9 *67:41 *668:18 0
-*RES
-1 *696:X4_Y1 *668:16 37.351 
-2 *668:16 *668:18 72.4897 
-3 *668:18 *692:data_in[1] 43.7908 
-*END
-
-*D_NET *669 0.0684776
-*CONN
-*I *692:data_in[2] I *D mux16x1_project
-*I *697:X4_Y1 O *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
-*CAP
-1 *692:data_in[2] 0.0143579
-2 *697:X4_Y1 0.000951113
-3 *669:18 0.031414
-4 *669:16 0.0180072
-5 *692:data_in[2] *692:data_in[3] 0
-6 *669:18 *672:13 0.000835029
-7 *690:data_in[1] *669:16 9.10212e-05
-8 *692:data_in[1] *692:data_in[2] 0
-9 *66:19 *669:18 0
-10 *66:21 *669:18 0
-11 *66:107 *669:18 0.00125201
-12 *66:122 *669:18 0.00141458
-13 *66:133 *669:18 0.000154664
-14 *668:18 *669:18 0
-*RES
-1 *697:X4_Y1 *669:16 36.1884 
-2 *669:16 *669:18 57.2554 
-3 *669:18 *692:data_in[2] 44.5115 
-*END
-
-*D_NET *670 0.0682785
-*CONN
-*I *692:data_in[3] I *D mux16x1_project
-*I *698:X4_Y1 O *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
-*CAP
-1 *692:data_in[3] 0.0140505
-2 *698:X4_Y1 0.000658732
-3 *670:16 0.0227799
-4 *670:12 0.0093881
-5 *692:data_in[3] *671:22 0.0020739
-6 *692:data_in[2] *692:data_in[3] 0
-7 *67:93 *670:16 0
-8 *67:95 *670:16 0
-9 *668:18 *670:16 0.0193273
-*RES
-1 *698:X4_Y1 *670:12 23.2876 
-2 *670:12 *670:16 45.5377 
-3 *670:16 *692:data_in[3] 40.2367 
-*END
-
-*D_NET *671 0.0382323
-*CONN
-*I *692:data_in[4] I *D mux16x1_project
-*I *699:X4_Y1 O *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
-*CAP
-1 *692:data_in[4] 0.0010105
-2 *699:X4_Y1 0.00158969
-3 *671:22 0.0033386
-4 *671:20 0.0023281
-5 *671:18 0.00457211
-6 *671:16 0.00457211
-7 *671:14 0.00835713
-8 *671:12 0.00994682
-9 *692:data_in[3] *671:22 0.0020739
-10 *655:18 *692:data_in[4] 0
-11 *668:18 *671:12 0.000443403
-*RES
-1 *699:X4_Y1 *671:12 39.7366 
-2 *671:12 *671:14 157.223 
-3 *671:14 *671:16 4.5 
-4 *671:16 *671:18 92.7143 
-5 *671:18 *671:20 4.5 
-6 *671:20 *671:22 46.5357 
-7 *671:22 *692:data_in[4] 15.4249 
-*END
-
-*D_NET *672 0.0296506
-*CONN
-*I *692:data_in[5] I *D mux16x1_project
-*I *700:X4_Y1 O *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
-*CAP
-1 *692:data_in[5] 0.00101056
-2 *700:X4_Y1 0.00212073
-3 *672:17 0.0122871
-4 *672:15 0.0112765
-5 *672:13 0.00212073
-6 *655:18 *692:data_in[5] 0
-7 *669:18 *672:13 0.000835029
-*RES
-1 *700:X4_Y1 *672:13 47.5536 
-2 *672:13 *672:15 4.5 
-3 *672:15 *672:17 222.321 
-4 *672:17 *692:data_in[5] 15.4249 
-*END
-
-*D_NET *673 0.0507896
-*CONN
-*I *692:data_in[6] I *D mux16x1_project
-*I *701:X4_Y1 O *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
-*CAP
-1 *692:data_in[6] 0.000610996
-2 *701:X4_Y1 0.000461208
-3 *673:18 0.0020096
-4 *673:14 0.007549
-5 *673:12 0.00661161
-6 *673:18 *692:data_in[8] 0
-7 *643:12 *673:14 0.00612374
-8 *655:18 *673:18 0.00365435
-9 *663:10 *673:14 0.0237691
-*RES
-1 *701:X4_Y1 *673:12 27.0946 
-2 *673:12 *673:14 223.554 
-3 *673:14 *673:18 49.4018 
-4 *673:18 *692:data_in[6] 5.055 
-*END
-
-*D_NET *674 0.0675621
-*CONN
-*I *692:data_in[7] I *D mux16x1_project
-*I *702:X4_Y1 O *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
-*CAP
-1 *692:data_in[7] 0.000389283
-2 *702:X4_Y1 0.000482187
-3 *674:20 0.00241312
-4 *674:18 0.00202384
-5 *674:16 0.00461258
-6 *674:14 0.00509477
-7 *674:20 *676:26 6.8646e-06
-8 *70:126 *674:20 0.00148716
-9 *70:158 *674:20 0.00472592
-10 *654:18 *674:16 0.0156774
-11 *663:14 *674:20 0.00314247
-12 *664:16 *674:14 2.08464e-05
-13 *664:16 *674:16 2.44318e-05
-14 *664:18 *674:16 0.0243336
-15 *664:22 *674:20 0.00312758
-*RES
-1 *702:X4_Y1 *674:14 27.3312 
-2 *674:14 *674:16 230.125 
-3 *674:16 *674:18 4.5 
-4 *674:18 *674:20 106.223 
-5 *674:20 *692:data_in[7] 4.55053 
-*END
-
-*D_NET *675 0.0583247
-*CONN
-*I *692:data_in[8] I *D mux16x1_project
-*I *703:X4_Y1 O *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
-*CAP
-1 *692:data_in[8] 0.000822031
-2 *703:X4_Y1 0.000312739
-3 *675:18 0.00358721
-4 *675:16 0.00276518
-5 *675:14 0.00913798
-6 *675:12 0.00913798
-7 *675:10 0.00401523
-8 *675:8 0.00432797
-9 *692:data_in[8] *692:data_in[9] 0
-10 *645:12 *675:10 0.00701768
-11 *655:14 *675:10 0.000363512
-12 *665:16 *675:10 0.0168371
-13 *673:18 *692:data_in[8] 0
-*RES
-1 *703:X4_Y1 *675:8 15.0357 
-2 *675:8 *675:10 164.411 
-3 *675:10 *675:12 4.5 
-4 *675:12 *675:14 185.607 
-5 *675:14 *675:16 4.5 
-6 *675:16 *675:18 52.6964 
-7 *675:18 *692:data_in[8] 11.1749 
-*END
-
-*D_NET *676 0.0826537
-*CONN
-*I *692:data_in[9] I *D mux16x1_project
-*I *695:X4_Y1 O *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
-*CAP
-1 *692:data_in[9] 0.000452469
-2 *695:X4_Y1 0.000429638
-3 *676:26 0.00774339
-4 *676:24 0.00729092
-5 *676:22 0.00376731
-6 *676:20 0.00504109
-7 *676:8 0.00170342
-8 *692:data_in[10] *692:data_in[9] 0
-9 *692:data_in[8] *692:data_in[9] 0
-10 *70:158 *676:26 0
-11 *653:18 *676:26 0.00213696
-12 *656:14 *676:20 3.51214e-05
-13 *656:14 *676:22 0.0116094
-14 *664:22 *676:26 0.0076838
-15 *666:12 *676:20 0.00403353
-16 *666:24 *676:22 0.0194327
-17 *666:28 *676:26 0.0112871
-18 *674:20 *676:26 6.8646e-06
-*RES
-1 *695:X4_Y1 *676:8 17.7277 
-2 *676:8 *676:20 40.6786 
-3 *676:20 *676:22 184.946 
-4 *676:22 *676:24 4.5 
-5 *676:24 *676:26 272.884 
-6 *676:26 *692:data_in[9] 4.76673 
-*END
-
-*D_NET *677 0.114818
-*CONN
-*I *693:data_in[0] I *D mux16x1_project
-*I *694:X5_Y1 O *D sky130_osu_ring_oscillator_mpr2ca_8_b0r1
-*CAP
-1 *693:data_in[0] 0.000710776
-2 *694:X5_Y1 0.000808041
-3 *677:15 0.0109678
-4 *677:13 0.010257
-5 *677:11 0.0219256
-6 *677:9 0.0227337
-7 *677:11 *678:13 0.0474155
-*RES
-1 *694:X5_Y1 *677:9 19.8482 
-2 *677:9 *677:11 663.429 
-3 *677:11 *677:13 4.5 
-4 *677:13 *677:15 194.393 
-5 *677:15 *693:data_in[0] 10.2642 
-*END
-
-*D_NET *678 0.117853
-*CONN
-*I *693:data_in[1] I *D mux16x1_project
-*I *696:X5_Y1 O *D sky130_osu_ring_oscillator_mpr2ct_8_b0r1
-*CAP
-1 *693:data_in[1] 0.000741989
-2 *696:X5_Y1 0.000689922
-3 *678:17 0.0105643
-4 *678:15 0.00982236
-5 *678:13 0.0135919
-6 *678:11 0.0142818
-7 *678:13 *681:11 0.0207456
-8 *677:11 *678:13 0.0474155
-*RES
-1 *696:X5_Y1 *678:11 17.3259 
-2 *678:11 *678:13 587.536 
-3 *678:13 *678:15 4.5 
-4 *678:15 *678:17 193.982 
-5 *678:17 *693:data_in[1] 10.2642 
-*END
-
-*D_NET *679 0.0725873
-*CONN
-*I *693:data_in[2] I *D mux16x1_project
-*I *697:X5_Y1 O *D sky130_osu_ring_oscillator_mpr2ea_8_b0r1
-*CAP
-1 *693:data_in[2] 0.00075181
-2 *697:X5_Y1 0.000607819
-3 *679:17 0.0108601
-4 *679:15 0.0101083
-5 *679:13 0.0240048
-6 *679:11 0.0246127
-7 *679:13 *684:13 0.0014063
-8 *67:15 *679:11 0.000235564
-9 *67:69 *679:13 0
-*RES
-1 *697:X5_Y1 *679:11 15.7411 
-2 *679:11 *679:13 499.804 
-3 *679:13 *679:15 4.5 
-4 *679:15 *679:17 199.732 
-5 *679:17 *693:data_in[2] 10.2642 
-*END
-
-*D_NET *680 0.0754385
-*CONN
-*I *693:data_in[3] I *D mux16x1_project
-*I *698:X5_Y1 O *D sky130_osu_ring_oscillator_mpr2et_8_b0r1
-*CAP
-1 *693:data_in[3] 0.000771419
-2 *698:X5_Y1 0.000677071
-3 *680:14 0.0067215
-4 *680:12 0.00595009
-5 *680:10 0.0203556
-6 *680:8 0.0210327
-7 *693:data_in[3] *693:data_in[4] 3.04901e-05
-8 *680:14 *681:15 0.0198996
-*RES
-1 *698:X5_Y1 *680:8 26.0812 
-2 *680:8 *680:10 414.804 
-3 *680:10 *680:12 4.5 
-4 *680:12 *680:14 188.232 
-5 *680:14 *693:data_in[3] 10.5678 
-*END
-
-*D_NET *681 0.0825244
-*CONN
-*I *693:data_in[4] I *D mux16x1_project
-*I *699:X5_Y1 O *D sky130_osu_ring_oscillator_mpr2xa_8_b0r1
-*CAP
-1 *693:data_in[4] 0.000995983
-2 *699:X5_Y1 0.000719531
-3 *681:15 0.00727512
-4 *681:13 0.00627914
-5 *681:11 0.00498669
-6 *681:9 0.00570622
-7 *681:11 *682:11 0.015886
-8 *693:data_in[3] *693:data_in[4] 3.04901e-05
-9 *655:18 *693:data_in[4] 0
-10 *678:13 *681:11 0.0207456
-11 *680:14 *681:15 0.0198996
-*RES
-1 *699:X5_Y1 *681:9 17.5938 
-2 *681:9 *681:11 266.964 
-3 *681:11 *681:13 4.5 
-4 *681:13 *681:15 193.982 
-5 *681:15 *693:data_in[4] 15.96 
-*END
-
-*D_NET *682 0.0570323
-*CONN
-*I *693:data_in[5] I *D mux16x1_project
-*I *700:X5_Y1 O *D sky130_osu_ring_oscillator_mpr2ca_8_b0r2
-*CAP
-1 *693:data_in[5] 0.00103294
-2 *700:X5_Y1 0.000891349
-3 *682:15 0.0107821
-4 *682:13 0.00974918
-5 *682:11 0.00433286
-6 *682:9 0.00522421
-7 *682:11 *683:11 0.00913367
-8 *655:18 *693:data_in[5] 0
-9 *681:11 *682:11 0.015886
-*RES
-1 *700:X5_Y1 *682:9 20.6964 
-2 *682:9 *682:11 201.393 
-3 *682:11 *682:13 4.5 
-4 *682:13 *682:15 193.161 
-5 *682:15 *693:data_in[5] 16.032 
-*END
-
-*D_NET *683 0.0397897
-*CONN
-*I *693:data_in[6] I *D mux16x1_project
-*I *701:X5_Y1 O *D sky130_osu_ring_oscillator_mpr2ct_8_b0r2
-*CAP
-1 *693:data_in[6] 0.0009972
-2 *701:X5_Y1 0.000791276
-3 *683:15 0.0107356
-4 *683:13 0.00973839
-5 *683:11 0.00380113
-6 *683:9 0.00459241
-7 *655:18 *693:data_in[6] 0
-8 *682:11 *683:11 0.00913367
-*RES
-1 *701:X5_Y1 *683:9 18.5938 
-2 *683:9 *683:11 118.214 
-3 *683:11 *683:13 4.5 
-4 *683:13 *683:15 193.161 
-5 *683:15 *693:data_in[6] 15.96 
-*END
-
-*D_NET *684 0.029211
-*CONN
-*I *693:data_in[7] I *D mux16x1_project
-*I *702:X5_Y1 O *D sky130_osu_ring_oscillator_mpr2ea_8_b0r2
-*CAP
-1 *693:data_in[7] 0.00100332
-2 *702:X5_Y1 0.000542736
-3 *684:17 0.0111093
-4 *684:15 0.010106
-5 *684:13 0.0022503
-6 *684:11 0.00279303
-7 *655:18 *693:data_in[7] 0
-8 *679:13 *684:13 0.0014063
-*RES
-1 *702:X5_Y1 *684:11 14.8839 
-2 *684:11 *684:13 55.9821 
-3 *684:13 *684:15 4.5 
-4 *684:15 *684:17 200.554 
-5 *684:17 *693:data_in[7] 15.7285 
-*END
-
-*D_NET *685 0.0237926
-*CONN
-*I *693:data_in[8] I *D mux16x1_project
-*I *703:X5_Y1 O *D sky130_osu_ring_oscillator_mpr2et_8_b0r2
-*CAP
-1 *693:data_in[8] 0.000719701
-2 *703:X5_Y1 0.00160158
-3 *685:18 0.0102947
-4 *685:16 0.0111766
-5 *693:data_in[8] *693:data_in[9] 0
-*RES
-1 *703:X5_Y1 *685:16 49.6527 
-2 *685:16 *685:18 189.875 
-3 *685:18 *693:data_in[8] 10.2642 
-*END
-
-*D_NET *686 0.0331374
-*CONN
-*I *693:data_in[9] I *D mux16x1_project
-*I *695:X5_Y1 O *D sky130_osu_ring_oscillator_mpr2xa_8_b0r2
-*CAP
-1 *693:data_in[9] 0.000704859
-2 *695:X5_Y1 0.000696813
-3 *686:15 0.0109229
-4 *686:13 0.010218
-5 *686:11 0.004949
-6 *686:9 0.00564582
-7 *693:data_in[10] *693:data_in[9] 0
-8 *693:data_in[8] *693:data_in[9] 0
-9 *655:18 *693:data_in[9] 0
-*RES
-1 *695:X5_Y1 *686:9 17.7188 
-2 *686:9 *686:11 100.304 
-3 *686:11 *686:13 4.5 
-4 *686:13 *686:15 194.393 
-5 *686:15 *693:data_in[9] 10.5678 
+1 *739:y *103:9 3.83613 
+2 *103:9 *103:11 1827.02 
+3 *103:11 *103:13 3.41 
+4 *103:13 *103:15 206.446 
+5 *103:15 io_out[19] 18.0439 
 *END

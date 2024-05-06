@@ -111,6 +111,6 @@
 Xmprj mprj/data_in[0] mprj/data_in[10] mprj/data_in[11] mprj/data_in[12] mprj/data_in[13]
 + mprj/data_in[14] mprj/data_in[15] mprj/data_in[1] mprj/data_in[2] mprj/data_in[3]
 + mprj/data_in[4] mprj/data_in[5] mprj/data_in[6] mprj/data_in[7] mprj/data_in[8]
-+ mprj/data_in[9] io_in[6] io_in[7] io_in[8] io_in[9] vccd1 mprj/vssd1 io_out[0] mux16x1_project
++ mprj/data_in[9] io_in[6] io_in[7] io_in[8] io_in[9] vccd1 vssd1 io_out[0] mux16x1_project
 .ends
 
