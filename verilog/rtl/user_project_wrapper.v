@@ -283,7 +283,7 @@ mux16x1_project mprj1 (
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
-    .data_in({6'b000000,x1_9_,x1_8_,x1_7_,x1_6_,x1_5_,x1_4_,x1_3_,x1_2_,x1_1_,x1_0_}),
+    .data_in({6'b000000,x1_9,x1_8,x1_7,x1_6,x1_5,x1_4,x1_3,x1_2,x1_1,x1_0}),
     .select(io_in[14:11]),
     .y(io_out[15])
 );
@@ -293,7 +293,7 @@ mux16x1_project mprj2 (
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
-    .data_in({6'b000000,x2_9_,x2_8_,x2_7_,x2_6_,x2_5_,x2_4_,x2_3_,x2_2_,x2_1_,x2_0_}),
+    .data_in({6'b000000,x2_9,x2_8,x2_7,x2_6,x2_5,x2_4,x2_3,x2_2,x2_1,x2_0}),
     .select(io_in[14:11]),
     .y(io_out[16])
 );
@@ -303,7 +303,7 @@ mux16x1_project mprj3 (
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
-    .data_in({6'b000000,x3_9_,x3_8_,x3_7_,x3_6_,x3_5_,x3_4_,x3_3_,x3_2_,x3_1_,x3_0_}),
+    .data_in({6'b000000,x3_9,x3_8,x3_7,x3_6,x3_5,x3_4,x3_3,x3_2,x3_1,x3_0}),
     .select(io_in[14:11]),
     .y(io_out[17])
 );
@@ -313,7 +313,7 @@ mux16x1_project mprj4 (
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
-    .data_in({6'b000000,x4_9_,x4_8_,x4_7_,x4_6_,x4_5_,x4_4_,x4_3_,x4_2_,x4_1_,x4_0_}),
+    .data_in({6'b000000,x4_9,x4_8,x4_7,x4_6,x4_5,x4_4,x4_3,x4_2,x4_1,x4_0}),
     .select(io_in[14:11]),
     .y(io_out[18])
 );
@@ -323,7 +323,7 @@ mux16x1_project mprj5 (
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
-    .data_in({6'b000000,x5_9_,x5_8_,x5_7_,x5_6_,x5_5_,x5_4_,x5_3_,x5_2_,x5_1_,x5_0_}),
+    .data_in({6'b000000,x5_9,x5_8,x5_7,x5_6,x5_5,x5_4,x5_3,x5_2,x5_1,x5_0}),
     .select(io_in[14:11]),
     .y(io_out[19])
 );

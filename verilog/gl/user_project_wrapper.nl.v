@@ -40,105 +40,55 @@ module user_project_wrapper (user_clock2,
 
  wire one_;
  wire x1_0;
- wire x1_0_;
  wire x1_1;
- wire x1_1_;
  wire x1_2;
- wire x1_2_;
  wire x1_3;
- wire x1_3_;
  wire x1_4;
- wire x1_4_;
  wire x1_5;
- wire x1_5_;
  wire x1_6;
- wire x1_6_;
  wire x1_7;
- wire x1_7_;
  wire x1_8;
- wire x1_8_;
  wire x1_9;
- wire x1_9_;
  wire x2_0;
- wire x2_0_;
  wire x2_1;
- wire x2_1_;
  wire x2_2;
- wire x2_2_;
  wire x2_3;
- wire x2_3_;
  wire x2_4;
- wire x2_4_;
  wire x2_5;
- wire x2_5_;
  wire x2_6;
- wire x2_6_;
  wire x2_7;
- wire x2_7_;
  wire x2_8;
- wire x2_8_;
  wire x2_9;
- wire x2_9_;
  wire x3_0;
- wire x3_0_;
  wire x3_1;
- wire x3_1_;
  wire x3_2;
- wire x3_2_;
  wire x3_3;
- wire x3_3_;
  wire x3_4;
- wire x3_4_;
  wire x3_5;
- wire x3_5_;
  wire x3_6;
- wire x3_6_;
  wire x3_7;
- wire x3_7_;
  wire x3_8;
- wire x3_8_;
  wire x3_9;
- wire x3_9_;
  wire x4_0;
- wire x4_0_;
  wire x4_1;
- wire x4_1_;
  wire x4_2;
- wire x4_2_;
  wire x4_3;
- wire x4_3_;
  wire x4_4;
- wire x4_4_;
  wire x4_5;
- wire x4_5_;
  wire x4_6;
- wire x4_6_;
  wire x4_7;
- wire x4_7_;
  wire x4_8;
- wire x4_8_;
  wire x4_9;
- wire x4_9_;
  wire x5_0;
- wire x5_0_;
  wire x5_1;
- wire x5_1_;
  wire x5_2;
- wire x5_2_;
  wire x5_3;
- wire x5_3_;
  wire x5_4;
- wire x5_4_;
  wire x5_5;
- wire x5_5_;
  wire x5_6;
- wire x5_6_;
  wire x5_7;
- wire x5_7_;
  wire x5_8;
- wire x5_8_;
  wire x5_9;
- wire x5_9_;
  wire zero_;
 
  mux16x1_project mprj1 (.y(io_out[15]),
@@ -148,16 +98,16 @@ module user_project_wrapper (user_clock2,
     zero_,
     zero_,
     zero_,
-    x1_9_,
-    x1_8_,
-    x1_7_,
-    x1_6_,
-    x1_5_,
-    x1_4_,
-    x1_3_,
-    x1_2_,
-    x1_1_,
-    x1_0_}),
+    x1_9,
+    x1_8,
+    x1_7,
+    x1_6,
+    x1_5,
+    x1_4,
+    x1_3,
+    x1_2,
+    x1_1,
+    x1_0}),
     .select({io_in[14],
     io_in[13],
     io_in[12],
@@ -169,16 +119,16 @@ module user_project_wrapper (user_clock2,
     zero_,
     zero_,
     zero_,
-    x2_9_,
-    x2_8_,
-    x2_7_,
-    x2_6_,
-    x2_5_,
-    x2_4_,
-    x2_3_,
-    x2_2_,
-    x2_1_,
-    x2_0_}),
+    x2_9,
+    x2_8,
+    x2_7,
+    x2_6,
+    x2_5,
+    x2_4,
+    x2_3,
+    x2_2,
+    x2_1,
+    x2_0}),
     .select({io_in[14],
     io_in[13],
     io_in[12],
@@ -190,16 +140,16 @@ module user_project_wrapper (user_clock2,
     zero_,
     zero_,
     zero_,
-    x3_9_,
-    x3_8_,
-    x3_7_,
-    x3_6_,
-    x3_5_,
-    x3_4_,
-    x3_3_,
-    x3_2_,
-    x3_1_,
-    x3_0_}),
+    x3_9,
+    x3_8,
+    x3_7,
+    x3_6,
+    x3_5,
+    x3_4,
+    x3_3,
+    x3_2,
+    x3_1,
+    x3_0}),
     .select({io_in[14],
     io_in[13],
     io_in[12],
@@ -211,16 +161,16 @@ module user_project_wrapper (user_clock2,
     zero_,
     zero_,
     zero_,
-    x4_9_,
-    x4_8_,
-    x4_7_,
-    x4_6_,
-    x4_5_,
-    x4_4_,
-    x4_3_,
-    x4_2_,
-    x4_1_,
-    x4_0_}),
+    x4_9,
+    x4_8,
+    x4_7,
+    x4_6,
+    x4_5,
+    x4_4,
+    x4_3,
+    x4_2,
+    x4_1,
+    x4_0}),
     .select({io_in[14],
     io_in[13],
     io_in[12],
@@ -232,16 +182,16 @@ module user_project_wrapper (user_clock2,
     zero_,
     zero_,
     zero_,
-    x5_9_,
-    x5_8_,
-    x5_7_,
-    x5_6_,
-    x5_5_,
-    x5_4_,
-    x5_3_,
-    x5_2_,
-    x5_1_,
-    x5_0_}),
+    x5_9,
+    x5_8,
+    x5_7,
+    x5_6,
+    x5_5,
+    x5_4,
+    x5_3,
+    x5_2,
+    x5_1,
+    x5_0}),
     .select({io_in[14],
     io_in[13],
     io_in[12],
