@@ -53,7 +53,16 @@ module user_project_wrapper (user_clock2,
  output [31:0] wbs_dat_o;
  input [3:0] wbs_sel_i;
 
- wire one_;
+ wire one_0;
+ wire one_1;
+ wire one_2;
+ wire one_3;
+ wire one_4;
+ wire one_5;
+ wire one_6;
+ wire one_7;
+ wire one_8;
+ wire one_9;
  wire x1_0;
  wire x1_1;
  wire x1_2;
@@ -105,6 +114,11 @@ module user_project_wrapper (user_clock2,
  wire x5_8;
  wire x5_9;
  wire zero_;
+ wire zero_0;
+ wire zero_1;
+ wire zero_2;
+ wire zero_3;
+ wire zero_4;
 
  mux16x1_project mprj1 (.vccd1(vccd1),
     .vssd1(vssd1),
@@ -351,29 +365,132 @@ module user_project_wrapper (user_clock2,
     .start(io_in[10]),
     .vccd1(vccd1),
     .vssd1(vssd1));
- sky130_fd_sc_hd__conb_1 TIE_ZERO_zero_ (.VGND(vssd1),
+
+ sky130_fd_sc_hd__conb_1 zero_ (
+    .VGND(vssd1),
     .VNB(vssd1),
     .VPB(vccd1),
     .VPWR(vccd1),
     .LO(zero_));
- sky130_fd_sc_hd__conb_1 TIE_ONE_one_ (.VGND(vssd1),
+
+ sky130_fd_sc_hd__conb_1 zero_0 (
+    .VGND(vssd1),
     .VNB(vssd1),
     .VPB(vccd1),
     .VPWR(vccd1),
-    .HI(one_));
- assign io_oeb[10] = one_;
- assign io_oeb[11] = one_;
- assign io_oeb[12] = one_;
- assign io_oeb[13] = one_;
- assign io_oeb[14] = one_;
- assign io_oeb[5] = one_;
- assign io_oeb[6] = one_;
- assign io_oeb[7] = one_;
- assign io_oeb[8] = one_;
- assign io_oeb[9] = one_;
- assign io_oeb[15] = zero_;
- assign io_oeb[16] = zero_;
- assign io_oeb[17] = zero_;
- assign io_oeb[18] = zero_;
- assign io_oeb[19] = zero_;
+    .LO(zero_0));
+
+ sky130_fd_sc_hd__conb_1 zero_1 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .LO(zero_1));
+
+ sky130_fd_sc_hd__conb_1 zero_2 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .LO(zero_2));
+
+ sky130_fd_sc_hd__conb_1 zero_3 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .LO(zero_3));
+
+ sky130_fd_sc_hd__conb_1 zero_4 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .LO(zero_4));
+
+ sky130_fd_sc_hd__conb_1 one_0 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .HI(one_0));
+
+ sky130_fd_sc_hd__conb_1 one_1 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .HI(one_1));
+
+ sky130_fd_sc_hd__conb_1 one_2 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .HI(one_2));
+
+ sky130_fd_sc_hd__conb_1 one_3 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .HI(one_3));
+
+ sky130_fd_sc_hd__conb_1 one_4 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .HI(one_4));
+
+ sky130_fd_sc_hd__conb_1 one_5 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .HI(one_5));
+
+ sky130_fd_sc_hd__conb_1 one_6 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .HI(one_6));
+
+ sky130_fd_sc_hd__conb_1 one_7 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .HI(one_7));
+
+ sky130_fd_sc_hd__conb_1 one_8 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .HI(one_8));
+
+ sky130_fd_sc_hd__conb_1 one_9 (
+    .VGND(vssd1),
+    .VNB(vssd1),
+    .VPB(vccd1),
+    .VPWR(vccd1),
+    .HI(one_9));
+
+ assign io_oeb[10] = one_5;
+ assign io_oeb[11] = one_6;
+ assign io_oeb[12] = one_7;
+ assign io_oeb[13] = one_8;
+ assign io_oeb[14] = one_9;
+ assign io_oeb[5] = one_0;
+ assign io_oeb[6] = one_1;
+ assign io_oeb[7] = one_2;
+ assign io_oeb[8] = one_3;
+ assign io_oeb[9] = one_4;
+ assign io_oeb[15] = zero_0;
+ assign io_oeb[16] = zero_1;
+ assign io_oeb[17] = zero_2;
+ assign io_oeb[18] = zero_3;
+ assign io_oeb[19] = zero_4;
 endmodule
