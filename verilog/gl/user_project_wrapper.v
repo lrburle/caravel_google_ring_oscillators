@@ -139,10 +139,10 @@ module user_project_wrapper (user_clock2,
     x1_2,
     x1_1,
     x1_0}),
-    .select({io_in[14],
-    io_in[13],
+    .select({io_in[11],
     io_in[12],
-    io_in[11]}));
+    io_in[13],
+    io_in[14]}));
  mux16x1_project mprj2 (.vccd1(vccd1),
     .vssd1(vssd1),
     .y(io_out[16]),
@@ -162,10 +162,10 @@ module user_project_wrapper (user_clock2,
     x2_2,
     x2_1,
     x2_0}),
-    .select({io_in[14],
-    io_in[13],
+    .select({io_in[11],
     io_in[12],
-    io_in[11]}));
+    io_in[13],
+    io_in[14]}));
  mux16x1_project mprj3 (.vccd1(vccd1),
     .vssd1(vssd1),
     .y(io_out[17]),
@@ -185,10 +185,10 @@ module user_project_wrapper (user_clock2,
     x3_2,
     x3_1,
     x3_0}),
-    .select({io_in[14],
-    io_in[13],
+    .select({io_in[11],
     io_in[12],
-    io_in[11]}));
+    io_in[13],
+    io_in[14]}));
  mux16x1_project mprj4 (.vccd1(vccd1),
     .vssd1(vssd1),
     .y(io_out[18]),
@@ -208,10 +208,10 @@ module user_project_wrapper (user_clock2,
     x4_2,
     x4_1,
     x4_0}),
-    .select({io_in[14],
-    io_in[13],
+    .select({io_in[11],
     io_in[12],
-    io_in[11]}));
+    io_in[13],
+    io_in[14]}));
  mux16x1_project mprj5 (.vccd1(vccd1),
     .vssd1(vssd1),
     .y(io_out[19]),
@@ -231,10 +231,10 @@ module user_project_wrapper (user_clock2,
     x5_2,
     x5_1,
     x5_0}),
-    .select({io_in[14],
-    io_in[13],
+    .select({io_in[11],
     io_in[12],
-    io_in[11]}));
+    io_in[13],
+    io_in[14]}));
  sky130_osu_ring_oscillator_mpr2ca_8_b0r1 ro1 (.X1_Y1(x1_0),
     .X2_Y1(x2_0),
     .X3_Y1(x3_0),
@@ -478,19 +478,19 @@ module user_project_wrapper (user_clock2,
     .VPWR(vccd1),
     .HI(one_9));
 
- assign io_oeb[10] = one_5;
- assign io_oeb[11] = one_6;
- assign io_oeb[12] = one_7;
- assign io_oeb[13] = one_8;
- assign io_oeb[14] = one_9;
+ assign io_oeb[10] = one_6;
+ assign io_oeb[11] = one_7;
+ assign io_oeb[12] = one_8;
+ assign io_oeb[13] = one_9;
+ assign io_oeb[14] = one_1;
  assign io_oeb[5] = one_0;
- assign io_oeb[6] = one_1;
- assign io_oeb[7] = one_2;
- assign io_oeb[8] = one_3;
- assign io_oeb[9] = one_4;
+ assign io_oeb[6] = one_2;
+ assign io_oeb[7] = one_3;
+ assign io_oeb[8] = one_4;
+ assign io_oeb[9] = one_5;
  assign io_oeb[15] = zero_0;
  assign io_oeb[16] = zero_1;
- assign io_oeb[17] = zero_2;
- assign io_oeb[18] = zero_3;
- assign io_oeb[19] = zero_4;
+ assign io_oeb[17] = zero_3;
+ assign io_oeb[18] = zero_4;
+ assign io_oeb[19] = zero_2;
 endmodule
