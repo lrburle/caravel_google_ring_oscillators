@@ -51,10 +51,8 @@
         "$UPRJ_ROOT/spi/custom_design_spice_decks/sky130_osu_sc_12T_hs__inv_1.spice",
         "$UPRJ_ROOT/spi/lvs/mux16x1_project.spice",
         "$UPRJ_ROOT/spi/lvs/user_project_wrapper.spice"
-
 	],
 	"LVS_VERILOG_FILES": [
-		"$UPRJ_ROOT/verilog/gl/user_proj_example.v",
 		"$UPRJ_ROOT/verilog/gl/$TOP_SOURCE.v"
 	],
 	"LAYOUT_FILE": "$UPRJ_ROOT/gds/$TOP_LAYOUT.gds"
