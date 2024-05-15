@@ -1,0 +1,2586 @@
+
+TOP SOURCE: user_project_wrapper
+SOURCE FILE(S): /opt/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice
+ /opt/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ca_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ca_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ct_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ct_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ea_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ea_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2et_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2et_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2xa_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2xa_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ca_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ca_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ct_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ct_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2et_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2et_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2xa_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2xa_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2ca_8.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2ct_8.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2ea_8.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2et_8.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2xa_8.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_sc_12T_hs__mux2_1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_sc_12T_hs__inv_1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/lvs/mux16x1_project.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/lvs/user_project_wrapper.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/verilog/gl/user_project_wrapper.v
+TOP LAYOUT: user_project_wrapper
+LAYOUT FILE: /home/lburleson/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds
+EXTRACT_FLATGLOB: 
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+LVS_FLATTEN: 
+LVS_NOFLATTEN: 
+LVS_IGNORE: sky130_osu_ring_oscillator_mpr2ca_8_b0r1
+ sky130_osu_ring_oscillator_mpr2ca_8_b0r2
+ sky130_osu_ring_oscillator_mpr2ct_8_b0r1
+ sky130_osu_ring_oscillator_mpr2ct_8_b0r2
+ sky130_osu_ring_oscillator_mpr2ea_8_b0r1
+ sky130_osu_ring_oscillator_mpr2ea_8_b0r2
+ sky130_osu_ring_oscillator_mpr2et_8_b0r1
+ sky130_osu_ring_oscillator_mpr2et_8_b0r2
+ sky130_osu_ring_oscillator_mpr2xa_8_b0r1
+ sky130_osu_ring_oscillator_mpr2xa_8_b0r2
+ sky130_osu_single_mpr2ca_8_b0r1
+ sky130_osu_single_mpr2ca_8_b0r2
+ sky130_osu_single_mpr2ct_8_b0r1
+ sky130_osu_single_mpr2ct_8_b0r2
+ sky130_osu_single_mpr2ea_8_b0r1
+ sky130_osu_single_mpr2ea_8_b0r2
+ sky130_osu_single_mpr2et_8_b0r1
+ sky130_osu_single_mpr2et_8_b0r2
+ sky130_osu_single_mpr2xa_8_b0r1
+ sky130_osu_single_mpr2xa_8_b0r2
+ scs130hd_mpr2ca_8
+ scs130hd_mpr2ct_8
+ scs130hd_mpr2ea_8
+ scs130hd_mpr2et_8
+ scs130hd_mpr2xa_8
+ sky130_osu_sc_12T_hs__mux2_1
+ sky130_osu_sc_12T_hs__inv_1
+WORK_ROOT   : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp
+LOG_ROOT    : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/logs
+SIGNOFF_ROOT: /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/outputs/reports
+ 
+Running hierarchical comparison between verilog and layout...
+Creating /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/verilog.cells from the following files...
+	/home/lburleson/OSU/google_ring_oscillator/caravel/verilog/gl/user_project_wrapper.v
+[INFO] Changing from /home/lburleson/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds
+	to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/layout.txt
+Hierarchy check for user_project_wrapper passed.
+ 
+Running soft connection check on layout...
+ version 1.0.437-0-ge3b630d
+WORK_ROOT   : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp
+LOG_ROOT    : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/logs
+SIGNOFF_ROOT: /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/outputs/reports
+TOP: user_project_wrapper
+LAYOUT: /home/lburleson/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds
+EXTRACT_FLATGLOB: 
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+Extracting layout with well in background process. See /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext.log.
+Extracting layout without well in background process. See /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext.log.
+Netgen 1.5.254 compiled on Tue Apr 16 18:21:46 UTC 2024
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8_lvt
+Creating placeholder cell definition.
+Parameter list mismatch in sky130_fd_pr__nfet_01v8_lvt:1: Not enough parameters in call!
+line number 592 = 'X1 Y A vssd1 sky130_fd_pr__nfet_01v8_lvt ad=0.14575 pd=1.63 as=0.1485 ps=1.64 w=0.55 l=0.15'
+File /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice read with 1 warning.
+Reading netlist file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8_lvt
+Creating placeholder cell definition.
+
+Reading setup file /opt/share/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
+
+Model sky130_fd_pr__res_generic_po pin end_a == end_b
+No property mult found for device sky130_fd_pr__res_generic_po
+Model sky130_fd_pr__res_generic_po pin end_a == end_b
+No property mult found for device sky130_fd_pr__res_generic_po
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_01v8_lvt pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8_lvt
+No property sa found for device sky130_fd_pr__nfet_01v8_lvt
+No property sb found for device sky130_fd_pr__nfet_01v8_lvt
+No property sd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nf found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrs found for device sky130_fd_pr__nfet_01v8_lvt
+No property area found for device sky130_fd_pr__nfet_01v8_lvt
+No property perim found for device sky130_fd_pr__nfet_01v8_lvt
+No property topography found for device sky130_fd_pr__nfet_01v8_lvt
+Model sky130_fd_pr__nfet_01v8_lvt pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8_lvt
+No property sa found for device sky130_fd_pr__nfet_01v8_lvt
+No property sb found for device sky130_fd_pr__nfet_01v8_lvt
+No property sd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nf found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrs found for device sky130_fd_pr__nfet_01v8_lvt
+No property area found for device sky130_fd_pr__nfet_01v8_lvt
+No property perim found for device sky130_fd_pr__nfet_01v8_lvt
+No property topography found for device sky130_fd_pr__nfet_01v8_lvt
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8
+No property sa found for device sky130_fd_pr__pfet_01v8
+No property sb found for device sky130_fd_pr__pfet_01v8
+No property sd found for device sky130_fd_pr__pfet_01v8
+No property nf found for device sky130_fd_pr__pfet_01v8
+No property nrd found for device sky130_fd_pr__pfet_01v8
+No property nrs found for device sky130_fd_pr__pfet_01v8
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8
+No property sa found for device sky130_fd_pr__pfet_01v8
+No property sb found for device sky130_fd_pr__pfet_01v8
+No property sd found for device sky130_fd_pr__pfet_01v8
+No property nf found for device sky130_fd_pr__pfet_01v8
+No property nrd found for device sky130_fd_pr__pfet_01v8
+No property nrs found for device sky130_fd_pr__pfet_01v8
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Model sky130_fd_pr__pfet_01v8_hvt pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8_hvt
+No property sa found for device sky130_fd_pr__pfet_01v8_hvt
+No property sb found for device sky130_fd_pr__pfet_01v8_hvt
+No property sd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nf found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrs found for device sky130_fd_pr__pfet_01v8_hvt
+No property area found for device sky130_fd_pr__pfet_01v8_hvt
+No property perim found for device sky130_fd_pr__pfet_01v8_hvt
+No property topography found for device sky130_fd_pr__pfet_01v8_hvt
+Model sky130_fd_pr__pfet_01v8_hvt pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8_hvt
+No property sa found for device sky130_fd_pr__pfet_01v8_hvt
+No property sb found for device sky130_fd_pr__pfet_01v8_hvt
+No property sd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nf found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrs found for device sky130_fd_pr__pfet_01v8_hvt
+No property area found for device sky130_fd_pr__pfet_01v8_hvt
+No property perim found for device sky130_fd_pr__pfet_01v8_hvt
+No property topography found for device sky130_fd_pr__pfet_01v8_hvt
+Comparison output logged to file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/soft.report
+Logging to file "/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/soft.report" enabled
+Circuit sky130_fd_pr__pfet_01v8 contains no devices.
+Circuit sky130_fd_pr__nfet_01v8_lvt contains no devices.
+Circuit sky130_fd_pr__nfet_01v8 contains no devices.
+Circuit sky130_fd_pr__pfet_01v8_hvt contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 10 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 10 nets,    Circuit 2 contains 7 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_sc_12T_hs__mux2_1 sky130_osu_sc_12T_hs__mux2_1
+
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ca_8'
+Circuit scs130hd_mpr2ca_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 61 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ca_8'
+Circuit scs130hd_mpr2ca_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 27 nets.
+
+Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
+Circuit 1 contains 61 nets,    Circuit 2 contains 27 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits scs130hd_mpr2ca_8 scs130hd_mpr2ca_8
+
+Flattening instances of scs130hd_mpr2ca_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of scs130hd_mpr2ca_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 5 nets, and 1 disconnected pin.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 5 nets,    Circuit 2 contains 4 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_sc_12T_hs__inv_1 sky130_osu_sc_12T_hs__inv_1
+
+Flattening instances of sky130_osu_sc_12T_hs__inv_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_sc_12T_hs__inv_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2xa_8'
+Circuit scs130hd_mpr2xa_8 contains 29 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  14
+Circuit contains 49 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2xa_8'
+Circuit scs130hd_mpr2xa_8 contains 29 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  14
+Circuit contains 22 nets.
+
+Circuit 1 contains 29 devices, Circuit 2 contains 29 devices.
+Circuit 1 contains 49 nets,    Circuit 2 contains 22 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits scs130hd_mpr2xa_8 scs130hd_mpr2xa_8
+
+Flattening instances of scs130hd_mpr2xa_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of scs130hd_mpr2xa_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ct_8'
+Circuit scs130hd_mpr2ct_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 61 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ct_8'
+Circuit scs130hd_mpr2ct_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 27 nets.
+
+Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
+Circuit 1 contains 61 nets,    Circuit 2 contains 27 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits scs130hd_mpr2ct_8 scs130hd_mpr2ct_8
+
+Flattening instances of scs130hd_mpr2ct_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of scs130hd_mpr2ct_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ea_8'
+Circuit scs130hd_mpr2ea_8 contains 30 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  15
+Circuit contains 51 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ea_8'
+Circuit scs130hd_mpr2ea_8 contains 30 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  15
+Circuit contains 23 nets.
+
+Circuit 1 contains 30 devices, Circuit 2 contains 30 devices.
+Circuit 1 contains 51 nets,    Circuit 2 contains 23 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits scs130hd_mpr2ea_8 scs130hd_mpr2ea_8
+
+Flattening instances of scs130hd_mpr2ea_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of scs130hd_mpr2ea_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2et_8'
+Circuit scs130hd_mpr2et_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  18
+Circuit contains 60 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2et_8'
+Circuit scs130hd_mpr2et_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  18
+Circuit contains 26 nets.
+
+Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
+Circuit 1 contains 60 nets,    Circuit 2 contains 26 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits scs130hd_mpr2et_8 scs130hd_mpr2et_8
+
+Flattening instances of scs130hd_mpr2et_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of scs130hd_mpr2et_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_ef_sc_hd__decap_12'
+Circuit sky130_ef_sc_hd__decap_12 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_ef_sc_hd__decap_12'
+Circuit sky130_ef_sc_hd__decap_12 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+  Flattening non-matched subcircuits sky130_ef_sc_hd__decap_12 sky130_ef_sc_hd__decap_12
+
+Flattening instances of sky130_ef_sc_hd__decap_12 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_ef_sc_hd__decap_12 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_4'
+Circuit sky130_fd_sc_hd__decap_4 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_4'
+Circuit sky130_fd_sc_hd__decap_4 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__decap_4 sky130_fd_sc_hd__decap_4
+
+Flattening instances of sky130_fd_sc_hd__decap_4 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__decap_4 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_12'
+Circuit sky130_fd_sc_hd__buf_12 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_12'
+Circuit sky130_fd_sc_hd__buf_12 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 9 nets,    Circuit 2 contains 7 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__buf_12 sky130_fd_sc_hd__buf_12
+
+Flattening instances of sky130_fd_sc_hd__buf_12 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__buf_12 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_3'
+Circuit sky130_fd_sc_hd__decap_3 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_3'
+Circuit sky130_fd_sc_hd__decap_3 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__decap_3 sky130_fd_sc_hd__decap_3
+
+Flattening instances of sky130_fd_sc_hd__decap_3 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__decap_3 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_6'
+Circuit sky130_fd_sc_hd__decap_6 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_6'
+Circuit sky130_fd_sc_hd__decap_6 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__decap_6 sky130_fd_sc_hd__decap_6
+
+Flattening instances of sky130_fd_sc_hd__decap_6 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__decap_6 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_8'
+Circuit sky130_fd_sc_hd__decap_8 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_8'
+Circuit sky130_fd_sc_hd__decap_8 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__decap_8 sky130_fd_sc_hd__decap_8
+
+Flattening instances of sky130_fd_sc_hd__decap_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__decap_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a21oi_2'
+Circuit sky130_fd_sc_hd__a21oi_2 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 17 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a21oi_2'
+Circuit sky130_fd_sc_hd__a21oi_2 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 11 nets.
+
+Circuit 1 contains 8 devices, Circuit 2 contains 8 devices.
+Circuit 1 contains 17 nets,    Circuit 2 contains 11 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__a21oi_2 sky130_fd_sc_hd__a21oi_2
+
+Flattening instances of sky130_fd_sc_hd__a21oi_2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__a21oi_2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nor2_1'
+Circuit sky130_fd_sc_hd__nor2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 10 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nor2_1'
+Circuit sky130_fd_sc_hd__nor2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 10 nets,    Circuit 2 contains 8 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__nor2_1 sky130_fd_sc_hd__nor2_1
+
+Flattening instances of sky130_fd_sc_hd__nor2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__nor2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__mux2_1'
+Circuit sky130_fd_sc_hd__mux2_1 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 24 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__mux2_1'
+Circuit sky130_fd_sc_hd__mux2_1 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 14 nets.
+
+Circuit 1 contains 12 devices, Circuit 2 contains 12 devices.
+Circuit 1 contains 24 nets,    Circuit 2 contains 14 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__mux2_1 sky130_fd_sc_hd__mux2_1
+
+Flattening instances of sky130_fd_sc_hd__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__mux4_1'
+Circuit sky130_fd_sc_hd__mux4_1 contains 26 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  13
+Circuit contains 48 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__mux4_1'
+Circuit sky130_fd_sc_hd__mux4_1 contains 26 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  13
+Circuit contains 24 nets.
+
+Circuit 1 contains 26 devices, Circuit 2 contains 26 devices.
+Circuit 1 contains 48 nets,    Circuit 2 contains 24 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__mux4_1 sky130_fd_sc_hd__mux4_1
+
+Flattening instances of sky130_fd_sc_hd__mux4_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__mux4_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a41o_1'
+Circuit sky130_fd_sc_hd__a41o_1 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 25 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a41o_1'
+Circuit sky130_fd_sc_hd__a41o_1 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 15 nets.
+
+Circuit 1 contains 12 devices, Circuit 2 contains 12 devices.
+Circuit 1 contains 25 nets,    Circuit 2 contains 15 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__a41o_1 sky130_fd_sc_hd__a41o_1
+
+Flattening instances of sky130_fd_sc_hd__a41o_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__a41o_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__or3b_1'
+Circuit sky130_fd_sc_hd__or3b_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 20 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__or3b_1'
+Circuit sky130_fd_sc_hd__or3b_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 12 nets.
+
+Circuit 1 contains 10 devices, Circuit 2 contains 10 devices.
+Circuit 1 contains 20 nets,    Circuit 2 contains 12 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__or3b_1 sky130_fd_sc_hd__or3b_1
+
+Flattening instances of sky130_fd_sc_hd__or3b_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__or3b_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__clkbuf_1'
+Circuit sky130_fd_sc_hd__clkbuf_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__clkbuf_1'
+Circuit sky130_fd_sc_hd__clkbuf_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 9 nets,    Circuit 2 contains 7 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__clkbuf_1 sky130_fd_sc_hd__clkbuf_1
+
+Flattening instances of sky130_fd_sc_hd__clkbuf_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__clkbuf_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_1'
+Circuit sky130_fd_sc_hd__buf_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_1'
+Circuit sky130_fd_sc_hd__buf_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 9 nets,    Circuit 2 contains 7 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__buf_1 sky130_fd_sc_hd__buf_1
+
+Flattening instances of sky130_fd_sc_hd__buf_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__buf_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nand3b_1'
+Circuit sky130_fd_sc_hd__nand3b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 17 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nand3b_1'
+Circuit sky130_fd_sc_hd__nand3b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 11 nets.
+
+Circuit 1 contains 8 devices, Circuit 2 contains 8 devices.
+Circuit 1 contains 17 nets,    Circuit 2 contains 11 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__nand3b_1 sky130_fd_sc_hd__nand3b_1
+
+Flattening instances of sky130_fd_sc_hd__nand3b_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__nand3b_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nand2_1'
+Circuit sky130_fd_sc_hd__nand2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 10 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nand2_1'
+Circuit sky130_fd_sc_hd__nand2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 10 nets,    Circuit 2 contains 8 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__nand2_1 sky130_fd_sc_hd__nand2_1
+
+Flattening instances of sky130_fd_sc_hd__nand2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__nand2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__clkbuf_2'
+Circuit sky130_fd_sc_hd__clkbuf_2 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__clkbuf_2'
+Circuit sky130_fd_sc_hd__clkbuf_2 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 9 nets,    Circuit 2 contains 7 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__clkbuf_2 sky130_fd_sc_hd__clkbuf_2
+
+Flattening instances of sky130_fd_sc_hd__clkbuf_2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__clkbuf_2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a2111oi_1'
+Circuit sky130_fd_sc_hd__a2111oi_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 22 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a2111oi_1'
+Circuit sky130_fd_sc_hd__a2111oi_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 14 nets.
+
+Circuit 1 contains 10 devices, Circuit 2 contains 10 devices.
+Circuit 1 contains 22 nets,    Circuit 2 contains 14 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__a2111oi_1 sky130_fd_sc_hd__a2111oi_1
+
+Flattening instances of sky130_fd_sc_hd__a2111oi_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__a2111oi_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nor3b_1'
+Circuit sky130_fd_sc_hd__nor3b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 17 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nor3b_1'
+Circuit sky130_fd_sc_hd__nor3b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 11 nets.
+
+Circuit 1 contains 8 devices, Circuit 2 contains 8 devices.
+Circuit 1 contains 17 nets,    Circuit 2 contains 11 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__nor3b_1 sky130_fd_sc_hd__nor3b_1
+
+Flattening instances of sky130_fd_sc_hd__nor3b_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__nor3b_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_2'
+Circuit sky130_fd_sc_hd__buf_2 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_2'
+Circuit sky130_fd_sc_hd__buf_2 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 9 nets,    Circuit 2 contains 7 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__buf_2 sky130_fd_sc_hd__buf_2
+
+Flattening instances of sky130_fd_sc_hd__buf_2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__buf_2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__and3b_1'
+Circuit sky130_fd_sc_hd__and3b_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 20 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__and3b_1'
+Circuit sky130_fd_sc_hd__and3b_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 12 nets.
+
+Circuit 1 contains 10 devices, Circuit 2 contains 10 devices.
+Circuit 1 contains 20 nets,    Circuit 2 contains 12 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_fd_sc_hd__and3b_1 sky130_fd_sc_hd__and3b_1
+
+Flattening instances of sky130_fd_sc_hd__and3b_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_fd_sc_hd__and3b_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1'
+Circuit sky130_osu_single_mpr2ca_8_b0r1 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 81 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1'
+Circuit sky130_osu_single_mpr2ca_8_b0r1 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1'
+Circuit sky130_osu_single_mpr2ca_8_b0r1 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 81 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1'
+Circuit sky130_osu_single_mpr2ca_8_b0r1 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit 1 contains 59 devices, Circuit 2 contains 59 devices.
+Circuit 1 contains 78 nets,    Circuit 2 contains 32 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2ca_8_b0r1 sky130_osu_single_mpr2ca_8_b0r1
+
+Flattening instances of sky130_osu_single_mpr2ca_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_single_mpr2ca_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2'
+Circuit sky130_osu_single_mpr2xa_8_b0r2 contains 55 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 70 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2'
+Circuit sky130_osu_single_mpr2xa_8_b0r2 contains 55 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 28 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2'
+Circuit sky130_osu_single_mpr2xa_8_b0r2 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 70 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2'
+Circuit sky130_osu_single_mpr2xa_8_b0r2 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 28 nets.
+
+Circuit 1 contains 53 devices, Circuit 2 contains 53 devices.
+Circuit 1 contains 68 nets,    Circuit 2 contains 28 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2xa_8_b0r2 sky130_osu_single_mpr2xa_8_b0r2
+
+Flattening instances of sky130_osu_single_mpr2xa_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_single_mpr2xa_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1'
+Circuit sky130_osu_single_mpr2ct_8_b0r1 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 81 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1'
+Circuit sky130_osu_single_mpr2ct_8_b0r1 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1'
+Circuit sky130_osu_single_mpr2ct_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 81 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1'
+Circuit sky130_osu_single_mpr2ct_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 79 nets,    Circuit 2 contains 32 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2ct_8_b0r1 sky130_osu_single_mpr2ct_8_b0r1
+
+Flattening instances of sky130_osu_single_mpr2ct_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_single_mpr2ct_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1'
+Circuit sky130_osu_single_mpr2ea_8_b0r1 contains 56 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  28
+Circuit contains 72 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1'
+Circuit sky130_osu_single_mpr2ea_8_b0r1 contains 56 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  28
+Circuit contains 29 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1'
+Circuit sky130_osu_single_mpr2ea_8_b0r1 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 72 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1'
+Circuit sky130_osu_single_mpr2ea_8_b0r1 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 29 nets.
+
+Circuit 1 contains 54 devices, Circuit 2 contains 54 devices.
+Circuit 1 contains 70 nets,    Circuit 2 contains 29 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2ea_8_b0r1 sky130_osu_single_mpr2ea_8_b0r1
+
+Flattening instances of sky130_osu_single_mpr2ea_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_single_mpr2ea_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1'
+Circuit sky130_osu_single_mpr2et_8_b0r1 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  31
+Circuit contains 81 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1'
+Circuit sky130_osu_single_mpr2et_8_b0r1 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  31
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1'
+Circuit sky130_osu_single_mpr2et_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 81 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1'
+Circuit sky130_osu_single_mpr2et_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 32 nets.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 79 nets,    Circuit 2 contains 32 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2et_8_b0r1 sky130_osu_single_mpr2et_8_b0r1
+
+Flattening instances of sky130_osu_single_mpr2et_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_single_mpr2et_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1'
+Circuit sky130_osu_single_mpr2xa_8_b0r1 contains 55 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 70 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1'
+Circuit sky130_osu_single_mpr2xa_8_b0r1 contains 55 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 28 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1'
+Circuit sky130_osu_single_mpr2xa_8_b0r1 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 70 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1'
+Circuit sky130_osu_single_mpr2xa_8_b0r1 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 28 nets.
+
+Circuit 1 contains 53 devices, Circuit 2 contains 53 devices.
+Circuit 1 contains 68 nets,    Circuit 2 contains 28 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2xa_8_b0r1 sky130_osu_single_mpr2xa_8_b0r1
+
+Flattening instances of sky130_osu_single_mpr2xa_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_single_mpr2xa_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2'
+Circuit sky130_osu_single_mpr2ca_8_b0r2 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 81 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2'
+Circuit sky130_osu_single_mpr2ca_8_b0r2 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2'
+Circuit sky130_osu_single_mpr2ca_8_b0r2 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 81 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2'
+Circuit sky130_osu_single_mpr2ca_8_b0r2 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit 1 contains 59 devices, Circuit 2 contains 59 devices.
+Circuit 1 contains 78 nets,    Circuit 2 contains 32 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2ca_8_b0r2 sky130_osu_single_mpr2ca_8_b0r2
+
+Flattening instances of sky130_osu_single_mpr2ca_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_single_mpr2ca_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2'
+Circuit sky130_osu_single_mpr2ct_8_b0r2 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 81 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2'
+Circuit sky130_osu_single_mpr2ct_8_b0r2 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2'
+Circuit sky130_osu_single_mpr2ct_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 81 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2'
+Circuit sky130_osu_single_mpr2ct_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 79 nets,    Circuit 2 contains 32 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2ct_8_b0r2 sky130_osu_single_mpr2ct_8_b0r2
+
+Flattening instances of sky130_osu_single_mpr2ct_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_single_mpr2ct_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2'
+Circuit sky130_osu_single_mpr2et_8_b0r2 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  31
+Circuit contains 81 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2'
+Circuit sky130_osu_single_mpr2et_8_b0r2 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  31
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2'
+Circuit sky130_osu_single_mpr2et_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 81 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2'
+Circuit sky130_osu_single_mpr2et_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 32 nets.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 79 nets,    Circuit 2 contains 32 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2et_8_b0r2 sky130_osu_single_mpr2et_8_b0r2
+
+Flattening instances of sky130_osu_single_mpr2et_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_single_mpr2et_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2'
+Circuit sky130_osu_single_mpr2ea_8_b0r2 contains 56 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  28
+Circuit contains 72 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2'
+Circuit sky130_osu_single_mpr2ea_8_b0r2 contains 56 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  28
+Circuit contains 29 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2'
+Circuit sky130_osu_single_mpr2ea_8_b0r2 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 72 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2'
+Circuit sky130_osu_single_mpr2ea_8_b0r2 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 29 nets.
+
+Circuit 1 contains 54 devices, Circuit 2 contains 54 devices.
+Circuit 1 contains 70 nets,    Circuit 2 contains 29 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2ea_8_b0r2 sky130_osu_single_mpr2ea_8_b0r2
+
+Flattening instances of sky130_osu_single_mpr2ea_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_single_mpr2ea_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__conb_1'
+Circuit sky130_fd_sc_hd__conb_1 contains 2 device instances.
+  Class: sky130_fd_pr__res_generic_po instances:   2
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__conb_1'
+Circuit sky130_fd_sc_hd__conb_1 contains 2 device instances.
+  Class: sky130_fd_pr__res_generic_po instances:   2
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'mux16x1_project'
+Circuit mux16x1_project contains 794 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances: 398
+  Class: sky130_fd_pr__pfet_01v8_hvt instances: 396
+Circuit contains 1492 nets.
+Contents of circuit 2:  Circuit: 'mux16x1_project'
+Circuit mux16x1_project contains 794 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances: 398
+  Class: sky130_fd_pr__pfet_01v8_hvt instances: 396
+Circuit contains 150 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'mux16x1_project'
+Circuit mux16x1_project contains 248 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances: 125
+  Class: sky130_fd_pr__pfet_01v8_hvt instances: 123
+Circuit contains 1492 nets.
+Contents of circuit 2:  Circuit: 'mux16x1_project'
+Circuit mux16x1_project contains 248 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances: 125
+  Class: sky130_fd_pr__pfet_01v8_hvt instances: 123
+Circuit contains 150 nets.
+
+Circuit 1 contains 248 devices, Circuit 2 contains 248 devices.
+Circuit 1 contains 398 nets,    Circuit 2 contains 150 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits mux16x1_project mux16x1_project
+
+Flattening instances of mux16x1_project in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of mux16x1_project in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ca_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ca_8_b0r1 contains 301 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  75
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 398 nets, and 20 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ca_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ca_8_b0r1 contains 301 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  75
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 150 nets.
+
+Circuit 1 contains 301 devices, Circuit 2 contains 301 devices.
+Circuit 1 contains 383 nets,    Circuit 2 contains 150 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_ring_oscillator_mpr2ca_8_b0r1 sky130_osu_ring_oscillator_mpr2ca_8_b0r1
+
+Flattening instances of sky130_osu_ring_oscillator_mpr2ca_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_ring_oscillator_mpr2ca_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2xa_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2xa_8_b0r2 contains 271 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  75
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 128
+Circuit contains 343 nets, and 20 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2xa_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2xa_8_b0r2 contains 271 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  75
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 128
+Circuit contains 130 nets.
+
+Circuit 1 contains 271 devices, Circuit 2 contains 271 devices.
+Circuit 1 contains 333 nets,    Circuit 2 contains 130 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_ring_oscillator_mpr2xa_8_b0r2 sky130_osu_ring_oscillator_mpr2xa_8_b0r2
+
+Flattening instances of sky130_osu_ring_oscillator_mpr2xa_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_ring_oscillator_mpr2xa_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ct_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ct_8_b0r1 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  80
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 398 nets, and 20 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ct_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ct_8_b0r1 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  80
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 150 nets.
+
+Circuit 1 contains 306 devices, Circuit 2 contains 306 devices.
+Circuit 1 contains 388 nets,    Circuit 2 contains 150 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_ring_oscillator_mpr2ct_8_b0r1 sky130_osu_ring_oscillator_mpr2ct_8_b0r1
+
+Flattening instances of sky130_osu_ring_oscillator_mpr2ct_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_ring_oscillator_mpr2ct_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ea_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ea_8_b0r1 contains 276 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  75
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 133
+Circuit contains 353 nets, and 20 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ea_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ea_8_b0r1 contains 276 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  75
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 133
+Circuit contains 135 nets.
+
+Circuit 1 contains 276 devices, Circuit 2 contains 276 devices.
+Circuit 1 contains 343 nets,    Circuit 2 contains 135 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_ring_oscillator_mpr2ea_8_b0r1 sky130_osu_ring_oscillator_mpr2ea_8_b0r1
+
+Flattening instances of sky130_osu_ring_oscillator_mpr2ea_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_ring_oscillator_mpr2ea_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2et_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2et_8_b0r1 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 148
+Circuit contains 398 nets, and 20 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2et_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2et_8_b0r1 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 148
+Circuit contains 150 nets.
+
+Circuit 1 contains 306 devices, Circuit 2 contains 306 devices.
+Circuit 1 contains 388 nets,    Circuit 2 contains 150 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_ring_oscillator_mpr2et_8_b0r1 sky130_osu_ring_oscillator_mpr2et_8_b0r1
+
+Flattening instances of sky130_osu_ring_oscillator_mpr2et_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_ring_oscillator_mpr2et_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2xa_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2xa_8_b0r1 contains 271 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  75
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 128
+Circuit contains 343 nets, and 20 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2xa_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2xa_8_b0r1 contains 271 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  75
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 128
+Circuit contains 130 nets.
+
+Circuit 1 contains 271 devices, Circuit 2 contains 271 devices.
+Circuit 1 contains 333 nets,    Circuit 2 contains 130 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_ring_oscillator_mpr2xa_8_b0r1 sky130_osu_ring_oscillator_mpr2xa_8_b0r1
+
+Flattening instances of sky130_osu_ring_oscillator_mpr2xa_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_ring_oscillator_mpr2xa_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ca_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ca_8_b0r2 contains 301 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  75
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 398 nets, and 20 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ca_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ca_8_b0r2 contains 301 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  75
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 150 nets.
+
+Circuit 1 contains 301 devices, Circuit 2 contains 301 devices.
+Circuit 1 contains 383 nets,    Circuit 2 contains 150 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_ring_oscillator_mpr2ca_8_b0r2 sky130_osu_ring_oscillator_mpr2ca_8_b0r2
+
+Flattening instances of sky130_osu_ring_oscillator_mpr2ca_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_ring_oscillator_mpr2ca_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ct_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ct_8_b0r2 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  80
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 398 nets, and 20 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ct_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ct_8_b0r2 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  80
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 150 nets.
+
+Circuit 1 contains 306 devices, Circuit 2 contains 306 devices.
+Circuit 1 contains 388 nets,    Circuit 2 contains 150 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_ring_oscillator_mpr2ct_8_b0r2 sky130_osu_ring_oscillator_mpr2ct_8_b0r2
+
+Flattening instances of sky130_osu_ring_oscillator_mpr2ct_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_ring_oscillator_mpr2ct_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2et_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2et_8_b0r2 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 148
+Circuit contains 398 nets, and 20 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2et_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2et_8_b0r2 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 148
+Circuit contains 150 nets.
+
+Circuit 1 contains 306 devices, Circuit 2 contains 306 devices.
+Circuit 1 contains 388 nets,    Circuit 2 contains 150 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_ring_oscillator_mpr2et_8_b0r2 sky130_osu_ring_oscillator_mpr2et_8_b0r2
+
+Flattening instances of sky130_osu_ring_oscillator_mpr2et_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_ring_oscillator_mpr2et_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ea_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ea_8_b0r2 contains 276 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  75
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 133
+Circuit contains 353 nets, and 20 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ea_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ea_8_b0r2 contains 276 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  75
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 133
+Circuit contains 135 nets.
+
+Circuit 1 contains 276 devices, Circuit 2 contains 276 devices.
+Circuit 1 contains 343 nets,    Circuit 2 contains 135 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits sky130_osu_ring_oscillator_mpr2ea_8_b0r2 sky130_osu_ring_oscillator_mpr2ea_8_b0r2
+
+Flattening instances of sky130_osu_ring_oscillator_mpr2ea_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.nowell.spice
+Flattening instances of sky130_osu_ring_oscillator_mpr2ea_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+
+Contents of circuit 1:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 4205 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances: 1465
+  Class: sky130_fd_pr__nfet_01v8_lvt instances: 680
+  Class: sky130_fd_sc_hd__conb_1 instances:  45
+  Class: sky130_fd_pr__pfet_01v8_hvt instances: 925
+  Class: sky130_fd_pr__pfet_01v8 instances: 1090
+Circuit contains 11152 nets, and 200 disconnected pins.
+Contents of circuit 2:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 4205 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances: 1465
+  Class: sky130_fd_pr__nfet_01v8_lvt instances: 680
+  Class: sky130_fd_sc_hd__conb_1 instances:  45
+  Class: sky130_fd_pr__pfet_01v8_hvt instances: 925
+  Class: sky130_fd_pr__pfet_01v8 instances: 1090
+Circuit contains 2092 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 4197 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances: 1461
+  Class: sky130_fd_pr__nfet_01v8_lvt instances: 680
+  Class: sky130_fd_sc_hd__conb_1 instances:  45
+  Class: sky130_fd_pr__pfet_01v8_hvt instances: 921
+  Class: sky130_fd_pr__pfet_01v8 instances: 1090
+Circuit contains 11152 nets, and 200 disconnected pins.
+Contents of circuit 2:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 4197 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances: 1461
+  Class: sky130_fd_pr__nfet_01v8_lvt instances: 680
+  Class: sky130_fd_sc_hd__conb_1 instances:  45
+  Class: sky130_fd_pr__pfet_01v8_hvt instances: 921
+  Class: sky130_fd_pr__pfet_01v8 instances: 1090
+Circuit contains 2092 nets.
+
+Circuit 1 contains 4197 devices, Circuit 2 contains 4197 devices.
+Circuit 1 contains 5564 nets,    Circuit 2 contains 2092 nets. *** MISMATCH ***
+
+
+Final result: 
+Netlists do not match.
+Logging to file "/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/soft.report" disabled
+LVS Done.
+scheck status 0
+ 
+Running LVS...
+TOP SOURCE: user_project_wrapper
+SOURCE FILE(S): /opt/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice
+ /opt/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ca_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ca_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ct_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ct_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ea_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ea_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2et_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2et_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2xa_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2xa_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ca_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ca_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ct_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ct_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2et_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2et_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2xa_8_b0r1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2xa_8_b0r2.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2ca_8.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2ct_8.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2ea_8.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2et_8.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2xa_8.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_sc_12T_hs__mux2_1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_sc_12T_hs__inv_1.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/lvs/mux16x1_project.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/spi/lvs/user_project_wrapper.spice
+ /home/lburleson/OSU/google_ring_oscillator/caravel/verilog/gl/user_project_wrapper.v
+TOP LAYOUT: user_project_wrapper
+LAYOUT FILE: 
+EXTRACT_FLATGLOB: 
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+LVS_FLATTEN: 
+LVS_NOFLATTEN: 
+LVS_IGNORE: sky130_osu_ring_oscillator_mpr2ca_8_b0r1
+ sky130_osu_ring_oscillator_mpr2ca_8_b0r2
+ sky130_osu_ring_oscillator_mpr2ct_8_b0r1
+ sky130_osu_ring_oscillator_mpr2ct_8_b0r2
+ sky130_osu_ring_oscillator_mpr2ea_8_b0r1
+ sky130_osu_ring_oscillator_mpr2ea_8_b0r2
+ sky130_osu_ring_oscillator_mpr2et_8_b0r1
+ sky130_osu_ring_oscillator_mpr2et_8_b0r2
+ sky130_osu_ring_oscillator_mpr2xa_8_b0r1
+ sky130_osu_ring_oscillator_mpr2xa_8_b0r2
+ sky130_osu_single_mpr2ca_8_b0r1
+ sky130_osu_single_mpr2ca_8_b0r2
+ sky130_osu_single_mpr2ct_8_b0r1
+ sky130_osu_single_mpr2ct_8_b0r2
+ sky130_osu_single_mpr2ea_8_b0r1
+ sky130_osu_single_mpr2ea_8_b0r2
+ sky130_osu_single_mpr2et_8_b0r1
+ sky130_osu_single_mpr2et_8_b0r2
+ sky130_osu_single_mpr2xa_8_b0r1
+ sky130_osu_single_mpr2xa_8_b0r2
+ scs130hd_mpr2ca_8
+ scs130hd_mpr2ct_8
+ scs130hd_mpr2ea_8
+ scs130hd_mpr2et_8
+ scs130hd_mpr2xa_8
+ sky130_osu_sc_12T_hs__mux2_1
+ sky130_osu_sc_12T_hs__inv_1
+WORK_ROOT   : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp
+LOG_ROOT    : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/logs
+SIGNOFF_ROOT: /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/outputs/reports
+Reusing /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.spice.
+ 
+Netgen 1.5.254 compiled on Tue Apr 16 18:21:46 UTC 2024
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading layout /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.gds.spice...
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8_lvt
+Creating placeholder cell definition.
+Reading source /opt/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice...
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Reading source /opt/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice...
+Call to undefined subcircuit sky130_fd_sc_hd__nand2_2
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_sc_hd__nor2_2
+Creating placeholder cell definition.
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ca_8_b0r1.spice...
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8_lvt
+Creating placeholder cell definition.
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ca_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[0]]
+Duplicate cell scs130hd_mpr2ca_8 in file
+Renaming original cell to scs130hd_mpr2ca_8[[0]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ct_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[1]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[1]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ct_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[2]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[2]]
+Duplicate cell scs130hd_mpr2ct_8 in file
+Renaming original cell to scs130hd_mpr2ct_8[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ea_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[3]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[3]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ea_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[4]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[4]]
+Duplicate cell scs130hd_mpr2ea_8 in file
+Renaming original cell to scs130hd_mpr2ea_8[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2et_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[5]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[5]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2et_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[6]]
+Duplicate cell scs130hd_mpr2et_8 in file
+Renaming original cell to scs130hd_mpr2et_8[[0]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[6]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2xa_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[7]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[7]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2xa_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[8]]
+Duplicate cell scs130hd_mpr2xa_8 in file
+Renaming original cell to scs130hd_mpr2xa_8[[0]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[8]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ca_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[9]]
+Duplicate cell scs130hd_mpr2ca_8 in file
+Renaming original cell to scs130hd_mpr2ca_8[[1]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[9]]
+Duplicate cell sky130_osu_single_mpr2ca_8_b0r1 in file
+Renaming original cell to sky130_osu_single_mpr2ca_8_b0r1[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ca_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[10]]
+Duplicate cell scs130hd_mpr2ca_8 in file
+Renaming original cell to scs130hd_mpr2ca_8[[2]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[10]]
+Duplicate cell sky130_osu_single_mpr2ca_8_b0r2 in file
+Renaming original cell to sky130_osu_single_mpr2ca_8_b0r2[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ct_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[11]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[11]]
+Duplicate cell scs130hd_mpr2ct_8 in file
+Renaming original cell to scs130hd_mpr2ct_8[[1]]
+Duplicate cell sky130_osu_single_mpr2ct_8_b0r1 in file
+Renaming original cell to sky130_osu_single_mpr2ct_8_b0r1[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ct_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[12]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[12]]
+Duplicate cell scs130hd_mpr2ct_8 in file
+Renaming original cell to scs130hd_mpr2ct_8[[2]]
+Duplicate cell sky130_osu_single_mpr2ct_8_b0r2 in file
+Renaming original cell to sky130_osu_single_mpr2ct_8_b0r2[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[13]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[13]]
+Duplicate cell scs130hd_mpr2ea_8 in file
+Renaming original cell to scs130hd_mpr2ea_8[[1]]
+Duplicate cell sky130_osu_single_mpr2ea_8_b0r1 in file
+Renaming original cell to sky130_osu_single_mpr2ea_8_b0r1[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[14]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[14]]
+Duplicate cell scs130hd_mpr2ea_8 in file
+Renaming original cell to scs130hd_mpr2ea_8[[2]]
+Duplicate cell sky130_osu_single_mpr2ea_8_b0r2 in file
+Renaming original cell to sky130_osu_single_mpr2ea_8_b0r2[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2et_8_b0r1.spice...
+Duplicate cell scs130hd_mpr2et_8 in file
+Renaming original cell to scs130hd_mpr2et_8[[1]]
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[15]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[15]]
+Duplicate cell sky130_osu_single_mpr2et_8_b0r1 in file
+Renaming original cell to sky130_osu_single_mpr2et_8_b0r1[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2et_8_b0r2.spice...
+Duplicate cell scs130hd_mpr2et_8 in file
+Renaming original cell to scs130hd_mpr2et_8[[2]]
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[16]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[16]]
+Duplicate cell sky130_osu_single_mpr2et_8_b0r2 in file
+Renaming original cell to sky130_osu_single_mpr2et_8_b0r2[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2xa_8_b0r1.spice...
+Duplicate cell scs130hd_mpr2xa_8 in file
+Renaming original cell to scs130hd_mpr2xa_8[[1]]
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[17]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[17]]
+Duplicate cell sky130_osu_single_mpr2xa_8_b0r1 in file
+Renaming original cell to sky130_osu_single_mpr2xa_8_b0r1[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2xa_8_b0r2.spice...
+Duplicate cell scs130hd_mpr2xa_8 in file
+Renaming original cell to scs130hd_mpr2xa_8[[2]]
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[18]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[18]]
+Duplicate cell sky130_osu_single_mpr2xa_8_b0r2 in file
+Renaming original cell to sky130_osu_single_mpr2xa_8_b0r2[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2ca_8.spice...
+Duplicate cell scs130hd_mpr2ca_8 in file
+Renaming original cell to scs130hd_mpr2ca_8[[3]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2ct_8.spice...
+Duplicate cell scs130hd_mpr2ct_8 in file
+Renaming original cell to scs130hd_mpr2ct_8[[3]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2ea_8.spice...
+Duplicate cell scs130hd_mpr2ea_8 in file
+Renaming original cell to scs130hd_mpr2ea_8[[3]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2et_8.spice...
+Duplicate cell scs130hd_mpr2et_8 in file
+Renaming original cell to scs130hd_mpr2et_8[[3]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2xa_8.spice...
+Duplicate cell scs130hd_mpr2xa_8 in file
+Renaming original cell to scs130hd_mpr2xa_8[[3]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_sc_12T_hs__mux2_1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[19]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_sc_12T_hs__inv_1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[19]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/lvs/mux16x1_project.spice...
+Duplicate cell sky130_ef_sc_hd__decap_12 in file
+Renaming original cell to sky130_ef_sc_hd__decap_12[[0]]
+Duplicate cell sky130_fd_sc_hd__decap_4 in file
+Renaming original cell to sky130_fd_sc_hd__decap_4[[0]]
+Duplicate cell sky130_fd_sc_hd__buf_12 in file
+Renaming original cell to sky130_fd_sc_hd__buf_12[[0]]
+Duplicate cell sky130_fd_sc_hd__decap_3 in file
+Renaming original cell to sky130_fd_sc_hd__decap_3[[0]]
+Duplicate cell sky130_fd_sc_hd__decap_6 in file
+Renaming original cell to sky130_fd_sc_hd__decap_6[[0]]
+Duplicate cell sky130_fd_sc_hd__fill_1 in file
+Renaming original cell to sky130_fd_sc_hd__fill_1[[0]]
+Duplicate cell sky130_fd_sc_hd__fill_2 in file
+Renaming original cell to sky130_fd_sc_hd__fill_2[[0]]
+Duplicate cell sky130_fd_sc_hd__decap_8 in file
+Renaming original cell to sky130_fd_sc_hd__decap_8[[0]]
+Duplicate cell sky130_fd_sc_hd__a21oi_2 in file
+Renaming original cell to sky130_fd_sc_hd__a21oi_2[[0]]
+Duplicate cell sky130_fd_sc_hd__nor2_1 in file
+Renaming original cell to sky130_fd_sc_hd__nor2_1[[0]]
+Duplicate cell sky130_fd_sc_hd__mux2_1 in file
+Renaming original cell to sky130_fd_sc_hd__mux2_1[[0]]
+Duplicate cell sky130_fd_sc_hd__mux4_1 in file
+Renaming original cell to sky130_fd_sc_hd__mux4_1[[0]]
+Duplicate cell sky130_fd_sc_hd__a41o_1 in file
+Renaming original cell to sky130_fd_sc_hd__a41o_1[[0]]
+Duplicate cell sky130_fd_sc_hd__clkbuf_1 in file
+Renaming original cell to sky130_fd_sc_hd__clkbuf_1[[0]]
+Duplicate cell sky130_fd_sc_hd__tapvpwrvgnd_1 in file
+Renaming original cell to sky130_fd_sc_hd__tapvpwrvgnd_1[[0]]
+Duplicate cell sky130_fd_sc_hd__or3b_1 in file
+Renaming original cell to sky130_fd_sc_hd__or3b_1[[0]]
+Duplicate cell sky130_fd_sc_hd__buf_1 in file
+Renaming original cell to sky130_fd_sc_hd__buf_1[[0]]
+Duplicate cell sky130_fd_sc_hd__nand3b_1 in file
+Renaming original cell to sky130_fd_sc_hd__nand3b_1[[0]]
+Duplicate cell sky130_fd_sc_hd__nand2_1 in file
+Renaming original cell to sky130_fd_sc_hd__nand2_1[[0]]
+Duplicate cell sky130_fd_sc_hd__clkbuf_2 in file
+Renaming original cell to sky130_fd_sc_hd__clkbuf_2[[0]]
+Duplicate cell sky130_fd_sc_hd__a2111oi_1 in file
+Renaming original cell to sky130_fd_sc_hd__a2111oi_1[[0]]
+Duplicate cell sky130_fd_sc_hd__buf_2 in file
+Renaming original cell to sky130_fd_sc_hd__buf_2[[0]]
+Duplicate cell sky130_fd_sc_hd__nor3b_1 in file
+Renaming original cell to sky130_fd_sc_hd__nor3b_1[[0]]
+Duplicate cell sky130_fd_sc_hd__and3b_1 in file
+Renaming original cell to sky130_fd_sc_hd__and3b_1[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/lvs/user_project_wrapper.spice...
+Duplicate cell mux16x1_project in file
+Renaming original cell to mux16x1_project[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/verilog/gl/user_project_wrapper.v...
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Duplicate cell user_project_wrapper in file
+Renaming original cell to user_project_wrapper[[0]]
+Warning:  Net {x1_0,x1_1,x1_2,x1_3,x1_4,x1_5,x1_6,x1_7,x1_8,x1_9,zero_1_10,zero_1_11,zero_1_12,zero_1_13,zero_1_14,zero_1_15} bus width (16) does not match port data_in bus width (10) or array width (1).
+Note:  Implicit pin data_in[10] in instance mprj1 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[11] in instance mprj1 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[12] in instance mprj1 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[13] in instance mprj1 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[14] in instance mprj1 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[15] in instance mprj1 of mux16x1_project in cell user_project_wrapper
+Warning:  Net {x2_0,x2_1,x2_2,x2_3,x2_4,x2_5,x2_6,x2_7,x2_8,x2_9,zero_2_10,zero_2_11,zero_2_12,zero_2_13,zero_2_14,zero_2_15} bus width (16) does not match port data_in bus width (10) or array width (1).
+Note:  Implicit pin data_in[10] in instance mprj2 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[11] in instance mprj2 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[12] in instance mprj2 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[13] in instance mprj2 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[14] in instance mprj2 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[15] in instance mprj2 of mux16x1_project in cell user_project_wrapper
+Warning:  Net {x3_0,x3_1,x3_2,x3_3,x3_4,x3_5,x3_6,x3_7,x3_8,x3_9,zero_3_10,zero_3_11,zero_3_12,zero_3_13,zero_3_14,zero_3_15} bus width (16) does not match port data_in bus width (10) or array width (1).
+Note:  Implicit pin data_in[10] in instance mprj3 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[11] in instance mprj3 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[12] in instance mprj3 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[13] in instance mprj3 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[14] in instance mprj3 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[15] in instance mprj3 of mux16x1_project in cell user_project_wrapper
+Warning:  Net {x4_0,x4_1,x4_2,x4_3,x4_4,x4_5,x4_6,x4_7,x4_8,x4_9,zero_4_10,zero_4_11,zero_4_12,zero_4_13,zero_4_14,zero_4_15} bus width (16) does not match port data_in bus width (10) or array width (1).
+Note:  Implicit pin data_in[10] in instance mprj4 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[11] in instance mprj4 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[12] in instance mprj4 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[13] in instance mprj4 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[14] in instance mprj4 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[15] in instance mprj4 of mux16x1_project in cell user_project_wrapper
+Warning:  Net {x5_0,x5_1,x5_2,x5_3,x5_4,x5_5,x5_6,x5_7,x5_8,x5_9,zero_5_10,zero_5_11,zero_5_12,zero_5_13,zero_5_14,zero_5_15} bus width (16) does not match port data_in bus width (10) or array width (1).
+Note:  Implicit pin data_in[10] in instance mprj5 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[11] in instance mprj5 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[12] in instance mprj5 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[13] in instance mprj5 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[14] in instance mprj5 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin data_in[15] in instance mprj5 of mux16x1_project in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_1_10 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_1_11 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_1_12 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_1_13 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_1_14 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_1_15 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_2_10 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_2_11 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_2_12 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_2_13 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_2_14 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_2_15 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_3_10 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_3_11 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_3_12 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_3_13 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_3_14 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_3_15 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_4_10 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_4_11 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_4_12 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_4_13 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_4_14 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_4_15 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_5_10 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_5_11 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_5_12 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_5_13 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_5_14 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_5_15 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_0 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_1 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_2 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_3 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin HI in instance _zero_4 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin LO in instance _one_0 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin LO in instance _one_1 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin LO in instance _one_2 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin LO in instance _one_3 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin LO in instance _one_4 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin LO in instance _one_5 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin LO in instance _one_6 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin LO in instance _one_7 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin LO in instance _one_8 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Note:  Implicit pin LO in instance _one_9 of sky130_fd_sc_hd__conb_1 in cell user_project_wrapper
+Treating empty subcircuits as black-box cells
+Generating JSON file result
+
+Reading setup file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/sky130A_setup.tcl
+
+Model sky130_fd_pr__res_generic_po pin end_a == end_b
+No property mult found for device sky130_fd_pr__res_generic_po
+Model sky130_fd_pr__res_generic_po pin end_a == end_b
+No property mult found for device sky130_fd_pr__res_generic_po
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_01v8_lvt pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8_lvt
+No property sa found for device sky130_fd_pr__nfet_01v8_lvt
+No property sb found for device sky130_fd_pr__nfet_01v8_lvt
+No property sd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nf found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrs found for device sky130_fd_pr__nfet_01v8_lvt
+No property area found for device sky130_fd_pr__nfet_01v8_lvt
+No property perim found for device sky130_fd_pr__nfet_01v8_lvt
+No property topography found for device sky130_fd_pr__nfet_01v8_lvt
+Model sky130_fd_pr__nfet_01v8_lvt pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8_lvt
+No property sa found for device sky130_fd_pr__nfet_01v8_lvt
+No property sb found for device sky130_fd_pr__nfet_01v8_lvt
+No property sd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nf found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrs found for device sky130_fd_pr__nfet_01v8_lvt
+No property area found for device sky130_fd_pr__nfet_01v8_lvt
+No property perim found for device sky130_fd_pr__nfet_01v8_lvt
+No property topography found for device sky130_fd_pr__nfet_01v8_lvt
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8
+No property sa found for device sky130_fd_pr__pfet_01v8
+No property sb found for device sky130_fd_pr__pfet_01v8
+No property sd found for device sky130_fd_pr__pfet_01v8
+No property nf found for device sky130_fd_pr__pfet_01v8
+No property nrd found for device sky130_fd_pr__pfet_01v8
+No property nrs found for device sky130_fd_pr__pfet_01v8
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8
+No property sa found for device sky130_fd_pr__pfet_01v8
+No property sb found for device sky130_fd_pr__pfet_01v8
+No property sd found for device sky130_fd_pr__pfet_01v8
+No property nf found for device sky130_fd_pr__pfet_01v8
+No property nrd found for device sky130_fd_pr__pfet_01v8
+No property nrs found for device sky130_fd_pr__pfet_01v8
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Model sky130_fd_pr__pfet_01v8_hvt pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8_hvt
+No property sa found for device sky130_fd_pr__pfet_01v8_hvt
+No property sb found for device sky130_fd_pr__pfet_01v8_hvt
+No property sd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nf found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrs found for device sky130_fd_pr__pfet_01v8_hvt
+No property area found for device sky130_fd_pr__pfet_01v8_hvt
+No property perim found for device sky130_fd_pr__pfet_01v8_hvt
+No property topography found for device sky130_fd_pr__pfet_01v8_hvt
+Model sky130_fd_pr__pfet_01v8_hvt pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8_hvt
+No property sa found for device sky130_fd_pr__pfet_01v8_hvt
+No property sb found for device sky130_fd_pr__pfet_01v8_hvt
+No property sd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nf found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrs found for device sky130_fd_pr__pfet_01v8_hvt
+No property area found for device sky130_fd_pr__pfet_01v8_hvt
+No property perim found for device sky130_fd_pr__pfet_01v8_hvt
+No property topography found for device sky130_fd_pr__pfet_01v8_hvt
+No property value found for device sky130_fd_pr__diode_pw2nd_05v5
+No property mult found for device sky130_fd_pr__diode_pw2nd_05v5
+No property perim found for device sky130_fd_pr__diode_pw2nd_05v5
+Matching pins of sky130_fd_pr__nfet_01v8 in circuits 1 and 2
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8                                                |Circuit 2: sky130_fd_pr__nfet_01v8                                                
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Matching pins of sky130_fd_pr__nfet_01v8_lvt in circuits 1 and 2
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8_lvt                                            |Circuit 2: sky130_fd_pr__nfet_01v8_lvt                                            
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Matching pins of sky130_fd_pr__pfet_01v8_hvt in circuits 1 and 2
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_hvt                                            |Circuit 2: sky130_fd_pr__pfet_01v8_hvt                                            
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Matching pins of sky130_fd_pr__pfet_01v8 in circuits 1 and 2
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8                                                |Circuit 2: sky130_fd_pr__pfet_01v8                                                
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Ignoring scs130hd_mpr2ca_8 in layout
+Ignoring scs130hd_mpr2ca_8 in source
+Ignoring scs130hd_mpr2ct_8 in layout
+Ignoring scs130hd_mpr2ct_8 in source
+Ignoring scs130hd_mpr2ea_8 in layout
+Ignoring scs130hd_mpr2ea_8 in source
+Ignoring scs130hd_mpr2et_8 in layout
+Ignoring scs130hd_mpr2et_8 in source
+Ignoring scs130hd_mpr2xa_8 in layout
+Ignoring scs130hd_mpr2xa_8 in source
+Ignoring sky130_osu_ring_oscillator_mpr2ca_8_b0r1 in layout
+Ignoring sky130_osu_ring_oscillator_mpr2ca_8_b0r1 in source
+Ignoring sky130_osu_ring_oscillator_mpr2ca_8_b0r2 in layout
+Ignoring sky130_osu_ring_oscillator_mpr2ca_8_b0r2 in source
+Ignoring sky130_osu_ring_oscillator_mpr2ct_8_b0r1 in layout
+Ignoring sky130_osu_ring_oscillator_mpr2ct_8_b0r1 in source
+Ignoring sky130_osu_ring_oscillator_mpr2ct_8_b0r2 in layout
+Ignoring sky130_osu_ring_oscillator_mpr2ct_8_b0r2 in source
+Ignoring sky130_osu_ring_oscillator_mpr2ea_8_b0r1 in layout
+Ignoring sky130_osu_ring_oscillator_mpr2ea_8_b0r1 in source
+Ignoring sky130_osu_ring_oscillator_mpr2ea_8_b0r2 in layout
+Ignoring sky130_osu_ring_oscillator_mpr2ea_8_b0r2 in source
+Ignoring sky130_osu_ring_oscillator_mpr2et_8_b0r1 in layout
+Ignoring sky130_osu_ring_oscillator_mpr2et_8_b0r1 in source
+Ignoring sky130_osu_ring_oscillator_mpr2et_8_b0r2 in layout
+Ignoring sky130_osu_ring_oscillator_mpr2et_8_b0r2 in source
+Ignoring sky130_osu_ring_oscillator_mpr2xa_8_b0r1 in layout
+Ignoring sky130_osu_ring_oscillator_mpr2xa_8_b0r1 in source
+Ignoring sky130_osu_ring_oscillator_mpr2xa_8_b0r2 in layout
+Ignoring sky130_osu_ring_oscillator_mpr2xa_8_b0r2 in source
+Ignoring sky130_osu_sc_12T_hs__inv_1 in layout
+Ignoring sky130_osu_sc_12T_hs__inv_1 in source
+Ignoring sky130_osu_sc_12T_hs__mux2_1 in layout
+Ignoring sky130_osu_sc_12T_hs__mux2_1 in source
+Ignoring sky130_osu_single_mpr2ca_8_b0r1 in layout
+Ignoring sky130_osu_single_mpr2ca_8_b0r1 in source
+Ignoring sky130_osu_single_mpr2ca_8_b0r2 in layout
+Ignoring sky130_osu_single_mpr2ca_8_b0r2 in source
+Ignoring sky130_osu_single_mpr2ct_8_b0r1 in layout
+Ignoring sky130_osu_single_mpr2ct_8_b0r1 in source
+Ignoring sky130_osu_single_mpr2ct_8_b0r2 in layout
+Ignoring sky130_osu_single_mpr2ct_8_b0r2 in source
+Ignoring sky130_osu_single_mpr2ea_8_b0r1 in layout
+Ignoring sky130_osu_single_mpr2ea_8_b0r1 in source
+Ignoring sky130_osu_single_mpr2ea_8_b0r2 in layout
+Ignoring sky130_osu_single_mpr2ea_8_b0r2 in source
+Ignoring sky130_osu_single_mpr2et_8_b0r1 in layout
+Ignoring sky130_osu_single_mpr2et_8_b0r1 in source
+Ignoring sky130_osu_single_mpr2et_8_b0r2 in layout
+Ignoring sky130_osu_single_mpr2et_8_b0r2 in source
+Ignoring sky130_osu_single_mpr2xa_8_b0r1 in layout
+Ignoring sky130_osu_single_mpr2xa_8_b0r1 in source
+Ignoring sky130_osu_single_mpr2xa_8_b0r2 in layout
+Ignoring sky130_osu_single_mpr2xa_8_b0r2 in source
+Comparison output logged to file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/lvs.report
+Logging to file "/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/lvs.report" enabled
+Circuit sky130_fd_pr__pfet_01v8_hvt contains no devices.
+Circuit sky130_fd_pr__nfet_01v8 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_ef_sc_hd__decap_12'
+Circuit sky130_ef_sc_hd__decap_12 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_ef_sc_hd__decap_12'
+Circuit sky130_ef_sc_hd__decap_12 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+
+Circuit sky130_ef_sc_hd__decap_12 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_4'
+Circuit sky130_fd_sc_hd__decap_4 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_4'
+Circuit sky130_fd_sc_hd__decap_4 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+
+Circuit sky130_fd_sc_hd__decap_4 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_12'
+Circuit sky130_fd_sc_hd__buf_12 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_12'
+Circuit sky130_fd_sc_hd__buf_12 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+
+Circuit sky130_fd_sc_hd__buf_12 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_3'
+Circuit sky130_fd_sc_hd__decap_3 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_3'
+Circuit sky130_fd_sc_hd__decap_3 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+
+Circuit sky130_fd_sc_hd__decap_3 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_6'
+Circuit sky130_fd_sc_hd__decap_6 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_6'
+Circuit sky130_fd_sc_hd__decap_6 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+
+Circuit sky130_fd_sc_hd__decap_6 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__fill_1'
+Circuit sky130_fd_sc_hd__fill_1 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__fill_1'
+Circuit sky130_fd_sc_hd__fill_1 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+
+Circuit sky130_fd_sc_hd__fill_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__fill_2'
+Circuit sky130_fd_sc_hd__fill_2 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__fill_2'
+Circuit sky130_fd_sc_hd__fill_2 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+
+Circuit sky130_fd_sc_hd__fill_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_8'
+Circuit sky130_fd_sc_hd__decap_8 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_8'
+Circuit sky130_fd_sc_hd__decap_8 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+
+Circuit sky130_fd_sc_hd__decap_8 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a21oi_2'
+Circuit sky130_fd_sc_hd__a21oi_2 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 11 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a21oi_2'
+Circuit sky130_fd_sc_hd__a21oi_2 contains 0 device instances.
+Circuit contains 0 nets, and 8 disconnected pins.
+
+Circuit sky130_fd_sc_hd__a21oi_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nor2_1'
+Circuit sky130_fd_sc_hd__nor2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nor2_1'
+Circuit sky130_fd_sc_hd__nor2_1 contains 0 device instances.
+Circuit contains 0 nets, and 7 disconnected pins.
+
+Circuit sky130_fd_sc_hd__nor2_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__mux2_1'
+Circuit sky130_fd_sc_hd__mux2_1 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 14 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__mux2_1'
+Circuit sky130_fd_sc_hd__mux2_1 contains 0 device instances.
+Circuit contains 0 nets, and 8 disconnected pins.
+
+Circuit sky130_fd_sc_hd__mux2_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__mux4_1'
+Circuit sky130_fd_sc_hd__mux4_1 contains 26 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  13
+Circuit contains 24 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__mux4_1'
+Circuit sky130_fd_sc_hd__mux4_1 contains 0 device instances.
+Circuit contains 0 nets, and 11 disconnected pins.
+
+Circuit sky130_fd_sc_hd__mux4_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a41o_1'
+Circuit sky130_fd_sc_hd__a41o_1 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 15 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a41o_1'
+Circuit sky130_fd_sc_hd__a41o_1 contains 0 device instances.
+Circuit contains 0 nets, and 10 disconnected pins.
+
+Circuit sky130_fd_sc_hd__a41o_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__or3b_1'
+Circuit sky130_fd_sc_hd__or3b_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__or3b_1'
+Circuit sky130_fd_sc_hd__or3b_1 contains 0 device instances.
+Circuit contains 0 nets, and 8 disconnected pins.
+
+Circuit sky130_fd_sc_hd__or3b_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__clkbuf_1'
+Circuit sky130_fd_sc_hd__clkbuf_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__clkbuf_1'
+Circuit sky130_fd_sc_hd__clkbuf_1 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+
+Circuit sky130_fd_sc_hd__clkbuf_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__tapvpwrvgnd_1'
+Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains 0 device instances.
+Circuit contains 0 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__tapvpwrvgnd_1'
+Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains 0 device instances.
+Circuit contains 0 nets, and 2 disconnected pins.
+
+Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_1'
+Circuit sky130_fd_sc_hd__buf_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_1'
+Circuit sky130_fd_sc_hd__buf_1 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+
+Circuit sky130_fd_sc_hd__buf_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nand3b_1'
+Circuit sky130_fd_sc_hd__nand3b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 11 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nand3b_1'
+Circuit sky130_fd_sc_hd__nand3b_1 contains 0 device instances.
+Circuit contains 0 nets, and 8 disconnected pins.
+
+Circuit sky130_fd_sc_hd__nand3b_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nand2_1'
+Circuit sky130_fd_sc_hd__nand2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nand2_1'
+Circuit sky130_fd_sc_hd__nand2_1 contains 0 device instances.
+Circuit contains 0 nets, and 7 disconnected pins.
+
+Circuit sky130_fd_sc_hd__nand2_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__clkbuf_2'
+Circuit sky130_fd_sc_hd__clkbuf_2 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__clkbuf_2'
+Circuit sky130_fd_sc_hd__clkbuf_2 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+
+Circuit sky130_fd_sc_hd__clkbuf_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a2111oi_1'
+Circuit sky130_fd_sc_hd__a2111oi_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 14 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a2111oi_1'
+Circuit sky130_fd_sc_hd__a2111oi_1 contains 0 device instances.
+Circuit contains 0 nets, and 10 disconnected pins.
+
+Circuit sky130_fd_sc_hd__a2111oi_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nor3b_1'
+Circuit sky130_fd_sc_hd__nor3b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 11 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nor3b_1'
+Circuit sky130_fd_sc_hd__nor3b_1 contains 0 device instances.
+Circuit contains 0 nets, and 8 disconnected pins.
+
+Circuit sky130_fd_sc_hd__nor3b_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_2'
+Circuit sky130_fd_sc_hd__buf_2 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_2'
+Circuit sky130_fd_sc_hd__buf_2 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+
+Circuit sky130_fd_sc_hd__buf_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__and3b_1'
+Circuit sky130_fd_sc_hd__and3b_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__and3b_1'
+Circuit sky130_fd_sc_hd__and3b_1 contains 0 device instances.
+Circuit contains 0 nets, and 8 disconnected pins.
+
+Circuit sky130_fd_sc_hd__and3b_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__conb_1'
+Circuit sky130_fd_sc_hd__conb_1 contains 2 device instances.
+  Class: sky130_fd_pr__res_generic_po instances:   2
+Circuit contains 4 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__conb_1'
+Circuit sky130_fd_sc_hd__conb_1 contains 2 device instances.
+  Class: sky130_fd_pr__res_generic_po instances:   2
+Circuit contains 4 nets, and 2 disconnected pins.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'mux16x1_project'
+Circuit mux16x1_project contains 369 device instances.
+  Class: sky130_fd_sc_hd__a41o_1 instances:   1
+  Class: sky130_fd_sc_hd__buf_1 instances:   1
+  Class: sky130_fd_sc_hd__buf_2 instances:   1
+  Class: sky130_fd_sc_hd__and3b_1 instances:   1
+  Class: sky130_fd_sc_hd__mux4_1 instances:   2
+  Class: sky130_ef_sc_hd__decap_12 instances: 165
+  Class: sky130_fd_sc_hd__clkbuf_1 instances:  16
+  Class: sky130_fd_sc_hd__clkbuf_2 instances:   2
+  Class: sky130_fd_sc_hd__buf_12 instances:   1
+  Class: sky130_fd_sc_hd__decap_3 instances:  70
+  Class: sky130_fd_sc_hd__decap_4 instances:  20
+  Class: sky130_fd_sc_hd__decap_6 instances:   5
+  Class: sky130_fd_sc_hd__decap_8 instances:  14
+  Class: sky130_fd_sc_hd__a2111oi_1 instances:   1
+  Class: sky130_fd_sc_hd__nand2_1 instances:   1
+  Class: sky130_fd_sc_hd__nand3b_1 instances:   1
+  Class: sky130_fd_sc_hd__mux2_1 instances:   3
+  Class: sky130_fd_sc_hd__nor3b_1 instances:   1
+  Class: sky130_fd_sc_hd__or3b_1 instances:   1
+  Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances:  34
+  Class: sky130_fd_sc_hd__a21oi_2 instances:   1
+  Class: sky130_fd_sc_hd__fill_1 instances:  13
+  Class: sky130_fd_sc_hd__fill_2 instances:  13
+  Class: sky130_fd_sc_hd__nor2_1 instances:   1
+Circuit contains 57 nets.
+Contents of circuit 2:  Circuit: 'mux16x1_project'
+Circuit mux16x1_project contains 0 device instances.
+Circuit contains 0 nets, and 23 disconnected pins.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'mux16x1_project'
+Circuit mux16x1_project contains 794 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances: 398
+  Class: sky130_fd_pr__pfet_01v8_hvt instances: 396
+Circuit contains 150 nets.
+Contents of circuit 2:  Circuit: 'mux16x1_project'
+Circuit mux16x1_project contains 0 device instances.
+Circuit contains 0 nets, and 23 disconnected pins.
+
+Circuit mux16x1_project contains no devices.
+
+Contents of circuit 1:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 50 device instances.
+  Class: sky130_fd_sc_hd__conb_1 instances:  45
+  Class: mux16x1_project       instances:   5
+Circuit contains 151 nets, and 619 disconnected pins.
+Contents of circuit 2:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 50 device instances.
+  Class: sky130_fd_sc_hd__conb_1 instances:  45
+  Class: mux16x1_project       instances:   5
+Circuit contains 181 nets, and 619 disconnected pins.
+
+Circuit 1 contains 50 devices, Circuit 2 contains 50 devices.
+Circuit 1 contains 151 nets,    Circuit 2 contains 181 nets. *** MISMATCH ***
+
+
+Final result: 
+Top level cell failed pin matching.
+
+Logging to file "/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/lvs.report" disabled
+LVS Done.
+Warning: device level LVS may be incomplete because 27 cell(s) was/were ignored: see /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ignore.glob
+
+Error: LVS mismatch.
+DESIGN NAME: user_project_wrapper
+WORK_ROOT   : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp
+LOG_ROOT    : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/logs
+SIGNOFF_ROOT: /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/outputs/reports
+ 
+Running CVC...
+Creating /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.cdl
+CVC: Circuit Validation Check  Version 1.1.5
+CVC: Log output to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/cvc.log
+CVC: Error output to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/cvc.error.gz
+CVC: Debug output to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/cvc.debug.gz
+CVC: Start: Sun May 12 21:47:12 2024
+
+Using the following parameters for CVC (Circuit Validation Check) from /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/cvcrc
+CVC_TOP = 'user_project_wrapper'
+CVC_NETLIST = '/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.cdl.gz'
+CVC_MODE = 'user_project_wrapper'
+CVC_MODEL_FILE = '/home/lburleson/mpw_precheck/checks/be_checks//tech/sky130A/cvc.models'
+CVC_POWER_FILE = '/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/cvc.power.user_project_wrapper'
+CVC_FUSE_FILE = ''
+CVC_REPORT_FILE = '/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/cvc.log'
+CVC_REPORT_TITLE = 'CVC user_project_wrapper'
+CVC_CIRCUIT_ERROR_LIMIT = '100'
+CVC_SEARCH_LIMIT = '100'
+CVC_LEAK_LIMIT = '0.0002'
+CVC_SOI = 'false'
+CVC_SCRC = 'false'
+CVC_VTH_GATES = 'false'
+CVC_MIN_VTH_GATES = 'false'
+CVC_IGNORE_VTH_FLOATING = 'false'
+CVC_IGNORE_NO_LEAK_FLOATING = 'false'
+CVC_LEAK_OVERVOLTAGE = 'true'
+CVC_LOGIC_DIODES = 'false'
+CVC_ANALOG_GATES = 'true'
+CVC_BACKUP_RESULTS = 'false'
+CVC_MOS_DIODE_ERROR_THRESHOLD = '0'
+CVC_SHORT_ERROR_THRESHOLD = '0'
+CVC_BIAS_ERROR_THRESHOLD = '0'
+CVC_FORWARD_ERROR_THRESHOLD = '0'
+CVC_FLOATING_ERROR_THRESHOLD = '0'
+CVC_GATE_ERROR_THRESHOLD = '0'
+CVC_LEAK?_ERROR_THRESHOLD = '0'
+CVC_EXPECTED_ERROR_THRESHOLD = '0'
+CVC_OVERVOLTAGE_ERROR_THRESHOLD = '0'
+CVC_PARALLEL_CIRCUIT_PORT_LIMIT = '0'
+CVC_CELL_ERROR_LIMIT_FILE = ''
+CVC_CELL_CHECKSUM_FILE = ''
+CVC_LARGE_CIRCUIT_SIZE = '10000000'
+CVC_NET_CHECK_FILE = ''
+CVC_MODEL_CHECK_FILE = ''
+End of parameters
+
+CVC: Reading device model settings...
+CVC: Reading power settings...
+CVC: Parsing netlist /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ext/user_project_wrapper.cdl.gz
+
+Cdl fixed data size 27598
+Usage CDL: Time: 0  Memory: 4828  I/O: 8  Swap: 0
+CVC: Counting and linking...
+CVC: Assigning IDs ...
+Usage DB: Time: 0  Memory: 5340  I/O: 8  Swap: 0
+CVC: 2366(2366) instances, 2705(2705) nets, 7090(7090) devices.
+Setting power for mode...
+Setting models...
+CVC: Setting models ...
+Setting model tolerances...
+CVC: Shorting switches...
+ model short...
+	Shorted 0 short
+ model sky130_fd_pr__res_generic_l1...
+	Shorted 0 sky130_fd_pr__res_generic_l1
+ model sky130_fd_pr__res_generic_m1...
+	Shorted 0 sky130_fd_pr__res_generic_m1
+ model sky130_fd_pr__res_generic_m2...
+	Shorted 0 sky130_fd_pr__res_generic_m2
+ model sky130_fd_pr__res_generic_m3...
+	Shorted 0 sky130_fd_pr__res_generic_m3
+ model sky130_fd_pr__res_generic_m4...
+	Shorted 0 sky130_fd_pr__res_generic_m4
+ model sky130_fd_pr__res_generic_m5...
+	Shorted 0 sky130_fd_pr__res_generic_m5
+Setting instance power...
+CVC: Linking devices...
+
+Usage EQUIV: Time: 0  Memory: 6216  I/O: 64  Swap: 0
+Power nets 382
+CVC: Shorting non conducting resistors...
+CVC: Calculating resistor voltages...
+Usage RES: Time: 0  Memory: 6216  I/O: 64  Swap: 0
+Power nets 382
+CVC: Calculating min/max voltages...
+Processing trivial nets found 700 trivial nets
+CVC: Ignoring invalid calculations...
+CVC:   Removed 0 calculations
+Copying master nets
+CVC: Ignoring non-conducting devices...
+CVC:   Ignored 0 devices
+Usage MIN/MAX1: Time: 0  Memory: 6536  I/O: 64  Swap: 0
+Power nets 927
+! Checking forward bias diode errors: 
+
+! Checking nmos source/drain vs bias errors: 
+
+! Checking nmos gate vs source errors: 
+
+! Checking pmos source/drain vs bias errors: 
+
+! Checking pmos gate vs source errors: 
+
+Usage ERROR: Time: 0  Memory: 6536  I/O: 72  Swap: 0
+Saving min/max voltages...
+CVC: Propagating Simulation voltages 1...
+Usage SIM1: Time: 0  Memory: 6536  I/O: 72  Swap: 0
+Power nets 927
+Saving simulation voltages...
+CVC: Propagating Simulation voltages 3...
+Usage SIM2: Time: 0  Memory: 6536  I/O: 80  Swap: 0
+Power nets 927
+Added 5 latch voltages
+CVC: Propagating Simulation voltages 3...
+Usage LATCH 1: Time: 0  Memory: 6536  I/O: 80  Swap: 0
+Added 0 latch voltages
+CVC: Calculating min/max voltages...
+Processing trivial nets found 540 trivial nets
+CVC: Ignoring invalid calculations...
+CVC:   Removed 95 calculations
+Copying master nets
+CVC: Ignoring non-conducting devices...
+CVC:   Ignored 10 devices
+Usage MIN/MAX2: Time: 0  Memory: 6536  I/O: 80  Swap: 0
+Power nets 1392
+! Checking overvoltage errors
+
+! Checking nmos possible leak errors: 
+
+! Checking pmos possible leak errors: 
+
+! Checking mos floating input errors:
+
+! Checking expected values:
+
+CVC: Error Counts
+CVC: Fuse Problems:         0
+CVC: Min Voltage Conflicts: 0
+CVC: Max Voltage Conflicts: 0
+CVC: Leaks:                 0
+CVC: LDD drain->source:     0
+CVC: HI-Z Inputs:           0
+CVC: Forward Bias Diodes:   0
+CVC: NMOS Source vs Bulk:   0
+CVC: NMOS Gate vs Source:   0
+CVC: NMOS Possible Leaks:   0
+CVC: PMOS Source vs Bulk:   0
+CVC: PMOS Gate vs Source:   0
+CVC: PMOS Possible Leaks:   0
+CVC: Overvoltage-VBG:       0
+CVC: Overvoltage-VBS:       0
+CVC: Overvoltage-VDS:       0
+CVC: Overvoltage-VGS:       0
+CVC: Model errors:          0
+CVC: Unexpected voltage :   0
+CVC: Total:                 0
+Usage Total: Time: 0  Memory: 7148  I/O: 120  Swap: 0
+Virtual net update/access 20251/615771
+CVC: Log output to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/cvc.log
+CVC: End: Sun May 12 21:47:12 2024
+
+
+Soft check result:
+Final result: 
+Netlists do not match.
+Soft check problem: check the following files
+/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/logs/ext.log
+/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/logs/nowell.ext.log
+/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/logs/soft.log
+/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/outputs/reports/soft.report
+
+LVS result:
+Final result: 
+Top level cell failed pin matching.
+
+LVS Done.
+Warning: device level LVS may be incomplete because 27 cell(s) was/were ignored: see /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/ignore.glob
+LVS problem: check the following files
+/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/logs/ext.log
+/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/logs/lvs.log
+/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/outputs/reports/lvs.report
+
+CVC result:
+CVC: Total:                 0
+
+Runtime: 0:00:09 (hh:mm:ss)
+
+WARNING: possible errors SOFT 3 LVS 4 CVC 0

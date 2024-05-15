@@ -1,0 +1,8 @@
+BEGIN: Sun 12 May 2024 09:47:03 PM UTC
+Creating /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/verilog.cells from the following files...
+	/home/lburleson/OSU/google_ring_oscillator/caravel/verilog/gl/user_project_wrapper.v
+[INFO] Changing from /home/lburleson/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds
+	to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/12_MAY_2024___21_46_22/tmp/layout.txt
+Hierarchy check for user_project_wrapper passed.
+END: Sun 12 May 2024 09:47:04 PM UTC
+Runtime: 0:00:01 (hh:mm:ss)
