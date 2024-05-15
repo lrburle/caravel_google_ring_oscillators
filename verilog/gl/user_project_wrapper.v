@@ -680,19 +680,19 @@ module user_project_wrapper (user_clock2,
     .VPWR(vccd1),
     .HI(one_9));
 
- assign io_oeb[10] = one_6;
- assign io_oeb[11] = one_7;
- assign io_oeb[12] = one_8;
- assign io_oeb[13] = one_9;
- assign io_oeb[14] = one_1;
+ assign io_oeb[10] = one_5;
+ assign io_oeb[11] = one_6;
+ assign io_oeb[12] = one_7;
+ assign io_oeb[13] = one_8;
+ assign io_oeb[14] = one_9;
  assign io_oeb[5] = one_0;
- assign io_oeb[6] = one_2;
- assign io_oeb[7] = one_3;
- assign io_oeb[8] = one_4;
- assign io_oeb[9] = one_5;
+ assign io_oeb[6] = one_1;
+ assign io_oeb[7] = one_2;
+ assign io_oeb[8] = one_3;
+ assign io_oeb[9] = one_4;
  assign io_oeb[15] = zero_0;
  assign io_oeb[16] = zero_1;
  assign io_oeb[17] = zero_2;
- assign io_oeb[18] = zero_4;
- assign io_oeb[19] = zero_3;
+ assign io_oeb[18] = zero_3;
+ assign io_oeb[19] = zero_4;
 endmodule
