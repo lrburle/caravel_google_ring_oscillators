@@ -16,34 +16,7 @@
 		""
 	],
 	"LVS_IGNORE": [
-		"sky130_osu_ring_oscillator_mpr2ca_8_b0r1",
-        "sky130_osu_ring_oscillator_mpr2ca_8_b0r2",
-        "sky130_osu_ring_oscillator_mpr2ct_8_b0r1",
-        "sky130_osu_ring_oscillator_mpr2ct_8_b0r2",
-        "sky130_osu_ring_oscillator_mpr2ea_8_b0r1",
-        "sky130_osu_ring_oscillator_mpr2ea_8_b0r2",
-        "sky130_osu_ring_oscillator_mpr2et_8_b0r1",
-        "sky130_osu_ring_oscillator_mpr2et_8_b0r2",
-        "sky130_osu_ring_oscillator_mpr2xa_8_b0r1",
-        "sky130_osu_ring_oscillator_mpr2xa_8_b0r2",
-        "sky130_osu_single_mpr2ca_8_b0r1",
-        "sky130_osu_single_mpr2ca_8_b0r2",
-        "sky130_osu_single_mpr2ct_8_b0r1",
-        "sky130_osu_single_mpr2ct_8_b0r2",
-        "sky130_osu_single_mpr2ea_8_b0r1",
-        "sky130_osu_single_mpr2ea_8_b0r2",
-        "sky130_osu_single_mpr2et_8_b0r1",
-        "sky130_osu_single_mpr2et_8_b0r2",
-        "sky130_osu_single_mpr2xa_8_b0r1",
-        "sky130_osu_single_mpr2xa_8_b0r2",
-        "scs130hd_mpr2ca_8",
-        "scs130hd_mpr2ct_8",
-        "scs130hd_mpr2ea_8",
-        "scs130hd_mpr2et_8",
-        "scs130hd_mpr2xa_8",
-        "scs130hd_mpr2xa_8",
-        "sky130_osu_sc_12T_hs__mux2_1",
-        "sky130_osu_sc_12T_hs__inv_1"
+		""
     ],
 	"LVS_SPICE_FILES": [
 		"$PDK_ROOT/$PDK/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice",
@@ -75,12 +48,11 @@
         "$UPRJ_ROOT/spi/custom_design_spice_decks/scs130hd_mpr2xa_8.spice",
         "$UPRJ_ROOT/spi/custom_design_spice_decks/scs130hd_mpr2xa_8.spice",
         "$UPRJ_ROOT/spi/custom_design_spice_decks/sky130_osu_sc_12T_hs__mux2_1.spice",
-        "$UPRJ_ROOT/spi/custom_design_spice_decks/sky130_osu_sc_12T_hs__inv_1.spice",
-        "$UPRJ_ROOT/spi/lvs/mux16x1_project.spice",
-        "$UPRJ_ROOT/spi/lvs/user_project_wrapper.spice"
+        "$UPRJ_ROOT/spi/custom_design_spice_decks/sky130_osu_sc_12T_hs__inv_1.spice"
 	],
 	"LVS_VERILOG_FILES": [
-		"$UPRJ_ROOT/verilog/gl/$TOP_SOURCE.v"
+		"$UPRJ_ROOT/verilog/gl/$TOP_SOURCE.v",
+		"$UPRJ_ROOT/verilog/gl/mux16x1_project.v"
 	],
 	"LAYOUT_FILE": "$UPRJ_ROOT/gds/$TOP_LAYOUT.gds"
 }
