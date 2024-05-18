@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1714057574
+timestamp 1716047795
 << nwell >>
 rect 3560 1748 3694 1749
 rect 3009 1461 4277 1748
@@ -203,23 +203,23 @@ timestamp 1714057206
 transform 1 0 3009 0 -1 2233
 box -10 0 552 902
 use sky130_osu_single_mpr2ct_8_b0r2  sky130_osu_single_mpr2ct_8_b0r2_0
-timestamp 1714057206
+timestamp 1716047795
 transform 1 0 17334 0 1 0
 box 0 0 3449 2492
 use sky130_osu_single_mpr2ct_8_b0r2  sky130_osu_single_mpr2ct_8_b0r2_1
-timestamp 1714057206
+timestamp 1716047795
 transform 1 0 3558 0 1 0
 box 0 0 3449 2492
 use sky130_osu_single_mpr2ct_8_b0r2  sky130_osu_single_mpr2ct_8_b0r2_2
-timestamp 1714057206
+timestamp 1716047795
 transform 1 0 7002 0 1 0
 box 0 0 3449 2492
 use sky130_osu_single_mpr2ct_8_b0r2  sky130_osu_single_mpr2ct_8_b0r2_3
-timestamp 1714057206
+timestamp 1716047795
 transform 1 0 10446 0 1 1
 box 0 0 3449 2492
 use sky130_osu_single_mpr2ct_8_b0r2  sky130_osu_single_mpr2ct_8_b0r2_4
-timestamp 1714057206
+timestamp 1716047795
 transform 1 0 13890 0 1 0
 box 0 0 3449 2492
 << labels >>

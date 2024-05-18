@@ -1,0 +1,2514 @@
+/home/lburleson/mpw_precheck/checks/be_checks/run_oeb_check: line 59: /home/lburleson/mpw_precheck/checks/be_checks//set_lvs_env.py: No such file or directory
+DESIGN NAME: user_project_wrapper
+WORK_ROOT   : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp
+LOG_ROOT    : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/logs
+SIGNOFF_ROOT: /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/outputs/reports
+ 
+Running extract...
+TOP LAYOUT: user_project_wrapper
+LAYOUT FILE: /home/lburleson/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds
+EXTRACT_FLATGLOB: 
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+WORK_ROOT   : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp
+LOG_ROOT    : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/logs
+SIGNOFF_ROOT: /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/outputs/reports
+LOG FILE: /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/logs/ext.log
+Tech files do not match:
+/opt/share/pdk/sky130A/libs.tech/magic/sky130A.tech: version 1.0.424-0-g78b7bc3
+/home/lburleson/mpw_precheck/checks/be_checks//tech/sky130A/sky130A.tech: version 1.0.393-0-ge6f9c88
+Results may be incorrect. Contact efabless to update the soft connection rules.
+WORK_ROOT   : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp
+LOG_ROOT    : /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/logs
+SIGNOFF_ROOT: /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/outputs/reports
+ 
+Running hierarchical comparison between verilog and layout...
+No verilog files...
+[INFO] Changing from /home/lburleson/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds
+	to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp/layout.txt
+Hierarchy check for  passed.
+Extracting to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp/ext
+ 
+CIFIN_STYLE: 
+EXTRACT_STYLE: 
+
+Magic 8.3 revision 452 - Compiled on Tue Apr 16 18:21:30 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design magicrc.well for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading "/home/lburleson/mpw_precheck/checks/be_checks//scripts/gds.digital.spice.tcl" from command line.
+Extracting with top ports unique (digital)
+CIF input style is now "sky130()"
+Flattening 
+Extracting /home/lburleson/OSU/google_ring_oscillator/caravel/gds/user_project_wrapper.gds
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: user_project_wrapper
+Reading "sky130_osu_sc_12T_hs__mux2_1".
+Reading "sky130_osu_sc_12T_hs__inv_1".
+Reading "sky130_osu_sc_12T_hs__fill_8".
+Saving contents of cell sky130_osu_sc_12T_hs__fill_8
+Reading "scs130hd_mpr2xa_8".
+Reading "sky130_osu_single_mpr2xa_8_b0r2".
+Reading "sky130_osu_ring_oscillator_mpr2xa_8_b0r2".
+CIF file read warning: CIF style sky130(): units rescaled by factor of 5 / 1
+Reading "sky130_osu_sc_12T_hs__fill_2".
+Saving contents of cell sky130_osu_sc_12T_hs__fill_2
+Reading "scs130hd_mpr2et_8".
+Reading "sky130_osu_single_mpr2et_8_b0r2".
+Reading "sky130_osu_ring_oscillator_mpr2et_8_b0r2".
+Reading "scs130hd_mpr2ea_8".
+Reading "sky130_osu_single_mpr2ea_8_b0r2".
+Reading "sky130_osu_ring_oscillator_mpr2ea_8_b0r2".
+Reading "scs130hd_mpr2ct_8".
+Reading "sky130_osu_single_mpr2ct_8_b0r2".
+Reading "sky130_osu_ring_oscillator_mpr2ct_8_b0r2".
+Reading "scs130hd_mpr2ca_8".
+Reading "sky130_osu_single_mpr2ca_8_b0r2".
+Reading "sky130_osu_ring_oscillator_mpr2ca_8_b0r2".
+Reading "sky130_osu_single_mpr2xa_8_b0r1".
+Reading "sky130_osu_ring_oscillator_mpr2xa_8_b0r1".
+Reading "sky130_osu_single_mpr2et_8_b0r1".
+Reading "sky130_osu_ring_oscillator_mpr2et_8_b0r1".
+Reading "sky130_osu_single_mpr2ea_8_b0r1".
+Reading "sky130_osu_ring_oscillator_mpr2ea_8_b0r1".
+Reading "sky130_osu_single_mpr2ct_8_b0r1".
+Reading "sky130_osu_ring_oscillator_mpr2ct_8_b0r1".
+Reading "sky130_osu_single_mpr2ca_8_b0r1".
+Reading "sky130_osu_ring_oscillator_mpr2ca_8_b0r1".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "sky130_fd_sc_hd__decap_3".
+Reading "sky130_fd_sc_hd__buf_12".
+Reading "sky130_fd_sc_hd__buf_1".
+Reading "sky130_fd_sc_hd__clkbuf_2".
+Reading "sky130_fd_sc_hd__buf_2".
+Reading "sky130_fd_sc_hd__clkbuf_1".
+Reading "sky130_fd_sc_hd__fill_1".
+Reading "sky130_fd_sc_hd__decap_4".
+Reading "sky130_ef_sc_hd__decap_12".
+Reading "sky130_fd_sc_hd__decap_8".
+Reading "sky130_fd_sc_hd__fill_2".
+Reading "sky130_fd_sc_hd__decap_6".
+Reading "sky130_fd_sc_hd__a21oi_2".
+Reading "sky130_fd_sc_hd__nor2_1".
+Reading "sky130_fd_sc_hd__mux2_1".
+Reading "sky130_fd_sc_hd__mux4_1".
+Reading "sky130_fd_sc_hd__a41o_1".
+Reading "sky130_fd_sc_hd__or3b_1".
+Reading "sky130_fd_sc_hd__nand3b_1".
+Reading "sky130_fd_sc_hd__nand2_1".
+Reading "sky130_fd_sc_hd__a2111oi_1".
+Reading "sky130_fd_sc_hd__nor3b_1".
+Reading "sky130_fd_sc_hd__and3b_1".
+Reading "mux16x1_project".
+Reading "sky130_fd_sc_hd__conb_1".
+Reading "user_project_wrapper".
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Extraction style is now "ngspice()"
+Processing sky130_fd_sc_hd__mux2_1
+Processing sky130_fd_sc_hd__and3b_1
+Processing sky130_fd_sc_hd__nor3b_1
+Processing sky130_fd_sc_hd__a2111oi_1
+Processing sky130_fd_sc_hd__nand2_1
+Processing sky130_fd_sc_hd__nand3b_1
+Processing sky130_fd_sc_hd__or3b_1
+Processing sky130_fd_sc_hd__a41o_1
+Processing sky130_fd_sc_hd__mux4_1
+Processing sky130_fd_sc_hd__nor2_1
+Processing sky130_fd_sc_hd__a21oi_2
+Processing sky130_ef_sc_hd__decap_12
+Processing sky130_fd_sc_hd__decap_6
+Processing sky130_fd_sc_hd__decap_3
+Processing sky130_fd_sc_hd__decap_4
+Processing sky130_fd_sc_hd__decap_8
+Processing sky130_fd_sc_hd__clkbuf_1
+Processing sky130_fd_sc_hd__clkbuf_2
+Processing sky130_fd_sc_hd__buf_2
+Processing sky130_fd_sc_hd__buf_1
+Processing sky130_fd_sc_hd__buf_12
+Processing mux16x1_project
+Processing sky130_fd_sc_hd__conb_1
+Processing sky130_osu_sc_12T_hs__mux2_1
+Processing scs130hd_mpr2ca_8
+Processing sky130_osu_sc_12T_hs__inv_1
+Processing sky130_osu_single_mpr2ca_8_b0r1
+Processing sky130_osu_ring_oscillator_mpr2ca_8_b0r1
+Processing scs130hd_mpr2ct_8
+Processing sky130_osu_single_mpr2ct_8_b0r1
+Processing sky130_osu_ring_oscillator_mpr2ct_8_b0r1
+Processing scs130hd_mpr2ea_8
+Processing sky130_osu_single_mpr2ea_8_b0r1
+Processing sky130_osu_ring_oscillator_mpr2ea_8_b0r1
+Processing scs130hd_mpr2et_8
+Processing sky130_osu_single_mpr2et_8_b0r1
+Processing sky130_osu_ring_oscillator_mpr2et_8_b0r1
+Processing scs130hd_mpr2xa_8
+Processing sky130_osu_single_mpr2xa_8_b0r1
+Processing sky130_osu_ring_oscillator_mpr2xa_8_b0r1
+Processing sky130_osu_single_mpr2ca_8_b0r2
+Processing sky130_osu_ring_oscillator_mpr2ca_8_b0r2
+Processing sky130_osu_single_mpr2ct_8_b0r2
+Processing sky130_osu_ring_oscillator_mpr2ct_8_b0r2
+Processing sky130_osu_single_mpr2ea_8_b0r2
+Processing sky130_osu_ring_oscillator_mpr2ea_8_b0r2
+Processing sky130_osu_single_mpr2et_8_b0r2
+Processing sky130_osu_ring_oscillator_mpr2et_8_b0r2
+Processing sky130_osu_single_mpr2xa_8_b0r2
+Processing sky130_osu_ring_oscillator_mpr2xa_8_b0r2
+Processing user_project_wrapper
+Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
+Extracting sky130_fd_sc_hd__mux2_1 into sky130_fd_sc_hd__mux2_1.ext:
+Extracting sky130_fd_sc_hd__and3b_1 into sky130_fd_sc_hd__and3b_1.ext:
+Extracting sky130_fd_sc_hd__nor3b_1 into sky130_fd_sc_hd__nor3b_1.ext:
+Extracting sky130_fd_sc_hd__a2111oi_1 into sky130_fd_sc_hd__a2111oi_1.ext:
+Extracting sky130_fd_sc_hd__nand2_1 into sky130_fd_sc_hd__nand2_1.ext:
+Extracting sky130_fd_sc_hd__nand3b_1 into sky130_fd_sc_hd__nand3b_1.ext:
+Extracting sky130_fd_sc_hd__or3b_1 into sky130_fd_sc_hd__or3b_1.ext:
+Extracting sky130_fd_sc_hd__a41o_1 into sky130_fd_sc_hd__a41o_1.ext:
+Extracting sky130_fd_sc_hd__mux4_1 into sky130_fd_sc_hd__mux4_1.ext:
+Extracting sky130_fd_sc_hd__nor2_1 into sky130_fd_sc_hd__nor2_1.ext:
+Extracting sky130_fd_sc_hd__a21oi_2 into sky130_fd_sc_hd__a21oi_2.ext:
+Extracting sky130_ef_sc_hd__decap_12 into sky130_ef_sc_hd__decap_12.ext:
+sky130_ef_sc_hd__decap_12: 2 warnings
+Extracting sky130_fd_sc_hd__decap_6 into sky130_fd_sc_hd__decap_6.ext:
+sky130_fd_sc_hd__decap_6: 2 warnings
+Extracting sky130_fd_sc_hd__decap_3 into sky130_fd_sc_hd__decap_3.ext:
+sky130_fd_sc_hd__decap_3: 2 warnings
+Extracting sky130_fd_sc_hd__decap_4 into sky130_fd_sc_hd__decap_4.ext:
+sky130_fd_sc_hd__decap_4: 2 warnings
+Extracting sky130_fd_sc_hd__decap_8 into sky130_fd_sc_hd__decap_8.ext:
+sky130_fd_sc_hd__decap_8: 2 warnings
+Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
+Extracting sky130_fd_sc_hd__clkbuf_1 into sky130_fd_sc_hd__clkbuf_1.ext:
+Extracting sky130_fd_sc_hd__clkbuf_2 into sky130_fd_sc_hd__clkbuf_2.ext:
+Extracting sky130_fd_sc_hd__buf_2 into sky130_fd_sc_hd__buf_2.ext:
+Extracting sky130_fd_sc_hd__buf_1 into sky130_fd_sc_hd__buf_1.ext:
+Extracting sky130_fd_sc_hd__buf_12 into sky130_fd_sc_hd__buf_12.ext:
+Extracting sky130_fd_sc_hd__tapvpwrvgnd_1 into sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
+Extracting mux16x1_project into mux16x1_project.ext:
+Extracting sky130_fd_sc_hd__conb_1 into sky130_fd_sc_hd__conb_1.ext:
+Extracting sky130_osu_sc_12T_hs__mux2_1 into sky130_osu_sc_12T_hs__mux2_1.ext:
+Extracting scs130hd_mpr2ca_8 into scs130hd_mpr2ca_8.ext:
+Extracting sky130_osu_sc_12T_hs__inv_1 into sky130_osu_sc_12T_hs__inv_1.ext:
+Extracting sky130_osu_single_mpr2ca_8_b0r1 into sky130_osu_single_mpr2ca_8_b0r1.ext:
+Extracting sky130_osu_ring_oscillator_mpr2ca_8_b0r1 into sky130_osu_ring_oscillator_mpr2ca_8_b0r1.ext:
+sky130_osu_ring_oscillator_mpr2ca_8_b0r1: 5 errors
+Extracting scs130hd_mpr2ct_8 into scs130hd_mpr2ct_8.ext:
+Extracting sky130_osu_single_mpr2ct_8_b0r1 into sky130_osu_single_mpr2ct_8_b0r1.ext:
+Extracting sky130_osu_ring_oscillator_mpr2ct_8_b0r1 into sky130_osu_ring_oscillator_mpr2ct_8_b0r1.ext:
+Extracting scs130hd_mpr2ea_8 into scs130hd_mpr2ea_8.ext:
+Extracting sky130_osu_single_mpr2ea_8_b0r1 into sky130_osu_single_mpr2ea_8_b0r1.ext:
+Extracting sky130_osu_ring_oscillator_mpr2ea_8_b0r1 into sky130_osu_ring_oscillator_mpr2ea_8_b0r1.ext:
+Extracting scs130hd_mpr2et_8 into scs130hd_mpr2et_8.ext:
+Extracting sky130_osu_single_mpr2et_8_b0r1 into sky130_osu_single_mpr2et_8_b0r1.ext:
+Extracting sky130_osu_ring_oscillator_mpr2et_8_b0r1 into sky130_osu_ring_oscillator_mpr2et_8_b0r1.ext:
+sky130_osu_ring_oscillator_mpr2et_8_b0r1: 4 errors
+Extracting scs130hd_mpr2xa_8 into scs130hd_mpr2xa_8.ext:
+Extracting sky130_osu_single_mpr2xa_8_b0r1 into sky130_osu_single_mpr2xa_8_b0r1.ext:
+sky130_osu_single_mpr2xa_8_b0r1: 1 error
+Extracting sky130_osu_ring_oscillator_mpr2xa_8_b0r1 into sky130_osu_ring_oscillator_mpr2xa_8_b0r1.ext:
+sky130_osu_ring_oscillator_mpr2xa_8_b0r1: 5 errors
+Extracting sky130_osu_single_mpr2ca_8_b0r2 into sky130_osu_single_mpr2ca_8_b0r2.ext:
+Extracting sky130_osu_ring_oscillator_mpr2ca_8_b0r2 into sky130_osu_ring_oscillator_mpr2ca_8_b0r2.ext:
+sky130_osu_ring_oscillator_mpr2ca_8_b0r2: 5 errors
+Extracting sky130_osu_single_mpr2ct_8_b0r2 into sky130_osu_single_mpr2ct_8_b0r2.ext:
+Extracting sky130_osu_ring_oscillator_mpr2ct_8_b0r2 into sky130_osu_ring_oscillator_mpr2ct_8_b0r2.ext:
+Extracting sky130_osu_single_mpr2ea_8_b0r2 into sky130_osu_single_mpr2ea_8_b0r2.ext:
+Extracting sky130_osu_ring_oscillator_mpr2ea_8_b0r2 into sky130_osu_ring_oscillator_mpr2ea_8_b0r2.ext:
+sky130_osu_ring_oscillator_mpr2ea_8_b0r2: 5 errors
+Extracting sky130_osu_single_mpr2et_8_b0r2 into sky130_osu_single_mpr2et_8_b0r2.ext:
+Extracting sky130_osu_ring_oscillator_mpr2et_8_b0r2 into sky130_osu_ring_oscillator_mpr2et_8_b0r2.ext:
+sky130_osu_ring_oscillator_mpr2et_8_b0r2: 4 errors
+Extracting sky130_osu_single_mpr2xa_8_b0r2 into sky130_osu_single_mpr2xa_8_b0r2.ext:
+Extracting sky130_osu_ring_oscillator_mpr2xa_8_b0r2 into sky130_osu_ring_oscillator_mpr2xa_8_b0r2.ext:
+sky130_osu_ring_oscillator_mpr2xa_8_b0r2: 5 errors
+Extracting user_project_wrapper into user_project_wrapper.ext:
+Total of 34 errors (check feedback entries).
+Total of 10 warnings.
+Devs merged: 0
+Devs merged: 0
+Devs merged: 0
+Devs merged: 28
+Devs merged: 28
+Devs merged: 28
+Devs merged: 28
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 32
+Devs merged: 34
+Devs merged: 34
+Devs merged: 36
+Devs merged: 36
+Devs merged: 36
+Devs merged: 36
+Devs merged: 36
+Devs merged: 36
+Devs merged: 36
+Devs merged: 36
+Devs merged: 36
+Devs merged: 36
+Devs merged: 36
+Devs merged: 36
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+Devs merged: 38
+exttospice finished.
+Using technology "sky130A", version 1.0.393-0-ge6f9c88
+ 
+Running CVC for oeb check...
+Creating /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp/ext/user_project_wrapper.cdl
+CVC: Circuit Validation Check  Version 1.1.5
+CVC: Log output to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp/cvc.oeb.log
+CVC: Error output to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp/cvc.oeb.error.gz
+CVC: Debug output to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp/cvc.oeb.debug.gz
+CVC: Start: Sat May 18 15:58:16 2024
+
+Using the following parameters for CVC (Circuit Validation Check) from /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp/cvcrc.oeb
+CVC_TOP = 'user_project_wrapper'
+CVC_NETLIST = '/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp/ext/user_project_wrapper.cdl.gz'
+CVC_MODE = 'user_project_wrapper'
+CVC_MODEL_FILE = '/home/lburleson/mpw_precheck/checks/be_checks//tech/sky130A/cvc.models'
+CVC_POWER_FILE = '/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp/cvc.power.user_project_wrapper'
+CVC_FUSE_FILE = ''
+CVC_REPORT_FILE = '/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp/cvc.oeb.log'
+CVC_REPORT_TITLE = 'CVC user_project_wrapper'
+CVC_CIRCUIT_ERROR_LIMIT = '100'
+CVC_SEARCH_LIMIT = '100'
+CVC_LEAK_LIMIT = '0.0002'
+CVC_SOI = 'false'
+CVC_SCRC = 'false'
+CVC_VTH_GATES = 'false'
+CVC_MIN_VTH_GATES = 'false'
+CVC_IGNORE_VTH_FLOATING = 'false'
+CVC_IGNORE_NO_LEAK_FLOATING = 'false'
+CVC_LEAK_OVERVOLTAGE = 'true'
+CVC_LOGIC_DIODES = 'false'
+CVC_ANALOG_GATES = 'true'
+CVC_BACKUP_RESULTS = 'false'
+CVC_MOS_DIODE_ERROR_THRESHOLD = '0'
+CVC_SHORT_ERROR_THRESHOLD = '0'
+CVC_BIAS_ERROR_THRESHOLD = '0'
+CVC_FORWARD_ERROR_THRESHOLD = '0'
+CVC_FLOATING_ERROR_THRESHOLD = '0'
+CVC_GATE_ERROR_THRESHOLD = '0'
+CVC_LEAK?_ERROR_THRESHOLD = '0'
+CVC_EXPECTED_ERROR_THRESHOLD = '0'
+CVC_OVERVOLTAGE_ERROR_THRESHOLD = '0'
+CVC_PARALLEL_CIRCUIT_PORT_LIMIT = '0'
+CVC_CELL_ERROR_LIMIT_FILE = ''
+CVC_CELL_CHECKSUM_FILE = ''
+CVC_LARGE_CIRCUIT_SIZE = '10000000'
+CVC_NET_CHECK_FILE = ''
+CVC_MODEL_CHECK_FILE = ''
+End of parameters
+
+CVC: Reading device model settings...
+CVC: Reading power settings...
+CVC: Parsing netlist /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp/ext/user_project_wrapper.cdl.gz
+
+Cdl fixed data size 27538
+Usage CDL: Time: 0  Memory: 4976  I/O: 8  Swap: 0
+CVC: Counting and linking...
+CVC: Assigning IDs ...
+Usage DB: Time: 0  Memory: 5220  I/O: 8  Swap: 0
+CVC: 2366(2366) instances, 2705(2705) nets, 7090(7090) devices.
+Setting power for mode...
+Setting models...
+CVC: Setting models ...
+Setting model tolerances...
+[?1034h** Stage 1/7: Enter command ?> c 6
+
+> c 6
+continuing for 6 step(s)
+CVC: Shorting switches...
+ model short...
+	Shorted 0 short
+ model sky130_fd_pr__res_generic_l1...
+	Shorted 0 sky130_fd_pr__res_generic_l1
+ model sky130_fd_pr__res_generic_m1...
+	Shorted 0 sky130_fd_pr__res_generic_m1
+ model sky130_fd_pr__res_generic_m2...
+	Shorted 0 sky130_fd_pr__res_generic_m2
+ model sky130_fd_pr__res_generic_m3...
+	Shorted 0 sky130_fd_pr__res_generic_m3
+ model sky130_fd_pr__res_generic_m4...
+	Shorted 0 sky130_fd_pr__res_generic_m4
+ model sky130_fd_pr__res_generic_m5...
+	Shorted 0 sky130_fd_pr__res_generic_m5
+Setting instance power...
+CVC: Linking devices...
+
+Usage EQUIV: Time: 0  Memory: 7168  I/O: 72  Swap: 0
+Power nets 382
+CVC: Shorting non conducting resistors...
+CVC: Calculating resistor voltages...
+Usage RES: Time: 0  Memory: 7168  I/O: 72  Swap: 0
+Power nets 382
+CVC: Calculating min/max voltages...
+Processing trivial nets found 700 trivial nets
+CVC: Ignoring invalid calculations...
+CVC:   Removed 0 calculations
+Copying master nets
+CVC: Ignoring non-conducting devices...
+CVC:   Ignored 0 devices
+Usage MIN/MAX1: Time: 0  Memory: 7168  I/O: 72  Swap: 0
+Power nets 927
+! Checking forward bias diode errors: 
+
+! Checking nmos source/drain vs bias errors: 
+
+! Checking nmos gate vs source errors: 
+
+! Checking pmos source/drain vs bias errors: 
+
+! Checking pmos gate vs source errors: 
+
+Usage ERROR: Time: 0  Memory: 7168  I/O: 72  Swap: 0
+Saving min/max voltages...
+CVC: Propagating Simulation voltages 1...
+Usage SIM1: Time: 0  Memory: 7168  I/O: 72  Swap: 0
+Power nets 927
+Saving simulation voltages...
+CVC: Propagating Simulation voltages 3...
+Usage SIM2: Time: 0  Memory: 7168  I/O: 80  Swap: 0
+Power nets 927
+Added 5 latch voltages
+CVC: Propagating Simulation voltages 3...
+Usage LATCH 1: Time: 0  Memory: 7168  I/O: 80  Swap: 0
+Added 0 latch voltages
+CVC: Calculating min/max voltages...
+Processing trivial nets found 540 trivial nets
+CVC: Ignoring invalid calculations...
+CVC:   Removed 95 calculations
+Copying master nets
+CVC: Ignoring non-conducting devices...
+CVC:   Ignored 10 devices
+Usage MIN/MAX2: Time: 0  Memory: 7168  I/O: 80  Swap: 0
+Power nets 1392
+! Checking overvoltage errors
+
+! Checking nmos possible leak errors: 
+
+! Checking pmos possible leak errors: 
+
+! Checking mos floating input errors:
+
+! Checking expected values:
+
+CVC: Error Counts
+CVC: Fuse Problems:         0
+CVC: Min Voltage Conflicts: 0
+CVC: Max Voltage Conflicts: 0
+CVC: Leaks:                 0
+CVC: LDD drain->source:     0
+CVC: HI-Z Inputs:           0
+CVC: Forward Bias Diodes:   0
+CVC: NMOS Source vs Bulk:   0
+CVC: NMOS Gate vs Source:   0
+CVC: NMOS Possible Leaks:   0
+CVC: PMOS Source vs Bulk:   0
+CVC: PMOS Gate vs Source:   0
+CVC: PMOS Possible Leaks:   0
+CVC: Overvoltage-VBG:       0
+CVC: Overvoltage-VBS:       0
+CVC: Overvoltage-VDS:       0
+CVC: Overvoltage-VGS:       0
+CVC: Model errors:          0
+CVC: Unexpected voltage :   0
+CVC: Total:                 0
+Usage Total: Time: 0  Memory: 7944  I/O: 120  Swap: 0
+Virtual net update/access 20251/615771
+CVC: Log output to /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___15_57_33/tmp/cvc.oeb.log
+CVC: End: Sat May 18 15:58:16 2024
+
+** Stage 7/7: Enter command ?> gn io_in[0]
+
+> gn io_in[0]
+Net io_in[0]: 29
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[1]
+
+> gn io_in[1]
+Net io_in[1]: 40
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[2]
+
+> gn io_in[2]
+Net io_in[2]: 51
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[3]
+
+> gn io_in[3]
+Net io_in[3]: 60
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[4]
+
+> gn io_in[4]
+Net io_in[4]: 61
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[5]
+
+> gn io_in[5]
+Net io_in[5]: 62
+ connections: gate 120 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[6]
+
+> gn io_in[6]
+Net io_in[6]: 63
+ connections: gate 120 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[7]
+
+> gn io_in[7]
+Net io_in[7]: 64
+ connections: gate 120 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[8]
+
+> gn io_in[8]
+Net io_in[8]: 65
+ connections: gate 120 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[9]
+
+> gn io_in[9]
+Net io_in[9]: 66
+ connections: gate 120 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[10]
+
+> gn io_in[10]
+Net io_in[10]: 30
+ connections: gate 40 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[11]
+
+> gn io_in[11]
+Net io_in[11]: 31
+ connections: gate 10 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[12]
+
+> gn io_in[12]
+Net io_in[12]: 32
+ connections: gate 10 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[13]
+
+> gn io_in[13]
+Net io_in[13]: 33
+ connections: gate 10 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[14]
+
+> gn io_in[14]
+Net io_in[14]: 34
+ connections: gate 10 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[15]
+
+> gn io_in[15]
+Net io_in[15]: 35
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[16]
+
+> gn io_in[16]
+Net io_in[16]: 36
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[17]
+
+> gn io_in[17]
+Net io_in[17]: 37
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[18]
+
+> gn io_in[18]
+Net io_in[18]: 38
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[19]
+
+> gn io_in[19]
+Net io_in[19]: 39
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[20]
+
+> gn io_in[20]
+Net io_in[20]: 41
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[21]
+
+> gn io_in[21]
+Net io_in[21]: 42
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[22]
+
+> gn io_in[22]
+Net io_in[22]: 43
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[23]
+
+> gn io_in[23]
+Net io_in[23]: 44
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[24]
+
+> gn io_in[24]
+Net io_in[24]: 45
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[25]
+
+> gn io_in[25]
+Net io_in[25]: 46
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[26]
+
+> gn io_in[26]
+Net io_in[26]: 47
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[27]
+
+> gn io_in[27]
+Net io_in[27]: 48
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[28]
+
+> gn io_in[28]
+Net io_in[28]: 49
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[29]
+
+> gn io_in[29]
+Net io_in[29]: 50
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[30]
+
+> gn io_in[30]
+Net io_in[30]: 52
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[31]
+
+> gn io_in[31]
+Net io_in[31]: 53
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[32]
+
+> gn io_in[32]
+Net io_in[32]: 54
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[33]
+
+> gn io_in[33]
+Net io_in[33]: 55
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[34]
+
+> gn io_in[34]
+Net io_in[34]: 56
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[35]
+
+> gn io_in[35]
+Net io_in[35]: 57
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[36]
+
+> gn io_in[36]
+Net io_in[36]: 58
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[37]
+
+> gn io_in[37]
+Net io_in[37]: 59
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_out[0]
+
+> gn io_out[0]
+Net io_out[0]: 101
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[1]
+
+> gn io_out[1]
+Net io_out[1]: 112
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[2]
+
+> gn io_out[2]
+Net io_out[2]: 123
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[3]
+
+> gn io_out[3]
+Net io_out[3]: 132
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[4]
+
+> gn io_out[4]
+Net io_out[4]: 133
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[5]
+
+> gn io_out[5]
+Net io_out[5]: 134
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[6]
+
+> gn io_out[6]
+Net io_out[6]: 135
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[7]
+
+> gn io_out[7]
+Net io_out[7]: 136
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[8]
+
+> gn io_out[8]
+Net io_out[8]: 137
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[9]
+
+> gn io_out[9]
+Net io_out[9]: 138
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[10]
+
+> gn io_out[10]
+Net io_out[10]: 102
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[11]
+
+> gn io_out[11]
+Net io_out[11]: 103
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[12]
+
+> gn io_out[12]
+Net io_out[12]: 104
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[13]
+
+> gn io_out[13]
+Net io_out[13]: 105
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[14]
+
+> gn io_out[14]
+Net io_out[14]: 106
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[15]
+
+> gn io_out[15]
+Net io_out[15]: 107
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[15]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial max path
+io_out[15]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_out[15]
+->vssd1 r=1615
+vssd* power 0.0 -> 0.0 power
+
+Max path
+io_out[15]
+->vccd1 r=1050
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_out[16]
+
+> gn io_out[16]
+Net io_out[16]: 108
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[16]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial max path
+io_out[16]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_out[16]
+->vssd1 r=1615
+vssd* power 0.0 -> 0.0 power
+
+Max path
+io_out[16]
+->vccd1 r=1050
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_out[17]
+
+> gn io_out[17]
+Net io_out[17]: 109
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[17]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial max path
+io_out[17]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_out[17]
+->vssd1 r=1615
+vssd* power 0.0 -> 0.0 power
+
+Max path
+io_out[17]
+->vccd1 r=1050
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_out[18]
+
+> gn io_out[18]
+Net io_out[18]: 110
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[18]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial max path
+io_out[18]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_out[18]
+->vssd1 r=1615
+vssd* power 0.0 -> 0.0 power
+
+Max path
+io_out[18]
+->vccd1 r=1050
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_out[19]
+
+> gn io_out[19]
+Net io_out[19]: 111
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[19]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial max path
+io_out[19]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_out[19]
+->vssd1 r=1615
+vssd* power 0.0 -> 0.0 power
+
+Max path
+io_out[19]
+->vccd1 r=1050
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_out[20]
+
+> gn io_out[20]
+Net io_out[20]: 113
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[21]
+
+> gn io_out[21]
+Net io_out[21]: 114
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[22]
+
+> gn io_out[22]
+Net io_out[22]: 115
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[23]
+
+> gn io_out[23]
+Net io_out[23]: 116
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[24]
+
+> gn io_out[24]
+Net io_out[24]: 117
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[25]
+
+> gn io_out[25]
+Net io_out[25]: 118
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[26]
+
+> gn io_out[26]
+Net io_out[26]: 119
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[27]
+
+> gn io_out[27]
+Net io_out[27]: 120
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[28]
+
+> gn io_out[28]
+Net io_out[28]: 121
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[29]
+
+> gn io_out[29]
+Net io_out[29]: 122
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[30]
+
+> gn io_out[30]
+Net io_out[30]: 124
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[31]
+
+> gn io_out[31]
+Net io_out[31]: 125
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[32]
+
+> gn io_out[32]
+Net io_out[32]: 126
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[33]
+
+> gn io_out[33]
+Net io_out[33]: 127
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[34]
+
+> gn io_out[34]
+Net io_out[34]: 128
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[35]
+
+> gn io_out[35]
+Net io_out[35]: 129
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[36]
+
+> gn io_out[36]
+Net io_out[36]: 130
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_out[37]
+
+> gn io_out[37]
+Net io_out[37]: 131
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[0]
+
+> gn io_oeb[0]
+Net io_oeb[0]: 67
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[1]
+
+> gn io_oeb[1]
+Net io_oeb[1]: 74
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[2]
+
+> gn io_oeb[2]
+Net io_oeb[2]: 85
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[3]
+
+> gn io_oeb[3]
+Net io_oeb[3]: 94
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[4]
+
+> gn io_oeb[4]
+Net io_oeb[4]: 95
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[5]
+
+> gn io_oeb[5]
+Net io_oeb[5]: 96
+ connections: gate 0 source 0 drain 1 bulk 0
+
+Initial min path
+io_oeb[5]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial max path
+io_oeb[5]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial sim path
+io_oeb[5]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_oeb[5]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Max path
+io_oeb[5]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Sim path
+io_oeb[5]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[6]
+
+> gn io_oeb[6]
+Net io_oeb[6]: 97
+ connections: gate 0 source 0 drain 1 bulk 0
+
+Initial min path
+io_oeb[6]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial max path
+io_oeb[6]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial sim path
+io_oeb[6]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_oeb[6]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Max path
+io_oeb[6]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Sim path
+io_oeb[6]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[7]
+
+> gn io_oeb[7]
+Net io_oeb[7]: 98
+ connections: gate 0 source 0 drain 1 bulk 0
+
+Initial min path
+io_oeb[7]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial max path
+io_oeb[7]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial sim path
+io_oeb[7]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_oeb[7]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Max path
+io_oeb[7]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Sim path
+io_oeb[7]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[8]
+
+> gn io_oeb[8]
+Net io_oeb[8]: 99
+ connections: gate 0 source 0 drain 1 bulk 0
+
+Initial min path
+io_oeb[8]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial max path
+io_oeb[8]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial sim path
+io_oeb[8]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_oeb[8]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Max path
+io_oeb[8]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Sim path
+io_oeb[8]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[9]
+
+> gn io_oeb[9]
+Net io_oeb[9]: 100
+ connections: gate 0 source 0 drain 1 bulk 0
+
+Initial min path
+io_oeb[9]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial max path
+io_oeb[9]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial sim path
+io_oeb[9]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_oeb[9]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Max path
+io_oeb[9]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Sim path
+io_oeb[9]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[10]
+
+> gn io_oeb[10]
+Net io_oeb[10]: 68
+ connections: gate 0 source 0 drain 1 bulk 0
+
+Initial min path
+io_oeb[10]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial max path
+io_oeb[10]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial sim path
+io_oeb[10]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_oeb[10]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Max path
+io_oeb[10]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Sim path
+io_oeb[10]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[11]
+
+> gn io_oeb[11]
+Net io_oeb[11]: 69
+ connections: gate 0 source 0 drain 1 bulk 0
+
+Initial min path
+io_oeb[11]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial max path
+io_oeb[11]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial sim path
+io_oeb[11]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_oeb[11]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Max path
+io_oeb[11]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Sim path
+io_oeb[11]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[12]
+
+> gn io_oeb[12]
+Net io_oeb[12]: 70
+ connections: gate 0 source 0 drain 1 bulk 0
+
+Initial min path
+io_oeb[12]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial max path
+io_oeb[12]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial sim path
+io_oeb[12]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_oeb[12]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Max path
+io_oeb[12]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Sim path
+io_oeb[12]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[13]
+
+> gn io_oeb[13]
+Net io_oeb[13]: 71
+ connections: gate 0 source 0 drain 1 bulk 0
+
+Initial min path
+io_oeb[13]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial max path
+io_oeb[13]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial sim path
+io_oeb[13]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_oeb[13]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Max path
+io_oeb[13]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Sim path
+io_oeb[13]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[14]
+
+> gn io_oeb[14]
+Net io_oeb[14]: 72
+ connections: gate 0 source 0 drain 1 bulk 0
+
+Initial min path
+io_oeb[14]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial max path
+io_oeb[14]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Initial sim path
+io_oeb[14]
+->vccd1
+vccd* power 1.8 -> 1.8 power
+
+Min path
+io_oeb[14]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Max path
+io_oeb[14]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+Sim path
+io_oeb[14]
+->vccd1 r=5
+vccd* power 1.8 -> 1.8 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[15]
+
+> gn io_oeb[15]
+Net io_oeb[15]: 644
+ connections: gate 0 source 1 drain 0 bulk 0
+
+Initial min path
+io_oeb[15]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[15]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial sim path
+io_oeb[15]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Min path
+io_oeb[15]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+Max path
+io_oeb[15]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+Sim path
+io_oeb[15]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[16]
+
+> gn io_oeb[16]
+Net io_oeb[16]: 643
+ connections: gate 0 source 1 drain 0 bulk 0
+
+Initial min path
+io_oeb[16]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[16]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial sim path
+io_oeb[16]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Min path
+io_oeb[16]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+Max path
+io_oeb[16]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+Sim path
+io_oeb[16]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[17]
+
+> gn io_oeb[17]
+Net io_oeb[17]: 642
+ connections: gate 0 source 1 drain 0 bulk 0
+
+Initial min path
+io_oeb[17]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[17]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial sim path
+io_oeb[17]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Min path
+io_oeb[17]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+Max path
+io_oeb[17]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+Sim path
+io_oeb[17]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[18]
+
+> gn io_oeb[18]
+Net io_oeb[18]: 641
+ connections: gate 0 source 1 drain 0 bulk 0
+
+Initial min path
+io_oeb[18]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[18]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial sim path
+io_oeb[18]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Min path
+io_oeb[18]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+Max path
+io_oeb[18]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+Sim path
+io_oeb[18]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[19]
+
+> gn io_oeb[19]
+Net io_oeb[19]: 73
+ connections: gate 0 source 1 drain 0 bulk 0
+
+Initial min path
+io_oeb[19]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[19]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Initial sim path
+io_oeb[19]
+->vssd1
+vssd* power 0.0 -> 0.0 power
+
+Min path
+io_oeb[19]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+Max path
+io_oeb[19]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+Sim path
+io_oeb[19]
+->vssd1 r=5
+vssd* power 0.0 -> 0.0 power
+
+** Stage 7/7: Enter command ?> gn io_oeb[20]
+
+> gn io_oeb[20]
+Net io_oeb[20]: 75
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[21]
+
+> gn io_oeb[21]
+Net io_oeb[21]: 76
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[22]
+
+> gn io_oeb[22]
+Net io_oeb[22]: 77
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[23]
+
+> gn io_oeb[23]
+Net io_oeb[23]: 78
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[24]
+
+> gn io_oeb[24]
+Net io_oeb[24]: 79
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[25]
+
+> gn io_oeb[25]
+Net io_oeb[25]: 80
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[26]
+
+> gn io_oeb[26]
+Net io_oeb[26]: 81
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[27]
+
+> gn io_oeb[27]
+Net io_oeb[27]: 82
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[28]
+
+> gn io_oeb[28]
+Net io_oeb[28]: 83
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[29]
+
+> gn io_oeb[29]
+Net io_oeb[29]: 84
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[30]
+
+> gn io_oeb[30]
+Net io_oeb[30]: 86
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[31]
+
+> gn io_oeb[31]
+Net io_oeb[31]: 87
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[32]
+
+> gn io_oeb[32]
+Net io_oeb[32]: 88
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[33]
+
+> gn io_oeb[33]
+Net io_oeb[33]: 89
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[34]
+
+> gn io_oeb[34]
+Net io_oeb[34]: 90
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[35]
+
+> gn io_oeb[35]
+Net io_oeb[35]: 91
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[36]
+
+> gn io_oeb[36]
+Net io_oeb[36]: 92
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_oeb[37]
+
+> gn io_oeb[37]
+Net io_oeb[37]: 93
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn io_in[0]
+
+> gn io_in[0]
+Net io_in[0]: 29
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[1]
+
+> gn io_in[1]
+Net io_in[1]: 40
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[2]
+
+> gn io_in[2]
+Net io_in[2]: 51
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[3]
+
+> gn io_in[3]
+Net io_in[3]: 60
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[4]
+
+> gn io_in[4]
+Net io_in[4]: 61
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[5]
+
+> gn io_in[5]
+Net io_in[5]: 62
+ connections: gate 120 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[6]
+
+> gn io_in[6]
+Net io_in[6]: 63
+ connections: gate 120 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[7]
+
+> gn io_in[7]
+Net io_in[7]: 64
+ connections: gate 120 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[8]
+
+> gn io_in[8]
+Net io_in[8]: 65
+ connections: gate 120 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[9]
+
+> gn io_in[9]
+Net io_in[9]: 66
+ connections: gate 120 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[10]
+
+> gn io_in[10]
+Net io_in[10]: 30
+ connections: gate 40 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[11]
+
+> gn io_in[11]
+Net io_in[11]: 31
+ connections: gate 10 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[12]
+
+> gn io_in[12]
+Net io_in[12]: 32
+ connections: gate 10 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[13]
+
+> gn io_in[13]
+Net io_in[13]: 33
+ connections: gate 10 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[14]
+
+> gn io_in[14]
+Net io_in[14]: 34
+ connections: gate 10 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[15]
+
+> gn io_in[15]
+Net io_in[15]: 35
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[16]
+
+> gn io_in[16]
+Net io_in[16]: 36
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[17]
+
+> gn io_in[17]
+Net io_in[17]: 37
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[18]
+
+> gn io_in[18]
+Net io_in[18]: 38
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[19]
+
+> gn io_in[19]
+Net io_in[19]: 39
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[20]
+
+> gn io_in[20]
+Net io_in[20]: 41
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[21]
+
+> gn io_in[21]
+Net io_in[21]: 42
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[22]
+
+> gn io_in[22]
+Net io_in[22]: 43
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[23]
+
+> gn io_in[23]
+Net io_in[23]: 44
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[24]
+
+> gn io_in[24]
+Net io_in[24]: 45
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[25]
+
+> gn io_in[25]
+Net io_in[25]: 46
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[26]
+
+> gn io_in[26]
+Net io_in[26]: 47
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[27]
+
+> gn io_in[27]
+Net io_in[27]: 48
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[28]
+
+> gn io_in[28]
+Net io_in[28]: 49
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[29]
+
+> gn io_in[29]
+Net io_in[29]: 50
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[30]
+
+> gn io_in[30]
+Net io_in[30]: 52
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[31]
+
+> gn io_in[31]
+Net io_in[31]: 53
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[32]
+
+> gn io_in[32]
+Net io_in[32]: 54
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[33]
+
+> gn io_in[33]
+Net io_in[33]: 55
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[34]
+
+> gn io_in[34]
+Net io_in[34]: 56
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[35]
+
+> gn io_in[35]
+Net io_in[35]: 57
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[36]
+
+> gn io_in[36]
+Net io_in[36]: 58
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn io_in[37]
+
+> gn io_in[37]
+Net io_in[37]: 59
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@1.8 =>  min@0.0 max@1.8 input
+
+** Stage 7/7: Enter command ?> gn analog_io[0]
+
+> gn analog_io[0]
+Net analog_io[0]: 0
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[1]
+
+> gn analog_io[1]
+Net analog_io[1]: 11
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[2]
+
+> gn analog_io[2]
+Net analog_io[2]: 21
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[3]
+
+> gn analog_io[3]
+Net analog_io[3]: 22
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[4]
+
+> gn analog_io[4]
+Net analog_io[4]: 23
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[5]
+
+> gn analog_io[5]
+Net analog_io[5]: 24
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[6]
+
+> gn analog_io[6]
+Net analog_io[6]: 25
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[7]
+
+> gn analog_io[7]
+Net analog_io[7]: 26
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[8]
+
+> gn analog_io[8]
+Net analog_io[8]: 27
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[9]
+
+> gn analog_io[9]
+Net analog_io[9]: 28
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[10]
+
+> gn analog_io[10]
+Net analog_io[10]: 1
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[11]
+
+> gn analog_io[11]
+Net analog_io[11]: 2
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[12]
+
+> gn analog_io[12]
+Net analog_io[12]: 3
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[13]
+
+> gn analog_io[13]
+Net analog_io[13]: 4
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[14]
+
+> gn analog_io[14]
+Net analog_io[14]: 5
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[15]
+
+> gn analog_io[15]
+Net analog_io[15]: 6
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[16]
+
+> gn analog_io[16]
+Net analog_io[16]: 7
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[17]
+
+> gn analog_io[17]
+Net analog_io[17]: 8
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[18]
+
+> gn analog_io[18]
+Net analog_io[18]: 9
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[19]
+
+> gn analog_io[19]
+Net analog_io[19]: 10
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[20]
+
+> gn analog_io[20]
+Net analog_io[20]: 12
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[21]
+
+> gn analog_io[21]
+Net analog_io[21]: 13
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[22]
+
+> gn analog_io[22]
+Net analog_io[22]: 14
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[23]
+
+> gn analog_io[23]
+Net analog_io[23]: 15
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[24]
+
+> gn analog_io[24]
+Net analog_io[24]: 16
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[25]
+
+> gn analog_io[25]
+Net analog_io[25]: 17
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[26]
+
+> gn analog_io[26]
+Net analog_io[26]: 18
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[27]
+
+> gn analog_io[27]
+Net analog_io[27]: 19
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> gn analog_io[28]
+
+> gn analog_io[28]
+Net analog_io[28]: 20
+ connections: gate 0 source 0 drain 0 bulk 0
+
+** Stage 7/7: Enter command ?> q
+
+> q
+ gpio |   in   |   out  | analog |  oeb min/sim/max  | Message
+  35  |        |        |        |      /     /      | 
+  26  |        |        |        |      /     /      | 
+  17  |        |      2 |        | vssd*/vssd*/vssd* | 
+   4  |        |        |        |      /     /      | 
+  36  |        |        |        |      /     /      | 
+  27  |        |        |        |      /     /      | 
+  18  |        |      2 |        | vssd*/vssd*/vssd* | 
+   5  |    240 |        |        | vccd*/vccd*/vccd* | 
+  37  |        |        |        |      /     /      | 
+  28  |        |        |        |      /     /      | 
+  19  |        |      2 |        | vssd*/vssd*/vssd* | 
+   6  |    240 |        |        | vccd*/vccd*/vccd* | 
+  29  |        |        |        |      /     /      | 
+   7  |    240 |        |        | vccd*/vccd*/vccd* | 
+   8  |    240 |        |        | vccd*/vccd*/vccd* | 
+   9  |    240 |        |        | vccd*/vccd*/vccd* | 
+  10  |     80 |        |        | vccd*/vccd*/vccd* | 
+  20  |        |        |        |      /     /      | 
+  11  |     20 |        |        | vccd*/vccd*/vccd* | 
+  30  |        |        |        |      /     /      | 
+  21  |        |        |        |      /     /      | 
+  12  |     20 |        |        | vccd*/vccd*/vccd* | 
+  31  |        |        |        |      /     /      | 
+  22  |        |        |        |      /     /      | 
+  13  |     20 |        |        | vccd*/vccd*/vccd* | 
+   0  |        |        |        |      /     /      | 
+  32  |        |        |        |      /     /      | 
+  23  |        |        |        |      /     /      | 
+  14  |     20 |        |        | vccd*/vccd*/vccd* | 
+   1  |        |        |        |      /     /      | 
+  33  |        |        |        |      /     /      | 
+  24  |        |        |        |      /     /      | 
+  15  |        |      2 |        | vssd*/vssd*/vssd* | 
+   2  |        |        |        |      /     /      | 
+  34  |        |        |        |      /     /      | 
+  25  |        |        |        |      /     /      | 
+  16  |        |      2 |        | vssd*/vssd*/vssd* | 
+   3  |        |        |        |      /     /      | 
