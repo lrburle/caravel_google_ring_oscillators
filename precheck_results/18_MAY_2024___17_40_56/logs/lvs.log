@@ -1,0 +1,2865 @@
+BEGIN: Sat 18 May 2024 05:41:45 PM UTC
+Netgen 1.5.254 compiled on Tue Apr 16 18:21:46 UTC 2024
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading layout /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice...
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8_lvt
+Creating placeholder cell definition.
+Reading source /opt/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice...
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Reading source /opt/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice...
+Call to undefined subcircuit sky130_fd_sc_hd__nand2_2
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_sc_hd__nor2_2
+Creating placeholder cell definition.
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ca_8_b0r1.spice...
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8_lvt
+Creating placeholder cell definition.
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ca_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[0]]
+Duplicate cell scs130hd_mpr2ca_8 in file
+Renaming original cell to scs130hd_mpr2ca_8[[0]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ct_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[1]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[1]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ct_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[2]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[2]]
+Duplicate cell scs130hd_mpr2ct_8 in file
+Renaming original cell to scs130hd_mpr2ct_8[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ea_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[3]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[3]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2ea_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[4]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[4]]
+Duplicate cell scs130hd_mpr2ea_8 in file
+Renaming original cell to scs130hd_mpr2ea_8[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2et_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[5]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[5]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2et_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[6]]
+Duplicate cell scs130hd_mpr2et_8 in file
+Renaming original cell to scs130hd_mpr2et_8[[0]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[6]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2xa_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[7]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[7]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_ring_oscillator_mpr2xa_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[8]]
+Duplicate cell scs130hd_mpr2xa_8 in file
+Renaming original cell to scs130hd_mpr2xa_8[[0]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[8]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ca_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[9]]
+Duplicate cell scs130hd_mpr2ca_8 in file
+Renaming original cell to scs130hd_mpr2ca_8[[1]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[9]]
+Duplicate cell sky130_osu_single_mpr2ca_8_b0r1 in file
+Renaming original cell to sky130_osu_single_mpr2ca_8_b0r1[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ca_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[10]]
+Duplicate cell scs130hd_mpr2ca_8 in file
+Renaming original cell to scs130hd_mpr2ca_8[[2]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[10]]
+Duplicate cell sky130_osu_single_mpr2ca_8_b0r2 in file
+Renaming original cell to sky130_osu_single_mpr2ca_8_b0r2[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ct_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[11]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[11]]
+Duplicate cell scs130hd_mpr2ct_8 in file
+Renaming original cell to scs130hd_mpr2ct_8[[1]]
+Duplicate cell sky130_osu_single_mpr2ct_8_b0r1 in file
+Renaming original cell to sky130_osu_single_mpr2ct_8_b0r1[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ct_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[12]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[12]]
+Duplicate cell scs130hd_mpr2ct_8 in file
+Renaming original cell to scs130hd_mpr2ct_8[[2]]
+Duplicate cell sky130_osu_single_mpr2ct_8_b0r2 in file
+Renaming original cell to sky130_osu_single_mpr2ct_8_b0r2[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[13]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[13]]
+Duplicate cell scs130hd_mpr2ea_8 in file
+Renaming original cell to scs130hd_mpr2ea_8[[1]]
+Duplicate cell sky130_osu_single_mpr2ea_8_b0r1 in file
+Renaming original cell to sky130_osu_single_mpr2ea_8_b0r1[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[14]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[14]]
+Duplicate cell scs130hd_mpr2ea_8 in file
+Renaming original cell to scs130hd_mpr2ea_8[[2]]
+Duplicate cell sky130_osu_single_mpr2ea_8_b0r2 in file
+Renaming original cell to sky130_osu_single_mpr2ea_8_b0r2[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2et_8_b0r1.spice...
+Duplicate cell scs130hd_mpr2et_8 in file
+Renaming original cell to scs130hd_mpr2et_8[[1]]
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[15]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[15]]
+Duplicate cell sky130_osu_single_mpr2et_8_b0r1 in file
+Renaming original cell to sky130_osu_single_mpr2et_8_b0r1[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2et_8_b0r2.spice...
+Duplicate cell scs130hd_mpr2et_8 in file
+Renaming original cell to scs130hd_mpr2et_8[[2]]
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[16]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[16]]
+Duplicate cell sky130_osu_single_mpr2et_8_b0r2 in file
+Renaming original cell to sky130_osu_single_mpr2et_8_b0r2[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2xa_8_b0r1.spice...
+Duplicate cell scs130hd_mpr2xa_8 in file
+Renaming original cell to scs130hd_mpr2xa_8[[1]]
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[17]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[17]]
+Duplicate cell sky130_osu_single_mpr2xa_8_b0r1 in file
+Renaming original cell to sky130_osu_single_mpr2xa_8_b0r1[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2xa_8_b0r2.spice...
+Duplicate cell scs130hd_mpr2xa_8 in file
+Renaming original cell to scs130hd_mpr2xa_8[[2]]
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[18]]
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[18]]
+Duplicate cell sky130_osu_single_mpr2xa_8_b0r2 in file
+Renaming original cell to sky130_osu_single_mpr2xa_8_b0r2[[0]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2ca_8.spice...
+Duplicate cell scs130hd_mpr2ca_8 in file
+Renaming original cell to scs130hd_mpr2ca_8[[3]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2ct_8.spice...
+Duplicate cell scs130hd_mpr2ct_8 in file
+Renaming original cell to scs130hd_mpr2ct_8[[3]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2ea_8.spice...
+Duplicate cell scs130hd_mpr2ea_8 in file
+Renaming original cell to scs130hd_mpr2ea_8[[3]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2et_8.spice...
+Duplicate cell scs130hd_mpr2et_8 in file
+Renaming original cell to scs130hd_mpr2et_8[[3]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/scs130hd_mpr2xa_8.spice...
+Duplicate cell scs130hd_mpr2xa_8 in file
+Renaming original cell to scs130hd_mpr2xa_8[[3]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_sc_12T_hs__mux2_1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__mux2_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__mux2_1[[19]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_sc_12T_hs__inv_1.spice...
+Duplicate cell sky130_osu_sc_12T_hs__inv_1 in file
+Renaming original cell to sky130_osu_sc_12T_hs__inv_1[[19]]
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/verilog/gl/user_project_wrapper.v...
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Creating placeholder cell definition for module mux16x1_project.
+Reading source /home/lburleson/OSU/google_ring_oscillator/caravel/verilog/gl/mux16x1_project.v...
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Treating empty subcircuits as black-box cells
+Generating JSON file result
+
+Reading setup file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/sky130A_setup.tcl
+
+Model sky130_fd_pr__res_generic_po pin end_a == end_b
+No property mult found for device sky130_fd_pr__res_generic_po
+Model sky130_fd_pr__res_generic_po pin end_a == end_b
+No property mult found for device sky130_fd_pr__res_generic_po
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_01v8_lvt pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8_lvt
+No property sa found for device sky130_fd_pr__nfet_01v8_lvt
+No property sb found for device sky130_fd_pr__nfet_01v8_lvt
+No property sd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nf found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrs found for device sky130_fd_pr__nfet_01v8_lvt
+No property area found for device sky130_fd_pr__nfet_01v8_lvt
+No property perim found for device sky130_fd_pr__nfet_01v8_lvt
+No property topography found for device sky130_fd_pr__nfet_01v8_lvt
+Model sky130_fd_pr__nfet_01v8_lvt pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8_lvt
+No property sa found for device sky130_fd_pr__nfet_01v8_lvt
+No property sb found for device sky130_fd_pr__nfet_01v8_lvt
+No property sd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nf found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrs found for device sky130_fd_pr__nfet_01v8_lvt
+No property area found for device sky130_fd_pr__nfet_01v8_lvt
+No property perim found for device sky130_fd_pr__nfet_01v8_lvt
+No property topography found for device sky130_fd_pr__nfet_01v8_lvt
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8
+No property sa found for device sky130_fd_pr__pfet_01v8
+No property sb found for device sky130_fd_pr__pfet_01v8
+No property sd found for device sky130_fd_pr__pfet_01v8
+No property nf found for device sky130_fd_pr__pfet_01v8
+No property nrd found for device sky130_fd_pr__pfet_01v8
+No property nrs found for device sky130_fd_pr__pfet_01v8
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8
+No property sa found for device sky130_fd_pr__pfet_01v8
+No property sb found for device sky130_fd_pr__pfet_01v8
+No property sd found for device sky130_fd_pr__pfet_01v8
+No property nf found for device sky130_fd_pr__pfet_01v8
+No property nrd found for device sky130_fd_pr__pfet_01v8
+No property nrs found for device sky130_fd_pr__pfet_01v8
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Model sky130_fd_pr__pfet_01v8_hvt pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8_hvt
+No property sa found for device sky130_fd_pr__pfet_01v8_hvt
+No property sb found for device sky130_fd_pr__pfet_01v8_hvt
+No property sd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nf found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrs found for device sky130_fd_pr__pfet_01v8_hvt
+No property area found for device sky130_fd_pr__pfet_01v8_hvt
+No property perim found for device sky130_fd_pr__pfet_01v8_hvt
+No property topography found for device sky130_fd_pr__pfet_01v8_hvt
+Model sky130_fd_pr__pfet_01v8_hvt pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8_hvt
+No property sa found for device sky130_fd_pr__pfet_01v8_hvt
+No property sb found for device sky130_fd_pr__pfet_01v8_hvt
+No property sd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nf found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrs found for device sky130_fd_pr__pfet_01v8_hvt
+No property area found for device sky130_fd_pr__pfet_01v8_hvt
+No property perim found for device sky130_fd_pr__pfet_01v8_hvt
+No property topography found for device sky130_fd_pr__pfet_01v8_hvt
+No property value found for device sky130_fd_pr__diode_pw2nd_05v5
+No property mult found for device sky130_fd_pr__diode_pw2nd_05v5
+No property perim found for device sky130_fd_pr__diode_pw2nd_05v5
+Matching pins of sky130_fd_pr__nfet_01v8 in circuits 1 and 2
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8                                                |Circuit 2: sky130_fd_pr__nfet_01v8                                                
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Matching pins of sky130_fd_pr__nfet_01v8_lvt in circuits 1 and 2
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8_lvt                                            |Circuit 2: sky130_fd_pr__nfet_01v8_lvt                                            
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Matching pins of sky130_fd_pr__pfet_01v8_hvt in circuits 1 and 2
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_hvt                                            |Circuit 2: sky130_fd_pr__pfet_01v8_hvt                                            
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Matching pins of sky130_fd_pr__pfet_01v8 in circuits 1 and 2
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8                                                |Circuit 2: sky130_fd_pr__pfet_01v8                                                
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Comparison output logged to file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/lvs.report
+Logging to file "/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/lvs.report" enabled
+Circuit sky130_fd_pr__pfet_01v8 contains no devices.
+Circuit sky130_fd_pr__nfet_01v8_lvt contains no devices.
+Circuit sky130_fd_pr__nfet_01v8 contains no devices.
+Circuit sky130_fd_pr__pfet_01v8_hvt contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+  Flattening non-matched subcircuits sky130_osu_sc_12T_hs__mux2_1 sky130_osu_sc_12T_hs__mux2_1
+
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ca_8'
+Circuit scs130hd_mpr2ca_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 27 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ca_8'
+Circuit scs130hd_mpr2ca_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 26 nets.
+
+Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
+Circuit 1 contains 27 nets,    Circuit 2 contains 26 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits scs130hd_mpr2ca_8 scs130hd_mpr2ca_8
+
+Flattening instances of scs130hd_mpr2ca_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of scs130hd_mpr2ca_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2xa_8'
+Circuit scs130hd_mpr2xa_8 contains 29 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  14
+Circuit contains 22 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2xa_8'
+Circuit scs130hd_mpr2xa_8 contains 29 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  14
+Circuit contains 22 nets.
+
+Circuit 1 contains 29 devices, Circuit 2 contains 29 devices.
+Circuit 1 contains 22 nets,    Circuit 2 contains 22 nets.
+
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ct_8'
+Circuit scs130hd_mpr2ct_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 27 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ct_8'
+Circuit scs130hd_mpr2ct_8 contains 38 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  19
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  19
+Circuit contains 26 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ct_8'
+Circuit scs130hd_mpr2ct_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 27 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ct_8'
+Circuit scs130hd_mpr2ct_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 26 nets.
+
+Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
+Circuit 1 contains 27 nets,    Circuit 2 contains 26 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits scs130hd_mpr2ct_8 scs130hd_mpr2ct_8
+
+Flattening instances of scs130hd_mpr2ct_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of scs130hd_mpr2ct_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ea_8'
+Circuit scs130hd_mpr2ea_8 contains 30 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  15
+Circuit contains 23 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ea_8'
+Circuit scs130hd_mpr2ea_8 contains 30 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  15
+Circuit contains 23 nets.
+
+Circuit 1 contains 30 devices, Circuit 2 contains 30 devices.
+Circuit 1 contains 23 nets,    Circuit 2 contains 23 nets.
+
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2et_8'
+Circuit scs130hd_mpr2et_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  18
+Circuit contains 26 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2et_8'
+Circuit scs130hd_mpr2et_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  18
+Circuit contains 26 nets.
+
+Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
+Circuit 1 contains 26 nets,    Circuit 2 contains 26 nets.
+
+  Flattening non-matched subcircuits scs130hd_mpr2et_8 scs130hd_mpr2et_8
+
+Flattening instances of scs130hd_mpr2et_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of scs130hd_mpr2et_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1[[0]]'
+Circuit sky130_osu_sc_12T_hs__mux2_1[[0]] contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+  Flattening non-matched subcircuits sky130_osu_sc_12T_hs__mux2_1 {sky130_osu_sc_12T_hs__mux2_1[[0]]}
+
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1[[0]] in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ca_8'
+Circuit scs130hd_mpr2ca_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 27 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ca_8[[0]]'
+Circuit scs130hd_mpr2ca_8[[0]] contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 26 nets.
+
+Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
+Circuit 1 contains 27 nets,    Circuit 2 contains 26 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits scs130hd_mpr2ca_8 {scs130hd_mpr2ca_8[[0]]}
+
+Flattening instances of scs130hd_mpr2ca_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of scs130hd_mpr2ca_8[[0]] in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__inv_1[[0]]'
+Circuit sky130_osu_sc_12T_hs__inv_1[[0]] contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2xa_8'
+Circuit scs130hd_mpr2xa_8 contains 29 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  14
+Circuit contains 22 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2xa_8[[1]]'
+Circuit scs130hd_mpr2xa_8[[1]] contains 29 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  14
+Circuit contains 22 nets.
+
+Circuit 1 contains 29 devices, Circuit 2 contains 29 devices.
+Circuit 1 contains 22 nets,    Circuit 2 contains 22 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1[[9]]'
+Circuit sky130_osu_sc_12T_hs__mux2_1[[9]] contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+  Flattening non-matched subcircuits sky130_osu_sc_12T_hs__mux2_1 {sky130_osu_sc_12T_hs__mux2_1[[9]]}
+
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1[[9]] in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__inv_1[[9]]'
+Circuit sky130_osu_sc_12T_hs__inv_1[[9]] contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1[[2]]'
+Circuit sky130_osu_sc_12T_hs__mux2_1[[2]] contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__inv_1[[2]]'
+Circuit sky130_osu_sc_12T_hs__inv_1[[2]] contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ct_8'
+Circuit scs130hd_mpr2ct_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 27 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ct_8[[0]]'
+Circuit scs130hd_mpr2ct_8[[0]] contains 38 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  19
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  19
+Circuit contains 26 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ct_8'
+Circuit scs130hd_mpr2ct_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 27 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ct_8[[0]]'
+Circuit scs130hd_mpr2ct_8[[0]] contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 26 nets.
+
+Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
+Circuit 1 contains 27 nets,    Circuit 2 contains 26 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits scs130hd_mpr2ct_8 {scs130hd_mpr2ct_8[[0]]}
+
+Flattening instances of scs130hd_mpr2ct_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of scs130hd_mpr2ct_8[[0]] in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1[[4]]'
+Circuit sky130_osu_sc_12T_hs__mux2_1[[4]] contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+  Flattening non-matched subcircuits sky130_osu_sc_12T_hs__mux2_1 {sky130_osu_sc_12T_hs__mux2_1[[4]]}
+
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1[[4]] in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__inv_1[[4]]'
+Circuit sky130_osu_sc_12T_hs__inv_1[[4]] contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ea_8'
+Circuit scs130hd_mpr2ea_8 contains 30 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  15
+Circuit contains 23 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ea_8[[0]]'
+Circuit scs130hd_mpr2ea_8[[0]] contains 30 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  15
+Circuit contains 23 nets.
+
+Circuit 1 contains 30 devices, Circuit 2 contains 30 devices.
+Circuit 1 contains 23 nets,    Circuit 2 contains 23 nets.
+
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2et_8'
+Circuit scs130hd_mpr2et_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  18
+Circuit contains 26 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2et_8[[0]]'
+Circuit scs130hd_mpr2et_8[[0]] contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  18
+Circuit contains 26 nets.
+
+Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
+Circuit 1 contains 26 nets,    Circuit 2 contains 26 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1[[6]]'
+Circuit sky130_osu_sc_12T_hs__mux2_1[[6]] contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+  Flattening non-matched subcircuits sky130_osu_sc_12T_hs__mux2_1 {sky130_osu_sc_12T_hs__mux2_1[[6]]}
+
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1[[6]] in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__inv_1[[6]]'
+Circuit sky130_osu_sc_12T_hs__inv_1[[6]] contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2xa_8'
+Circuit scs130hd_mpr2xa_8 contains 29 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  14
+Circuit contains 22 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2xa_8[[0]]'
+Circuit scs130hd_mpr2xa_8[[0]] contains 29 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  14
+Circuit contains 22 nets.
+
+Circuit 1 contains 29 devices, Circuit 2 contains 29 devices.
+Circuit 1 contains 22 nets,    Circuit 2 contains 22 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1[[8]]'
+Circuit sky130_osu_sc_12T_hs__mux2_1[[8]] contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+  Flattening non-matched subcircuits sky130_osu_sc_12T_hs__mux2_1 {sky130_osu_sc_12T_hs__mux2_1[[8]]}
+
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1[[8]] in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__inv_1[[8]]'
+Circuit sky130_osu_sc_12T_hs__inv_1[[8]] contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1[[1]]'
+Circuit sky130_osu_sc_12T_hs__mux2_1[[1]] contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+  Flattening non-matched subcircuits sky130_osu_sc_12T_hs__mux2_1 {sky130_osu_sc_12T_hs__mux2_1[[1]]}
+
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1[[1]] in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ca_8'
+Circuit scs130hd_mpr2ca_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 27 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ca_8[[1]]'
+Circuit scs130hd_mpr2ca_8[[1]] contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 26 nets.
+
+Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
+Circuit 1 contains 27 nets,    Circuit 2 contains 26 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits scs130hd_mpr2ca_8 {scs130hd_mpr2ca_8[[1]]}
+
+Flattening instances of scs130hd_mpr2ca_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of scs130hd_mpr2ca_8[[1]] in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__inv_1[[1]]'
+Circuit sky130_osu_sc_12T_hs__inv_1[[1]] contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1[[3]]'
+Circuit sky130_osu_sc_12T_hs__mux2_1[[3]] contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+  Flattening non-matched subcircuits sky130_osu_sc_12T_hs__mux2_1 {sky130_osu_sc_12T_hs__mux2_1[[3]]}
+
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1[[3]] in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__inv_1[[3]]'
+Circuit sky130_osu_sc_12T_hs__inv_1[[3]] contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ct_8'
+Circuit scs130hd_mpr2ct_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 27 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ct_8[[1]]'
+Circuit scs130hd_mpr2ct_8[[1]] contains 38 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  19
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  19
+Circuit contains 26 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ct_8'
+Circuit scs130hd_mpr2ct_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 27 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ct_8[[1]]'
+Circuit scs130hd_mpr2ct_8[[1]] contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+Circuit contains 26 nets.
+
+Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
+Circuit 1 contains 27 nets,    Circuit 2 contains 26 nets. *** MISMATCH ***
+
+  Flattening non-matched subcircuits scs130hd_mpr2ct_8 {scs130hd_mpr2ct_8[[1]]}
+
+Flattening instances of scs130hd_mpr2ct_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of scs130hd_mpr2ct_8[[1]] in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1[[5]]'
+Circuit sky130_osu_sc_12T_hs__mux2_1[[5]] contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+  Flattening non-matched subcircuits sky130_osu_sc_12T_hs__mux2_1 {sky130_osu_sc_12T_hs__mux2_1[[5]]}
+
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of sky130_osu_sc_12T_hs__mux2_1[[5]] in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__inv_1[[5]]'
+Circuit sky130_osu_sc_12T_hs__inv_1[[5]] contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2ea_8'
+Circuit scs130hd_mpr2ea_8 contains 30 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  15
+Circuit contains 23 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2ea_8[[1]]'
+Circuit scs130hd_mpr2ea_8[[1]] contains 30 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  15
+Circuit contains 23 nets.
+
+Circuit 1 contains 30 devices, Circuit 2 contains 30 devices.
+Circuit 1 contains 23 nets,    Circuit 2 contains 23 nets.
+
+
+Contents of circuit 1:  Circuit: 'scs130hd_mpr2et_8'
+Circuit scs130hd_mpr2et_8 contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  18
+Circuit contains 26 nets.
+Contents of circuit 2:  Circuit: 'scs130hd_mpr2et_8[[1]]'
+Circuit scs130hd_mpr2et_8[[1]] contains 36 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  18
+Circuit contains 26 nets.
+
+Circuit 1 contains 36 devices, Circuit 2 contains 36 devices.
+Circuit 1 contains 26 nets,    Circuit 2 contains 26 nets.
+
+  Flattening non-matched subcircuits scs130hd_mpr2et_8 {scs130hd_mpr2et_8[[1]]}
+
+Flattening instances of scs130hd_mpr2et_8 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of scs130hd_mpr2et_8[[1]] in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1'
+Circuit sky130_osu_sc_12T_hs__mux2_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__mux2_1[[7]]'
+Circuit sky130_osu_sc_12T_hs__mux2_1[[7]] contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 7 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_sc_12T_hs__inv_1'
+Circuit sky130_osu_sc_12T_hs__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_sc_12T_hs__inv_1[[7]]'
+Circuit sky130_osu_sc_12T_hs__inv_1[[7]] contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_ef_sc_hd__decap_12'
+Circuit sky130_ef_sc_hd__decap_12 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_ef_sc_hd__decap_12'
+Circuit sky130_ef_sc_hd__decap_12 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_4'
+Circuit sky130_fd_sc_hd__decap_4 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_4'
+Circuit sky130_fd_sc_hd__decap_4 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_12'
+Circuit sky130_fd_sc_hd__buf_12 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_12'
+Circuit sky130_fd_sc_hd__buf_12 contains 32 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  16
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+Circuit contains 7 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_12'
+Circuit sky130_fd_sc_hd__buf_12 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_12'
+Circuit sky130_fd_sc_hd__buf_12 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_3'
+Circuit sky130_fd_sc_hd__decap_3 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_3'
+Circuit sky130_fd_sc_hd__decap_3 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_6'
+Circuit sky130_fd_sc_hd__decap_6 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_6'
+Circuit sky130_fd_sc_hd__decap_6 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__fill_1'
+Circuit sky130_fd_sc_hd__fill_1 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__fill_1'
+Circuit sky130_fd_sc_hd__fill_1 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+
+Circuit sky130_fd_sc_hd__fill_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__fill_2'
+Circuit sky130_fd_sc_hd__fill_2 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__fill_2'
+Circuit sky130_fd_sc_hd__fill_2 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+
+Circuit sky130_fd_sc_hd__fill_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_8'
+Circuit sky130_fd_sc_hd__decap_8 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_8'
+Circuit sky130_fd_sc_hd__decap_8 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a21oi_2'
+Circuit sky130_fd_sc_hd__a21oi_2 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 11 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a21oi_2'
+Circuit sky130_fd_sc_hd__a21oi_2 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 11 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a21oi_2'
+Circuit sky130_fd_sc_hd__a21oi_2 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 11 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a21oi_2'
+Circuit sky130_fd_sc_hd__a21oi_2 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 11 nets.
+
+Circuit 1 contains 8 devices, Circuit 2 contains 8 devices.
+Circuit 1 contains 11 nets,    Circuit 2 contains 11 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nor2_1'
+Circuit sky130_fd_sc_hd__nor2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nor2_1'
+Circuit sky130_fd_sc_hd__nor2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 8 nets,    Circuit 2 contains 8 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__mux2_1'
+Circuit sky130_fd_sc_hd__mux2_1 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 14 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__mux2_1'
+Circuit sky130_fd_sc_hd__mux2_1 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 14 nets.
+
+Circuit 1 contains 12 devices, Circuit 2 contains 12 devices.
+Circuit 1 contains 14 nets,    Circuit 2 contains 14 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__mux4_1'
+Circuit sky130_fd_sc_hd__mux4_1 contains 26 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  13
+Circuit contains 24 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__mux4_1'
+Circuit sky130_fd_sc_hd__mux4_1 contains 26 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  13
+Circuit contains 24 nets.
+
+Circuit 1 contains 26 devices, Circuit 2 contains 26 devices.
+Circuit 1 contains 24 nets,    Circuit 2 contains 24 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a41o_1'
+Circuit sky130_fd_sc_hd__a41o_1 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 15 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a41o_1'
+Circuit sky130_fd_sc_hd__a41o_1 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 15 nets.
+
+Circuit 1 contains 12 devices, Circuit 2 contains 12 devices.
+Circuit 1 contains 15 nets,    Circuit 2 contains 15 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__tapvpwrvgnd_1'
+Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains 0 device instances.
+Circuit contains 0 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__tapvpwrvgnd_1'
+Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains 0 device instances.
+Circuit contains 0 nets, and 2 disconnected pins.
+
+Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__clkbuf_1'
+Circuit sky130_fd_sc_hd__clkbuf_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__clkbuf_1'
+Circuit sky130_fd_sc_hd__clkbuf_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__or3b_1'
+Circuit sky130_fd_sc_hd__or3b_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__or3b_1'
+Circuit sky130_fd_sc_hd__or3b_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 12 nets.
+
+Circuit 1 contains 10 devices, Circuit 2 contains 10 devices.
+Circuit 1 contains 12 nets,    Circuit 2 contains 12 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_1'
+Circuit sky130_fd_sc_hd__buf_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_1'
+Circuit sky130_fd_sc_hd__buf_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nand3b_1'
+Circuit sky130_fd_sc_hd__nand3b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 11 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nand3b_1'
+Circuit sky130_fd_sc_hd__nand3b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 11 nets.
+
+Circuit 1 contains 8 devices, Circuit 2 contains 8 devices.
+Circuit 1 contains 11 nets,    Circuit 2 contains 11 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nand2_1'
+Circuit sky130_fd_sc_hd__nand2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nand2_1'
+Circuit sky130_fd_sc_hd__nand2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 8 nets,    Circuit 2 contains 8 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__clkbuf_2'
+Circuit sky130_fd_sc_hd__clkbuf_2 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__clkbuf_2'
+Circuit sky130_fd_sc_hd__clkbuf_2 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 7 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__clkbuf_2'
+Circuit sky130_fd_sc_hd__clkbuf_2 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__clkbuf_2'
+Circuit sky130_fd_sc_hd__clkbuf_2 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a2111oi_1'
+Circuit sky130_fd_sc_hd__a2111oi_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 14 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a2111oi_1'
+Circuit sky130_fd_sc_hd__a2111oi_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 14 nets.
+
+Circuit 1 contains 10 devices, Circuit 2 contains 10 devices.
+Circuit 1 contains 14 nets,    Circuit 2 contains 14 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_2'
+Circuit sky130_fd_sc_hd__buf_2 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_2'
+Circuit sky130_fd_sc_hd__buf_2 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 7 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_2'
+Circuit sky130_fd_sc_hd__buf_2 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__buf_2'
+Circuit sky130_fd_sc_hd__buf_2 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 7 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 7 nets,    Circuit 2 contains 7 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nor3b_1'
+Circuit sky130_fd_sc_hd__nor3b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 11 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nor3b_1'
+Circuit sky130_fd_sc_hd__nor3b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 11 nets.
+
+Circuit 1 contains 8 devices, Circuit 2 contains 8 devices.
+Circuit 1 contains 11 nets,    Circuit 2 contains 11 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__and3b_1'
+Circuit sky130_fd_sc_hd__and3b_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__and3b_1'
+Circuit sky130_fd_sc_hd__and3b_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 12 nets.
+
+Circuit 1 contains 10 devices, Circuit 2 contains 10 devices.
+Circuit 1 contains 12 nets,    Circuit 2 contains 12 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1'
+Circuit sky130_osu_single_mpr2ca_8_b0r1 contains 58 device instances.
+  Class: sky130_osu_sc_12T_hs__inv_1 instances:   4
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1'
+Circuit sky130_osu_single_mpr2ca_8_b0r1 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1'
+Circuit sky130_osu_single_mpr2ca_8_b0r1 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1'
+Circuit sky130_osu_single_mpr2ca_8_b0r1 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1'
+Circuit sky130_osu_single_mpr2ca_8_b0r1 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1'
+Circuit sky130_osu_single_mpr2ca_8_b0r1 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit 1 contains 59 devices, Circuit 2 contains 59 devices.
+Circuit 1 contains 32 nets,    Circuit 2 contains 32 nets.
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2ca_8_b0r1 sky130_osu_single_mpr2ca_8_b0r1
+
+Flattening instances of sky130_osu_single_mpr2ca_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of sky130_osu_single_mpr2ca_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2'
+Circuit sky130_osu_single_mpr2xa_8_b0r2 contains 23 device instances.
+  Class: sky130_osu_sc_12T_hs__inv_1 instances:   4
+  Class: scs130hd_mpr2xa_8     instances:   1
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+Circuit contains 18 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2'
+Circuit sky130_osu_single_mpr2xa_8_b0r2 contains 55 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 28 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2'
+Circuit sky130_osu_single_mpr2xa_8_b0r2 contains 55 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 28 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2'
+Circuit sky130_osu_single_mpr2xa_8_b0r2 contains 55 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 28 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2'
+Circuit sky130_osu_single_mpr2xa_8_b0r2 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 28 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2'
+Circuit sky130_osu_single_mpr2xa_8_b0r2 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 28 nets.
+
+Circuit 1 contains 53 devices, Circuit 2 contains 53 devices.
+Circuit 1 contains 28 nets,    Circuit 2 contains 28 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1'
+Circuit sky130_osu_single_mpr2ct_8_b0r1 contains 58 device instances.
+  Class: sky130_osu_sc_12T_hs__inv_1 instances:   4
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1'
+Circuit sky130_osu_single_mpr2ct_8_b0r1 contains 64 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  19
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  19
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1'
+Circuit sky130_osu_single_mpr2ct_8_b0r1 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1'
+Circuit sky130_osu_single_mpr2ct_8_b0r1 contains 64 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  19
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  19
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1'
+Circuit sky130_osu_single_mpr2ct_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1'
+Circuit sky130_osu_single_mpr2ct_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 32 nets,    Circuit 2 contains 32 nets.
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2ct_8_b0r1 sky130_osu_single_mpr2ct_8_b0r1
+
+Flattening instances of sky130_osu_single_mpr2ct_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of sky130_osu_single_mpr2ct_8_b0r1 in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1'
+Circuit sky130_osu_single_mpr2ea_8_b0r1 contains 23 device instances.
+  Class: sky130_osu_sc_12T_hs__inv_1 instances:   4
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+  Class: scs130hd_mpr2ea_8     instances:   1
+Circuit contains 18 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1'
+Circuit sky130_osu_single_mpr2ea_8_b0r1 contains 56 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  28
+Circuit contains 29 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1'
+Circuit sky130_osu_single_mpr2ea_8_b0r1 contains 56 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  28
+Circuit contains 29 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1'
+Circuit sky130_osu_single_mpr2ea_8_b0r1 contains 56 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  28
+Circuit contains 29 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1'
+Circuit sky130_osu_single_mpr2ea_8_b0r1 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 29 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1'
+Circuit sky130_osu_single_mpr2ea_8_b0r1 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 29 nets.
+
+Circuit 1 contains 54 devices, Circuit 2 contains 54 devices.
+Circuit 1 contains 29 nets,    Circuit 2 contains 29 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1'
+Circuit sky130_osu_single_mpr2et_8_b0r1 contains 58 device instances.
+  Class: sky130_osu_sc_12T_hs__inv_1 instances:   4
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1'
+Circuit sky130_osu_single_mpr2et_8_b0r1 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  31
+Circuit contains 32 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1'
+Circuit sky130_osu_single_mpr2et_8_b0r1 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  31
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1'
+Circuit sky130_osu_single_mpr2et_8_b0r1 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  31
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1'
+Circuit sky130_osu_single_mpr2et_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1'
+Circuit sky130_osu_single_mpr2et_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 32 nets.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 32 nets,    Circuit 2 contains 32 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1'
+Circuit sky130_osu_single_mpr2xa_8_b0r1 contains 23 device instances.
+  Class: sky130_osu_sc_12T_hs__inv_1 instances:   4
+  Class: scs130hd_mpr2xa_8     instances:   1
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+Circuit contains 18 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1'
+Circuit sky130_osu_single_mpr2xa_8_b0r1 contains 55 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 28 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1'
+Circuit sky130_osu_single_mpr2xa_8_b0r1 contains 55 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 28 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1'
+Circuit sky130_osu_single_mpr2xa_8_b0r1 contains 55 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 28 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1'
+Circuit sky130_osu_single_mpr2xa_8_b0r1 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 28 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1'
+Circuit sky130_osu_single_mpr2xa_8_b0r1 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 28 nets.
+
+Circuit 1 contains 53 devices, Circuit 2 contains 53 devices.
+Circuit 1 contains 28 nets,    Circuit 2 contains 28 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2'
+Circuit sky130_osu_single_mpr2ca_8_b0r2 contains 58 device instances.
+  Class: sky130_osu_sc_12T_hs__inv_1 instances:   4
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2'
+Circuit sky130_osu_single_mpr2ca_8_b0r2 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2'
+Circuit sky130_osu_single_mpr2ca_8_b0r2 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2'
+Circuit sky130_osu_single_mpr2ca_8_b0r2 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2'
+Circuit sky130_osu_single_mpr2ca_8_b0r2 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2'
+Circuit sky130_osu_single_mpr2ca_8_b0r2 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit 1 contains 59 devices, Circuit 2 contains 59 devices.
+Circuit 1 contains 32 nets,    Circuit 2 contains 32 nets.
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2ca_8_b0r2 sky130_osu_single_mpr2ca_8_b0r2
+
+Flattening instances of sky130_osu_single_mpr2ca_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of sky130_osu_single_mpr2ca_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2'
+Circuit sky130_osu_single_mpr2ct_8_b0r2 contains 58 device instances.
+  Class: sky130_osu_sc_12T_hs__inv_1 instances:   4
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2'
+Circuit sky130_osu_single_mpr2ct_8_b0r2 contains 64 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  19
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  19
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2'
+Circuit sky130_osu_single_mpr2ct_8_b0r2 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2'
+Circuit sky130_osu_single_mpr2ct_8_b0r2 contains 64 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  19
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  19
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2'
+Circuit sky130_osu_single_mpr2ct_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2'
+Circuit sky130_osu_single_mpr2ct_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 32 nets,    Circuit 2 contains 32 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2'
+Circuit sky130_osu_single_mpr2et_8_b0r2 contains 58 device instances.
+  Class: sky130_osu_sc_12T_hs__inv_1 instances:   4
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2'
+Circuit sky130_osu_single_mpr2et_8_b0r2 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  31
+Circuit contains 32 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2'
+Circuit sky130_osu_single_mpr2et_8_b0r2 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  31
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2'
+Circuit sky130_osu_single_mpr2et_8_b0r2 contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  31
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2'
+Circuit sky130_osu_single_mpr2et_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2'
+Circuit sky130_osu_single_mpr2et_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 32 nets.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 32 nets,    Circuit 2 contains 32 nets.
+
+  Flattening non-matched subcircuits sky130_osu_single_mpr2et_8_b0r2 sky130_osu_single_mpr2et_8_b0r2
+
+Flattening instances of sky130_osu_single_mpr2et_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/ext/user_project_wrapper.gds.spice
+Flattening instances of sky130_osu_single_mpr2et_8_b0r2 in file /home/lburleson/OSU/google_ring_oscillator/caravel/spi/custom_design_spice_decks/sky130_osu_single_mpr2ea_8_b0r2.spice
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2'
+Circuit sky130_osu_single_mpr2ea_8_b0r2 contains 23 device instances.
+  Class: sky130_osu_sc_12T_hs__inv_1 instances:   4
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+  Class: scs130hd_mpr2ea_8     instances:   1
+Circuit contains 18 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2'
+Circuit sky130_osu_single_mpr2ea_8_b0r2 contains 56 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  28
+Circuit contains 29 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2'
+Circuit sky130_osu_single_mpr2ea_8_b0r2 contains 56 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  28
+Circuit contains 29 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2'
+Circuit sky130_osu_single_mpr2ea_8_b0r2 contains 56 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  28
+Circuit contains 29 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2'
+Circuit sky130_osu_single_mpr2ea_8_b0r2 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 29 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2'
+Circuit sky130_osu_single_mpr2ea_8_b0r2 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 29 nets.
+
+Circuit 1 contains 54 devices, Circuit 2 contains 54 devices.
+Circuit 1 contains 29 nets,    Circuit 2 contains 29 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1'
+Circuit sky130_osu_single_mpr2ca_8_b0r1 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2ca_8_b0r1[[0]] contains 58 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_osu_sc_12T_hs__inv_1[[0]] instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+Circuit contains 35 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1'
+Circuit sky130_osu_single_mpr2ca_8_b0r1 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2ca_8_b0r1[[0]] contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 35 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1'
+Circuit sky130_osu_single_mpr2ca_8_b0r1 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2ca_8_b0r1[[0]] contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 35 nets.
+
+Circuit 1 contains 59 devices, Circuit 2 contains 59 devices.
+Circuit 1 contains 32 nets,    Circuit 2 contains 32 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2'
+Circuit sky130_osu_single_mpr2xa_8_b0r2 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 28 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2xa_8_b0r2[[0]] contains 23 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_osu_sc_12T_hs__inv_1[[9]] instances:   4
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+  Class: scs130hd_mpr2xa_8[[1]] instances:   1
+Circuit contains 21 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2'
+Circuit sky130_osu_single_mpr2xa_8_b0r2 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 28 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2xa_8_b0r2[[0]] contains 55 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 31 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2'
+Circuit sky130_osu_single_mpr2xa_8_b0r2 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 28 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2xa_8_b0r2[[0]] contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 31 nets.
+
+Circuit 1 contains 53 devices, Circuit 2 contains 53 devices.
+Circuit 1 contains 28 nets,    Circuit 2 contains 28 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1'
+Circuit sky130_osu_single_mpr2ct_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2ct_8_b0r1[[0]] contains 43 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_osu_sc_12T_hs__mux2_1[[2]] instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_osu_sc_12T_hs__inv_1[[2]] instances:   4
+Circuit contains 32 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1'
+Circuit sky130_osu_single_mpr2ct_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2ct_8_b0r1[[0]] contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1'
+Circuit sky130_osu_single_mpr2ct_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2ct_8_b0r1[[0]] contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 32 nets,    Circuit 2 contains 32 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1'
+Circuit sky130_osu_single_mpr2ea_8_b0r1 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 29 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2ea_8_b0r1[[0]] contains 23 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_osu_sc_12T_hs__inv_1[[4]] instances:   4
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+  Class: scs130hd_mpr2ea_8[[0]] instances:   1
+Circuit contains 21 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1'
+Circuit sky130_osu_single_mpr2ea_8_b0r1 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 29 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2ea_8_b0r1[[0]] contains 56 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  28
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1'
+Circuit sky130_osu_single_mpr2ea_8_b0r1 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 29 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2ea_8_b0r1[[0]] contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 32 nets.
+
+Circuit 1 contains 54 devices, Circuit 2 contains 54 devices.
+Circuit 1 contains 29 nets,    Circuit 2 contains 29 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1'
+Circuit sky130_osu_single_mpr2et_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2et_8_b0r1[[0]] contains 23 device instances.
+  Class: sky130_osu_sc_12T_hs__inv_1[[6]] instances:   4
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: scs130hd_mpr2et_8[[0]] instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+Circuit contains 22 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1'
+Circuit sky130_osu_single_mpr2et_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2et_8_b0r1[[0]] contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  31
+Circuit contains 35 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1'
+Circuit sky130_osu_single_mpr2et_8_b0r1 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2et_8_b0r1[[0]] contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 35 nets.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 32 nets,    Circuit 2 contains 32 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1'
+Circuit sky130_osu_single_mpr2xa_8_b0r1 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 28 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2xa_8_b0r1[[0]] contains 23 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+  Class: sky130_osu_sc_12T_hs__inv_1[[8]] instances:   4
+  Class: scs130hd_mpr2xa_8[[0]] instances:   1
+Circuit contains 21 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1'
+Circuit sky130_osu_single_mpr2xa_8_b0r1 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 28 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2xa_8_b0r1[[0]] contains 55 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  27
+Circuit contains 31 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1'
+Circuit sky130_osu_single_mpr2xa_8_b0r1 contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 28 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2xa_8_b0r1[[0]]'
+Circuit sky130_osu_single_mpr2xa_8_b0r1[[0]] contains 53 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  25
+Circuit contains 31 nets.
+
+Circuit 1 contains 53 devices, Circuit 2 contains 53 devices.
+Circuit 1 contains 28 nets,    Circuit 2 contains 28 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2'
+Circuit sky130_osu_single_mpr2ca_8_b0r2 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2ca_8_b0r2[[0]] contains 58 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_osu_sc_12T_hs__inv_1[[1]] instances:   4
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+Circuit contains 35 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2'
+Circuit sky130_osu_single_mpr2ca_8_b0r2 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2ca_8_b0r2[[0]] contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 35 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2'
+Circuit sky130_osu_single_mpr2ca_8_b0r2 contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ca_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2ca_8_b0r2[[0]] contains 59 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  15
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 35 nets.
+
+Circuit 1 contains 59 devices, Circuit 2 contains 59 devices.
+Circuit 1 contains 32 nets,    Circuit 2 contains 32 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2'
+Circuit sky130_osu_single_mpr2ct_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2ct_8_b0r2[[0]] contains 58 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+  Class: sky130_osu_sc_12T_hs__inv_1[[3]] instances:   4
+Circuit contains 35 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2'
+Circuit sky130_osu_single_mpr2ct_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2ct_8_b0r2[[0]] contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  18
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 35 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2'
+Circuit sky130_osu_single_mpr2ct_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ct_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2ct_8_b0r2[[0]] contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  16
+  Class: sky130_fd_pr__pfet_01v8 instances:  13
+Circuit contains 35 nets.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 32 nets,    Circuit 2 contains 32 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2'
+Circuit sky130_osu_single_mpr2ea_8_b0r2 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 29 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2ea_8_b0r2[[0]] contains 23 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   9
+  Class: sky130_osu_sc_12T_hs__inv_1[[5]] instances:   4
+  Class: sky130_fd_pr__pfet_01v8 instances:   9
+  Class: scs130hd_mpr2ea_8[[1]] instances:   1
+Circuit contains 21 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2'
+Circuit sky130_osu_single_mpr2ea_8_b0r2 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 29 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2ea_8_b0r2[[0]] contains 56 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  28
+Circuit contains 32 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2'
+Circuit sky130_osu_single_mpr2ea_8_b0r2 contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 29 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2ea_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2ea_8_b0r2[[0]] contains 54 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  15
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  26
+Circuit contains 32 nets.
+
+Circuit 1 contains 54 devices, Circuit 2 contains 54 devices.
+Circuit 1 contains 29 nets,    Circuit 2 contains 29 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2'
+Circuit sky130_osu_single_mpr2et_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2et_8_b0r2[[0]] contains 43 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_osu_sc_12T_hs__mux2_1[[7]] instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:  18
+  Class: sky130_osu_sc_12T_hs__inv_1[[7]] instances:   4
+Circuit contains 33 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2'
+Circuit sky130_osu_single_mpr2et_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2et_8_b0r2[[0]] contains 62 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  31
+Circuit contains 33 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2'
+Circuit sky130_osu_single_mpr2et_8_b0r2 contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 32 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_single_mpr2et_8_b0r2[[0]]'
+Circuit sky130_osu_single_mpr2et_8_b0r2[[0]] contains 60 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  18
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  13
+  Class: sky130_fd_pr__pfet_01v8 instances:  29
+Circuit contains 33 nets.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 32 nets,    Circuit 2 contains 32 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__conb_1'
+Circuit sky130_fd_sc_hd__conb_1 contains 2 device instances.
+  Class: sky130_fd_pr__res_generic_po instances:   2
+Circuit contains 4 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__conb_1'
+Circuit sky130_fd_sc_hd__conb_1 contains 2 device instances.
+  Class: sky130_fd_pr__res_generic_po instances:   2
+Circuit contains 4 nets, and 2 disconnected pins.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'mux16x1_project'
+Circuit mux16x1_project contains 369 device instances.
+  Class: sky130_fd_sc_hd__a41o_1 instances:   1
+  Class: sky130_fd_sc_hd__buf_1 instances:   1
+  Class: sky130_fd_sc_hd__buf_2 instances:   1
+  Class: sky130_fd_sc_hd__and3b_1 instances:   1
+  Class: sky130_fd_sc_hd__mux4_1 instances:   2
+  Class: sky130_ef_sc_hd__decap_12 instances: 165
+  Class: sky130_fd_sc_hd__clkbuf_1 instances:  16
+  Class: sky130_fd_sc_hd__clkbuf_2 instances:   2
+  Class: sky130_fd_sc_hd__buf_12 instances:   1
+  Class: sky130_fd_sc_hd__decap_3 instances:  70
+  Class: sky130_fd_sc_hd__decap_4 instances:  20
+  Class: sky130_fd_sc_hd__decap_6 instances:   5
+  Class: sky130_fd_sc_hd__decap_8 instances:  14
+  Class: sky130_fd_sc_hd__a2111oi_1 instances:   1
+  Class: sky130_fd_sc_hd__nand2_1 instances:   1
+  Class: sky130_fd_sc_hd__nand3b_1 instances:   1
+  Class: sky130_fd_sc_hd__mux2_1 instances:   3
+  Class: sky130_fd_sc_hd__nor3b_1 instances:   1
+  Class: sky130_fd_sc_hd__or3b_1 instances:   1
+  Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances:  34
+  Class: sky130_fd_sc_hd__a21oi_2 instances:   1
+  Class: sky130_fd_sc_hd__fill_1 instances:  13
+  Class: sky130_fd_sc_hd__fill_2 instances:  13
+  Class: sky130_fd_sc_hd__nor2_1 instances:   1
+Circuit contains 57 nets.
+Contents of circuit 2:  Circuit: 'mux16x1_project'
+Circuit mux16x1_project contains 369 device instances.
+  Class: sky130_fd_sc_hd__a41o_1 instances:   1
+  Class: sky130_fd_sc_hd__buf_1 instances:   1
+  Class: sky130_fd_sc_hd__buf_2 instances:   1
+  Class: sky130_fd_sc_hd__and3b_1 instances:   1
+  Class: sky130_fd_sc_hd__mux4_1 instances:   2
+  Class: sky130_ef_sc_hd__decap_12 instances: 165
+  Class: sky130_fd_sc_hd__clkbuf_1 instances:  16
+  Class: sky130_fd_sc_hd__clkbuf_2 instances:   2
+  Class: sky130_fd_sc_hd__buf_12 instances:   1
+  Class: sky130_fd_sc_hd__decap_3 instances:  70
+  Class: sky130_fd_sc_hd__decap_4 instances:  20
+  Class: sky130_fd_sc_hd__decap_6 instances:   5
+  Class: sky130_fd_sc_hd__decap_8 instances:  14
+  Class: sky130_fd_sc_hd__a2111oi_1 instances:   1
+  Class: sky130_fd_sc_hd__nand2_1 instances:   1
+  Class: sky130_fd_sc_hd__nand3b_1 instances:   1
+  Class: sky130_fd_sc_hd__mux2_1 instances:   3
+  Class: sky130_fd_sc_hd__nor3b_1 instances:   1
+  Class: sky130_fd_sc_hd__or3b_1 instances:   1
+  Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances:  34
+  Class: sky130_fd_sc_hd__a21oi_2 instances:   1
+  Class: sky130_fd_sc_hd__fill_1 instances:  13
+  Class: sky130_fd_sc_hd__fill_2 instances:  13
+  Class: sky130_fd_sc_hd__nor2_1 instances:   1
+Circuit contains 57 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'mux16x1_project'
+Circuit mux16x1_project contains 43 device instances.
+  Class: sky130_fd_sc_hd__a41o_1 instances:   1
+  Class: sky130_fd_sc_hd__buf_1 instances:   1
+  Class: sky130_fd_sc_hd__buf_2 instances:   1
+  Class: sky130_fd_sc_hd__and3b_1 instances:   1
+  Class: sky130_fd_sc_hd__mux4_1 instances:   2
+  Class: sky130_ef_sc_hd__decap_12 instances:   1
+  Class: sky130_fd_sc_hd__clkbuf_1 instances:  16
+  Class: sky130_fd_sc_hd__clkbuf_2 instances:   2
+  Class: sky130_fd_sc_hd__buf_12 instances:   1
+  Class: sky130_fd_sc_hd__decap_3 instances:   1
+  Class: sky130_fd_sc_hd__decap_4 instances:   1
+  Class: sky130_fd_sc_hd__decap_6 instances:   1
+  Class: sky130_fd_sc_hd__decap_8 instances:   1
+  Class: sky130_fd_sc_hd__a2111oi_1 instances:   1
+  Class: sky130_fd_sc_hd__nand2_1 instances:   1
+  Class: sky130_fd_sc_hd__nand3b_1 instances:   1
+  Class: sky130_fd_sc_hd__mux2_1 instances:   3
+  Class: sky130_fd_sc_hd__nor3b_1 instances:   1
+  Class: sky130_fd_sc_hd__or3b_1 instances:   1
+  Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances:   1
+  Class: sky130_fd_sc_hd__a21oi_2 instances:   1
+  Class: sky130_fd_sc_hd__fill_1 instances:   1
+  Class: sky130_fd_sc_hd__fill_2 instances:   1
+  Class: sky130_fd_sc_hd__nor2_1 instances:   1
+Circuit contains 57 nets.
+Contents of circuit 2:  Circuit: 'mux16x1_project'
+Circuit mux16x1_project contains 43 device instances.
+  Class: sky130_fd_sc_hd__a41o_1 instances:   1
+  Class: sky130_fd_sc_hd__buf_1 instances:   1
+  Class: sky130_fd_sc_hd__buf_2 instances:   1
+  Class: sky130_fd_sc_hd__and3b_1 instances:   1
+  Class: sky130_fd_sc_hd__mux4_1 instances:   2
+  Class: sky130_ef_sc_hd__decap_12 instances:   1
+  Class: sky130_fd_sc_hd__clkbuf_1 instances:  16
+  Class: sky130_fd_sc_hd__clkbuf_2 instances:   2
+  Class: sky130_fd_sc_hd__buf_12 instances:   1
+  Class: sky130_fd_sc_hd__decap_3 instances:   1
+  Class: sky130_fd_sc_hd__decap_4 instances:   1
+  Class: sky130_fd_sc_hd__decap_6 instances:   1
+  Class: sky130_fd_sc_hd__decap_8 instances:   1
+  Class: sky130_fd_sc_hd__a2111oi_1 instances:   1
+  Class: sky130_fd_sc_hd__nand2_1 instances:   1
+  Class: sky130_fd_sc_hd__nand3b_1 instances:   1
+  Class: sky130_fd_sc_hd__mux2_1 instances:   3
+  Class: sky130_fd_sc_hd__nor3b_1 instances:   1
+  Class: sky130_fd_sc_hd__or3b_1 instances:   1
+  Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances:   1
+  Class: sky130_fd_sc_hd__a21oi_2 instances:   1
+  Class: sky130_fd_sc_hd__fill_1 instances:   1
+  Class: sky130_fd_sc_hd__fill_2 instances:   1
+  Class: sky130_fd_sc_hd__nor2_1 instances:   1
+Circuit contains 57 nets.
+
+Circuit 1 contains 43 devices, Circuit 2 contains 43 devices.
+Circuit 1 contains 57 nets,    Circuit 2 contains 57 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ca_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ca_8_b0r1 contains 301 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  75
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 150 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ca_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ca_8_b0r1 contains 11 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_osu_single_mpr2ca_8_b0r1[[0]] instances:   5
+Circuit contains 26 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ca_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ca_8_b0r1 contains 301 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  75
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 150 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ca_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ca_8_b0r1 contains 301 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  75
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 166 nets.
+
+Circuit 1 contains 301 devices, Circuit 2 contains 301 devices.
+Circuit 1 contains 150 nets,    Circuit 2 contains 150 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2xa_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2xa_8_b0r2 contains 11 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_osu_single_mpr2xa_8_b0r2 instances:   5
+Circuit contains 20 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2xa_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2xa_8_b0r2 contains 11 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_osu_single_mpr2xa_8_b0r2[[0]] instances:   5
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 21 nets.
+
+Circuit 1 contains 11 devices, Circuit 2 contains 11 devices.
+Circuit 1 contains 20 nets,    Circuit 2 contains 20 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ct_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ct_8_b0r1 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  80
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 150 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ct_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ct_8_b0r1 contains 6 device instances.
+  Class: sky130_osu_sc_12T_hs__mux2_1[[2]] instances:   1
+  Class: sky130_osu_single_mpr2ct_8_b0r1[[0]] instances:   5
+Circuit contains 25 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ct_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ct_8_b0r1 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  80
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 150 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ct_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ct_8_b0r1 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  80
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 150 nets.
+
+Circuit 1 contains 306 devices, Circuit 2 contains 306 devices.
+Circuit 1 contains 150 nets,    Circuit 2 contains 150 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ea_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ea_8_b0r1 contains 11 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_osu_single_mpr2ea_8_b0r1 instances:   5
+Circuit contains 20 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ea_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2ea_8_b0r1 contains 11 device instances.
+  Class: sky130_osu_single_mpr2ea_8_b0r1[[0]] instances:   5
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 21 nets.
+
+Circuit 1 contains 11 devices, Circuit 2 contains 11 devices.
+Circuit 1 contains 20 nets,    Circuit 2 contains 20 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2et_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2et_8_b0r1 contains 11 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_osu_single_mpr2et_8_b0r1 instances:   5
+Circuit contains 20 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2et_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2et_8_b0r1 contains 11 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_osu_single_mpr2et_8_b0r1[[0]] instances:   5
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 21 nets.
+
+Circuit 1 contains 11 devices, Circuit 2 contains 11 devices.
+Circuit 1 contains 20 nets,    Circuit 2 contains 20 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2xa_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2xa_8_b0r1 contains 11 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_osu_single_mpr2xa_8_b0r1 instances:   5
+Circuit contains 20 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2xa_8_b0r1'
+Circuit sky130_osu_ring_oscillator_mpr2xa_8_b0r1 contains 11 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_osu_single_mpr2xa_8_b0r1[[0]] instances:   5
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 21 nets.
+
+Circuit 1 contains 11 devices, Circuit 2 contains 11 devices.
+Circuit 1 contains 20 nets,    Circuit 2 contains 20 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ca_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ca_8_b0r2 contains 301 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  75
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 150 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ca_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ca_8_b0r2 contains 11 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_osu_single_mpr2ca_8_b0r2[[0]] instances:   5
+Circuit contains 26 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ca_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ca_8_b0r2 contains 301 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  75
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 150 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ca_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ca_8_b0r2 contains 301 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  75
+  Class: sky130_fd_pr__pfet_01v8 instances:  68
+Circuit contains 166 nets.
+
+Circuit 1 contains 301 devices, Circuit 2 contains 301 devices.
+Circuit 1 contains 150 nets,    Circuit 2 contains 150 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ct_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ct_8_b0r2 contains 11 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_osu_single_mpr2ct_8_b0r2 instances:   5
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 20 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ct_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ct_8_b0r2 contains 11 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_osu_single_mpr2ct_8_b0r2[[0]] instances:   5
+Circuit contains 21 nets.
+
+Circuit 1 contains 11 devices, Circuit 2 contains 11 devices.
+Circuit 1 contains 20 nets,    Circuit 2 contains 20 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2et_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2et_8_b0r2 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 148
+Circuit contains 150 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2et_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2et_8_b0r2 contains 6 device instances.
+  Class: sky130_osu_sc_12T_hs__mux2_1[[7]] instances:   1
+  Class: sky130_osu_single_mpr2et_8_b0r2[[0]] instances:   5
+Circuit contains 25 nets.
+
+Flattened mismatched instances and attempting compare again.
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2et_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2et_8_b0r2 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 148
+Circuit contains 150 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2et_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2et_8_b0r2 contains 306 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  90
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  68
+  Class: sky130_fd_pr__pfet_01v8 instances: 148
+Circuit contains 155 nets.
+
+Circuit 1 contains 306 devices, Circuit 2 contains 306 devices.
+Circuit 1 contains 150 nets,    Circuit 2 contains 150 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_osu_ring_oscillator_mpr2ea_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ea_8_b0r2 contains 11 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+  Class: sky130_osu_single_mpr2ea_8_b0r2 instances:   5
+Circuit contains 20 nets.
+Contents of circuit 2:  Circuit: 'sky130_osu_ring_oscillator_mpr2ea_8_b0r2'
+Circuit sky130_osu_ring_oscillator_mpr2ea_8_b0r2 contains 11 device instances.
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   3
+  Class: sky130_osu_single_mpr2ea_8_b0r2[[0]] instances:   5
+  Class: sky130_fd_pr__pfet_01v8 instances:   3
+Circuit contains 21 nets.
+
+Circuit 1 contains 11 devices, Circuit 2 contains 11 devices.
+Circuit 1 contains 20 nets,    Circuit 2 contains 20 nets.
+
+
+Contents of circuit 1:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 60 device instances.
+  Class: sky130_fd_sc_hd__conb_1 instances:  45
+  Class: sky130_osu_ring_oscillator_mpr2ea_8_b0r1 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2ea_8_b0r2 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2xa_8_b0r1 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2xa_8_b0r2 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2et_8_b0r1 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2et_8_b0r2 instances:   1
+  Class: mux16x1_project       instances:   5
+  Class: sky130_osu_ring_oscillator_mpr2ca_8_b0r1 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2ca_8_b0r2 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2ct_8_b0r1 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2ct_8_b0r2 instances:   1
+Circuit contains 157 nets, and 613 disconnected pins.
+Contents of circuit 2:  Circuit: 'user_project_wrapper'
+Circuit user_project_wrapper contains 60 device instances.
+  Class: sky130_fd_sc_hd__conb_1 instances:  45
+  Class: sky130_osu_ring_oscillator_mpr2ea_8_b0r1 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2ea_8_b0r2 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2xa_8_b0r1 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2xa_8_b0r2 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2et_8_b0r1 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2et_8_b0r2 instances:   1
+  Class: mux16x1_project       instances:   5
+  Class: sky130_osu_ring_oscillator_mpr2ca_8_b0r1 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2ca_8_b0r2 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2ct_8_b0r1 instances:   1
+  Class: sky130_osu_ring_oscillator_mpr2ct_8_b0r2 instances:   1
+Circuit contains 157 nets, and 613 disconnected pins.
+
+Circuit 1 contains 60 devices, Circuit 2 contains 60 devices.
+Circuit 1 contains 157 nets,    Circuit 2 contains 157 nets.
+
+
+Final result: 
+Circuits match uniquely.
+.
+Logging to file "/home/lburleson/OSU/google_ring_oscillator/caravel/precheck_results/18_MAY_2024___17_40_56/tmp/lvs.report" disabled
+LVS Done.
+END: Sat 18 May 2024 05:41:47 PM UTC
+Runtime: 0:00:02 (hh:mm:ss)

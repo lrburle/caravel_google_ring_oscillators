@@ -228,7 +228,7 @@ rect 0 0 550 20
 << labels >>
 rlabel viali 54 570 54 570 1 S0
 port 1 n
-rlabel viali 68 48 68 48 1 vssd1 
+rlabel viali 68 48 68 48 1 vssd1
 port 6 n
 rlabel viali 476 840 476 840 1 vccd1
 port 5 n
